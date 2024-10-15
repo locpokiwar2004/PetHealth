@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\pages\\admin\\customer\\listcus.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\pages\\admin\\customer\\listcus.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\wwwroot\\input.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\wwwroot\\input.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\styles\\input.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\styles\\input.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\postcss.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\postcss.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\pages\\admin\\medicine\\themmedicine.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\pages\\admin\\medicine\\themmedicine.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\code c\u002B\u002B\\new folder\\new folder\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\pages\\admin\\medicine\\themmedicine.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\pages\\admin\\medicine\\themmedicine.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T16:16:53.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\App.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\App.razor",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\App.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T14:35:34.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "input.css",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Styles\\input.css",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Styles\\input.css",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Styles\\input.css",
+              "RelativeToolTip": "PhongKhamThuY\\Styles\\input.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-14T14:20:00.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\wwwroot\\app.css",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
+              "RelativeToolTip": "PhongKhamThuY\\wwwroot\\app.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-14T14:19:19.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "postcss.config.js",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\postcss.config.js",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\postcss.config.js",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\postcss.config.js",
+              "RelativeToolTip": "PhongKhamThuY\\postcss.config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-14T14:18:38.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "tailwind.config.js",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\tailwind.config.js",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\tailwind.config.js",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\tailwind.config.js",
+              "RelativeToolTip": "PhongKhamThuY\\tailwind.config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-05T13:26:55.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-27T14:18:21.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T13:48:06.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ThemMedicine.razor.css",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Medicine\\ThemMedicine.razor.css",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Pages\\Admin\\Medicine\\ThemMedicine.razor.css",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Medicine\\ThemMedicine.razor.css",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Pages\\Admin\\Medicine\\ThemMedicine.razor.css",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAFMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-27T01:55:17.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminLayout.razor",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\AdminLayout.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Layout\\AdminLayout.razor",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\AdminLayout.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Layout\\AdminLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T01:39:20.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-14T16:34:19.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T16:26:05.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListCus.razor",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Customer\\ListCus.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Pages\\Admin\\Customer\\ListCus.razor",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Customer\\ListCus.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Pages\\Admin\\Customer\\ListCus.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T14:42:51.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\package.json",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\package.json",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\package.json",
+              "RelativeToolTip": "PhongKhamThuY\\package.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-14T14:20:16.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "input.css",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\input.css",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\wwwroot\\input.css",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\input.css",
+              "RelativeToolTip": "PhongKhamThuY\\wwwroot\\input.css",
+              "ViewState": "AQIAAI0DAAAAAAAAAAAgwL0DAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-14T14:33:54.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ThemMedicine.razor",
+              "DocumentMoniker": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Medicine\\ThemMedicine.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Pages\\Admin\\Medicine\\ThemMedicine.razor",
+              "ToolTip": "C:\\code c\u002B\u002B\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Medicine\\ThemMedicine.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Pages\\Admin\\Medicine\\ThemMedicine.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T15:02:54.637Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

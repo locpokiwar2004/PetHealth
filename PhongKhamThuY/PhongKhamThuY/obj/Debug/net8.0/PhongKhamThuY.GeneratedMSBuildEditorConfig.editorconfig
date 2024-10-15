@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PhongKhamThuY
+build_property.RootNamespace = PhongKhamThuY
+build_property.ProjectDir = C:\code c++\New folder\New folder\PetHealth\PhongKhamThuY\PhongKhamThuY\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\code c++\New folder\New folder\PetHealth\PhongKhamThuY\PhongKhamThuY
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Branch/ListBranch.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxCcmFuY2hcTGlzdEJyYW5jaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Customer/ListCus.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxDdXN0b21lclxMaXN0Q3VzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Doctor/ListDoctor.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxEb2N0b3JcTGlzdERvY3Rvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Revenue/ListRevenue.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxSZXZlbnVlXExpc3RSZXZlbnVlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Schedule/ListSchedule.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxTY2hlZHVsZVxMaXN0U2NoZWR1bGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Layout/AdminLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQWRtaW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-auocuyiq1m
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-wivubu8tw9
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-wfno97g20y
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Layout/TbMedicine.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcVGJNZWRpY2luZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-aht2nsmvdr
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Medicine/ListMedicine.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxNZWRpY2luZVxMaXN0TWVkaWNpbmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-pg0nfmgptg
+
+[C:/code c++/New folder/New folder/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Medicine/ThemMedicine.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxNZWRpY2luZVxUaGVtTWVkaWNpbmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-m6itx6oxqk

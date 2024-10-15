@@ -1,0 +1,18 @@
+
+.page[b-auocuyiq1m] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+main[b-auocuyiq1m] {
+    padding: 15px;
+    flex: 1;
+}
+
+@media (min-width: 641px) {
+    .page[b-auocuyiq1m] {
+        flex-direction: row;
+    }
+}

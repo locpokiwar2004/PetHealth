@@ -1,0 +1,86 @@
+﻿@inherits LayoutComponentBase
+
+<div class="flex h-screen bg-gray-100">
+    <div id="sidebar" class="l-navbar bg-white h-full shadow-lg transition-transform duration-300 ease-in-out" style="width: 240px; transform: translateX(0);">
+        <nav class="nav flex flex-col h-full">
+            <ul class="nav__list mt-4 space-y-2">
+                <li class="flex items-center">
+                    <a href="#" class="nav__logo flex items-center">
+                        <i class="fa-solid fa-paw nav__icon text-2xl text-purple-500"></i>
+                        <span class="nav__logo-text text-lg font-bold ml-2">Pet Health</span>
+                    </a>
+                    <div class="nav__toggle cursor-pointer border border-purple-400 rounded-full p-2 hover:bg-purple-100 transition-colors" id="toggleButton">
+                        <i class="fa-solid fa-angle-left text-purple-400 text-xl"></i>
+                    </div>
+                </li>
+                <li>
+                    <NavLink class="nav-link flex items-center p-3 rounded hover:bg-purple-200 transition-colors" href="listCus">
+                        <i class="fa-solid fa-user nav__icon text-black hover:text-fuchsia-800	"></i>
+                        <span class="nav__text font-semibold ml-4 text-black hover:text-gray-600">Khách hàng</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="nav-link flex items-center p-3 rounded hover:bg-blue-200 transition-colors" href="listDoctor">
+                        <i class="fa-solid fa-user-doctor nav__icon text-black hover:text-purple-500"></i>
+                        <span class="nav__text font-semibold ml-4 text-black hover:text-purple-500">Bác sĩ</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="nav-link flex items-center p-3 rounded hover:bg-green-200 transition-colors" href="listBranch">
+                        <i class="fa-solid fa-code-branch nav__icon text-black hover:text-purple-500"></i>
+                        <span class="nav__text font-semibold ml-4 text-black hover:text-purple-500">Chi nhánh</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="nav-link flex items-center p-3 rounded hover:bg-purple-200 transition-colors" href="listSche">
+                        <i class="fa-regular fa-calendar-days nav__icon text-black hover:text-purple-500"></i>
+                        <span class="nav__text font-semibold ml-4 text-black hover:text-purple-500">Lịch hẹn</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="nav-link flex items-center p-3 rounded hover:bg-yellow-200 transition-colors" href="listMedi">
+                        <i class="fa-solid fa-capsules nav__icon text-black hover:text-purple-500"></i>
+                        <span class="nav__text font-semibold ml-4 text-black hover:text-purple-500">Thuốc</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="nav-link flex items-center p-3 rounded hover:bg-red-200 transition-colors" href="listRev">
+                        <i class="fa-solid fa-chart-line nav__icon text-black hover:text-purple-500"></i>
+                        <span class="nav__text font-semibold ml-4 text-black hover:text-purple-500">Thống kê doanh thu</span>
+                    </NavLink>
+                </li>
+            </ul>
+
+            <a href="#" class="nav__link flex items-center p-3 mt-auto text-red-500 hover:bg-red-100 transition-colors">
+                <i class="fas fa-sign-out-alt nav__icon"></i>
+                <span class="nav__text font-semibold ml-4">Đăng xuất</span>
+            </a>
+        </nav>
+    </div>
+
+    <div id="mainContent" class="flex-1 p-4 bg-gray-100 transition-all duration-300 ease-in-out" style="margin-left: 200px;">
+        @Body
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var toggleButton = document.getElementById('toggleButton');
+        var sidebar = document.getElementById('sidebar');
+        var mainContent = document.getElementById('mainContent');
+        var isOpen = true; 
+        
+        toggleButton.onclick = function () {
+            isOpen = !isOpen;
+            if (isOpen) {
+                sidebar.style.transform = 'translateX(0)'; 
+                mainContent.style.marginLeft = '240px'; 
+                toggleButton.innerHTML = '<i class="fa-solid fa-angle-left text-purple-400 text-xl"></i>'; 
+            } else {
+                sidebar.style.transform = 'translateX(-100%)'; 
+                mainContent.style.marginLeft = '0'; 
+                toggleButton.innerHTML = '<i class="fa-solid fa-angle-right text-purple-400 text-xl"></i>';
+            }
+        };
+    });
+</script>

@@ -1,0 +1,140 @@
+﻿
+.body {
+    position: relative;
+    margin: 0;
+    padding: 1rem 0 0 5rem;
+    background-color: white;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+h1 {
+    margin: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.l-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100vh;
+    background-color:white;
+    padding: 1.25rem .5rem 2rem;
+    -webkit-transition: .5s;
+    transition: .5s;
+    z-index: var(--z-fixed);
+}
+
+.nav {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.nav__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0 .5rem;
+}
+
+.nav__logo-icon {
+    margin-right: 1.2rem;
+}
+
+.nav__logo-text {
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.nav__toggle {
+    position: absolute;
+    top: 1.10rem;
+    right: -.6rem;
+    width: 18px;
+    height: 18px;
+    background-color: var(--second-color);
+    border-radius: 50%;
+    font-size: 1.25rem;
+    color: var(--first-color);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.nav-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    color: black;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.nav__icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.nav__text {
+    font-weight: 700;
+}
+
+.show {
+    width: 180px;
+}
+
+.rotate {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+/*Active links menu*/
+.active {
+    background-color: var(--second-color);
+    color: var(--first-color);
+}
+
+.expander {
+    padding: 1rem 0 0 12rem;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
