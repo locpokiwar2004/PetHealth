@@ -1,11 +1,90 @@
 ﻿@inherits LayoutComponentBase
-
-<!-- Import Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-<!-- Page Layout -->
-<div class="min-h-screen flex">
-     <NavMenu />
-    <main class="flex-1 p-4">
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel="stylesheet">
+
+
+<div class="page">
+    <div class="sidebar">
+        <div class="logo-details">
+            <i class="fa-solid fa-paw icon" style="color: #1989ce;"></i>
+            <div class="logo_name">Phòng khám</div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a href="#">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <NavLink href="listCus" style="text-decoration:none">
+                    <i class="fa-solid fa-user fa-xl" style="color: #dd2cce;"></i>
+                    <span class="links_name">Khách hàng</span>
+                </NavLink>
+                <span class="tooltip">Khách hàng</span>
+            </li>
+            <li>
+                <NavLink href="listDoctor" style="text-decoration:none">
+                    <i class="fa-solid fa-user-doctor fa-xl" style="color: #74C0FC;"></i>
+                    <span class="links_name">Bác sĩ</span>
+                </NavLink>
+                <span class="tooltip">Bác sĩ</span>
+            </li>
+            <li>
+                <NavLink href="listBranch" style="text-decoration:none">
+                    <i class="fa-solid fa-code-branch fa-xl" style="color: #63E6BE;"></i>
+                    <span class="links_name">Chi nhánh</span>
+                </NavLink>
+                <span class="tooltip">Chi nhánh</span>
+            </li>
+            <li>
+                <NavLink href="listSche" style="text-decoration:none">
+                    <i class="fa-regular fa-calendar-days fa-xl" style="color: #B197FC;"></i>
+                    <span class="links_name">Lịch hẹn</span>
+                </NavLink>
+                <span class="tooltip">Lịch hẹn</span>
+            </li>
+            <li>
+                <NavLink href="listMedi" style="text-decoration:none">
+                    <i class="fa-solid fa-capsules fa-xl" style="color: #FFD43B;"></i>
+                    <span class="links_name">Thuốc</span>
+                </NavLink>
+                <span class="tooltip">Thuốc</span>
+            </li>
+            <li>
+                <NavLink href="listRev" style="text-decoration:none">
+                    <i class="fa-solid fa-chart-line fa-xl" style="color: #ff0000;"></i>
+                    <span class="links_name">Thống kê doanh thu</span>
+                </NavLink>
+                <span class="tooltip">Thống kê doanh thu</span>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
         @Body
-    </main>
+    </section>
+    <script>
+        let sidebar = document.querySelector(".sidebar");
+        let closeBtn = document.querySelector("#btn");
+        let searchBtn = document.querySelector(".bx-search");
+        closeBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("open");
+            menuBtnChange();//calling the function(optional)
+        });
+        searchBtn.addEventListener("click", () => { // Sidebar open when you click on the search iocn
+            sidebar.classList.toggle("open");
+            menuBtnChange(); //calling the function(optional)
+        });
+        // following are the code to change sidebar button(optional)
+        function menuBtnChange() {
+            if (sidebar.classList.contains("open")) {
+                closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+            } else {
+                closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");//replacing the iocns class
+            }
+        }
+    </script>
 </div>
+

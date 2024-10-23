@@ -1,0 +1,45 @@
+﻿@page "/addCus"
+<h3 style="text-align:center">THÊM KHÁCH HÀNG</h3>
+<form action="#" class="form">
+   <div class="column">
+        <div class="input-box">
+            <label>Mã khách hàng</label>
+            <input type="text" required />
+        </div>
+        <div class="input-box">
+            <label>Họ và tên khách hàng</label>
+            <input type="text" required />
+        </div>
+    </div>
+    <div class="column">
+        <div class="input-box">
+            <label>Số điện thoại</label>
+            <input type="text" required />
+        </div>
+        <div class="input-box">
+            <label>Email</label>
+            <input type="email" required />
+        </div>
+    </div>
+    <div class="column">
+        <div class="input-box">
+            <label>Địa chỉ</label>
+            <input type="text" required />
+        </div>
+        <div class="input-box">
+            <label>Tên thú cưng</label>
+            <input type="text" required />
+        </div>
+    </div>
+    <button class="return" style="float:left">
+        <NavLink href="listCus" style="text-decoration:none;color:white">
+            Quay lại
+        </NavLink>
+    </button>
+    <button class="submit" style="float:right">
+        Tạo
+    </button>
+</form>
+@code {
+
+}

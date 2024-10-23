@@ -1,8 +1,8 @@
 ﻿button {
-    float:right;
+    float: right;
     display: flex;
     height: 35px;
-    padding:5px;
+    padding: 5px;
     background: #009578;
     border: none;
     outline: none;
@@ -12,8 +12,9 @@
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
 }
 
     button:hover {

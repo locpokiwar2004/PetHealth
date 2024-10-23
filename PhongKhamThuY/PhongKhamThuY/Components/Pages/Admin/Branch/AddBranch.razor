@@ -1,0 +1,36 @@
+﻿@page "/addBranch"
+<h3 style="text-align:center">THÊM CHI NHÁNH</h3>
+<form action="#" class="form">
+    <div class="column">
+        <div class="input-box">
+            <label>Mã chi nhánh</label>
+            <input type="text" required />
+        </div>
+        <div class="input-box">
+            <label>Tên chi nhánh</label>
+            <input type="text" required />
+        </div>
+    </div>
+    <div class="column">
+        <div class="input-box">
+            <label>Địa chỉ</label>
+            <input type="text" required />
+        </div>
+        <div class="input-box">
+            <label>Số điện thoại</label>
+            <input type="text" required />
+        </div>
+    </div>
+    <button class="return" style="float:left">
+        <NavLink href="listBranch" style="text-decoration:none;color:white">
+            Quay lại
+        </NavLink>
+    </button>
+    <button class="submit" style="float:right">
+        Tạo
+    </button>
+</form>
+
+@code {
+
+}

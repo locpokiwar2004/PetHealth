@@ -1,28 +1,24 @@
 {
   "Files": [
     {
-      "Id": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css",
+      "Id": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css",
       "PackagePath": "staticwebassets\\PhongKhamThuY.bundle.scp.css"
     },
     {
-      "Id": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
+      "Id": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
-    },
-    {
-      "Id": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\input.css",
-      "PackagePath": "staticwebassets\\input.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PhongKhamThuY.Microsoft.AspNetCore.StaticWebAssets.props",

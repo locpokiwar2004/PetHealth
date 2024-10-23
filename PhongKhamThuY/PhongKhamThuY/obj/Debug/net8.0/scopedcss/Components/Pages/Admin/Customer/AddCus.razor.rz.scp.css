@@ -1,0 +1,116 @@
+.form .input-box[b-f3hp7ry26y] {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label[b-f3hp7ry26y] {
+    color: #333;
+}
+
+.form :where(.input-box input, .select-box)[b-f3hp7ry26y] {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+
+.input-box input:focus[b-f3hp7ry26y] {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form .column[b-f3hp7ry26y] {
+    display: flex;
+    column-gap: 15px;
+}
+
+.form .gender-box[b-f3hp7ry26y] {
+    margin-top: 20px;
+}
+
+.gender-box h3[b-f3hp7ry26y] {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.form :where(.gender-option, .gender)[b-f3hp7ry26y] {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.form .gender[b-f3hp7ry26y] {
+    column-gap: 5px;
+}
+
+.gender input[b-f3hp7ry26y] {
+    accent-color: rgb(130, 106, 251);
+}
+
+.form :where(.gender input, .gender label)[b-f3hp7ry26y] {
+    cursor: pointer;
+}
+
+.gender label[b-f3hp7ry26y] {
+    color: #707070;
+}
+
+.address :where(input, .select-box)[b-f3hp7ry26y] {
+    margin-top: 15px;
+}
+
+.select-box select[b-f3hp7ry26y] {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+}
+
+.form button[b-f3hp7ry26y] {
+    padding: 10px;
+    width: 100px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    /*background: #FFD43B*/ /*rgb(130, 106, 251)*/ /*;*/
+}
+
+.form .return[b-f3hp7ry26y] {
+    background: #3FA2F6;
+}
+
+    .form .return:hover[b-f3hp7ry26y] {
+        background: #0F67B1 /*rgb(88, 56, 250)*/;
+    }
+
+.form .submit[b-f3hp7ry26y] {
+    background: #FFDE4D;
+}
+
+    .form .submit:hover[b-f3hp7ry26y] {
+        background: #FFB22C;
+    }
+/*Responsive*/
+@media screen and (max-width: 500px) {
+    .form .column[b-f3hp7ry26y] {
+        flex-wrap: wrap;
+    }
+
+    .form :where(.gender-option, .gender)[b-f3hp7ry26y] {
+        row-gap: 15px;
+    }
+}

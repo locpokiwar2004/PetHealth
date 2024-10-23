@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "65JmIxBcuO1kvpKfK5e6PyLk6FCa9IZmW8zHnZ7Eum4=",
+  "Hash": "Gx62TB8zy/BWflZLrJWqaX3pZwu/asKHVVHIJFfN7BM=",
   "Source": "PhongKhamThuY",
   "BasePath": "_content/PhongKhamThuY",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PhongKhamThuY\\wwwroot",
       "Source": "PhongKhamThuY",
-      "ContentRoot": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css",
+      "Identity": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "PhongKhamThuY.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css"
+      "OriginalItemSpec": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css"
     },
     {
-      "Identity": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css",
+      "Identity": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "PhongKhamThuY.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css"
     },
     {
-      "Identity": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -129,25 +129,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
-    },
-    {
-      "Identity": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\input.css",
-      "SourceId": "PhongKhamThuY",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\code c++\\New folder\\New folder\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
-      "BasePath": "_content/PhongKhamThuY",
-      "RelativePath": "input.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\input.css"
     }
   ]
 }

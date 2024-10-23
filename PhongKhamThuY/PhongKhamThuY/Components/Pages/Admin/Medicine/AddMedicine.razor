@@ -1,0 +1,49 @@
+﻿@page "/addMedi"
+<h3 style="text-align:center">THÊM THUỐC</h3>
+<form action="#" class="form">
+    <div class="input-box">
+        <label>Tên thuốc</label>
+        <input type="text" required />
+    </div>
+    <div class="column">
+        <div class="input-box">
+            <label>Tên sản xuất</label>
+            <input type="text" required />
+        </div>
+        <div class="input-box">
+            <label>Loại thuốc</label>
+            <input type="text" required />
+        </div>
+    </div>
+    <div class="column">
+        <div class="input-box">
+            <label>Ngày sản xuất</label>
+            <input type="date" required />
+        </div>
+        <div class="input-box">
+            <label>Hạn sử dụng</label>
+            <input type="date" required />
+        </div>
+    </div>
+    <div class="column">
+        <div class="input-box">
+            <label>Số lượng</label>
+            <input type="number" required />
+        </div>
+        <div class="input-box">
+            <label>Giá bán</label>
+            <input type="number" required />
+        </div>
+    </div>
+    <button class="return" style="float:left">
+        <NavLink href="listMedi" style="text-decoration:none;color:white">
+            Quay lại
+        </NavLink>
+    </button>
+    <button class="submit" style="float:right">
+        Tạo
+    </button>
+</form>
+@code {
+
+}

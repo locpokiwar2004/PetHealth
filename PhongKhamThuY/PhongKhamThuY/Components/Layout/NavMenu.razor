@@ -1,86 +1,85 @@
-﻿@inherits LayoutComponentBase
+﻿@* 
 
-<div class="flex h-screen bg-gray-100">
-    <div id="sidebar" class="l-navbar bg-white h-full shadow-lg transition-transform duration-300 ease-in-out" style="width: 240px; transform: translateX(0);">
-        <nav class="nav flex flex-col h-full">
-            <ul class="nav__list mt-4 space-y-2">
-                <li class="flex items-center">
-                    <a href="#" class="nav__logo flex items-center">
-                        <i class="fa-solid fa-paw nav__icon text-2xl text-purple-500"></i>
-                        <span class="nav__logo-text text-lg font-bold ml-2">Pet Health</span>
-                    </a>
-                    <div class="nav__toggle cursor-pointer border border-purple-400 rounded-full p-2 hover:bg-purple-100 transition-colors" id="toggleButton">
-                        <i class="fa-solid fa-angle-left text-purple-400 text-xl"></i>
-                    </div>
-                </li>
-                <li>
-                    <NavLink class="nav-link flex items-center p-3 rounded hover:bg-purple-200 transition-colors" href="listCus">
-                        <i class="fa-solid fa-user nav__icon text-black hover:text-fuchsia-800	"></i>
-                        <span class="nav__text font-semibold ml-4 text-black hover:text-gray-600">Khách hàng</span>
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink class="nav-link flex items-center p-3 rounded hover:bg-blue-200 transition-colors" href="listDoctor">
-                        <i class="fa-solid fa-user-doctor nav__icon text-black hover:text-purple-500"></i>
-                        <span class="nav__text font-semibold ml-4 text-black hover:text-purple-500">Bác sĩ</span>
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink class="nav-link flex items-center p-3 rounded hover:bg-green-200 transition-colors" href="listBranch">
-                        <i class="fa-solid fa-code-branch nav__icon text-black hover:text-purple-500"></i>
-                        <span class="nav__text font-semibold ml-4 text-black hover:text-purple-500">Chi nhánh</span>
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink class="nav-link flex items-center p-3 rounded hover:bg-purple-200 transition-colors" href="listSche">
-                        <i class="fa-regular fa-calendar-days nav__icon text-black hover:text-purple-500"></i>
-                        <span class="nav__text font-semibold ml-4 text-black hover:text-purple-500">Lịch hẹn</span>
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink class="nav-link flex items-center p-3 rounded hover:bg-yellow-200 transition-colors" href="listMedi">
-                        <i class="fa-solid fa-capsules nav__icon text-black hover:text-purple-500"></i>
-                        <span class="nav__text font-semibold ml-4 text-black hover:text-purple-500">Thuốc</span>
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink class="nav-link flex items-center p-3 rounded hover:bg-red-200 transition-colors" href="listRev">
-                        <i class="fa-solid fa-chart-line nav__icon text-black hover:text-purple-500"></i>
-                        <span class="nav__text font-semibold ml-4 text-black hover:text-purple-500">Thống kê doanh thu</span>
-                    </NavLink>
-                </li>
-            </ul>
 
-            <a href="#" class="nav__link flex items-center p-3 mt-auto text-red-500 hover:bg-red-100 transition-colors">
+
+<div id="body">
+    <div class="l-navbar" id="navbar">
+        <nav class="nav">
+            <div>
+                <a href="#" class="nav__logo">
+                 
+          
+                    <i class="fa-solid fa-paw nav__icon"></i>
+                    <span class="nav__logo-text">Phòng Khám</span>
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-angles-right" style="color: #B197FC;"></i>
+                </div>
+
+                <ul class="nav__list">
+                    <NavLink class="nav-link" href="listCus" style="color:black">
+                        <i class="fa-solid fa-user fas nav__icon" style="color: #dd2cce;"></i>
+                        <span class="nav__text">Khách hàng</span>
+                    </NavLink>
+                    <NavLink class="nav-link" href="listDoctor" style="color:black">
+                        <i class="fa-solid fa-user-doctor fas nav__icon" style="color: #74C0FC;"></i>
+                        <span class="nav__text">Bác sĩ</span>
+                    </NavLink>
+                    <NavLink class="nav-link" href="listBranch" style="color:black">
+                        <i class="fa-solid fa-code-branch fas nav__icon" style="color: #63E6BE;"></i>
+                        <span class="nav__text">Chi nhánh</span>
+                    </NavLink>
+                    <NavLink class="nav-link" href="listSche" style="color:black">
+                        <i class="fa-regular fa-calendar-days fas nav__icon" style="color: #B197FC;"></i>
+                        <span class="nav__text">Lịch hẹn</span>
+                    </NavLink>
+                    <NavLink class="nav-link" href="listMedi" style="color:black">
+                        <i class="fa-solid fa-capsules fas nav__icon" style="color: #FFD43B;"></i>
+                        <span class="nav__text">Thuốc</span>
+                    </NavLink>
+                    <NavLink class="nav-link" href="listRev" style="color:black">
+                        <i class="fa-solid fa-chart-line fas nav__icon" style="color: #ff0000;"></i>
+                        <span class="nav__text">Thống kê doanh thu</span>
+                    </NavLink>
+                </ul>
+            </div>
+            <a href="#" class="nav__link">
                 <i class="fas fa-sign-out-alt nav__icon"></i>
-                <span class="nav__text font-semibold ml-4">Đăng xuất</span>
+                <span class="nav__text">Close</span>
             </a>
         </nav>
     </div>
+   
+</div> *@
 
-    <div id="mainContent" class="flex-1 p-4 bg-gray-100 transition-all duration-300 ease-in-out" style="margin-left: 200px;">
-        @Body
-    </div>
-</div>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var toggleButton = document.getElementById('toggleButton');
-        var sidebar = document.getElementById('sidebar');
-        var mainContent = document.getElementById('mainContent');
-        var isOpen = true; 
-        
-        toggleButton.onclick = function () {
-            isOpen = !isOpen;
-            if (isOpen) {
-                sidebar.style.transform = 'translateX(0)'; 
-                mainContent.style.marginLeft = '240px'; 
-                toggleButton.innerHTML = '<i class="fa-solid fa-angle-left text-purple-400 text-xl"></i>'; 
-            } else {
-                sidebar.style.transform = 'translateX(-100%)'; 
-                mainContent.style.marginLeft = '0'; 
-                toggleButton.innerHTML = '<i class="fa-solid fa-angle-right text-purple-400 text-xl"></i>';
-            }
-        };
-    });
-</script>
+
+
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel="stylesheet">
+     
+
+  
+
+
+@*   <script>
+  let sidebar = document.querySelector(".sidebar");
+  let closeBtn = document.querySelector("#btn");
+  let searchBtn = document.querySelector(".bx-search");
+  closeBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("open");
+    menuBtnChange();//calling the function(optional)
+  });
+  searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+    sidebar.classList.toggle("open");
+    menuBtnChange(); //calling the function(optional)
+  });
+  // following are the code to change sidebar button(optional)
+  function menuBtnChange() {
+   if(sidebar.classList.contains("open")){
+     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+   }else {
+     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+   }
+  }
+  </script> *@

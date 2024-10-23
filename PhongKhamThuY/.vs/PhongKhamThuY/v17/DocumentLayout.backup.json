@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\users\\koran\\downloads\\cnpm\\phongkhamthuy\\phongkhamthuy\\components\\pages\\admin\\customer\\listcus.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\pages\\admin\\customer\\listcus.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\users\\koran\\downloads\\cnpm\\phongkhamthuy\\phongkhamthuy\\components\\pages\\admin\\medicine\\listmedicine.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\pages\\admin\\medicine\\listmedicine.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\users\\koran\\downloads\\cnpm\\phongkhamthuy\\phongkhamthuy\\components\\pages\\admin\\doctor\\listdoctor.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\pages\\admin\\doctor\\listdoctor.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\users\\koran\\downloads\\cnpm\\phongkhamthuy\\phongkhamthuy\\components\\pages\\admin\\doctor\\listdoctor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\pages\\admin\\doctor\\listdoctor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\users\\koran\\downloads\\cnpm\\phongkhamthuy\\phongkhamthuy\\components\\pages\\admin\\branch\\listbranch.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\pages\\admin\\branch\\listbranch.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\users\\koran\\downloads\\cnpm\\phongkhamthuy\\phongkhamthuy\\components\\pages\\admin\\branch\\listbranch.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\pages\\admin\\branch\\listbranch.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\users\\koran\\downloads\\cnpm\\phongkhamthuy\\phongkhamthuy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\users\\koran\\downloads\\cnpm\\phongkhamthuy\\phongkhamthuy\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\users\\koran\\downloads\\cnpm\\phongkhamthuy\\phongkhamthuy\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\users\\koran\\downloads\\cnpm\\phongkhamthuy\\phongkhamthuy\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\users\\koran\\downloads\\cnpm\\phongkhamthuy\\phongkhamthuy\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|c:\\users\\koran\\downloads\\cnpm\\phongkhamthuy\\phongkhamthuy\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListMedicine.razor.css",
+              "DocumentMoniker": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Medicine\\ListMedicine.razor.css",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Pages\\Admin\\Medicine\\ListMedicine.razor.css",
+              "ToolTip": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Medicine\\ListMedicine.razor.css",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Pages\\Admin\\Medicine\\ListMedicine.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-23T01:12:59.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListDoctor.razor.css",
+              "DocumentMoniker": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Doctor\\ListDoctor.razor.css",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Pages\\Admin\\Doctor\\ListDoctor.razor.css",
+              "ToolTip": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Doctor\\ListDoctor.razor.css",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Pages\\Admin\\Doctor\\ListDoctor.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-23T01:12:51.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListDoctor.razor",
+              "DocumentMoniker": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Doctor\\ListDoctor.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Pages\\Admin\\Doctor\\ListDoctor.razor",
+              "ToolTip": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Doctor\\ListDoctor.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Pages\\Admin\\Doctor\\ListDoctor.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T01:12:46.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListCus.razor.css",
+              "DocumentMoniker": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Customer\\ListCus.razor.css",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Pages\\Admin\\Customer\\ListCus.razor.css",
+              "ToolTip": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Customer\\ListCus.razor.css",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Pages\\Admin\\Customer\\ListCus.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-23T01:12:37.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListBranch.razor.css",
+              "DocumentMoniker": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Branch\\ListBranch.razor.css",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Pages\\Admin\\Branch\\ListBranch.razor.css",
+              "ToolTip": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Branch\\ListBranch.razor.css",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Pages\\Admin\\Branch\\ListBranch.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-23T01:09:47.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListBranch.razor",
+              "DocumentMoniker": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Branch\\ListBranch.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Pages\\Admin\\Branch\\ListBranch.razor",
+              "ToolTip": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Admin\\Branch\\ListBranch.razor*",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Pages\\Admin\\Branch\\ListBranch.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T01:08:35.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminLayout.razor",
+              "DocumentMoniker": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\AdminLayout.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Layout\\AdminLayout.razor",
+              "ToolTip": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\AdminLayout.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Layout\\AdminLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:35:30.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:35:25.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\_Imports.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:35:20.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\Routes.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:35:19.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\App.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Components\\App.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:35:14.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Program.cs",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Program.cs",
+              "ToolTip": "C:\\Users\\koran\\Downloads\\CNPM\\PhongKhamThuY\\PhongKhamThuY\\Program.cs",
+              "RelativeToolTip": "PhongKhamThuY\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T13:35:08.198Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

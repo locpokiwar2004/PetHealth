@@ -8,21 +8,16 @@
 
   <ItemGroup>
     <None Remove="Components\Layout\AdminLayout.razor.css" />
-    <None Remove="Components\Layout\tbMedicine.razor.css" />
+    <None Remove="Components\Table\TbMedicine.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Components\Layout\AdminLayout.razor.css" />
-    <Content Include="Components\Layout\TbMedicine.razor.css" />
-    <Content Include="Styles\input.css" />
+    <Content Include="Components\Table\TbMedicine.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.5" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Components\Pages\Customer\" />
   </ItemGroup>
 
 </Project>
