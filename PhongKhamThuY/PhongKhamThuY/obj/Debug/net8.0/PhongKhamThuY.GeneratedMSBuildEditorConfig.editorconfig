@@ -17,95 +17,95 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PhongKhamThuY
 build_property.RootNamespace = PhongKhamThuY
-build_property.ProjectDir = C:\Users\koran\Downloads\CNPM\PhongKhamThuY\PhongKhamThuY\
+build_property.ProjectDir = C:\0study\CSDLTH\CNPM\CNPM\PhongKhamThuY\PhongKhamThuY\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\koran\Downloads\CNPM\PhongKhamThuY\PhongKhamThuY
+build_property.MSBuildProjectDirectory = C:\0study\CSDLTH\CNPM\CNPM\PhongKhamThuY\PhongKhamThuY
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/App.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Counter.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Error.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Home.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Weather.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Routes.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/_Imports.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Layout/AdminLayout.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Layout/AdminLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQWRtaW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-auocuyiq1m
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Layout/NavMenu.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-wfno97g20y
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Branch/AddBranch.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Branch/AddBranch.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxCcmFuY2hcQWRkQnJhbmNoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-c18mv9w28t
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Branch/ListBranch.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Branch/ListBranch.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxCcmFuY2hcTGlzdEJyYW5jaC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-2itc8l0gwq
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Customer/AddCus.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Customer/AddCus.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxDdXN0b21lclxBZGRDdXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-f3hp7ry26y
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Customer/ListCus.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Customer/ListCus.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxDdXN0b21lclxMaXN0Q3VzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-zc6efw6lub
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Doctor/AddDoctor.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Doctor/AddDoctor.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxEb2N0b3JcQWRkRG9jdG9yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-bpxfy7alf1
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Doctor/ListDoctor.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Doctor/ListDoctor.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxEb2N0b3JcTGlzdERvY3Rvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-223548x76k
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Medicine/AddMedicine.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Medicine/AddMedicine.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxNZWRpY2luZVxBZGRNZWRpY2luZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-oqv4u1bow3
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Medicine/ListMedicine.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Medicine/ListMedicine.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxNZWRpY2luZVxMaXN0TWVkaWNpbmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-pg0nfmgptg
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Table/TbBranch.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Table/TbBranch.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUYWJsZVxUYkJyYW5jaC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-lq4z8x44vt
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Table/TbCustomer.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Table/TbCustomer.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUYWJsZVxUYkN1c3RvbWVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-822fz4ks8l
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Table/TbDoctor.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Table/TbDoctor.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUYWJsZVxUYkRvY3Rvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ex8j5ek370
 
-[C:/Users/koran/Downloads/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Table/TbMedicine.razor]
+[C:/0study/CSDLTH/CNPM/CNPM/PhongKhamThuY/PhongKhamThuY/Components/Table/TbMedicine.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUYWJsZVxUYk1lZGljaW5lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-uef5izwji3

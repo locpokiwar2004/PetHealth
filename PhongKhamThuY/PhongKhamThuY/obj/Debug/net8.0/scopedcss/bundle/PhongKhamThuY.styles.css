@@ -666,7 +666,6 @@ button[b-2itc8l0gwq] {
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    margin: 10px 0;
 }
 
     button:hover[b-2itc8l0gwq] {
@@ -823,7 +822,6 @@ button[b-zc6efw6lub] {
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    margin: 10px 0;
 }
 
     button:hover[b-zc6efw6lub] {
@@ -980,7 +978,6 @@ button[b-223548x76k] {
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    margin: 10px 0;
 }
 
     button:hover[b-223548x76k] {
@@ -1119,10 +1116,10 @@ button[b-223548x76k] {
 }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Medicine/ListMedicine.razor.rz.scp.css */
 button[b-pg0nfmgptg] {
-    float: right;
+    float:right;
     display: flex;
     height: 35px;
-    padding: 5px;
+    padding:5px;
     background: #009578;
     border: none;
     outline: none;
@@ -1132,9 +1129,8 @@ button[b-pg0nfmgptg] {
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
+    align-items:center;
+    justify-content:center;
 }
 
     button:hover[b-pg0nfmgptg] {
