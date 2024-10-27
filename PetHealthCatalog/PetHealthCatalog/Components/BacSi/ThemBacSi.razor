@@ -1,0 +1,56 @@
+﻿@page "/ThemBacSi"
+@inject PetHealthRepository Repository
+@inject NavigationManager Navigation
+
+<PageTitle> Thêm Bác Sĩ</PageTitle>
+<h3 style="text-align:center">THÊM BÁC SĨ</h3>
+<EditForm Enhance="true" method="post" FormName="ThemBacSi" OnValidSubmit="AddBacSi" Model="bacSi" autocomplete="off" class="form">
+    
+    <div class="input-box">
+        <label>Tên Bác sĩ </label>
+        <InputText id="TenBacSi" @bind-Value="bacSi.TenBacSi" type="text" required />
+    </div>
+
+    <div class="column">
+        
+        <div class="input-box">
+            <label>Số Điện Thoại</label>
+            <InputText id="SoDienThoai" @bind-Value="bacSi.SoDienThoai" type="text" required />
+        </div>
+
+        
+        <div class="input-box">
+            <label>Email</label>
+            <InputText id="Email" @bind-Value="bacSi.Email" type="text" required />
+        </div>
+    </div>
+
+    <div class="column">
+     
+        <div class="input-box">
+            <label>Địa Chỉ</label>
+            <InputText id="DiaChi" @bind-Value="bacSi.DiaChi" required />
+        </div>
+
+    </div>
+
+
+    <button class="submit" style="float:right">Hoàn Thành</button>
+
+    <button class="return" style="float:left">
+        <NavLink href="/DanhSachBacSi" style="text-decoration:none;color:white">Quay lại</NavLink>
+    </button>
+
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+</EditForm>
+
+@code {
+    [SupplyParameterFromForm]
+    public BacSi bacSi { get; set; } = new();
+    private async Task AddBacSi()
+    {
+        await Repository.AddAsyncBacSi(bacSi);
+        Navigation.NavigateTo("");
+    }
+}

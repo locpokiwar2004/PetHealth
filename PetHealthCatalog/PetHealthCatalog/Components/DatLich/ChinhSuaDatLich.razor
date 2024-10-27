@@ -1,0 +1,78 @@
+﻿@page "/ChinhSuaDatLich/{id:int}"
+@inject PetHealthRepository Repository
+@inject NavigationManager Navigation
+<PageTitle>
+    Cập Nhật Đặt Lịch
+</PageTitle>
+
+<div class="row justify-content-center">
+    <div class="col-7">
+        <EditForm Enhance="true" method="post" FormName="ThemBacSi" OnValidSubmit="CapNhatDatLich" Model="datlich" autocomplete="off" class="form">
+            <h3 style="text-align:center">
+                Cập Nhật Đặt Lịch
+            </h3>
+            <input type="hidden" name="datlich.MaHen" value="@datlich.MaHen" />
+           
+            <div class="input-box">
+                <label>Giá Khám </label>
+                <InputNumber id="GiaKham" @bind-Value="datlich.GiaKham" type="number" required />
+            </div>
+
+            <div class="column">
+
+                <div class="input-box">
+                    <label>Trạng Thái Thanh Toán</label>
+                    <InputCheckbox id="TrangThaiTT" @bind-Value="datlich.TrangThaiTT" type="bool" required />
+                </div>
+
+
+                <div class="input-box">
+                    <label>Trạng Thái Hẹn</label>
+                    <InputCheckbox id="TrangThaiHen" @bind-Value="datlich.TrangThaiHen" type="bool" required />
+                </div>
+            </div>
+
+            <div class="column">
+
+                <div class="input-box">
+                    <label>Ngày Giờ Hẹn</label>
+                    <InputDate id="NgayGioHen" @bind-Value="datlich.NgayGioHen" type="date" required />
+                </div>
+
+            </div>
+
+
+            <button class="submit" style="float:right">Hoàn Thành</button>
+
+            <button class="return" style="float:left">
+                <NavLink href="/DanhSachBacSi" style="text-decoration:none;color:white">Quay lại</NavLink>
+            </button>
+
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+        </EditForm>
+    </div>
+</div>
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    public DatLich? datlich { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        datlich ??= await Repository.GetByIdAsyncDatLich(Id);
+    }
+
+    private async Task CapNhatDatLich()
+    {
+        if (datlich is not null)
+        {
+            await Repository.UpdateAsyncDatLich(datlich);
+            Navigation.NavigateTo("/DanhSachDatLich");
+        }
+    }
+}

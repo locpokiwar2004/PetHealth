@@ -1,0 +1,65 @@
+﻿@inject PetHealthRepository Repository
+@inject NavigationManager Navigation
+
+<div class="thuoc-card">
+    <table class="content-table">
+        <thead>
+            <tr>
+                <th>Mã Thuốc</th>
+                <th>Tên thuốc</th>
+                <th>Loại thuốc</th>
+                <th>Số lượng</th>
+                <th>Giá bán</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@thuoc.MaSoThuoc</td>
+                <td>@thuoc.TenThuoc</td>
+                <td>@thuoc.LoaiThuoc</td>
+                <td>@thuoc.SoLuongThuoc</td>
+                <td>@thuoc.GiaBan</td>
+                <td>
+                    <a href="@($"/ChinhSuaThuoc/{thuoc.MaSoThuoc}")" class="btn-edit return">
+                        Chỉnh Sửa
+                    </a>
+                    <button @onclick="OpenConfirmDialog" class="delete-button submit">
+                        Xóa
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<DeleteConfirmDialog Show="showConfirmDialog"
+                     OnCancel="CancelDelete"
+                     OnOK="DeleteThuoc">
+    <h3>
+        Bạn có muốn xóa thuốc @thuoc.TenThuoc không?
+    </h3>
+</DeleteConfirmDialog>
+
+@code {
+    private bool showConfirmDialog;
+    [Parameter]
+    public required PetHealthCatalog.Domain.Entities.Thuoc thuoc { get; set; }
+
+    private void OpenConfirmDialog()
+    {
+        showConfirmDialog = true;
+    }
+
+    private void CancelDelete()
+    {
+        showConfirmDialog = false;
+    }
+
+    private async Task DeleteThuoc()
+    {
+        await Repository.DeleteByIdAsync(thuoc.MaSoThuoc);
+        showConfirmDialog = false;
+        Navigation.NavigateTo("/DanhSachThuoc");
+    }
+}

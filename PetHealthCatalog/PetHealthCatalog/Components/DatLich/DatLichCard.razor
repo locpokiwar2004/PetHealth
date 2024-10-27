@@ -1,0 +1,63 @@
+﻿@inject PetHealthRepository Repository
+@inject NavigationManager Navigation
+
+<div class="doctor-card">
+    <table class="content-table">
+        <thead>
+            <tr>
+                <th>Giá Khám</th>
+                <th>Trạng Thái Thanh Toán</th>
+                <th>Trạng Thái Hẹn</th>
+                <th>Ngày Giờ Hẹn</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@datlich.GiaKham</td>
+                <td>@datlich.TrangThaiTT</td>
+                <td>@datlich.TrangThaiHen</td>
+                <td>@datlich.NgayGioHen</td>
+                <td>
+                    <a href="@($"/DanhSachBacSi/{datlich.MaHen}")" class="btn-edit return">
+                        Chỉnh Sửa
+                    </a>
+                    <button @onclick="OpenConfirmDialog" class="delete-button submit">
+                        Xóa
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<DeleteConfirmDialog Show="showConfirmDialog"
+                     OnCancel="CancelDelete"
+                     OnOK="DeleteDatLich">
+    <h3>
+        Bạn có muốn xóa lịch hẹn @datlich.MaHen không?
+    </h3>
+</DeleteConfirmDialog>
+
+@code {
+    private bool showConfirmDialog;
+    [Parameter]
+    public required PetHealthCatalog.Domain.Entities.DatLich datlich { get; set; }
+
+    private void OpenConfirmDialog()
+    {
+        showConfirmDialog = true;
+    }
+
+    private void CancelDelete()
+    {
+        showConfirmDialog = false;
+    }
+
+    private async Task DeleteDatLich()
+    {
+        await Repository.DeleteByIdAsync(datlich.MaHen);
+        showConfirmDialog = false;
+        Navigation.NavigateTo("/DanhSachDatLich");
+    }
+}

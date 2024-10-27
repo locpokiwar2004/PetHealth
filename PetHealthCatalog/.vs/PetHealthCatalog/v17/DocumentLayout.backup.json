@@ -1,0 +1,323 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog\\components\\bacsi\\thembacsi.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|solutionrelative:pethealthcatalog\\components\\bacsi\\thembacsi.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C622EFF9-C782-4D8B-8BBC-3145D58FB1A2}|PetHealthCatalog.Infrastucture\\PetHealthCatalog.Infrastucture.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog.infrastucture\\repositories\\pethealthrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C622EFF9-C782-4D8B-8BBC-3145D58FB1A2}|PetHealthCatalog.Infrastucture\\PetHealthCatalog.Infrastucture.csproj|solutionrelative:pethealthcatalog.infrastucture\\repositories\\pethealthrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog\\components\\hosothuy\\themhoso.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|solutionrelative:pethealthcatalog\\components\\hosothuy\\themhoso.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog\\components\\bacsi\\thembacsi.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|solutionrelative:pethealthcatalog\\components\\bacsi\\thembacsi.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog\\components\\bacsi\\chinhsuabacsi.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|solutionrelative:pethealthcatalog\\components\\bacsi\\chinhsuabacsi.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog\\components\\bacsi\\bacsicard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|solutionrelative:pethealthcatalog\\components\\bacsi\\bacsicard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog.Infrastucture\\Migrations\\20241026145800_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PetHealthCatalog.Infrastucture\\Migrations\\20241026145800_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|solutionrelative:pethealthcatalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog.Infrastucture\\Migrations\\20241026145446_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PetHealthCatalog.Infrastucture\\Migrations\\20241026145446_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|solutionrelative:pethealthcatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|solutionrelative:pethealthcatalog\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C622EFF9-C782-4D8B-8BBC-3145D58FB1A2}|PetHealthCatalog.Infrastucture\\PetHealthCatalog.Infrastucture.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog.infrastucture\\pethealthcatalog.infrastucture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C622EFF9-C782-4D8B-8BBC-3145D58FB1A2}|PetHealthCatalog.Infrastucture\\PetHealthCatalog.Infrastucture.csproj|solutionrelative:pethealthcatalog.infrastucture\\pethealthcatalog.infrastucture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C622EFF9-C782-4D8B-8BBC-3145D58FB1A2}|PetHealthCatalog.Infrastucture\\PetHealthCatalog.Infrastucture.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog.infrastucture\\context\\pethealthdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C622EFF9-C782-4D8B-8BBC-3145D58FB1A2}|PetHealthCatalog.Infrastucture\\PetHealthCatalog.Infrastucture.csproj|solutionrelative:pethealthcatalog.infrastucture\\context\\pethealthdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|solutionrelative:pethealthcatalog\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|solutionrelative:pethealthcatalog\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog\\components\\bacsi\\chinhsuabacsi.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|solutionrelative:pethealthcatalog\\components\\bacsi\\chinhsuabacsi.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|d:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\pethealthcatalog\\pethealthcatalog\\components\\hosothuy\\chinhsuahoso.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9FB1CFEF-9AF5-4424-A578-8A2E45952B3E}|PetHealthCatalog\\PetHealthCatalog.csproj|solutionrelative:pethealthcatalog\\components\\hosothuy\\chinhsuahoso.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 381,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PetHealthRepositories.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog.Infrastucture\\Repositories\\PetHealthRepositories.cs",
+              "RelativeDocumentMoniker": "PetHealthCatalog.Infrastucture\\Repositories\\PetHealthRepositories.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog.Infrastucture\\Repositories\\PetHealthRepositories.cs",
+              "RelativeToolTip": "PetHealthCatalog.Infrastucture\\Repositories\\PetHealthRepositories.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T15:05:51.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThemBacSi.razor.css",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\BacSi\\ThemBacSi.razor.css",
+              "RelativeDocumentMoniker": "PetHealthCatalog\\Components\\BacSi\\ThemBacSi.razor.css",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\BacSi\\ThemBacSi.razor.css",
+              "RelativeToolTip": "PetHealthCatalog\\Components\\BacSi\\ThemBacSi.razor.css",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-26T15:04:13.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThemHoSo.razor",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\HosoThuY\\ThemHoSo.razor",
+              "RelativeDocumentMoniker": "PetHealthCatalog\\Components\\HosoThuY\\ThemHoSo.razor",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\HosoThuY\\ThemHoSo.razor",
+              "RelativeToolTip": "PetHealthCatalog\\Components\\HosoThuY\\ThemHoSo.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T15:03:18.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChinhSuaBacSi.razor",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\BacSi\\ChinhSuaBacSi.razor",
+              "RelativeDocumentMoniker": "PetHealthCatalog\\Components\\BacSi\\ChinhSuaBacSi.razor",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\BacSi\\ChinhSuaBacSi.razor",
+              "RelativeToolTip": "PetHealthCatalog\\Components\\BacSi\\ChinhSuaBacSi.razor",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T15:03:10.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BacSiCard.razor",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\BacSi\\BacSiCard.razor",
+              "RelativeDocumentMoniker": "PetHealthCatalog\\Components\\BacSi\\BacSiCard.razor",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\BacSi\\BacSiCard.razor",
+              "RelativeToolTip": "PetHealthCatalog\\Components\\BacSi\\BacSiCard.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T14:58:56.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Program.cs",
+              "RelativeDocumentMoniker": "PetHealthCatalog\\Program.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Program.cs",
+              "RelativeToolTip": "PetHealthCatalog\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T14:52:39.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PetHealthCatalog.Infrastucture",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog.Infrastucture\\PetHealthCatalog.Infrastucture.csproj",
+              "RelativeDocumentMoniker": "PetHealthCatalog.Infrastucture\\PetHealthCatalog.Infrastucture.csproj",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog.Infrastucture\\PetHealthCatalog.Infrastucture.csproj",
+              "RelativeToolTip": "PetHealthCatalog.Infrastucture\\PetHealthCatalog.Infrastucture.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-26T14:34:07.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\appsettings.json",
+              "RelativeDocumentMoniker": "PetHealthCatalog\\appsettings.json",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\appsettings.json",
+              "RelativeToolTip": "PetHealthCatalog\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-26T14:34:15.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PetHealthDBContext.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog.Infrastucture\\Context\\PetHealthDBContext.cs",
+              "RelativeDocumentMoniker": "PetHealthCatalog.Infrastucture\\Context\\PetHealthDBContext.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog.Infrastucture\\Context\\PetHealthDBContext.cs",
+              "RelativeToolTip": "PetHealthCatalog.Infrastucture\\Context\\PetHealthDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T14:33:44.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "PetHealthCatalog\\Components\\Routes.razor",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\Routes.razor",
+              "RelativeToolTip": "PetHealthCatalog\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T14:33:34.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\App.razor",
+              "RelativeDocumentMoniker": "PetHealthCatalog\\Components\\App.razor",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\App.razor",
+              "RelativeToolTip": "PetHealthCatalog\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T14:33:31.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "PetHealthCatalog\\Components\\_Imports.razor",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\_Imports.razor",
+              "RelativeToolTip": "PetHealthCatalog\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T14:33:28.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChinhSuaHoSo.razor.css",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\HosoThuY\\ChinhSuaHoSo.razor.css",
+              "RelativeDocumentMoniker": "PetHealthCatalog\\Components\\HosoThuY\\ChinhSuaHoSo.razor.css",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\HosoThuY\\ChinhSuaHoSo.razor.css",
+              "RelativeToolTip": "PetHealthCatalog\\Components\\HosoThuY\\ChinhSuaHoSo.razor.css",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwFcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-26T14:32:04.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChinhSuaBacSi.razor.css",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\BacSi\\ChinhSuaBacSi.razor.css",
+              "RelativeDocumentMoniker": "PetHealthCatalog\\Components\\BacSi\\ChinhSuaBacSi.razor.css",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\BacSi\\ChinhSuaBacSi.razor.css",
+              "RelativeToolTip": "PetHealthCatalog\\Components\\BacSi\\ChinhSuaBacSi.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-26T14:31:53.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThemBacSi.razor",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\BacSi\\ThemBacSi.razor",
+              "RelativeDocumentMoniker": "PetHealthCatalog\\Components\\BacSi\\ThemBacSi.razor",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog\\Components\\BacSi\\ThemBacSi.razor",
+              "RelativeToolTip": "PetHealthCatalog\\Components\\BacSi\\ThemBacSi.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T14:30:36.685Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 19,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241026145800_Initial.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog.Infrastucture\\Migrations\\20241026145800_Initial.cs",
+              "RelativeDocumentMoniker": "PetHealthCatalog.Infrastucture\\Migrations\\20241026145800_Initial.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog.Infrastucture\\Migrations\\20241026145800_Initial.cs",
+              "RelativeToolTip": "PetHealthCatalog.Infrastucture\\Migrations\\20241026145800_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T14:58:00.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20241026145446_Initial.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog.Infrastucture\\Migrations\\20241026145446_Initial.cs",
+              "RelativeDocumentMoniker": "PetHealthCatalog.Infrastucture\\Migrations\\20241026145446_Initial.cs",
+              "ToolTip": "D:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\PetHealthCatalog\\PetHealthCatalog.Infrastucture\\Migrations\\20241026145446_Initial.cs",
+              "RelativeToolTip": "PetHealthCatalog.Infrastucture\\Migrations\\20241026145446_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T14:54:46.664Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+﻿@page "/DanhSachBacSi"
+@inject PetHealthRepository Repository
+@rendermode InteractiveServer
+<PageTitle>Danh Sách Bác Sĩ</PageTitle>
+
+<div class="row justify-content-center">
+    <!-- Button to Add New Medicine -->
+    <div class="col-8 text-right mb-4">
+        <a href="/ThemBacSi" class="btn-add-medicine">
+            <span class="button__text">Thêm Bác Sĩ</span>
+            <span class="button__icon">
+                <i class="fa-solid fa-plus"></i>
+            </span>
+        </a>
+    </div>
+
+    <div class="col-8">
+        <!-- If no medicine data is available -->
+        @if (BacSis is null)
+        {
+            <div class="bacsi-item">
+                Đang tải dữ liệu. Vui lòng đợi...
+            </div>
+        }
+        <!-- If there is medicine data -->
+        @if (BacSis != null && BacSis.Any())
+        {
+            @foreach (var bacsi in BacSis)
+            {
+                <div class="bacsi-item">
+                    <BacSiCard bacSi="bacsi"></BacSiCard>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Không có bác sĩ nào để hiển thị.</p>
+        }
+    </div>
+</div>
+
+@code {
+    private List<BacSi> BacSis = new List<BacSi>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            
+            BacSis = await Repository.GetAllAsyncBacSi() ?? new List<BacSi>();
+        }
+        catch (Exception ex)
+        {
+            
+            Console.WriteLine($"Error: {ex.Message}");
+            BacSis = new List<BacSi>(); 
+        }
+    }
+}

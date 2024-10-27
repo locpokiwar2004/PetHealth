@@ -1,0 +1,57 @@
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.deps.json
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.runtimeconfig.json
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.dll
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.pdb
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Application.dll
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Domain.dll
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Application.pdb
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Domain.pdb
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.AssemblyInfo.cs
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealt.38BFCCBF.Up2Date
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.dll
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\refint\PetHealthCatalog.Infrastucture.dll
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.pdb
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.genruntimeconfig.cache
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\ref\PetHealthCatalog.Infrastucture.dll
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.deps.json
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.runtimeconfig.json
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.dll
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.pdb
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Application.dll
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Domain.dll
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Application.pdb
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Domain.pdb
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.AssemblyInfo.cs
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealt.38BFCCBF.Up2Date
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.dll
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\refint\PetHealthCatalog.Infrastucture.dll
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.pdb
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.genruntimeconfig.cache
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\ref\PetHealthCatalog.Infrastucture.dll
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.deps.json
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.runtimeconfig.json
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.dll
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.pdb
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Application.dll
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Domain.dll
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Application.pdb
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Domain.pdb
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.csproj.AssemblyReference.cache
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.GeneratedMSBuildEditorConfig.editorconfig
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.AssemblyInfoInputs.cache
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.AssemblyInfo.cs
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.csproj.CoreCompileInputs.cache
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealt.38BFCCBF.Up2Date
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.dll
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\refint\PetHealthCatalog.Infrastucture.dll
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.pdb
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\PetHealthCatalog.Infrastucture.genruntimeconfig.cache
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Infrastucture\obj\Debug\net8.0\ref\PetHealthCatalog.Infrastucture.dll

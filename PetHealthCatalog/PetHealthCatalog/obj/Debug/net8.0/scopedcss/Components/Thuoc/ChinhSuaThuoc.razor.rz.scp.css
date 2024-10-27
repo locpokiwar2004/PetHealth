@@ -1,0 +1,105 @@
+/* Container for the input fields */
+.form .input-box[b-9so9hkvcno] {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* Labels for form inputs */
+.input-box label[b-9so9hkvcno] {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Styling for inputs and selects */
+.form input[b-9so9hkvcno], .form select[b-9so9hkvcno], .form .input-box input[b-9so9hkvcno], .form .input-box select[b-9so9hkvcno] {
+    height: 45px;
+    width: 100%;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 0 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+/* Focused state for inputs */
+.input-box input:focus[b-9so9hkvcno], .input-box select:focus[b-9so9hkvcno] {
+    border-color: #3FA2F6;
+    box-shadow: 0 0 8px rgba(63, 162, 246, 0.2);
+    background-color: white;
+}
+
+/* Form column layout */
+.form .column[b-9so9hkvcno] {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+    .form .column .input-box[b-9so9hkvcno] {
+        flex: 1;
+    }
+
+/* Submit and return button styles */
+.form button[b-9so9hkvcno] {
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Return button styles */
+.form .return[b-9so9hkvcno] {
+    background-color: #3FA2F6;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .form .return:hover[b-9so9hkvcno] {
+        background-color: #0F67B1;
+        box-shadow: 0 4px 12px rgba(0, 102, 177, 0.4);
+    }
+
+/* Submit button styles */
+.form .submit[b-9so9hkvcno] {
+    background-color: #FFDE4D;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .form .submit:hover[b-9so9hkvcno] {
+        background-color: #FFB22C;
+        box-shadow: 0 4px 12px rgba(255, 178, 44, 0.4);
+    }
+
+/* Responsive design for medium screens */
+@media screen and (max-width: 768px) {
+    .form .column[b-9so9hkvcno] {
+        flex-wrap: wrap;
+    }
+
+    .form button[b-9so9hkvcno] {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/* Responsive design for small screens */
+@media screen and (max-width: 500px) {
+    .form .column[b-9so9hkvcno] {
+        flex-direction: column;
+    }
+
+    .input-box[b-9so9hkvcno] {
+        width: 100%;
+    }
+}

@@ -1,0 +1,55 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PetHealthCatalog
+build_property.RootNamespace = PetHealthCatalog
+build_property.ProjectDir = C:\Users\Admin\Source\Repos\PetHealth\PetHealthCatalog\PetHealthCatalog\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Source\Repos\PetHealth\PetHealthCatalog\PetHealthCatalog
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Admin/Source/Repos/PetHealth/PetHealthCatalog/PetHealthCatalog/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Source/Repos/PetHealth/PetHealthCatalog/PetHealthCatalog/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Source/Repos/PetHealth/PetHealthCatalog/PetHealthCatalog/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Source/Repos/PetHealth/PetHealthCatalog/PetHealthCatalog/Components/DeleteConfirmDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWxldGVDb25maXJtRGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-o0c6ptxfb3
+
+[C:/Users/Admin/Source/Repos/PetHealth/PetHealthCatalog/PetHealthCatalog/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-6oj54ar3ck
+
+[C:/Users/Admin/Source/Repos/PetHealth/PetHealthCatalog/PetHealthCatalog/Components/Pages/ChinhSua.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDaGluaFN1YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-zcbqn6vg0o
+
+[C:/Users/Admin/Source/Repos/PetHealth/PetHealthCatalog/PetHealthCatalog/Components/Pages/DanhSachThuoc.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYW5oU2FjaFRodW9jLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-hktnnebnci
+
+[C:/Users/Admin/Source/Repos/PetHealth/PetHealthCatalog/PetHealthCatalog/Components/Pages/ThemThuoc.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUaGVtVGh1b2MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-snphyu3ejh
+
+[C:/Users/Admin/Source/Repos/PetHealth/PetHealthCatalog/PetHealthCatalog/Components/ThuocCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUaHVvY0NhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wb999zjpcv
