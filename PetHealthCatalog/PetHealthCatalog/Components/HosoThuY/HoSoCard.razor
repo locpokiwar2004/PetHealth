@@ -1,0 +1,67 @@
+﻿@inject PetHealthRepository Repository
+@inject NavigationManager Navigation
+
+<div class="thuoc-card">
+    <table class="content-table">
+        <thead>
+            <tr>
+                <th>Mã Vật Nuôi</th>
+                <th>Tên Thú Cưng</th>
+                <th>Tên Chủ</th>
+                <th>Tuổi</th>
+                <th>Cân Nặng</th>
+                <th>Tình Trạng</th>
+                <th>Hành Động</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@hoso.MaVatNuoi</td>
+                <td>@hoso.TenThuCung</td>
+                <td>@hoso.TenChu</td>
+                <td>@hoso.Tuoi</td>
+                <td>@hoso.CanNang</td>
+                <td>@hoso.TinhTrang</td>
+                <td>
+                    <a href="@($"/ChinhSuaHoso/{hoso.MaVatNuoi}")" class="btn-edit return">
+                        Chỉnh Sửa
+                    </a>
+                    <button @onclick="OpenConfirmDialog" class="delete-button submit">
+                        Xóa
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<DeleteConfirmDialog Show="showConfirmDialog"
+                     OnCancel="CancelDelete"
+                     OnOK="DeleteHoSo">
+    <h3>
+        Bạn có muốn xóa hồ sơ @hoso.MaVatNuoi không?
+    </h3>
+</DeleteConfirmDialog>
+
+@code {
+    private bool showConfirmDialog;
+    [Parameter]
+    public required PetHealthCatalog.Domain.Entities.HoSoThuNuoi hoso { get; set; }
+
+    private void OpenConfirmDialog()
+    {
+        showConfirmDialog = true;
+    }
+
+    private void CancelDelete()
+    {
+        showConfirmDialog = false;
+    }
+
+    private async Task DeleteHoSo()
+    {
+        await Repository.DeleteByIdAsync(hoso.MaVatNuoi);
+        showConfirmDialog = false;
+        Navigation.NavigateTo("/DanhSachHoSo");
+    }
+}

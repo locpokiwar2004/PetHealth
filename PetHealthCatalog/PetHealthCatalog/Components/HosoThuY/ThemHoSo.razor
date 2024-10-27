@@ -1,0 +1,74 @@
+﻿@page "/ThemHoSo"
+@inject PetHealthRepository Repository
+@inject NavigationManager Navigation
+
+<PageTitle> Thêm Hồ Sơ</PageTitle>
+<h3 style="text-align:center">THÊM HỒ SƠ</h3>
+<EditForm Enhance="true" method="post" FormName="ThemThuoc" OnValidSubmit="AddHoSo" Model="HoSo" autocomplete="off" class="form">
+
+    <!-- Chỗ Nhập Tên Chủ -->
+    <div class="input-box">
+        <label>Tên Chủ</label>
+        <InputText id="TenChu" @bind-Value="HoSo.TenChu" type="text" required />
+    </div>
+
+    <div class="input-box">
+        <label>Tên Thú Cưng</label>
+        <InputText id="TenThuCung" @bind-Value="HoSo.TenThuCung" type="text" required />
+    </div>
+
+    <div class="column">
+        <!-- Chỗ Nhập Tuổi -->
+        <div class="input-box">
+            <label>Tuổi</label>
+            <InputNumber id="Tuoi" @bind-Value="HoSo.Tuoi" type="number" required />
+        </div>
+
+        <!-- Chỗ Nhập Loại Thuốc -->
+        <div class="input-box">
+            <label>Cân Nặng Thú Cưng</label>
+            <InputNumber id="Cannang" @bind-Value="HoSo.CanNang" type="number" required />
+        </div>
+    </div>
+
+    <div class="column">
+        <!-- Chỗ Nhập Ngày Sản Xuất -->
+        <div class="input-box">
+            <label>Tình Trạng Thú Cưng</label>
+            <InputText id="TinhTrangThuCung" @bind-Value="HoSo.TinhTrang" type="text" required />
+        </div>
+
+        <!-- Chỗ Nhập Hạn Sử Dụng -->
+        <div class="input-box">
+            <label>Chuẩn Đoán</label>
+            <InputText id="ChuanDoan" @bind-Value="HoSo.ChuanDoan" type="text" required />
+        </div>
+    </div>
+
+    <div class="column">
+        <!-- Chỗ Nhập Số Lượng Thuốc -->
+        <div class="input-box">
+            <label>Loại Vật Nuôi</label>
+            <InputText id="LoaiVatNuoi" @bind-Value="HoSo.LoaiVatNuoi" type="text" required />
+        </div>
+    </div>
+    <!-- Chỗ Nhấn Nút Đồng Ý Sau Khi Thêm Thuốc -->
+    <button class="submit" style="float:right">Hoàn Thành</button>
+
+    <button class="return" style="float:left">
+        <NavLink href="/DanhSachHoSo" style="text-decoration:none;color:white">Quay lại</NavLink>
+    </button>
+
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+</EditForm>
+
+@code {
+    [SupplyParameterFromForm]
+    public HoSoThuNuoi HoSo { get; set; } = new();
+    private async Task AddHoSo()
+    {
+        await Repository.AddAsyncHoSo(HoSo);
+        Navigation.NavigateTo("");
+    }
+}

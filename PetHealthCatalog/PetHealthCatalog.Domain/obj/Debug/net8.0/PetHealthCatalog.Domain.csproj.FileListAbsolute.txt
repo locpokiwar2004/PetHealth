@@ -1,0 +1,33 @@
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Domain\bin\Debug\net8.0\PetHealthCatalog.Domain.deps.json
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Domain\bin\Debug\net8.0\PetHealthCatalog.Domain.dll
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Domain\bin\Debug\net8.0\PetHealthCatalog.Domain.pdb
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.AssemblyInfo.cs
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.dll
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\refint\PetHealthCatalog.Domain.dll
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.pdb
+C:\Users\Admin\source\repos\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\ref\PetHealthCatalog.Domain.dll
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Domain\bin\Debug\net8.0\PetHealthCatalog.Domain.deps.json
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Domain\bin\Debug\net8.0\PetHealthCatalog.Domain.dll
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Domain\bin\Debug\net8.0\PetHealthCatalog.Domain.pdb
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.AssemblyInfo.cs
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.dll
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\refint\PetHealthCatalog.Domain.dll
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.pdb
+C:\Users\Admin\Desktop\CNPM\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\ref\PetHealthCatalog.Domain.dll
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Domain\bin\Debug\net8.0\PetHealthCatalog.Domain.deps.json
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Domain\bin\Debug\net8.0\PetHealthCatalog.Domain.dll
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Domain\bin\Debug\net8.0\PetHealthCatalog.Domain.pdb
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.AssemblyInfoInputs.cache
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.AssemblyInfo.cs
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.csproj.CoreCompileInputs.cache
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.dll
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\refint\PetHealthCatalog.Domain.dll
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\PetHealthCatalog.Domain.pdb
+D:\Công Nghệ Phần Mềm\PetHealthCatalog\PetHealthCatalog.Domain\obj\Debug\net8.0\ref\PetHealthCatalog.Domain.dll

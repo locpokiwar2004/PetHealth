@@ -1,0 +1,59 @@
+﻿@page "/DanhSachThuoc"
+@inject PetHealthRepository Repository
+@rendermode InteractiveServer
+<PageTitle>Danh Sách Thuốc</PageTitle>
+
+<div class="row justify-content-center">
+    <!-- Button to Add New Medicine -->
+    <div class="col-8 text-right mb-4">
+        <a href="/ThemThuoc" class="btn-add-medicine">
+            <span class="button__text">Thêm thuốc</span>
+            <span class="button__icon">
+                <i class="fa-solid fa-plus"></i>
+            </span>
+        </a>
+    </div>
+
+    <div class="col-8">
+        <!-- If no medicine data is available -->
+        @if (thuocs is null)
+        {
+            <div class="thuoc-item">
+                Đang tải dữ liệu. Vui lòng đợi...
+            </div>
+        }
+        <!-- If there is medicine data -->
+        @if (thuocs != null && thuocs.Any())
+        {
+            @foreach (var thuoc in thuocs)
+            {
+                <div class="thuoc-item">
+                    <ThuocCard thuoc="thuoc"></ThuocCard>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Không có thuốc nào để hiển thị.</p>
+        }
+    </div>
+</div>
+
+@code {
+    private List<Thuoc> thuocs = new List<Thuoc>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Fetch the list of medicines from the repository
+            thuocs = await Repository.GetAllAsyncThuoc() ?? new List<Thuoc>();
+        }
+        catch (Exception ex)
+        {
+            // Handle the exception and log if necessary
+            Console.WriteLine($"Error: {ex.Message}");
+            thuocs = new List<Thuoc>(); // Assign an empty list in case of an error
+        }
+    }
+}

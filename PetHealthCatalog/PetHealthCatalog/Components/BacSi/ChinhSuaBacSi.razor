@@ -1,0 +1,79 @@
+﻿@page "/ChinhSuaBacSi/{id:int}"
+@inject PetHealthRepository Repository
+@inject NavigationManager Navigation
+<PageTitle>
+    Cập Nhật Bác Sĩ
+</PageTitle>
+
+<div class="row justify-content-center">
+    <div class="col-7">
+        <EditForm Enhance="true" method="post" FormName="ThemBacSi" OnValidSubmit="CapNhatBacSi" Model="bacSi" autocomplete="off" class="form">
+            <h3 style="text-align:center">
+                Cập Nhật Bác Sĩ 
+            </h3>
+            <input type="hidden" name="bacSi.MaBacSi" value="@bacSi.MaBacSi" />
+           
+            <div class="input-box">
+                <label>Tên Bác Sĩ</label>
+                <InputText id="TenBacSi" @bind-Value="bacSi.TenBacSi" type="text" required />
+            </div>
+
+            <div class="column">
+               
+                <div class="input-box">
+                    <label>Số Điện Thoại</label>
+                    <InputText id="SoDienThoai" @bind-Value="bacSi.SoDienThoai" type="text" required />
+                </div>
+
+               
+                <div class="input-box">
+                    <label>Email</label>
+                    <InputText id="Email" @bind-Value="bacSi.Email" type="text" required />
+                </div>
+            </div>
+
+            <div class="column">
+
+                <div class="input-box">
+                    <label>Địa Chỉ</label>
+                    <InputDate id="DiaChi" @bind-Value="bacSi.DiaChi" required />
+                </div>
+
+                
+            </div>
+
+         
+            <button class="submit" style="float:right">Hoàn Thành</button>
+
+            <button class="return" style="float:left">
+                <NavLink href="/DanhSachBacSi" style="text-decoration:none;color:white">Quay lại</NavLink>
+            </button>
+
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+        </EditForm>
+    </div>
+</div>
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    public BacSi? bacSi { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        bacSi ??= await Repository.GetByIdAsyncBacSi(Id);
+    }
+
+    private async Task CapNhatBacSi()
+    {
+        if (bacSi is not null)
+        {
+            await Repository.UpdateAsyncBacSi(bacSi);
+            Navigation.NavigateTo("/DanhSachBacSi");
+        }
+    }
+}

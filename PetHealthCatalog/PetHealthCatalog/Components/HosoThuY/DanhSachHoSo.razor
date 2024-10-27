@@ -1,0 +1,59 @@
+﻿@page "/DanhSachHoSo"
+@inject PetHealthRepository Repository
+@rendermode InteractiveServer
+<PageTitle>Danh Sách Hồ Sơ</PageTitle>
+
+<div class="row justify-content-center">
+    <!-- Button to Add New Medicine -->
+    <div class="col-8 text-right mb-4">
+        <a href="/ThemThuoc" class="btn-add-medicine">
+            <span class="button__text">Thêm Hồ Sơ</span>
+            <span class="button__icon">
+                <i class="fa-solid fa-plus"></i>
+            </span>
+        </a>
+    </div>
+
+    <div class="col-8">
+        <!-- If no medicine data is available -->
+        @if (hosos is null)
+        {
+            <div class="thuoc-item">
+                Đang tải dữ liệu. Vui lòng đợi...
+            </div>
+        }
+        <!-- If there is medicine data -->
+        @if (hosos != null && hosos.Any())
+        {
+            @foreach (var hoso in hosos)
+            {
+                <div class="thuoc-item">
+                    <HoSoCard hoso="hoso"></HoSoCard>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Không có hồ sơ nào để hiển thị.</p>
+        }
+    </div>
+</div>
+
+@code {
+    private List<HoSoThuNuoi> hosos = new List<HoSoThuNuoi>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Fetch the list of medicines from the repository
+            hosos = await Repository.GetAllAsyncHoSo() ?? new List<HoSoThuNuoi>();
+        }
+        catch (Exception ex)
+        {
+            // Handle the exception and log if necessary
+            Console.WriteLine($"Error: {ex.Message}");
+            hosos = new List<HoSoThuNuoi>(); // Assign an empty list in case of an error
+        }
+    }
+}

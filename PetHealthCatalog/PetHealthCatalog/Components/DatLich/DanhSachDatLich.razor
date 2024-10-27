@@ -1,0 +1,59 @@
+﻿@page "/DanhSachDatLich"
+@inject PetHealthRepository Repository
+@rendermode InteractiveServer
+<PageTitle>Danh Sách Đặt Lịch</PageTitle>
+
+<div class="row justify-content-center">
+    <!-- Button to Add New Medicine -->
+    <div class="col-8 text-right mb-4">
+        <a href="/ThemBacSi" class="btn-add-medicine">
+            <span class="button__text">Thêm Đặt Lịch</span>
+            <span class="button__icon">
+                <i class="fa-solid fa-plus"></i>
+            </span>
+        </a>
+    </div>
+
+    <div class="col-8">
+        <!-- If no medicine data is available -->
+        @if (DatLichs is null)
+        {
+            <div class="bacsi-item">
+                Đang tải dữ liệu. Vui lòng đợi...
+            </div>
+        }
+        <!-- If there is medicine data -->
+        @if (DatLichs != null && DatLichs.Any())
+        {
+            @foreach (var datlich in DatLichs)
+            {
+                <div class="bacsi-item">
+                    <DatLichCard datlich="datlich"></DatLichCard>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Không có lịch hẹn nào để hiển thị.</p>
+        }
+    </div>
+</div>
+
+@code {
+    private List<DatLich> DatLichs = new List<DatLich>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            
+            DatLichs = await Repository.GetAllAsyncDatLich() ?? new List<DatLich>();
+        }
+        catch (Exception ex)
+        {
+            
+            Console.WriteLine($"Error: {ex.Message}");
+            DatLichs = new List<DatLich>();
+        }
+    }
+}

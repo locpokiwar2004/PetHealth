@@ -1,0 +1,102 @@
+﻿@page "/ChinhSuaThuoc/{id:int}"
+@inject PetHealthRepository Repository
+@inject NavigationManager Navigation
+<PageTitle>
+    Cập Nhật Thuốc
+</PageTitle>
+
+@if (Thuoc is not null)
+{
+    <div class="row justify-content-center">
+        <div class="col-7">
+            <EditForm Enhance="true" method="post" FormName="CapNhatThuoc" OnValidSubmit="CapNhatThuoc" Model="Thuoc" autocomplete="off" class="form">
+                <h3 style="text-align:center">
+                    Cập Nhật Thuốc
+                </h3>
+                <input type="hidden" name="thuoc.MaSoThuoc" value="@Thuoc.MaSoThuoc" />
+
+                <div class="input-box">
+                    <label>Tên thuốc</label>
+                    <InputText id="TenThuoc" @bind-Value="Thuoc.TenThuoc" type="text" required />
+                </div>
+
+                <div class="column">
+                    <!-- Chỗ Nhập Tên Nhà Sản Xuất -->
+                    <div class="input-box">
+                        <label>Tên sản xuất</label>
+                        <InputText id="TenNSX" @bind-Value="Thuoc.TenNSX" type="text" required />
+                    </div>
+
+                    <!-- Chỗ Nhập Loại Thuốc -->
+                    <div class="input-box">
+                        <label>Loại thuốc</label>
+                        <InputText id="LoaiThuoc" @bind-Value="Thuoc.LoaiThuoc" type="text" required />
+                    </div>
+                </div>
+
+                <div class="column">
+                    <!-- Chỗ Nhập Ngày Sản Xuất -->
+                    <div class="input-box">
+                        <label>Ngày sản xuất</label>
+                        <InputDate id="NgaySanXuat" @bind-Value="Thuoc.NgaySanXuat" required />
+                    </div>
+
+                    <!-- Chỗ Nhập Hạn Sử Dụng -->
+                    <div class="input-box">
+                        <label>Hạn sử dụng</label>
+                        <InputDate id="HanSuDung" @bind-Value="Thuoc.HanSuDung" required />
+                    </div>
+                </div>
+
+                <div class="column">
+                    <!-- Chỗ Nhập Số Lượng Thuốc -->
+                    <div class="input-box">
+                        <label>Số lượng</label>
+                        <InputNumber id="SoLuongThuoc" @bind-Value="Thuoc.SoLuongThuoc" type="number" required />
+                    </div>
+
+                    <!-- Chỗ Nhập Giá Bán -->
+                    <div class="input-box">
+                        <label>Giá bán</label>
+                        <InputNumber id="GiaBan" @bind-Value="Thuoc.GiaBan" type="number" required />
+                    </div>
+                </div>
+
+                <!-- Chỗ Nhấn Nút Đồng Ý Sau Khi Thêm Thuốc -->
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary shadow-none submit">
+                        Hoàn Thành
+                    </button>
+                    <a href="/DanhSachThuoc" class="btn btn-secondary shadow-none return ms-3">
+                        Quay Lại Danh Sách
+                    </a>
+                </div>
+
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+            </EditForm>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    public Thuoc? Thuoc { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Thuoc ??= await Repository.GetByIdAsyncThuoc(Id);
+    }
+
+    private async Task CapNhatThuoc()
+    {
+        if (Thuoc is not null)
+        {
+            await Repository.UpdateAsyncThuoc(Thuoc);
+            Navigation.NavigateTo("/DanhSachThuoc");
+        }
+    }
+}

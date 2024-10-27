@@ -1,0 +1,75 @@
+﻿@page "/ThemThuoc"
+@inject PetHealthRepository Repository
+@inject NavigationManager Navigation
+
+<PageTitle> Thêm Thuốc</PageTitle>
+<h3 style="text-align:center">THÊM THUỐC</h3>
+<EditForm Enhance="true" method="post" FormName="ThemThuoc" OnValidSubmit="AddMedicine" Model="Thuoc" autocomplete="off" class="form">
+    <!-- Chỗ Nhập Tên Thuốc -->
+    <div class="input-box">
+        <label>Tên thuốc</label>
+        <InputText id="TenThuoc" @bind-Value="Thuoc.TenThuoc" type="text" required />
+    </div>
+
+    <div class="column">
+        <!-- Chỗ Nhập Tên Nhà Sản Xuất -->
+        <div class="input-box">
+            <label>Tên sản xuất</label>
+            <InputText id="TenNSX" @bind-Value="Thuoc.TenNSX" type="text" required />
+        </div>
+
+        <!-- Chỗ Nhập Loại Thuốc -->
+        <div class="input-box">
+            <label>Loại thuốc</label>
+            <InputText id="LoaiThuoc" @bind-Value="Thuoc.LoaiThuoc" type="text" required />
+        </div>
+    </div>
+
+    <div class="column">
+        <!-- Chỗ Nhập Ngày Sản Xuất -->
+        <div class="input-box">
+            <label>Ngày sản xuất</label>
+            <InputDate id="NgaySanXuat" @bind-Value="Thuoc.NgaySanXuat" required />
+        </div>
+
+        <!-- Chỗ Nhập Hạn Sử Dụng -->
+        <div class="input-box">
+            <label>Hạn sử dụng</label>
+            <InputDate id="HanSuDung" @bind-Value="Thuoc.HanSuDung" required />
+        </div>
+    </div>
+
+    <div class="column">
+        <!-- Chỗ Nhập Số Lượng Thuốc -->
+        <div class="input-box">
+            <label>Số lượng</label>
+            <InputNumber id="SoLuongThuoc" @bind-Value="Thuoc.SoLuongThuoc" type="number" required />
+        </div>
+
+        <!-- Chỗ Nhập Giá Bán -->
+        <div class="input-box">
+            <label>Giá bán</label>
+            <InputNumber id="GiaBan" @bind-Value="Thuoc.GiaBan" type="number" required />
+        </div>
+    </div>
+
+    <!-- Chỗ Nhấn Nút Đồng Ý Sau Khi Thêm Thuốc -->
+    <button class="submit" style="float:right">Hoàn Thành</button>
+
+    <button class="return" style="float:left">
+        <NavLink href="/DanhSachThuoc" style="text-decoration:none;color:white">Quay lại</NavLink>
+    </button>
+
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+</EditForm>
+
+@code {
+    [SupplyParameterFromForm]
+    public Thuoc Thuoc { get; set; } = new();
+    private async Task AddMedicine()
+    {
+        await Repository.AddAsyncThuoc(Thuoc);
+        Navigation.NavigateTo("");
+    }
+}
