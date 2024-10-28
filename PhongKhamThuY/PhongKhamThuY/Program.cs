@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using PetHealthCatalog.Application.interfaces;
+using PetHealthCatalog.Infrastucture.Context;
+using PetHealthCatalog.Infrastucture.Repositories;
 using PhongKhamThuY.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,7 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
-
+builder.Services.AddDbContextFactory<PetHealthDBContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("PetHealthCatalog"));
+});
+builder.Services.AddScoped<PetHealthRepository, ModelRepositories>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

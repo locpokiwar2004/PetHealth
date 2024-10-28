@@ -8,15 +8,14 @@
 
   <ItemGroup>
     <None Remove="Components\Layout\AdminLayout.razor.css" />
-    <None Remove="Components\Table\TbMedicine.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Components\Layout\AdminLayout.razor.css" />
-    <Content Include="Components\Table\TbMedicine.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.5" />
   </ItemGroup>
 
