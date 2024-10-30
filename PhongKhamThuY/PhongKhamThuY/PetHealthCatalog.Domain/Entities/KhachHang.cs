@@ -11,11 +11,9 @@ namespace PetHealthCatalog.Domain.Entities
         [Required(ErrorMessage = "Vui lòng nhập Họ và Tên!")]
         [StringLength(100)]
         public string? TenKhachHang { get; set; }
-
         [Required(ErrorMessage = "Vui lòng nhập Số điện thoại!")]
         [StringLength(10)]
         public string? SoDienThoai { get; set; }
-
         [Required(ErrorMessage = "Vui lòng nhập Email!")]
         [StringLength(200)]
         public string? Email { get; set; }
@@ -23,7 +21,6 @@ namespace PetHealthCatalog.Domain.Entities
         [Required(ErrorMessage = "Vui lòng nhập Địa chỉ!")]
         [StringLength(100)]
         public string? DiaChi { get; set; }
-
         [Required(ErrorMessage = "Vui lòng nhập Tên thú cưng!")]
         [StringLength(100)]
         public string? TenThuCung { get; set; }

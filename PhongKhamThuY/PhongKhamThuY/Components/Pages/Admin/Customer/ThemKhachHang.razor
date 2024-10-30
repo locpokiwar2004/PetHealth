@@ -5,12 +5,12 @@
 <PageTitle> Thêm Khách Hàng</PageTitle>
 <h3 style="text-align:center">Thêm Khách Hàng</h3>
 <EditForm Enhance="true" method="post" FormName="ThemKhachHang" OnValidSubmit="AddKhachHang" Model="khachHang" autocomplete="off" class="form">
-    <div class="input-box">
-        <label>Tên Khách Hàng</label>
-        <InputText id="TenKhachHang" @bind-Value="khachHang.TenKhachHang" type="text" required />
-    </div>
+    <div class="input-container">
+        <div class="input-box">
+            <label>Họ và tên khách hàng</label>
+            <InputText id="TenKhachHang" @bind-Value="khachHang.TenKhachHang" type="text" required />
+        </div>
 
-    <div class="column">
         <div class="input-box">
             <label>Số Điện Thoại</label>
             <InputText id="SoDienThoai" @bind-Value="khachHang.SoDienThoai" type="text" required />
@@ -20,9 +20,7 @@
             <label>Email</label>
             <InputText id="Email" @bind-Value="khachHang.Email" type="text" required />
         </div>
-    </div>
 
-    <div class="column">
         <div class="input-box">
             <label>Địa Chỉ</label>
             <InputText id="DiaChi" @bind-Value="khachHang.DiaChi" type="text" required />
@@ -34,11 +32,12 @@
         </div>
     </div>
 
-    <button class="submit" style="float:right">Hoàn Thành</button>
-
-    <button class="return" style="float:left">
-        <NavLink href="/DanhSachKhachHang" style="text-decoration:none;color:white">Quay lại</NavLink>
-    </button>
+    <div class="button-container">
+        <button class="return">
+            <NavLink href="/DanhSachKhachHang" style="text-decoration:none;color:white">Quay lại</NavLink>
+        </button>
+        <button class="submit">Hoàn Thành</button>
+    </div>
 
     <DataAnnotationsValidator />
     <ValidationSummary />
@@ -51,6 +50,6 @@
     private async Task AddKhachHang()
     {
         await Repository.AddAsyncKhachHang(khachHang);
-        Navigation.NavigateTo("");
+        Navigation.NavigateTo("/DanhSachKhachHang");
     }
 }

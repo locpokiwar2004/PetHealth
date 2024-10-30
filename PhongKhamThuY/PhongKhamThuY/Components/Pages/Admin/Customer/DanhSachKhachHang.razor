@@ -4,14 +4,15 @@
 <PageTitle>Danh Sách Khách Hàng</PageTitle>
 
 <div class="row justify-content-center">
-    <!-- Button to Add New Medicine -->
     <div class="col-8 text-right mb-4">
-        <a href="/ThemKhachHang" class="btn-add-medicine">
-            <span class="button__text">Thêm Khách Hàng</span>
-            <span class="button__icon">
-                <i class="fa-solid fa-plus"></i>
-            </span>
-        </a>
+        <button>
+            <NavLink href="ThemKhachHang">
+                <span class="button__text">Thêm khách hàng</span>
+                <span class="button__icon">
+                    <i class="fa-solid fa-plus" style="color: #63E6BE;"></i>
+                </span>
+            </NavLink>
+        </button>
     </div>
 
     <div class="col-8">
@@ -24,7 +25,8 @@
         }
         <!-- If there is medicine data -->
         @if (KhachHangs != null && KhachHangs.Any())
-        {
+        {   
+
             @foreach (var khachHang in KhachHangs)
             {
                 <div class="thuoc-item">

@@ -11,7 +11,7 @@
 }
 
     .content-table thead tr {
-        background-color: #dd2cce;
+        background-color: #74C0FC;
         color: #ffffff;
         text-align: left;
         font-weight: bold;
@@ -31,10 +31,10 @@
         }
 
         .content-table tbody tr:last-of-type {
-            border-bottom: 2px solid #dd2cce;
+            border-bottom: 2px solid #74C0FC;
         }
 
         .content-table tbody tr.active-row {
             font-weight: bold;
-            color: #dd2cce;
+            color: #74C0FC;
         }
