@@ -1,20 +1,22 @@
 ﻿@page "/DanhSachKhachHang"
 @inject PetHealthRepository Repository
 @rendermode InteractiveServer
+
 <PageTitle>Danh Sách Khách Hàng</PageTitle>
 
-<div class="row justify-content-center">
+<div>
+    <h3 style="text-align:center">DANH SÁCH KHÁCH HÀNG</h3>
     <!-- Button to Add New Medicine -->
-    <div class="col-8 text-right mb-4">
+    <div>
         <a href="/ThemKhachHang" class="btn-add-medicine">
-            <span class="button__text">Thêm Khách Hàng</span>
+            <span class="button__text">Thêm thuốc</span>
             <span class="button__icon">
                 <i class="fa-solid fa-plus"></i>
             </span>
         </a>
     </div>
 
-    <div class="col-8">
+    <div>
         <!-- If no medicine data is available -->
         @if (KhachHangs is null)
         {
@@ -28,7 +30,7 @@
             @foreach (var khachHang in KhachHangs)
             {
                 <div class="thuoc-item">
-                    <KhachHangCard khachHang="khachHang"></KhachHangCard>
+                    <PhongKhamThuY.Components.Table.TbCustomer khachHang="khachHang" />
                 </div>
             }
         }
