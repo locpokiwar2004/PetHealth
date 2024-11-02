@@ -1,47 +1,55 @@
-﻿@page "/ThemKhachHang"
+﻿ @page "/ThemKhachHang"
 @inject PetHealthRepository Repository
 @inject NavigationManager Navigation
 
 <PageTitle> Thêm Khách Hàng</PageTitle>
+
 <h3 style="text-align:center">Thêm Khách Hàng</h3>
 <EditForm Enhance="true" method="post" FormName="ThemKhachHang" OnValidSubmit="AddKhachHang" Model="khachHang" autocomplete="off" class="form">
-    <div class="input-box">
-        <label>Tên Khách Hàng</label>
-        <InputText id="TenKhachHang" @bind-Value="khachHang.TenKhachHang" type="text" required />
+    <div class="form-group">
+        <label for="TenKhachHang">Tên Khách Hàng</label>
+        <InputText id="TenKhachHang" @bind-Value="khachHang.TenKhachHang" class="form-control" required />
     </div>
 
-    <div class="column">
-        <div class="input-box">
-            <label>Số Điện Thoại</label>
-            <InputText id="SoDienThoai" @bind-Value="khachHang.SoDienThoai" type="text" required />
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="SoDienThoai">Số Điện Thoại</label>
+                <InputText id="SoDienThoai" @bind-Value="khachHang.SoDienThoai" class="form-control" required />
+            </div>
         </div>
 
-        <div class="input-box">
-            <label>Email</label>
-            <InputText id="Email" @bind-Value="khachHang.Email" type="text" required />
-        </div>
-    </div>
-
-    <div class="column">
-        <div class="input-box">
-            <label>Địa Chỉ</label>
-            <InputText id="DiaChi" @bind-Value="khachHang.DiaChi" type="text" required />
-        </div>
-
-        <div class="input-box">
-            <label>Tên Thú Cưng</label>
-            <InputText id="TenThuCung" @bind-Value="khachHang.TenThuCung" type="text" required />
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <InputText id="Email" @bind-Value="khachHang.Email" class="form-control" required />
+            </div>
         </div>
     </div>
 
-    <button class="submit" style="float:right">Hoàn Thành</button>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="DiaChi">Địa Chỉ</label>
+                <InputText id="DiaChi" @bind-Value="khachHang.DiaChi" class="form-control" required />
+            </div>
+        </div>
 
-    <button class="return" style="float:left">
-        <NavLink href="/DanhSachKhachHang" style="text-decoration:none;color:white">Quay lại</NavLink>
-    </button>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="TenThuCung">Tên Thú Cưng</label>
+                <InputText id="TenThuCung" @bind-Value="khachHang.TenThuCung" class="form-control" required />
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between mt-3">
+        <a href="/DanhSachKhachHang" class="btn-return">Quay lại</a>
+        <button type="submit" class="btn-submit">Hoàn Thành</button>
+    </div>
 
     <DataAnnotationsValidator />
-    <ValidationSummary />
+    <ValidationSummary class="text-danger mt-3" />
 </EditForm>
 
 @code {
@@ -51,6 +59,8 @@
     private async Task AddKhachHang()
     {
         await Repository.AddAsyncKhachHang(khachHang);
-        Navigation.NavigateTo("");
+        Navigation.NavigateTo("/DanhSachKhachHang");
     }
 }
+
+
