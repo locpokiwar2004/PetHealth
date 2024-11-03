@@ -1,7 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\PetHealth\\PhongKhamThuY\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|d:\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|d:\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\layout\\adminlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\layout\\adminlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|d:\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\layout\\client.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\layout\\client.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|d:\\pethealth\\phongkhamthuy\\phongkhamthuy\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|d:\\pethealth\\phongkhamthuy\\phongkhamthuy\\pethealthcatalog.infrastucture\\migrations\\20241103171119_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\pethealthcatalog.infrastucture\\migrations\\20241103171119_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|d:\\pethealth\\phongkhamthuy\\phongkhamthuy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|d:\\pethealth\\phongkhamthuy\\phongkhamthuy\\obj\\debug\\net8.0\\phongkhamthuy.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513C8281-99C9-4DD2-9B6F-F241E98CCB9C}|PhongKhamThuY\\PhongKhamThuY.csproj|solutionrelative:phongkhamthuy\\obj\\debug\\net8.0\\phongkhamthuy.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminLayout.razor.css",
+              "DocumentMoniker": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\AdminLayout.razor.css",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Layout\\AdminLayout.razor.css",
+              "ToolTip": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\AdminLayout.razor.css",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Layout\\AdminLayout.razor.css",
+              "ViewState": "AQIAANIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-03T17:42:22.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T17:40:32.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminLayout.razor",
+              "DocumentMoniker": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\AdminLayout.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Layout\\AdminLayout.razor",
+              "ToolTip": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\AdminLayout.razor",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Layout\\AdminLayout.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAFwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T17:39:56.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client.razor",
+              "DocumentMoniker": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\Client.razor",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\Components\\Layout\\Client.razor",
+              "ToolTip": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\Components\\Layout\\Client.razor*",
+              "RelativeToolTip": "PhongKhamThuY\\Components\\Layout\\Client.razor*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T17:39:32.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\appsettings.json",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\appsettings.json",
+              "ToolTip": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\appsettings.json",
+              "RelativeToolTip": "PhongKhamThuY\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T17:11:47.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241103171119_Initial.cs",
+              "DocumentMoniker": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PetHealthCatalog.Infrastucture\\Migrations\\20241103171119_Initial.cs",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\PetHealthCatalog.Infrastucture\\Migrations\\20241103171119_Initial.cs",
+              "ToolTip": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PetHealthCatalog.Infrastucture\\Migrations\\20241103171119_Initial.cs",
+              "RelativeToolTip": "PhongKhamThuY\\PetHealthCatalog.Infrastucture\\Migrations\\20241103171119_Initial.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T17:11:20.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhongKhamThuY.AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\PhongKhamThuY.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "PhongKhamThuY\\obj\\Debug\\net8.0\\PhongKhamThuY.AssemblyInfo.cs",
+              "ToolTip": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\PhongKhamThuY.AssemblyInfo.cs",
+              "RelativeToolTip": "PhongKhamThuY\\obj\\Debug\\net8.0\\PhongKhamThuY.AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T17:07:30.778Z",
+              "EditorCaption": ""
             }
           ]
         }
