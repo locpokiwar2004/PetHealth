@@ -1,0 +1,85 @@
+/* Style for the add medicine button */
+.btn-add-medicine[b-5ry1blbjau] {
+    display: inline-flex;
+    align-items: center;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-add-medicine:hover[b-5ry1blbjau] {
+        background-color: #218838;
+        color: white;
+    }
+
+    .btn-add-medicine .button__icon[b-5ry1blbjau] {
+        margin-left: 8px;
+    }
+
+        .btn-add-medicine .button__icon i[b-5ry1blbjau] {
+            font-size: 18px;
+        }
+
+/* General styling for the medicine item */
+.thuoc-item[b-5ry1blbjau] {
+    margin-bottom: 20px;
+}
+
+/* Style for table inside the ThuocCard component */
+.content-table[b-5ry1blbjau] {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+    .content-table th[b-5ry1blbjau], .content-table td[b-5ry1blbjau] {
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .content-table th[b-5ry1blbjau] {
+        background-color: #f9f9f9;
+        font-weight: bold;
+    }
+
+    .content-table tr:hover[b-5ry1blbjau] {
+        background-color: #f1f1f1;
+    }
+
+.actions[b-5ry1blbjau] {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.btn-edit[b-5ry1blbjau] {
+    background-color: #ffcc00;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+    .btn-edit:hover[b-5ry1blbjau] {
+        background-color: #ffa500;
+    }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-table th[b-5ry1blbjau], .content-table td[b-5ry1blbjau] {
+        font-size: 14px;
+    }
+
+    .btn-add-medicine[b-5ry1blbjau] {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
