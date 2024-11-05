@@ -1,6 +1,7 @@
 ﻿@page "/ThemDatLich"
 @inject PetHealthRepository Repository
 @inject NavigationManager Navigation
+@inject IToastService ToastService
 
 <PageTitle>Thêm Đặt Lịch</PageTitle>
 <h3 style="text-align:center">THÊM ĐẶT LỊCH</h3>
@@ -45,6 +46,7 @@
     private async Task AddDatLich()
     {
         await Repository.AddAsyncDatLich(datlich);
+        ToastService.ShowSuccess("Có lịch đặt khám mới");
         Navigation.NavigateTo("/DanhSachDatLich"); // Điều hướng về trang phù hợp
     }
 }

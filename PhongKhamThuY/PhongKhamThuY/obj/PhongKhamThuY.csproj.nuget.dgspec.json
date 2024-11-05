@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj": {}
+    "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj": {}
   },
   "projects": {
-    "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj": {
+    "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
+        "projectUniqueName": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
         "projectName": "PhongKhamThuY",
-        "projectPath": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
-        "packagesPath": "C:\\Users\\kiman\\.nuget\\packages\\",
-        "outputPath": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\",
+        "projectPath": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
+        "packagesPath": "C:\\Users\\koran\\.nuget\\packages\\",
+        "outputPath": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\koran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Blazored.Toast": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -86,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

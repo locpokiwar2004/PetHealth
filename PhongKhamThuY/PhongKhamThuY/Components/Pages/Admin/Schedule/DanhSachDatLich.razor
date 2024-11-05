@@ -4,7 +4,7 @@
 <PageTitle>Danh Sách Đặt Lịch</PageTitle>
 
 <div class="row justify-content-center">
-    <!-- Button to Add New Medicine -->
+    <!-- Button to Add New Appointment -->
     <div class="col-8 text-right mb-4">
         <a href="/ThemDatLich" class="btn-add-medicine">
             <span class="button__text">Thêm Đặt Lịch</span>
@@ -15,20 +15,18 @@
     </div>
 
     <div class="col-8">
-        <!-- If no medicine data is available -->
         @if (DatLichs is null)
         {
             <div class="bacsi-item">
                 Đang tải dữ liệu. Vui lòng đợi...
             </div>
         }
-        <!-- If there is medicine data -->
         @if (DatLichs != null && DatLichs.Any())
         {
             @foreach (var datlich in DatLichs)
             {
                 <div class="bacsi-item">
-                    <DatLichCard datlich="datlich"></DatLichCard>
+                    <DatLichCard datlich="datlich" OnDatLich="ShowNotification"></DatLichCard>
                 </div>
             }
         }
@@ -39,21 +37,34 @@
     </div>
 </div>
 
+<Notification Message="@notificationMessage" Visible="@showNotification" OnClose="HideNotification" />
+
 @code {
     private List<DatLich> DatLichs = new List<DatLich>();
+    private bool showNotification = false;
+    private string notificationMessage;
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
-            
             DatLichs = await Repository.GetAllAsyncDatLich() ?? new List<DatLich>();
         }
         catch (Exception ex)
         {
-            
             Console.WriteLine($"Error: {ex.Message}");
             DatLichs = new List<DatLich>();
         }
+    }
+
+    private void ShowNotification(DatLich datlich)
+    {
+        notificationMessage = $"Đã đặt lịch cho mã hẹn: {datlich.MaHen}";
+        showNotification = true;
+    }
+
+    private void HideNotification()
+    {
+        showNotification = false;
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tVR6FiPOxJFIqXyI3eOL4l8bseVt+hCsslFXDYkGSZ8=",
+  "Hash": "gPFYelVqzN9IKgPpEEY8sJK12zXNc2F+9tKEZx47mXk=",
   "Source": "PhongKhamThuY",
   "BasePath": "_content/PhongKhamThuY",
   "Mode": "Default",
@@ -10,17 +10,36 @@
     {
       "Name": "PhongKhamThuY\\wwwroot",
       "Source": "PhongKhamThuY",
-      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css",
+      "Identity": "C:\\Users\\koran\\.nuget\\packages\\blazored.toast\\4.2.1\\staticwebassets\\Blazored.Toast.bundle.scp.css",
+      "SourceId": "Blazored.Toast",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\koran\\.nuget\\packages\\blazored.toast\\4.2.1\\staticwebassets\\",
+      "BasePath": "_content/Blazored.Toast",
+      "RelativePath": "Blazored.Toast.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\koran\\.nuget\\packages\\blazored.toast\\4.2.1\\staticwebassets\\Blazored.Toast.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Computed",
-      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "PhongKhamThuY.styles.css",
       "AssetKind": "All",
@@ -33,13 +52,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css"
+      "OriginalItemSpec": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css"
     },
     {
-      "Identity": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css",
+      "Identity": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Computed",
-      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "PhongKhamThuY.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +71,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css"
+      "OriginalItemSpec": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css"
     },
     {
-      "Identity": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
+      "Identity": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
+      "Identity": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

@@ -25,6 +25,9 @@
                     <button @onclick="OpenConfirmDialog" class="delete-button submit">
                         Xóa
                     </button>
+                    <button @onclick="DatLichButtonClicked" class="delete-button submit">
+                        Đặt Lịch
+                    </button>
                 </td>
             </tr>
         </tbody>
@@ -43,7 +46,15 @@
     private bool showConfirmDialog;
     [Parameter]
     public required PetHealthCatalog.Domain.Entities.DatLich datlich { get; set; }
-
+    [Parameter]
+    public EventCallback<DatLich> OnDatLich { get; set; }
+    private async Task DatLichButtonClicked()
+    {
+        if (OnDatLich.HasDelegate)
+        {
+            await OnDatLich.InvokeAsync(datlich);
+        }
+    }
     private void OpenConfirmDialog()
     {
         showConfirmDialog = true;

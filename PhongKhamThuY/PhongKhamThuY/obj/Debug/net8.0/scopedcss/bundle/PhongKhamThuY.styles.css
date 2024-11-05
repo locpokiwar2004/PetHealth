@@ -1,3 +1,5 @@
+@import '_content/Blazored.Toast/Blazored.Toast.bundle.scp.css';
+
 /* _content/PhongKhamThuY/Components/DeleteConfirmDialog.razor.rz.scp.css */
 .confirm-dialog-container[b-bag8tcrcex] {
     position: fixed; /* Use fixed to cover the viewport correctly */
@@ -2762,6 +2764,26 @@ button[b-pg0nfmgptg] {
     flex-direction: row;
     justify-content: space-between;
 }
+/* _content/PhongKhamThuY/Components/Pages/Admin/Schedule/Notification.razor.rz.scp.css */
+.notification[b-j78y758c7f] {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+    .notification .close-button[b-j78y758c7f] {
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 1.2em;
+        margin-left: 8px;
+        cursor: pointer;
+    }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Schedule/ThemDatLich.razor.rz.scp.css */
 /* Container for the input fields */
 .form .input-box[b-pxlomm2vtu] {
