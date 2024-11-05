@@ -5,41 +5,41 @@
 <PageTitle> Thêm Bác Sĩ</PageTitle>
 <h3 style="text-align:center">THÊM BÁC SĨ</h3>
 <EditForm Enhance="true" method="post" FormName="ThemBacSi" OnValidSubmit="AddBacSi" Model="bacSi" autocomplete="off" class="form">
-    
-    <div class="input-box">
+
+    <div class="form-group">
         <label>Tên Bác sĩ </label>
-        <InputText id="TenBacSi" @bind-Value="bacSi.TenBacSi" type="text" required />
+        <InputText id="TenBacSi" @bind-Value="bacSi.TenBacSi" type="text" class="form-control" required />
     </div>
 
-    <div class="column">
-        
-        <div class="input-box">
-            <label>Số Điện Thoại</label>
-            <InputText id="SoDienThoai" @bind-Value="bacSi.SoDienThoai" type="text" required />
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Số Điện Thoại</label>
+                <InputText id="SoDienThoai" @bind-Value="bacSi.SoDienThoai" type="text" class="form-control" required />
+            </div>
         </div>
 
-        
-        <div class="input-box">
-            <label>Email</label>
-            <InputText id="Email" @bind-Value="bacSi.Email" type="text" required />
+
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Email</label>
+                <InputText id="Email" @bind-Value="bacSi.Email" type="text" class="form-control" required />
+            </div>
         </div>
     </div>
 
-    <div class="column">
-     
-        <div class="input-box">
-            <label>Địa Chỉ</label>
-            <InputText id="DiaChi" @bind-Value="bacSi.DiaChi" required />
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Địa Chỉ</label>
+                <InputText id="DiaChi" @bind-Value="bacSi.DiaChi" class="form-control" required />
+            </div>
         </div>
-
     </div>
-
-
-    <button class="submit" style="float:right">Hoàn Thành</button>
-
-    <button class="return" style="float:left">
-        <NavLink href="/DanhSachBacSi" style="text-decoration:none;color:white">Quay lại</NavLink>
-    </button>
+    <div class="d-flex justify-content-between mt-3">
+        <a href="/DanhSachBacSi" class="btn-return">Quay lại</a>
+        <button type="submit" class="btn-submit">Hoàn Thành</button>
+    </div>
 
     <DataAnnotationsValidator />
     <ValidationSummary />
@@ -51,6 +51,6 @@
     private async Task AddBacSi()
     {
         await Repository.AddAsyncBacSi(bacSi);
-        Navigation.NavigateTo("");
+        Navigation.NavigateTo("DanhSachBacSi");
     }
 }

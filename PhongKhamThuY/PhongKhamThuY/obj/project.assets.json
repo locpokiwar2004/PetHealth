@@ -7708,24 +7708,37 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\THANG\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "C:\\Users\\kiman\\.nuget\\packages\\": {}
+>>>>>>> c72e47598b48408fe8ae701f8e2b5a29cd14de01
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
       "projectName": "PhongKhamThuY",
       "projectPath": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
       "packagesPath": "C:\\Users\\THANG\\.nuget\\packages\\",
       "outputPath": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\",
+=======
+      "projectUniqueName": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
+      "projectName": "PhongKhamThuY",
+      "projectPath": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
+      "packagesPath": "C:\\Users\\kiman\\.nuget\\packages\\",
+      "outputPath": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\",
+>>>>>>> c72e47598b48408fe8ae701f8e2b5a29cd14de01
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\THANG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+        "C:\\Users\\kiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> c72e47598b48408fe8ae701f8e2b5a29cd14de01
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7797,7 +7810,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+>>>>>>> c72e47598b48408fe8ae701f8e2b5a29cd14de01
       }
     }
   }

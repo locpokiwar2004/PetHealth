@@ -1,6 +1,7 @@
 {
   "Files": [
     {
+<<<<<<< HEAD
       "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css",
       "PackagePath": "staticwebassets\\PhongKhamThuY.bundle.scp.css"
     },
@@ -18,6 +19,25 @@
     },
     {
       "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
+=======
+      "Id": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PhongKhamThuY.bundle.scp.css"
+    },
+    {
+      "Id": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
+>>>>>>> c72e47598b48408fe8ae701f8e2b5a29cd14de01
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

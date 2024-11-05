@@ -1,5 +1,70 @@
-/* Style for the add medicine button */
+.content-table[b-gz24xk59fo] {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+}
+
+    .content-table thead tr[b-gz24xk59fo] {
+        background-color: #FFD43B;
+        color: #ffffff;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .content-table th[b-gz24xk59fo],
+    .content-table td[b-gz24xk59fo] {
+        padding: 12px 15px;
+    }
+
+    .content-table tbody tr[b-gz24xk59fo] {
+        border-bottom: 1px solid #dddddd;
+    }
+
+        .content-table tbody tr:nth-of-type(even)[b-gz24xk59fo] {
+            background-color: #f3f3f3;
+        }
+
+        .content-table tbody tr:last-of-type[b-gz24xk59fo] {
+            border-bottom: 2px solid #FFD43B;
+        }
+
+        .content-table tbody tr.active-row[b-gz24xk59fo] {
+            font-weight: bold;
+            color: #FFD43B;
+        }
+
+
+
+
+.delete-button[b-gz24xk59fo] {
+    font-size: 12px;
+    border: none;
+    outline: none;
+    padding: 6px 16px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+.btn-edit[b-gz24xk59fo] {
+    font-size: 12px;
+    border: none;
+    outline: none;
+    padding: 6px 16px;
+    border-radius: 10px;
+    background-color: #F09319;
+    color: white
+}
+
+
+
 .btn-add-medicine[b-gz24xk59fo] {
+    float: right;
     display: inline-flex;
     align-items: center;
     background-color: #28a745;
@@ -24,62 +89,3 @@
         .btn-add-medicine .button__icon i[b-gz24xk59fo] {
             font-size: 18px;
         }
-
-/* General styling for the medicine item */
-.thuoc-item[b-gz24xk59fo] {
-    margin-bottom: 20px;
-}
-
-/* Style for table inside the ThuocCard component */
-.content-table[b-gz24xk59fo] {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 16px;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-    .content-table th[b-gz24xk59fo], .content-table td[b-gz24xk59fo] {
-        padding: 12px;
-        border-bottom: 1px solid #ddd;
-    }
-
-    .content-table th[b-gz24xk59fo] {
-        background-color: #f9f9f9;
-        font-weight: bold;
-    }
-
-    .content-table tr:hover[b-gz24xk59fo] {
-        background-color: #f1f1f1;
-    }
-
-.actions[b-gz24xk59fo] {
-    text-align: right;
-    margin-top: 10px;
-}
-
-.btn-edit[b-gz24xk59fo] {
-    background-color: #ffcc00;
-    color: white;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    text-decoration: none;
-}
-
-    .btn-edit:hover[b-gz24xk59fo] {
-        background-color: #ffa500;
-    }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .content-table th[b-gz24xk59fo], .content-table td[b-gz24xk59fo] {
-        font-size: 14px;
-    }
-
-    .btn-add-medicine[b-gz24xk59fo] {
-        font-size: 14px;
-        padding: 8px 16px;
-    }
-}

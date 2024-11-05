@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "dc9Xtk7YdvyZRQsu929leUdm654FphlcsD/dWs4LTi4=",
+=======
+  "Hash": "tVR6FiPOxJFIqXyI3eOL4l8bseVt+hCsslFXDYkGSZ8=",
+>>>>>>> c72e47598b48408fe8ae701f8e2b5a29cd14de01
   "Source": "PhongKhamThuY",
   "BasePath": "_content/PhongKhamThuY",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "PhongKhamThuY\\wwwroot",
       "Source": "PhongKhamThuY",
+<<<<<<< HEAD
       "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+=======
+      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+>>>>>>> c72e47598b48408fe8ae701f8e2b5a29cd14de01
       "BasePath": "_content/PhongKhamThuY",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Computed",
       "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css",
+      "SourceId": "PhongKhamThuY",
+      "SourceType": "Computed",
+      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> c72e47598b48408fe8ae701f8e2b5a29cd14de01
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "PhongKhamThuY.styles.css",
       "AssetKind": "All",
@@ -33,6 +48,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css"
     },
     {
@@ -40,6 +56,15 @@
       "SourceId": "PhongKhamThuY",
       "SourceType": "Computed",
       "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+=======
+      "OriginalItemSpec": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css"
+    },
+    {
+      "Identity": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css",
+      "SourceId": "PhongKhamThuY",
+      "SourceType": "Computed",
+      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+>>>>>>> c72e47598b48408fe8ae701f8e2b5a29cd14de01
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "PhongKhamThuY.bundle.scp.css",
       "AssetKind": "All",
@@ -52,6 +77,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css"
     },
     {
@@ -59,6 +85,15 @@
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+=======
+      "OriginalItemSpec": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css"
+    },
+    {
+      "Identity": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
+      "SourceId": "PhongKhamThuY",
+      "SourceType": "Discovered",
+      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+>>>>>>> c72e47598b48408fe8ae701f8e2b5a29cd14de01
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +109,17 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+=======
+      "Identity": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "PhongKhamThuY",
+      "SourceType": "Discovered",
+      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+>>>>>>> c72e47598b48408fe8ae701f8e2b5a29cd14de01
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +135,17 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+=======
+      "Identity": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "PhongKhamThuY",
+      "SourceType": "Discovered",
+      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+>>>>>>> c72e47598b48408fe8ae701f8e2b5a29cd14de01
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +161,17 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+=======
+      "Identity": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
+      "SourceId": "PhongKhamThuY",
+      "SourceType": "Discovered",
+      "ContentRoot": "S:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+>>>>>>> c72e47598b48408fe8ae701f8e2b5a29cd14de01
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

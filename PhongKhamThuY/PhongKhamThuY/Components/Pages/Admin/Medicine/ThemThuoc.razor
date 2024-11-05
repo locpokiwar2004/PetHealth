@@ -5,60 +5,63 @@
 <PageTitle> Thêm Thuốc</PageTitle>
 <h3 style="text-align:center">THÊM THUỐC</h3>
 <EditForm Enhance="true" method="post" FormName="ThemThuoc" OnValidSubmit="AddMedicine" Model="Thuoc" autocomplete="off" class="form">
-    <!-- Chỗ Nhập Tên Thuốc -->
-    <div class="input-box">
+    <div class="form-group">
         <label>Tên thuốc</label>
-        <InputText id="TenThuoc" @bind-Value="Thuoc.TenThuoc" type="text" required />
+        <InputText id="TenThuoc" @bind-Value="Thuoc.TenThuoc" type="text" class="form-control" required />
     </div>
 
-    <div class="column">
-        <!-- Chỗ Nhập Tên Nhà Sản Xuất -->
-        <div class="input-box">
-            <label>Tên sản xuất</label>
-            <InputText id="TenNSX" @bind-Value="Thuoc.TenNSX" type="text" required />
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Tên sản xuất</label>
+                <InputText id="TenNSX" @bind-Value="Thuoc.TenNSX" type="text" class="form-control" required />
+            </div>
         </div>
 
-        <!-- Chỗ Nhập Loại Thuốc -->
-        <div class="input-box">
-            <label>Loại thuốc</label>
-            <InputText id="LoaiThuoc" @bind-Value="Thuoc.LoaiThuoc" type="text" required />
-        </div>
-    </div>
-
-    <div class="column">
-        <!-- Chỗ Nhập Ngày Sản Xuất -->
-        <div class="input-box">
-            <label>Ngày sản xuất</label>
-            <InputDate id="NgaySanXuat" @bind-Value="Thuoc.NgaySanXuat" required />
-        </div>
-
-        <!-- Chỗ Nhập Hạn Sử Dụng -->
-        <div class="input-box">
-            <label>Hạn sử dụng</label>
-            <InputDate id="HanSuDung" @bind-Value="Thuoc.HanSuDung" required />
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Loại thuốc</label>
+                <InputText id="LoaiThuoc" @bind-Value="Thuoc.LoaiThuoc" type="text" class="form-control" required />
+            </div>
         </div>
     </div>
 
-    <div class="column">
-        <!-- Chỗ Nhập Số Lượng Thuốc -->
-        <div class="input-box">
-            <label>Số lượng</label>
-            <InputNumber id="SoLuongThuoc" @bind-Value="Thuoc.SoLuongThuoc" type="number" required />
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Ngày sản xuất</label>
+                <InputDate id="NgaySanXuat" @bind-Value="Thuoc.NgaySanXuat" class="form-control" required />
+            </div>
         </div>
 
-        <!-- Chỗ Nhập Giá Bán -->
-        <div class="input-box">
-            <label>Giá bán</label>
-            <InputNumber id="GiaBan" @bind-Value="Thuoc.GiaBan" type="number" required />
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Hạn sử dụng</label>
+                <InputDate id="HanSuDung" @bind-Value="Thuoc.HanSuDung" class="form-control" required />
+            </div>
         </div>
     </div>
 
-    <!-- Chỗ Nhấn Nút Đồng Ý Sau Khi Thêm Thuốc -->
-    <button class="submit" style="float:right">Hoàn Thành</button>
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Số lượng</label>
+                <InputNumber id="SoLuongThuoc" @bind-Value="Thuoc.SoLuongThuoc" type="number" class="form-control" required />
+            </div>
+        </div>
 
-    <button class="return" style="float:left">
-        <NavLink href="/DanhSachThuoc" style="text-decoration:none;color:white">Quay lại</NavLink>
-    </button>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Giá bán</label>
+                <InputNumber id="GiaBan" @bind-Value="Thuoc.GiaBan" type="number" class="form-control" required />
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between mt-3">
+        <a href="/DanhSachThuoc" class="btn-return">Quay lại</a>
+        <button type="submit" class="btn-submit">Hoàn Thành</button>
+    </div>
 
     <DataAnnotationsValidator />
     <ValidationSummary />
@@ -70,6 +73,6 @@
     private async Task AddMedicine()
     {
         await Repository.AddAsyncThuoc(Thuoc);
-        Navigation.NavigateTo("");
+        Navigation.NavigateTo("DanhSachThuoc");
     }
 }
