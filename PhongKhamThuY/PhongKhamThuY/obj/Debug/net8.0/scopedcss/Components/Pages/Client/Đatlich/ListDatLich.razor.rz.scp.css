@@ -1,0 +1,158 @@
+.booking-form-container[b-szy2vpdy9l] {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .booking-form-container h2[b-szy2vpdy9l] {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+    }
+
+.form-group[b-szy2vpdy9l] {
+    margin-bottom: 15px;
+}
+
+    .form-group label[b-szy2vpdy9l] {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .form-group input[b-szy2vpdy9l],
+    .form-group select[b-szy2vpdy9l],
+    .form-group textarea[b-szy2vpdy9l] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .form-group textarea[b-szy2vpdy9l] {
+        height: 100px;
+    }
+
+button[type="submit"][b-szy2vpdy9l] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button[type="submit"]:hover[b-szy2vpdy9l] {
+        background-color: #45a049;
+    }
+.navbar-nav .nav-link[b-szy2vpdy9l] {
+    color: white;
+    font-weight: bold;
+}
+
+    .navbar-nav .nav-link:hover[b-szy2vpdy9l] {
+        color: yellow;
+    }
+
+.container-fluid[b-szy2vpdy9l] {
+    background-color: #003300;
+    max-width: auto;
+}
+
+.navbar-nav[b-szy2vpdy9l] {
+    -ms-scrollbar-base-color: forestgreen;
+    margin-left: 8%;
+    color: aqua;
+}
+
+    .navbar-nav .nav-item[b-szy2vpdy9l] {
+        margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+    }
+
+    .navbar-nav .nav-link[b-szy2vpdy9l] {
+        text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+        padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    .navbar-nav .nav-item[b-szy2vpdy9l] {
+        margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+    }
+
+        /* Loại bỏ margin cho nav item cuối cùng */
+        .navbar-nav .nav-item:last-child[b-szy2vpdy9l] {
+            margin-right: 0%;
+        }
+
+
+
+.nav-item[b-szy2vpdy9l] {
+    color: black;
+}
+
+.dropdown-menu[b-szy2vpdy9l] {
+    background-color: #fff !important; /* Màu nền của dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-szy2vpdy9l] {
+        color: #000000 !important; /* Màu chữ của các mục */
+        padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+    }
+
+
+.dropdown-menu[b-szy2vpdy9l] {
+    background-color: red; /* Màu nền của dropdown */
+    border: none; /* Xóa viền */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+    margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+    border-radius: 0.5rem; /* Bo góc cho dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-szy2vpdy9l] {
+        color: #ffffff; /* Màu chữ của các mục */
+        padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+    }
+
+        .dropdown-menu .dropdown-item:hover[b-szy2vpdy9l],
+        .dropdown-menu .dropdown-item:focus[b-szy2vpdy9l] {
+            background-color: #009933; /* Màu nền khi hover */
+            color: #ffffff; /* Màu chữ khi hover */
+            text-decoration: none; /* Xóa gạch chân khi hover */
+        }
+
+.dropdown-toggle[b-szy2vpdy9l]::after {
+    margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+    color: #ffffff; /* Màu của mũi tên */
+}
+
+.dropdown-item.active[b-szy2vpdy9l] {
+    background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+    color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+}
+
+/* Tùy chọn thêm cho độ rộng dropdown */
+.dropdown-menu[b-szy2vpdy9l] {
+    min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+}
+
+    /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+    .dropdown-menu .dropdown-item[b-szy2vpdy9l] {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+    }
+
+        .dropdown-menu .dropdown-item:last-child[b-szy2vpdy9l] {
+            border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+        }
+
+body[b-szy2vpdy9l] {
+}

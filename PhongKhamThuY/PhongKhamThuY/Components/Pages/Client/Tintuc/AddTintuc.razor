@@ -1,0 +1,238 @@
+﻿@page "/addTintuc"
+<PageTitle>Trang Tin Tức</PageTitle>
+<nav class="navbar navbar-expand-sm bg-success navbar-dark ">
+    <div class="col-lg-6 col-md-6" bis_skin_checked="1">
+        <a href="mailto:petjoy.vn@gmail.com" class="text-white text-decoration-none fz13">
+            <span>pet.vn@gmail.com</span>
+        </a>
+    </div>
+    <div class="col-lg-6 col-md-6 text-end text-white fz13" bis_skin_checked="1">
+        <span>Giờ phục vụ: 08:00AM - 19:00PM (cấp cứu 24/24h)</span>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0" aria-label="Main-navigation">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/" title="Trang Chủ">Trang Chủ</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dịch Vụ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="/khamSucKhoeThu">Khám Sức Khỏe Thú Cưng</a></li>
+                        <li><a class="dropdown-item" href="#">Tiêm Chủng</a></li>
+                        <li><a class="dropdown-item" href="#">Xét Nghiệm</a></li>
+                        <li><a class="dropdown-item" href="#">Chăm Sóc Sau Phẫu Thuật</a></li>
+                        <li><a class="dropdown-item" href="#">Tư Vấn Dinh Dưỡng</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/addTintuc" title="Tin Tức">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ListGioiThiêu" title="Giới Thiệu">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listLienHe" title="Liên Hệ">Liên Hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listDatLich" title="Đặt Lịch">Đặt Lịch</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header-search">
+            <form id="search-form" action="/search" method="GET">
+                <input type="text" name="query" placeholder="Tìm Kiếm" />
+            </form>
+        </div>
+
+        @* <div class="header-book">
+        <i class="fa-solid fa-kit-medical"></i>
+        <p>Đặt Lịch Khám</p>
+        </div> *@
+    </div>
+</nav>
+    <div class="news-container">
+        <!-- Bài viết 1 -->
+        <div class="news-item">
+            <img src="/bootstrap/tin tức 1.jpg" alt="Hình ảnh bài viết 1">
+            <h3>Chăm sóc sức khỏe định kỳ cho thú cưng</h3>
+            <p>Để đảm bảo sức khỏe tốt nhất cho chó mèo, việc chăm sóc sức khỏe định kỳ là điều cần thiết. Các chủ nuôi nên đưa thú cưng đến bệnh viện thú y để kiểm tra sức khỏe và tiêm phòng đầy đủ.</p>
+            <a href="#">Đọc thêm</a>
+        </div>
+
+        <!-- Bài viết 2 -->
+        <div class="news-item">
+            <img src="/bootstrap/tin tức 2.jpg" alt="Hình ảnh bài viết 2">
+            <h3>Chế độ dinh dưỡng cho chó mèo</h3>
+            <p>Chế độ dinh dưỡng hợp lý là một phần quan trọng trong việc chăm sóc chó mèo. Chủ nuôi nên tham khảo ý kiến bác sĩ thú y để lựa chọn loại thức ăn phù hợp và bổ sung dinh dưỡng cần thiết cho thú cưng.</p>
+            <a href="#">Đọc thêm</a>
+        </div>
+
+        <!-- Bài viết 3 -->
+        <div class="news-item">
+            <img src="/bootstrap/tin tức 3.jpg" alt="Hình ảnh bài viết 3">
+            <h3>Chăm sóc thú cưng sau khi phẫu thuật</h3>
+            <p>Sau khi phẫu thuật, chó mèo cần được chăm sóc đặc biệt để phục hồi sức khỏe. Các chủ nuôi nên tuân thủ hướng dẫn của bác sĩ thú y và theo dõi tình trạng sức khỏe của thú cưng để phát hiện sớm bất kỳ vấn đề nào.</p>
+            <a href="#">Đọc thêm</a>
+        </div>
+
+        <!-- Bài viết 4 -->
+        <div class="news-item">
+            <img src="/bootstrap/tin tuc 3.1.jpg" alt="Hình ảnh bài viết 4">
+            <h3>Nhận biết dấu hiệu bệnh ở chó mèo</h3>
+            <p>Các chủ nuôi cần chú ý đến các dấu hiệu bất thường như thay đổi hành vi, ăn uống kém hoặc có triệu chứng nôn mửa. Việc phát hiện sớm có thể giúp điều trị hiệu quả hơn.</p>
+            <a href="#">Đọc thêm</a>
+        </div>
+
+        <!-- Bài viết 5 -->
+        <div class="news-item">
+            <img src="/bootstrap/tin tuc 4.jpg" alt="Hình ảnh bài viết 5">
+            <h3>Giải pháp cho thú cưng bị béo phì</h3>
+            <p>Béo phì ở chó mèo có thể gây ra nhiều vấn đề sức khỏe nghiêm trọng. Chủ nuôi nên tư vấn với bác sĩ thú y để có kế hoạch dinh dưỡng và tập luyện hợp lý cho thú cưng.</p>
+            <a href="#">Đọc thêm</a>
+        </div>
+
+        <!-- Bài viết 6 -->
+        <div class="news-item">
+            <img src="/bootstrap/tin tuc 5.jpg" alt="Hình ảnh bài viết 6">
+            <h3>Chăm sóc sức khỏe răng miệng cho chó mèo</h3>
+            <p>Răng miệng là một phần quan trọng trong sức khỏe của chó mèo. Việc vệ sinh răng miệng định kỳ có thể giúp ngăn ngừa các bệnh về nướu và răng. Các sản phẩm chuyên dụng và chế độ ăn uống phù hợp sẽ hỗ trợ cho sức khỏe răng miệng của thú cưng.</p>
+            <a href="#">Đọc thêm</a>
+        </div>
+
+        <!-- Nút chuyển trang -->
+        <nav aria-label="Page navigation example" class="mt-4">
+            <ul class="pagination justify-content-center">
+                <li class="active page-item">
+                    <span class="active page-link">01</span>
+                </li>
+                <li class="page-item">
+                    <a rel="nofollow" class="page-link" href="/tintuc?page=2">02</a>
+                </li>
+                <li class="page-item">
+                    <a rel="nofollow" class="page-link" href="/tintuc?page=2" title="next">Next</a>
+                </li>
+                <li class="next page-item">
+                    <a rel="nofollow" class="page-link" href="/tintuc?page=2">Last</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <style>
+    .navbar-nav .nav-link {
+        color: white;
+        font-weight: bold;
+    }
+
+        .navbar-nav .nav-link:hover {
+            color: yellow;
+        }
+
+    .container-fluid {
+        background-color: #003300;
+        max-width: auto;
+    }
+
+    .navbar-nav {
+        -ms-scrollbar-base-color: forestgreen;
+        margin-left: 8%;
+        color: aqua;
+    }
+
+        .navbar-nav .nav-item {
+            margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+        }
+
+        .navbar-nav .nav-link {
+            text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+            padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+            font-size: 15px;
+            margin: 0 10px;
+        }
+
+        .navbar-nav .nav-item {
+            margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+        }
+
+            /* Loại bỏ margin cho nav item cuối cùng */
+            .navbar-nav .nav-item:last-child {
+                margin-right: 0%;
+            }
+
+
+
+    .nav-item {
+        color: black;
+    }
+
+    .dropdown-menu {
+        background-color: #fff !important; /* Màu nền của dropdown */
+    }
+
+        .dropdown-menu .dropdown-item {
+            color: #000000 !important; /* Màu chữ của các mục */
+            padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+        }
+
+
+    .dropdown-menu {
+        background-color: red; /* Màu nền của dropdown */
+        border: none; /* Xóa viền */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+        margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+        border-radius: 0.5rem; /* Bo góc cho dropdown */
+    }
+
+        .dropdown-menu .dropdown-item {
+            color: #ffffff; /* Màu chữ của các mục */
+            padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+        }
+
+            .dropdown-menu .dropdown-item:hover,
+            .dropdown-menu .dropdown-item:focus {
+                background-color: #009933; /* Màu nền khi hover */
+                color: #ffffff; /* Màu chữ khi hover */
+                text-decoration: none; /* Xóa gạch chân khi hover */
+            }
+
+    .dropdown-toggle::after {
+        margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+        color: #ffffff; /* Màu của mũi tên */
+    }
+
+    .dropdown-item.active {
+        background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+        color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+    }
+
+    /* Tùy chọn thêm cho độ rộng dropdown */
+    .dropdown-menu {
+        min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+    }
+
+        /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+        .dropdown-menu .dropdown-item {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+        }
+
+            .dropdown-menu .dropdown-item:last-child {
+                border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+            }
+    </style>
+
+@code {
+   
+
+}

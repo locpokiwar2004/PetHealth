@@ -42,6 +42,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxTY2hlZHVsZVxMaXN0U2NoZWR1bGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Client/DichVu1/AddDichVu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbGllbnRcRGljaFZ1MVxBZGREaWNoVnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Client/DichVu/ChamSocSauPhauThuat.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbGllbnRcRGljaFZ1XENoYW1Tb2NTYXVQaGF1VGh1YXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Client/DichVu/KhamSucKhoeThu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbGllbnRcRGljaFZ1XEtoYW1TdWNLaG9lVGh1LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Client/DichVu/TiemChung.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbGllbnRcRGljaFZ1XFRpZW1DaHVuZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Client/DichVu/TuVanDinhDuong.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbGllbnRcRGljaFZ1XFR1VmFuRGluaER1b25nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Client/DichVu/XetNghiem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbGllbnRcRGljaFZ1XFhldE5naGllbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -73,6 +97,10 @@ build_metadata.AdditionalFiles.CssScope = b-bag8tcrcex
 [D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Layout/AdminLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQWRtaW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-auocuyiq1m
+
+[D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Layout/ClientLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQ2xpZW50TGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-gzd3q0s5w1
 
 [D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
@@ -197,3 +225,19 @@ build_metadata.AdditionalFiles.CssScope = b-iydhx79yah
 [D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Schedule/ThemDatLich.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxTY2hlZHVsZVxUaGVtRGF0TGljaC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-pxlomm2vtu
+
+[D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Client/Gioithieu/ListGioiThiêu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbGllbnRcR2lvaXRoaWV1XExpc3RHaW9pVGhpw6p1LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-xm4tdkuzug
+
+[D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Client/LienHe/ListLienHe.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbGllbnRcTGllbkhlXExpc3RMaWVuSGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-cx869ej3bd
+
+[D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Client/Tintuc/AddTintuc.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbGllbnRcVGludHVjXEFkZFRpbnR1Yy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-jynmndy831
+
+[D:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Client/Đatlich/ListDatLich.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbGllbnRcxJBhdGxpY2hcTGlzdERhdExpY2gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-szy2vpdy9l

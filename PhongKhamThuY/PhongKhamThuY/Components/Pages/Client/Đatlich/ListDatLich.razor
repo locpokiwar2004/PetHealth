@@ -1,0 +1,118 @@
+﻿@page "/listDatLich"
+<PageTitle>Trang Đặt Lịch</PageTitle>
+<nav class="navbar navbar-expand-sm bg-success navbar-dark ">
+    <div class="col-lg-6 col-md-6" bis_skin_checked="1">
+        <a href="mailto:petjoy.vn@gmail.com" class="text-white text-decoration-none fz13">
+            <span>pet.vn@gmail.com</span>
+        </a>
+    </div>
+    <div class="col-lg-6 col-md-6 text-end text-white fz13" bis_skin_checked="1">
+        <span>Giờ phục vụ: 08:00AM - 19:00PM (cấp cứu 24/24h)</span>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0" aria-label="Main-navigation">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/" title="Trang Chủ">Trang Chủ</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dịch Vụ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="/khamSucKhoeThu">Khám Sức Khỏe Thú Cưng</a></li>
+                        <li><a class="dropdown-item" href="#">Tiêm Chủng</a></li>
+                        <li><a class="dropdown-item" href="#">Xét Nghiệm</a></li>
+                        <li><a class="dropdown-item" href="#">Chăm Sóc Sau Phẫu Thuật</a></li>
+                        <li><a class="dropdown-item" href="#">Tư Vấn Dinh Dưỡng</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/addTintuc" title="Tin Tức">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ListGioiThiêu" title="Giới Thiệu">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listLienHe" title="Liên Hệ">Liên Hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listDatLich" title="Đặt Lịch">Đặt Lịch</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header-search">
+            <form id="search-form" action="/search" method="GET">
+                <input type="text" name="query" placeholder="Tìm Kiếm" />
+            </form>
+        </div>
+
+        @* <div class="header-book">
+        <i class="fa-solid fa-kit-medical"></i>
+        <p>Đặt Lịch Khám</p>
+        </div> *@
+    </div>
+</nav>
+<div class="title-all-site text-center mb-3 position-relative">
+    <h2 class="text-uppercase text-green">
+        Đặt Lịch Khám Sức Khỏe Dịch Vụ Chăm Sóc Thú Y
+    </h2>
+</div>
+<div class="booking-form-container">
+    <h2>Đặt lịch khám thú y</h2>
+    <form id="booking-form">
+        <div class="form-group">
+            <label for="pet-name">Tên thú cưng</label>
+            <input type="text" id="pet-name" name="pet-name" placeholder="Nhập tên thú cưng của bạn" required>
+        </div>
+
+        <div class="form-group">
+            <label for="owner-name">Tên chủ nuôi</label>
+            <input type="text" id="owner-name" name="owner-name" placeholder="Nhập tên chủ nuôi" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Số điện thoại</label>
+            <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại liên hệ" required>
+        </div>
+
+        <div class="form-group">
+            <label for="date">Ngày hẹn khám</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+
+        <div class="form-group">
+            <label for="time">Giờ hẹn khám</label>
+            <input type="time" id="time" name="time" required>
+        </div>
+
+        <div class="form-group">
+            <label for="service">Dịch vụ</label>
+            <select id="service" name="service" required>
+                <option value="general">Khám tổng quát</option>
+                <option value="surgery">Phẫu thuật</option>
+                <option value="vaccination">Tiêm phòng</option>
+                <option value="dental">Chăm sóc răng miệng</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="notes">Ghi chú</label>
+            <textarea id="notes" name="notes" placeholder="Ghi chú thêm về tình trạng của thú cưng (nếu có)"></textarea>
+        </div>
+
+        <button type="submit">Đặt lịch</button>
+    </form>
+</div>
+
+
+@code {
+
+}
