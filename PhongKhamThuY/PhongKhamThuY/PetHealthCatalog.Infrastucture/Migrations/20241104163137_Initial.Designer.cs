@@ -12,7 +12,7 @@ using PetHealthCatalog.Infrastucture.Context;
 namespace PetHealthCatalog.Infrastucture.Migrations
 {
     [DbContext(typeof(PetHealthDBContext))]
-    [Migration("20241102085555_Initial")]
+    [Migration("20241104163137_Initial")]
     partial class Initial
     {
         /// <inheritdoc />

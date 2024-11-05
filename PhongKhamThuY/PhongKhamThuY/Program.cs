@@ -1,3 +1,4 @@
+using Blazored.Toast;
 using Microsoft.EntityFrameworkCore;
 using PetHealthCatalog.Application.interfaces;
 using PetHealthCatalog.Infrastucture.Context;
@@ -14,6 +15,7 @@ builder.Services.AddDbContextFactory<PetHealthDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("PetHealthCatalog"));
 });
 builder.Services.AddScoped<PetHealthRepository, ModelRepositories>();
+builder.Services.AddBlazoredToast();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
