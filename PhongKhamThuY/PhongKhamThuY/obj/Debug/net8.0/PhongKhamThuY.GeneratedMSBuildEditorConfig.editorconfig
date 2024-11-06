@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[S:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Doctor/Danhsachthunuoi.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEb2N0b3JcRGFuaHNhY2h0aHVudW9pLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [S:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,6 +74,10 @@ build_metadata.AdditionalFiles.CssScope = b-bag8tcrcex
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQWRtaW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-auocuyiq1m
 
+[S:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Layout/DoctorLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcRG9jdG9yTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-awdwl010z1
+
 [S:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-wivubu8tw9
@@ -77,10 +85,6 @@ build_metadata.AdditionalFiles.CssScope = b-wivubu8tw9
 [S:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-wfno97g20y
-
-[S:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Layout/TbMedicine.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcVGJNZWRpY2luZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-aht2nsmvdr
 
 [S:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Branch/AddBranch.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxCcmFuY2hcQWRkQnJhbmNoLnJhem9y
@@ -193,3 +197,15 @@ build_metadata.AdditionalFiles.CssScope = b-iydhx79yah
 [S:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Admin/Schedule/ThemDatLich.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxTY2hlZHVsZVxUaGVtRGF0TGljaC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-pxlomm2vtu
+
+[S:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Doctor/Danhsachlichhen.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEb2N0b3JcRGFuaHNhY2hsaWNoaGVuLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-f8a2zljh6m
+
+[S:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Doctor/HoSoKhamBenh.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEb2N0b3JcSG9Tb0toYW1CZW5oLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-glb9bn2uks
+
+[S:/PetHealth/PhongKhamThuY/PhongKhamThuY/Components/Pages/Doctor/Kedonthuoc.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEb2N0b3JcS2Vkb250aHVvYy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-tgup5b32ck

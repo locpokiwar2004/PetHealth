@@ -1,0 +1,32 @@
+﻿@page "/Danhsachthunuoi"
+<h3>Danhsachthunuoi</h3>
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Tên khách hàng</th>
+            <th>Email</th>
+            <th>Tên thú cưng</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>nguyen an</td>
+            <td>11:15</td>
+            <td>da xac nhan</td>
+            <td>da xac nhan</td>
+            @*                <td>
+            <a href="@($"/ChinhSuaThuoc/{thuoc.MaSoThuoc}")" class="btn-edit return">
+            <i class="fa-solid fa-pen-to-square"></i>
+            </a>
+            <button @onclick="() => OpenConfirmDialog(thuoc.MaSoThuoc)" class="delete-button submit">
+            <i class="fa-solid fa-trash"></i>
+            </button>
+            </td> *@
+        </tr>
+    </tbody>
+</table>
+@code {
+
+}

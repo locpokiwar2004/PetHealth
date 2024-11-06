@@ -1,15 +1,10 @@
-main[b-wivubu8tw9]{
-    padding: 15px
-}
-
-
-nav[b-wivubu8tw9] {
+nav[b-awdwl010z1] {
     background: #0082e6;
     height: 80px;
     width: 100%;
 }
 
-label.logo[b-wivubu8tw9] {
+label.logo[b-awdwl010z1] {
     color: white;
     font-size: 25px;
     line-height: 80px;
@@ -17,33 +12,32 @@ label.logo[b-wivubu8tw9] {
     font-weight: bold;
 }
 
-nav ul[b-wivubu8tw9] {
+nav ul[b-awdwl010z1] {
     float: right;
     margin-right: 20px;
 }
 
-    nav ul li[b-wivubu8tw9] {
+    nav ul li[b-awdwl010z1] {
         display: inline-block;
         line-height: 80px;
         margin: 0 5px;
     }
 
-        nav ul li a[b-wivubu8tw9] {
+        nav ul li a[b-awdwl010z1] {
             color: white;
             font-size: 17px;
             padding: 7px 13px;
             border-radius: 3px;
             text-transform: uppercase;
-            text-decoration:none;
         }
 
-a.active[b-wivubu8tw9],
-a:hover[b-wivubu8tw9] {
+a.active[b-awdwl010z1],
+a:hover[b-awdwl010z1] {
     background: #1b9bff;
     transition: .5s;
 }
 
-.checkbtn[b-wivubu8tw9] {
+.checkbtn[b-awdwl010z1] {
     font-size: 22px;
     color: white;
     float: right;
@@ -53,30 +47,30 @@ a:hover[b-wivubu8tw9] {
     display: none;
 }
 
-#check[b-wivubu8tw9] {
+#check[b-awdwl010z1] {
     display: none;
 }
 
 @media (max-width: 1050px) {
-    label.logo[b-wivubu8tw9] {
+    label.logo[b-awdwl010z1] {
         padding-left: 30px;
     }
 
-    nav ul li a[b-wivubu8tw9] {
+    nav ul li a[b-awdwl010z1] {
         font-size: 16px;
     }
 }
 /* Responsive media query code for small screen */
 @media (max-width: 890px) {
-    .checkbtn[b-wivubu8tw9] {
+    .checkbtn[b-awdwl010z1] {
         display: block;
     }
 
-    label.logo[b-wivubu8tw9] {
+    label.logo[b-awdwl010z1] {
         font-size: 22px;
     }
 
-    ul[b-wivubu8tw9] {
+    ul[b-awdwl010z1] {
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -87,28 +81,28 @@ a:hover[b-wivubu8tw9] {
         transition: all .5s;
     }
 
-    nav ul li[b-wivubu8tw9] {
+    nav ul li[b-awdwl010z1] {
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
 
-        nav ul li a[b-wivubu8tw9] {
+        nav ul li a[b-awdwl010z1] {
             font-size: 20px;
         }
 
-    a:hover[b-wivubu8tw9],
-    a.active[b-wivubu8tw9] {
+    a:hover[b-awdwl010z1],
+    a.active[b-awdwl010z1] {
         background: none;
         color: #0082e6;
     }
 
-    #check:checked ~ ul[b-wivubu8tw9] {
+    #check:checked ~ ul[b-awdwl010z1] {
         left: 0;
     }
 }
 
-section[b-wivubu8tw9] {
+section[b-awdwl010z1] {
     background: url("bg.jpg") no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);

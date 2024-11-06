@@ -261,7 +261,6 @@ S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets.pack.j
 S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\DeleteConfirmDialog.razor.rz.scp.css
 S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
-S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\TbMedicine.razor.rz.scp.css
 S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Branch\AddBranch.razor.rz.scp.css
 S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Branch\ListBranch.razor.rz.scp.css
 S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\ChinhSuaKhachHang.razor.rz.scp.css
@@ -299,3 +298,7 @@ S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\refint\PhongKhamThuY.d
 S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.pdb
 S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.genruntimeconfig.cache
 S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\ref\PhongKhamThuY.dll
+S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\DoctorLayout.razor.rz.scp.css
+S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Doctor\Danhsachlichhen.razor.rz.scp.css
+S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Doctor\Kedonthuoc.razor.rz.scp.css
+S:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Doctor\HoSoKhamBenh.razor.rz.scp.css
