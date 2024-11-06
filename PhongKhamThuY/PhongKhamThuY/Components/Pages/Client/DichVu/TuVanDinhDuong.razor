@@ -1,0 +1,108 @@
+﻿@page "/tuVanDinhDuong"
+<PageTitle>Trang Tư Vấn Dinh Dưỡng</PageTitle>
+@* <h3>TuVanDinhDuong</h3> *@
+<nav class="navbar navbar-expand-sm bg-success navbar-dark ">
+    <div class="col-lg-6 col-md-6" bis_skin_checked="1">
+        <a href="mailto:petjoy.vn@gmail.com" class="text-white text-decoration-none fz13">
+            <span>pet.vn@gmail.com</span>
+        </a>
+    </div>
+    <div class="col-lg-6 col-md-6 text-end text-white fz13" bis_skin_checked="1">
+        <span>Giờ phục vụ: 08:00AM - 19:00PM (cấp cứu 24/24h)</span>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0" aria-label="Main-navigation">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/" title="Trang Chủ">Trang Chủ</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dịch Vụ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="/khamSucKhoeThu">Khám Sức Khỏe Thú Cưng</a></li>
+                        <li><a class="dropdown-item" href="#">Tiêm Chủng</a></li>
+                        <li><a class="dropdown-item" href="#">Xét Nghiệm</a></li>
+                        <li><a class="dropdown-item" href="#">Chăm Sóc Sau Phẫu Thuật</a></li>
+                        <li><a class="dropdown-item" href="#">Tư Vấn Dinh Dưỡng</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/addTintuc" title="Tin Tức">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ListGioiThiêu" title="Giới Thiệu">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listLienHe" title="Liên Hệ">Liên Hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listDatLich" title="Đặt Lịch">Đặt Lịch</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header-search">
+            <form id="search-form" action="/search" method="GET">
+                <input type="text" name="query" placeholder="Tìm Kiếm" />
+            </form>
+        </div>
+
+        @* <div class="header-book">
+        <i class="fa-solid fa-kit-medical"></i>
+        <p>Đặt Lịch Khám</p>
+        </div> *@
+    </div>
+</nav>
+<div class="news-container">
+    <!-- Bài viết 1 -->
+    <div class="news-item">
+        <img src="/bootstrap/tuvandinhduong1.jpg" alt="Hình ảnh bài viết 1">
+        <h3>Chế độ ăn uống phù hợp cho chó mèo</h3>
+        <p>Chế độ dinh dưỡng phù hợp giúp thú cưng phát triển khỏe mạnh. Chủ nuôi cần cung cấp đầy đủ các chất dinh dưỡng từ protein, chất béo, vitamin, khoáng chất và nước cho thú nuôi của mình.</p>
+        <a href="#">Đọc thêm</a>
+    </div>
+
+    <!-- Bài viết 2 -->
+    <div class="news-item">
+        <img src="/bootstrap/tuvandinhduong2.jpg" alt="Hình ảnh bài viết 2">
+        <h3>Lựa chọn thức ăn phù hợp cho từng loại thú cưng</h3>
+        <p>Không phải tất cả các loài thú cưng đều có yêu cầu dinh dưỡng giống nhau. Chế độ ăn cho chó, mèo và các loại thú nuôi khác cần được điều chỉnh sao cho phù hợp với độ tuổi, kích thước và tình trạng sức khỏe của chúng.</p>
+        <a href="#">Đọc thêm</a>
+    </div>
+
+    <!-- Bài viết 3 -->
+    <div class="news-item">
+        <img src="/bootstrap/tuvandinhduong3.jpg" alt="Hình ảnh bài viết 3">
+        <h3>Vai trò của nước trong chế độ dinh dưỡng thú cưng</h3>
+        <p>Nước là yếu tố không thể thiếu trong chế độ ăn uống của thú nuôi. Cung cấp đủ nước sẽ giúp duy trì sức khỏe và hỗ trợ quá trình tiêu hóa, trao đổi chất trong cơ thể thú cưng.</p>
+        <a href="#">Đọc thêm</a>
+    </div>
+
+    <!-- Bài viết 4 -->
+    <div class="news-item">
+        <img src="/bootstrap/tuvandinhduong4.jpg" alt="Hình ảnh bài viết 4">
+        <h3>Chế độ dinh dưỡng cho thú nuôi già và có vấn đề sức khỏe</h3>
+        <p>Thú nuôi già hoặc có các vấn đề về sức khỏe cần một chế độ dinh dưỡng đặc biệt. Việc lựa chọn thức ăn dễ tiêu hóa và hỗ trợ các vấn đề sức khỏe là rất quan trọng đối với các thú cưng này.</p>
+        <a href="#">Đọc thêm</a>
+    </div>
+
+    <!-- Bài viết 5 -->
+    <div class="news-item">
+        <img src="/bootstrap/tuvandinhduong5.jpg" alt="Hình ảnh bài viết 5">
+        <h3>Thực phẩm nên tránh cho thú nuôi</h3>
+        <p>Không phải tất cả thực phẩm đều an toàn cho thú nuôi. Chủ nuôi cần tránh các loại thực phẩm như chocolate, hành, tỏi, và một số loại hạt có thể gây hại cho sức khỏe của thú cưng.</p>
+        <a href="#">Đọc thêm</a>
+    </div>
+</div>
+
+@code {
+
+}

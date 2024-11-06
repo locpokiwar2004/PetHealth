@@ -1,0 +1,95 @@
+.news-section[b-jynmndy831] {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+    .news-section h2[b-jynmndy831] {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+.news-container[b-jynmndy831] {
+    display: flex;
+    flex-wrap: wrap; /* Đảm bảo phần tử có thể xuống dòng nếu không đủ chỗ */
+    justify-content: space-between;
+}
+
+.news-item[b-jynmndy831] {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 20px; /* Khoảng cách giữa các bài viết */
+}
+
+    .news-item img[b-jynmndy831] {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .news-item h3[b-jynmndy831] {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .news-item p[b-jynmndy831] {
+        font-size: 0.9em;
+        margin-bottom: 15px;
+        color: #555;
+    }
+
+    .news-item a[b-jynmndy831] {
+        text-decoration: none;
+        color: #4CAF50;
+        font-weight: bold;
+    }
+
+    .news-item:hover[b-jynmndy831] {
+        transform: translateY(-5px);
+    }
+
+
+.pagination[b-jynmndy831] {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .pagination .page-item[b-jynmndy831] {
+        margin: 0 5px; /* Khoảng cách giữa các mục phân trang */
+    }
+
+    .pagination .page-link[b-jynmndy831] {
+        display: block;
+        padding: 10px 15px;
+        color: #339900; /* Màu chữ cho liên kết */
+        text-decoration: none;
+        border: 1px solid #339900; /* Viền cho liên kết */
+        border-radius: 4px; /* Bo tròn góc */
+        transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển màu */
+    }
+
+        .pagination .page-link:hover[b-jynmndy831] {
+            background-color: #339900; /* Màu nền khi hover */
+            color: white; /* Màu chữ khi hover */
+        }
+
+    .pagination .active .page-link[b-jynmndy831] {
+        background-color: #339900; /* Màu nền cho mục đang hoạt động */
+        color: white; /* Màu chữ cho mục đang hoạt động */
+        border: 1px solid #339900; /* Viền cho mục đang hoạt động */
+    }
+
+    .pagination .page-item:last-child .page-link[b-jynmndy831] {
+        margin-right: 0; /* Xóa khoảng cách bên phải cho phần tử cuối cùng */
+    }
+
+
+body[b-jynmndy831] {
+}

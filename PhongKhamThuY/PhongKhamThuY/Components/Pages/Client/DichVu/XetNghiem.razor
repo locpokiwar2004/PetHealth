@@ -1,0 +1,106 @@
+﻿@page "/xetNghiem"
+<PageTitle>Trang Xét Nghiệm</PageTitle>
+@* <h3>XetNghiem</h3> *@
+<nav class="navbar navbar-expand-sm bg-success navbar-dark ">
+    <div class="col-lg-6 col-md-6" bis_skin_checked="1">
+        <a href="mailto:petjoy.vn@gmail.com" class="text-white text-decoration-none fz13">
+            <span>pet.vn@gmail.com</span>
+        </a>
+    </div>
+    <div class="col-lg-6 col-md-6 text-end text-white fz13" bis_skin_checked="1">
+        <span>Giờ phục vụ: 08:00AM - 19:00PM (cấp cứu 24/24h)</span>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0" aria-label="Main-navigation">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/" title="Trang Chủ">Trang Chủ</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dịch Vụ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="/khamSucKhoeThu">Khám Sức Khỏe Thú Cưng</a></li>
+                        <li><a class="dropdown-item" href="#">Tiêm Chủng</a></li>
+                        <li><a class="dropdown-item" href="#">Xét Nghiệm</a></li>
+                        <li><a class="dropdown-item" href="#">Chăm Sóc Sau Phẫu Thuật</a></li>
+                        <li><a class="dropdown-item" href="#">Tư Vấn Dinh Dưỡng</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/addTintuc" title="Tin Tức">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ListGioiThiêu" title="Giới Thiệu">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listLienHe" title="Liên Hệ">Liên Hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listDatLich" title="Đặt Lịch">Đặt Lịch</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header-search">
+            <form id="search-form" action="/search" method="GET">
+                <input type="text" name="query" placeholder="Tìm Kiếm" />
+            </form>
+        </div>
+
+        @* <div class="header-book">
+        <i class="fa-solid fa-kit-medical"></i>
+        <p>Đặt Lịch Khám</p>
+        </div> *@
+    </div>
+</nav>
+<div class="news-container">
+    <!-- Bài viết 1 -->
+    <div class="news-item">
+        <img src="/bootstrap/xetnghiem1.jpg" alt="Hình ảnh bài viết 1">
+        <h3>Ý nghĩa của việc xét nghiệm sức khỏe thú nuôi</h3>
+        <p>Xét nghiệm sức khỏe định kỳ giúp phát hiện sớm các bệnh lý ở thú nuôi, từ đó có phương pháp điều trị kịp thời. Việc này không chỉ đảm bảo sức khỏe cho thú cưng mà còn giúp giảm chi phí điều trị sau này.</p>
+        <a href="#">Đọc thêm</a>
+    </div>
+
+    <!-- Bài viết 2 -->
+    <div class="news-item">
+        <img src="/bootstrap/xetnghiem2.jpg" alt="Hình ảnh bài viết 2">
+        <h3>Những loại xét nghiệm cần thiết cho thú nuôi</h3>
+        <p>Các loại xét nghiệm thường gặp cho thú nuôi bao gồm xét nghiệm máu, xét nghiệm nước tiểu, và xét nghiệm phân. Mỗi loại xét nghiệm cung cấp thông tin quan trọng về tình trạng sức khỏe của thú cưng.</p>
+        <a href="#">Đọc thêm</a>
+    </div>
+
+    <!-- Bài viết 3 -->
+    <div class="news-item">
+        <img src="/bootstrap/xetnghiem3.jpg" alt="Hình ảnh bài viết 3">
+        <h3>Thời điểm lý tưởng để xét nghiệm thú nuôi</h3>
+        <p>Chủ nuôi nên đưa thú cưng đi xét nghiệm định kỳ ít nhất 1 lần mỗi năm. Ngoài ra, cần xem xét thời điểm xét nghiệm khi thú nuôi có dấu hiệu bất thường hoặc trước khi tiêm phòng.</p>
+        <a href="#">Đọc thêm</a>
+    </div>
+    <div class="news-item">
+        <img src="/bootstrap/xetnghiem4.jpg" alt="Hình ảnh bài viết 4">
+        <h3>Các dấu hiệu cho thấy thú nuôi cần xét nghiệm ngay</h3>
+        <p>Nếu thú nuôi có dấu hiệu như bỏ ăn, mệt mỏi, hoặc có biểu hiện bất thường, chủ nuôi nên nhanh chóng đưa chúng đi xét nghiệm để có hướng điều trị kịp thời.</p>
+        <a href="#">Đọc thêm</a>
+    </div>
+
+    <!-- Bài viết 5 -->
+    <div class="news-item">
+        <img src="/bootstrap/xetnghiem5.jpg" alt="Hình ảnh bài viết 5">
+        <h3>Chi phí và quy trình xét nghiệm thú nuôi</h3>
+        <p>Chi phí xét nghiệm thú nuôi có thể thay đổi tùy thuộc vào loại xét nghiệm và cơ sở thú y. Quy trình xét nghiệm thường nhanh chóng và không đau đớn cho thú cưng.</p>
+        <a href="#">Đọc thêm</a>
+    </div>
+</div>
+
+@code {
+
+}

@@ -1,0 +1,417 @@
+﻿@page "/listGioiThiêu"
+<PageTitle>Trang Giới Thiệu</PageTitle>
+<nav class="navbar navbar-expand-sm bg-success navbar-dark ">
+    <div class="col-lg-6 col-md-6" bis_skin_checked="1">
+        <a href="mailto:petjoy.vn@gmail.com" class="text-white text-decoration-none fz13">
+            <span>pet.vn@gmail.com</span>
+        </a>
+    </div>
+    <div class="col-lg-6 col-md-6 text-end text-white fz13" bis_skin_checked="1">
+        <span>Giờ phục vụ: 08:00AM - 19:00PM (cấp cứu 24/24h)</span>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0" aria-label="Main-navigation">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/" title="Trang Chủ">Trang Chủ</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dịch Vụ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="/khamSucKhoeThu">Khám Sức Khỏe Thú Cưng</a></li>
+                        <li><a class="dropdown-item" href="#">Tiêm Chủng</a></li>
+                        <li><a class="dropdown-item" href="#">Xét Nghiệm</a></li>
+                        <li><a class="dropdown-item" href="#">Chăm Sóc Sau Phẫu Thuật</a></li>
+                        <li><a class="dropdown-item" href="#">Tư Vấn Dinh Dưỡng</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/addTintuc" title="Tin Tức">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ListGioiThiêu" title="Giới Thiệu">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listLienHe" title="Liên Hệ">Liên Hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listDatLich" title="Đặt Lịch">Đặt Lịch</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header-search">
+            <form id="search-form" action="/search" method="GET">
+                <input type="text" name="query" placeholder="Tìm Kiếm" />
+            </form>
+        </div>
+
+        @* <div class="header-book">
+        <i class="fa-solid fa-kit-medical"></i>
+        <p>Đặt Lịch Khám</p>
+        </div> *@
+    </div>
+</nav>
+<div class="container-2">
+    <header class="header">
+        <h1>Bệnh viện Thú y Pet </h1>
+        <p>
+            Địa Chỉ Chăm Sóc Thú Cưng Tiêu Chuẩn Quốc Tế Tại TP.HCM
+            Địa Chỉ Chăm Sóc Thú Cưng Tiêu Chuẩn Quốc Tế Tại TP.HCM
+
+            Bệnh viện Thú Y Pet Joy, dưới sự lãnh đạo của bác sĩ Nguyễn Tiến Đạt, Giám đốc điều hành, tự hào là một trong những cơ sở y tế đạt tiêu chuẩn quốc tế tại Thành phố Hồ Chí Minh. Với bề dày kinh nghiệm và uy tín cao trong ngành, Pet Joy là sự lựa chọn hàng đầu cho sức khỏe và sự chăm sóc của thú cưng.
+
+            Chúng tôi luôn nỗ lực không ngừng để duy trì và nâng cao vị thế của mình bằng cách đầu tư vào cơ sở vật chất hiện đại. Bệnh viện được trang bị thiết bị y tế tiên tiến, nhập khẩu trực tiếp từ Châu Âu, đảm bảo mang đến dịch vụ chăm sóc chất lượng cao nhất. Hệ thống của chúng tôi bao gồm 4 cơ sở được phân bố rộng rãi khắp TP.HCM, cam kết mang đến sự chăm sóc tận tâm và chuyên nghiệp với đội ngũ bác sĩ và chuyên gia thú y dày dạn kinh nghiệm.
+
+            Với tiêu chuẩn dịch vụ quốc tế và cam kết chất lượng vượt trội, Bệnh viện Thú Y Pet Joy là điểm đến lý tưởng để đảm bảo sức khỏe và sự an toàn cho thú cưng của bạn.
+        </p>
+    </header>
+
+    <div class="content">
+        <section class="introduction">
+            <h2>Giới thiệu</h2>
+            <p>Bệnh viện thú y Pet đã được cấp phép và chứng nhận đạt chuẩn JCI về dịch vụ khám chữa bệnh, lưu chuồng chăm sóc, không gian phòng bệnh, thiết bị máy móc y khoa và dược thuốc điều trị bệnh.</p>
+        </section>
+
+        <section class="staff">
+            <h2>Trình độ bác sĩ</h2>
+            <p>Đội ngũ bác sĩ của chúng tôi đều có trình độ từ hệ Đại học và Thạc sĩ của các trường đại học hàng đầu Việt Nam, có nhiều năm kinh nghiệm trong khám chữa bệnh và phẫu thuật.</p>
+        </section>
+
+        <section class="environment">
+            <h2>Không gian phòng bệnh</h2>
+            <p>Phòng bệnh sạch sẽ, rộng và thoáng. Có máy lọc không khí giúp các bé luôn ở trong môi trường thoải mái. Các phòng điều trị tách biệt và được khử trùng đảm bảo an toàn.</p>
+        </section>
+
+        <section class="equipment">
+            <h2>Máy móc y khoa hiện đại</h2>
+            <p>Chúng tôi luôn cập nhật và trang bị những thiết bị máy móc hiện đại nhập từ Mỹ: máy X-quang, siêu âm, xét nghiệm sinh lý hóa, trợ thở, trợ tim, thiết bị hỗ trợ phẫu thuật… nhằm hỗ trợ điều trị tốt nhất cho các bé.</p>
+        </section>
+
+        <section class="services">
+            <h2>Dịch vụ & điều trị</h2>
+            <p>Bệnh viện thú y Pet  cung cấp các dịch vụ như khám chữa bệnh, phẫu thuật nội khoa ngoại khoa, lưu chuồng điều trị, spa chăm sóc, nha khoa, cấy chíp… chắc chắn sẽ làm hài lòng các bệnh nhân nhỏ và quý khách hàng.</p>
+        </section>
+
+        <section class="mission">
+            <h2>Sứ mệnh</h2>
+            <p>Tận tâm chăm sóc, cải thiện chất lượng cuộc sống cho thú cưng, xây dựng cộng đồng yêu thú cưng thông qua dịch vụ chăm sóc y tế vượt trội.</p>
+        </section>
+
+        <section class="vision">
+            <h2>Tầm nhìn</h2>
+            <p>Định hướng trở thành bệnh viện thú y đạt tiêu chuẩn quốc tế.</p>
+        </section>
+
+        <section class="core-values">
+            <h2>Giá trị cốt lõi</h2>
+            <p>Không ngừng nghiên cứu, nỗ lực đổi mới và phát triển, hướng đến chất lượng dịch vụ đẳng cấp cùng quy trình khám chữa bệnh tốt nhất.</p>
+        </section>
+
+        <section class="goals">
+            <h2>Mục tiêu</h2>
+            <p>Mục tiêu hàng đầu của Pet là trở thành bệnh viện thú y đạt tiêu chuẩn và an toàn về chất lượng lẫn phong cách phục vụ.</p>
+        </section>
+
+        <section class="location">
+            <h2>Vị trí thuận tiện</h2>
+            <p>Bệnh viện thú y Pet  có 4 chi nhánh tại Tân Bình, Bình Thạnh, Quận 5, và Quận 7, thuận tiện cho việc di chuyển của quý khách hàng.</p>
+            <ul>
+                <li>Cs1: 399 Hoàng Văn Thụ, P2, Q. Tân Bình (Cấp cứu 24/24)</li>
+                <li>Cs2: 46C Lê Hồng Phong, P2, Q5 (Cấp cứu 24/24)</li>
+                <li>Cs3: 113B Nguyễn Hữu Cảnh, P.22, Q. Bình Thạnh</li>
+                <li>Cs4: 105 Nguyễn Thị Thập, Khu đô thị Himlam, P Tân Hưng, Quận 7</li>
+            </ul>
+            <p>Tư vấn miễn phí: <strong>0979063460</strong></p>
+        </section>
+
+        <section class="services-list">
+            <h2>Các dịch vụ tại Bệnh viện Thú y Pet </h2>
+            <p>Chúng tôi luôn đặt niềm tin vào hai từ Y Đức, sẵn sàng túc trực 24/24 để hỗ trợ thú nhỏ của bạn.</p>
+            <ul>
+                <li>Khám điều trị bệnh</li>
+                <li>Phẫu thuật mổ đẻ</li>
+                <li>Phẫu thuật triệt sản</li>
+                <li>Phẫu thuật nối xương</li>
+                <li>Phẫu thuật u nang, viêm tử cung</li>
+                <li>Lưu chuồng tại bệnh viện</li>
+                <li>Khám điều trị tại nhà</li>
+                <li>Spa chăm sóc thú cưng</li>
+                <li>Nha khoa cho chó & mèo</li>
+                <li>Đưa đón tại nhà</li>
+                <li>Cấp cứu 24/24 tại chi nhánh Tân Bình và Quận 5</li>
+            </ul>
+        </section>
+    </div>
+
+    
+
+</div>
+ 
+@* <style>
+    .navbar-nav .nav-link {
+        color: white;
+        font-weight: bold;
+    }
+
+        .navbar-nav .nav-link:hover {
+            color: yellow;
+        }
+
+    .container-fluid {
+        background-color: #003300;
+        max-width: auto;
+    }
+
+    .navbar-nav {
+        -ms-scrollbar-base-color: forestgreen;
+        margin-left: 8%;
+        color: aqua;
+    }
+
+        .navbar-nav .nav-item {
+            margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+        }
+
+        .navbar-nav .nav-link {
+            text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+            padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+            font-size: 15px;
+            margin: 0 10px;
+        }
+
+        .navbar-nav .nav-item {
+            margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+        }
+
+            /* Loại bỏ margin cho nav item cuối cùng */
+            .navbar-nav .nav-item:last-child {
+                margin-right: 0%;
+            }
+
+
+
+    .nav-item {
+        color: black;
+    }
+
+    .dropdown-menu {
+        background-color: #fff !important; /* Màu nền của dropdown */
+    }
+
+        .dropdown-menu .dropdown-item {
+            color: #000000 !important; /* Màu chữ của các mục */
+            padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+        }
+
+
+    .dropdown-menu {
+        background-color: red; /* Màu nền của dropdown */
+        border: none; /* Xóa viền */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+        margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+        border-radius: 0.5rem; /* Bo góc cho dropdown */
+    }
+
+        .dropdown-menu .dropdown-item {
+            color: #ffffff; /* Màu chữ của các mục */
+            padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+        }
+
+            .dropdown-menu .dropdown-item:hover,
+            .dropdown-menu .dropdown-item:focus {
+                background-color: #009933; /* Màu nền khi hover */
+                color: #ffffff; /* Màu chữ khi hover */
+                text-decoration: none; /* Xóa gạch chân khi hover */
+            }
+
+    .dropdown-toggle::after {
+        margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+        color: #ffffff; /* Màu của mũi tên */
+    }
+
+    .dropdown-item.active {
+        background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+        color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+    }
+
+    /* Tùy chọn thêm cho độ rộng dropdown */
+    .dropdown-menu {
+        min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+    }
+
+        /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+        .dropdown-menu .dropdown-item {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+        }
+
+            .dropdown-menu .dropdown-item:last-child {
+                border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+            }
+</style> *@
+
+@code {
+
+}
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+        text-align: center;
+        padding: 20px;
+        background-color: #4CAF50;
+        color: white;
+    }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .header p {
+            font-size: 1.2em;
+        }
+
+    .content {
+        padding: 20px;
+    }
+
+    h2 {
+        color: #4CAF50;
+        margin-top: 20px;
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+        font-weight: bold;
+    }
+
+        .navbar-nav .nav-link:hover {
+            color: yellow;
+        }
+
+    .container-fluid {
+        background-color: #003300;
+        max-width: auto;
+    }
+
+    .navbar-nav {
+        -ms-scrollbar-base-color: forestgreen;
+        margin-left: 8%;
+        color: aqua;
+    }
+
+        .navbar-nav .nav-item {
+            margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+        }
+
+        .navbar-nav .nav-link {
+            text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+            padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+            font-size: 15px;
+            margin: 0 10px;
+        }
+
+        .navbar-nav .nav-item {
+            margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+        }
+
+            /* Loại bỏ margin cho nav item cuối cùng */
+            .navbar-nav .nav-item:last-child {
+                margin-right: 0%;
+            }
+
+
+
+    .nav-item {
+        color: black;
+    }
+
+    .dropdown-menu {
+        background-color: #fff !important; /* Màu nền của dropdown */
+    }
+
+        .dropdown-menu .dropdown-item {
+            color: #000000 !important; /* Màu chữ của các mục */
+            padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+        }
+
+
+    .dropdown-menu {
+        background-color: red; /* Màu nền của dropdown */
+        border: none; /* Xóa viền */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+        margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+        border-radius: 0.5rem; /* Bo góc cho dropdown */
+    }
+
+        .dropdown-menu .dropdown-item {
+            color: #ffffff; /* Màu chữ của các mục */
+            padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+        }
+
+            .dropdown-menu .dropdown-item:hover,
+            .dropdown-menu .dropdown-item:focus {
+                background-color: #009933; /* Màu nền khi hover */
+                color: #ffffff; /* Màu chữ khi hover */
+                text-decoration: none; /* Xóa gạch chân khi hover */
+            }
+
+    .dropdown-toggle::after {
+        margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+        color: #ffffff; /* Màu của mũi tên */
+    }
+
+    .dropdown-item.active {
+        background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+        color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+    }
+
+    /* Tùy chọn thêm cho độ rộng dropdown */
+    .dropdown-menu {
+        min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+    }
+
+        /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+        .dropdown-menu .dropdown-item {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+        }
+
+            .dropdown-menu .dropdown-item:last-child {
+                border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+            }
+
+    body {
+    }
+
+</style>

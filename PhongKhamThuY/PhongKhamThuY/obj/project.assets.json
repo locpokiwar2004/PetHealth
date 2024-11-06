@@ -7975,11 +7975,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
+      "projectUniqueName": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
       "projectName": "PhongKhamThuY",
-      "projectPath": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
+      "projectPath": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
       "packagesPath": "C:\\Users\\koran\\.nuget\\packages\\",
-      "outputPath": "D:\\its merge time\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\",
+      "outputPath": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\koran\\AppData\\Roaming\\NuGet\\NuGet.Config",

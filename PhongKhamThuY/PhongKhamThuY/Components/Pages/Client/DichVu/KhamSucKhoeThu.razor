@@ -1,0 +1,126 @@
+﻿@page "/khamSucKhoeThu"
+<PageTitle> Trang Khám Sức Khỏe Thú Cưng</PageTitle>
+@* <h3>KhamSucKhoeThu</h3> *@
+<nav class="navbar navbar-expand-sm bg-success navbar-dark ">
+    <div class="col-lg-6 col-md-6" bis_skin_checked="1">
+        <a href="mailto:petjoy.vn@gmail.com" class="text-white text-decoration-none fz13">
+            <span>pet.vn@gmail.com</span>
+        </a>
+    </div>
+    <div class="col-lg-6 col-md-6 text-end text-white fz13" bis_skin_checked="1">
+        <span>Giờ phục vụ: 08:00AM - 19:00PM (cấp cứu 24/24h)</span>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0" aria-label="Main-navigation">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/" title="Trang Chủ">Trang Chủ</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dịch Vụ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="/khamSucKhoeThu">Khám Sức Khỏe Thú Cưng</a></li>
+                        <li><a class="dropdown-item" href="#">Tiêm Chủng</a></li>
+                        <li><a class="dropdown-item" href="#">Xét Nghiệm</a></li>
+                        <li><a class="dropdown-item" href="#">Chăm Sóc Sau Phẫu Thuật</a></li>
+                        <li><a class="dropdown-item" href="#">Tư Vấn Dinh Dưỡng</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/addTintuc" title="Tin Tức">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ListGioiThiêu" title="Giới Thiệu">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listLienHe" title="Liên Hệ">Liên Hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listDatLich" title="Đặt Lịch">Đặt Lịch</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header-search">
+            <form id="search-form" action="/search" method="GET">
+                <input type="text" name="query" placeholder="Tìm Kiếm" />
+            </form>
+        </div>
+
+        @* <div class="header-book">
+        <i class="fa-solid fa-kit-medical"></i>
+        <p>Đặt Lịch Khám</p>
+        </div> *@
+    </div>
+</nav>
+<header>
+    <h1>Khám Sức Khỏe Thú Cưng</h1>
+    <p>Đảm bảo sức khỏe cho người bạn nhỏ của bạn.</p>
+</header>
+<main>
+    <!-- Lịch khám sức khỏe định kỳ -->
+    <section id="schedule">
+        <h2>Lịch khám sức khỏe định kỳ</h2>
+        <p>Đặt lịch khám sức khỏe cho thú cưng của bạn để phòng ngừa và phát hiện sớm bệnh tật.</p>
+        <a href="listDatLich" onclick="openBooking()" class="btn-dat-lich">Đặt lịch khám</a>
+    </section>
+
+    <!-- Các dịch vụ cung cấp -->
+    <section id="services">
+        <h2>Các dịch vụ cung cấp</h2>
+        <ul>
+            <li>Khám sức khỏe tổng quát</li>
+            <li>Xét nghiệm máu và nước tiểu</li>
+            <li>Kiểm tra răng miệng</li>
+            <li>Tiêm phòng và phòng ngừa ký sinh trùng</li>
+        </ul>
+    </section>
+</main>
+<style>
+    header {
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    main {
+        padding: 2em;
+    }
+
+    h1, h2 {
+        margin-top: 0;
+    }
+
+    #schedule, #services {
+        margin-bottom: 2em;
+        padding: 1em;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+        button:hover {
+            background-color: #45a049;
+        }
+</style>
+@code {
+
+}

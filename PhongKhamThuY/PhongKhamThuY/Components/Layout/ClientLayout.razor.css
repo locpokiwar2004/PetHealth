@@ -1,0 +1,619 @@
+﻿.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+    .navbar-nav .nav-link:hover {
+        color: yellow;
+    }
+
+.container-fluid {
+    background-color: #003300;
+    max-width: auto;
+}
+
+.navbar-nav {
+    -ms-scrollbar-base-color: forestgreen;
+    margin-left: 8%;
+    color: aqua;
+}
+
+    .navbar-nav .nav-item {
+        margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+    }
+
+    .navbar-nav .nav-link {
+        text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+        padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    .navbar-nav .nav-item {
+        margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+    }
+
+        /* Loại bỏ margin cho nav item cuối cùng */
+        .navbar-nav .nav-item:last-child {
+            margin-right: 0%;
+        }
+
+
+
+.nav-item {
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: #fff !important; /* Màu nền của dropdown */
+}
+
+    .dropdown-menu .dropdown-item {
+        color: #000000 !important; /* Màu chữ của các mục */
+        padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+    }
+
+
+.dropdown-menu {
+    background-color: red; /* Màu nền của dropdown */
+    border: none; /* Xóa viền */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+    margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+    border-radius: 0.5rem; /* Bo góc cho dropdown */
+}
+
+    .dropdown-menu .dropdown-item {
+        color: #ffffff; /* Màu chữ của các mục */
+        padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+    }
+
+        .dropdown-menu .dropdown-item:hover,
+        .dropdown-menu .dropdown-item:focus {
+            background-color: #009933; /* Màu nền khi hover */
+            color: #ffffff; /* Màu chữ khi hover */
+            text-decoration: none; /* Xóa gạch chân khi hover */
+        }
+
+.dropdown-toggle::after {
+    margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+    color: #ffffff; /* Màu của mũi tên */
+}
+
+.dropdown-item.active {
+    background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+    color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+}
+
+/* Tùy chọn thêm cho độ rộng dropdown */
+.dropdown-menu {
+    min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+}
+
+    /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+    .dropdown-menu .dropdown-item {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+    }
+
+        .dropdown-menu .dropdown-item:last-child {
+            border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+        }
+
+
+.header-book {
+    display: flex; /* Hiển thị theo hàng ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    background-color: #CC0000; /* Màu nền có thể tùy chỉnh */
+    padding: 10px; /* Khoảng đệm cho phần tử */
+    border-radius: 5px; /* Bo góc nếu cần */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+}
+
+    .header-book i {
+        font-size: 24px; /* Kích thước biểu tượng */
+        margin-right: 8px; /* Khoảng cách bên phải cho biểu tượng */
+        color: #FFFFFF; /* Màu của biểu tượng (có thể tùy chỉnh) */
+    }
+
+    .header-book p {
+        font-size: 18px; /* Kích thước chữ */
+        color: #FFFFFF; /* Màu chữ (có thể tùy chỉnh) */
+        margin: 0; /* Loại bỏ khoảng cách mặc định */
+    }
+
+
+    .header-book:hover {
+        background-color: #e0e0e0; /* Màu nền khi hover */
+        transform: scale(1.05); /* Phóng to nhẹ khi hover */
+    }
+
+        .header-book:hover i {
+            color: #CC3366; /* Màu biểu tượng khi hover */
+        }
+
+        .header-book:hover p {
+            color: #000; /* Màu chữ khi hover */
+        }
+
+.col-lg-5 {
+    flex: auto;
+    width: 41%;
+    margin-left: 43%;
+    margin-top: -27rem;
+}
+
+
+.button-container {
+    text-align: center; /* Canh giữa nút */
+    margin-top: 20px; /* Khoảng cách phía trên nút */
+}
+
+.btn-xem-tat-ca {
+    padding: 10px 20px; /* Khoảng cách bên trong nút */
+    background-color: #d50b08; /* Màu nền xanh */
+    color: #fff; /* Màu chữ trắng */
+    border: none; /* Không có đường viền */
+    border-radius: 5px; /* Bo tròn góc */
+    font-size: 16px; /* Kích thước chữ */
+    cursor: pointer; /* Hiệu ứng con trỏ */
+    transition: background-color 0.4s; /* Hiệu ứng chuyển màu */
+}
+
+    .btn-xem-tat-ca:hover {
+        background-color: #EEEEEE; /* Màu nền khi hover */
+    }
+
+
+.title-all-site {
+    margin-bottom: 30px; /* Khoảng cách dưới tiêu đề */
+    position: relative; /* Vị trí tương đối */
+    text-align: center; /* Canh giữa văn bản */
+}
+
+    .title-all-site h2 {
+        font-size: 25px; /* Kích thước chữ */
+        font-weight: bold; /* Đậm chữ */
+        text-transform: uppercase; /* Chuyển tất cả chữ thành in hoa */
+        color: #006633; /* Màu xanh (Blue) */
+        position: relative; /* Vị trí tương đối */
+        display: inline-block; /* Đảm bảo không chiếm toàn bộ chiều ngang */
+        padding-bottom: 10px; /* Khoảng cách dưới chữ */
+    }
+
+        .title-all-site h2::after {
+            content: ""; /* Nội dung sau tiêu đề */
+            width: 50px; /* Chiều dài của đường kẻ */
+            height: 3px; /* Chiều cao của đường kẻ */
+            background-color: #003333; /* Màu xanh của đường kẻ */
+            position: absolute; /* Vị trí tuyệt đối */
+            left: 50%; /* Canh giữa theo chiều ngang */
+            bottom: 0; /* Đặt dưới cùng của tiêu đề */
+            transform: translateX(-50%); /* Dịch chuyển để canh giữa */
+        }
+
+
+
+
+.service-carousel {
+    margin: 50px auto;
+    max-width: 1200px;
+
+}
+
+.service-item {
+    padding: 15px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    color: #4CAF50;
+}
+
+    .card:hover {
+        transform: translateY(-10px);
+
+    }
+
+    .card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+.card-body {
+    padding: 15px;
+}
+
+.card h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    
+}
+.card a {
+    color: #339900;
+}
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.doctor-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+    .doctor-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+h2 {
+    color: #333;
+    margin: 10px 0;
+}
+
+p {
+    color: #666;
+    line-height: 1.5;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #FF0000;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+
+
+.accordion-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Khoảng cách giữa ảnh và accordion */
+}
+
+.image-side {
+    flex: 1; /* Chiếm 50% diện tích */
+}
+
+    .image-side img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+.accordion {
+    flex: 1; /* Chiếm 50% diện tích còn lại */
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.accordion-title {
+    background-color: #f0f8f2;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.accordion-item:hover .accordion-title {
+    background-color: #d3e9d3;
+}
+
+.accordion-title.active + .accordion-content {
+    display: block;
+}
+
+/* Optional: Style for overall look */
+.accordion-container {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .booking-form-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+    }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .form-group textarea {
+        height: 100px;
+    }
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+.news-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+    .news-section h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+.news-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+    .news-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .news-item h3 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .news-item p {
+        font-size: 0.9em;
+        margin-bottom: 15px;
+        color: #555;
+    }
+
+    .news-item a {
+        text-decoration: none;
+        color: #4CAF50;
+        font-weight: bold;
+    }
+
+    .news-item:hover {
+        transform: translateY(-5px);
+    }
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.button-container {
+    display: flex; /* Sắp xếp các nút theo hàng ngang */
+    justify-content: space-around; /* Căn giữa các nút */
+    padding: 20px; /* Padding cho button-container */
+}
+
+.square-button {
+    display: flex; /* Sử dụng flex để căn giữa nội dung */
+    flex-direction: column; /* Đặt icon và văn bản theo cột */
+    align-items: center; /* Căn giữa nội dung theo chiều ngang */
+    text-align: center; /* Căn giữa văn bản */
+    width: 150px; /* Độ rộng mỗi nút */
+    padding: 20px; /* Padding cho nút */
+    border: 2px solid #006600; /* Đường viền nút */
+    border-radius: 10px; /* Bo tròn góc */
+    transition: transform 0.3s; /* Hiệu ứng chuyển động */
+}
+
+    .square-button i {
+        font-size: 40px; /* Kích thước biểu tượng lớn hơn */
+        margin-bottom: 10px; /* Khoảng cách dưới biểu tượng */
+        color: #006600; /* Màu của biểu tượng */
+    }
+
+    .square-button p {
+        margin: 0; /* Xóa margin mặc định */
+        font-size: 16px; /* Kích thước chữ cho văn bản */
+    }
+
+    .square-button:hover {
+        transform: scale(1.05); /* Tăng kích thước nút khi hover */
+        background-color: #f0f0f0; /* Màu nền khi hover */
+    }
+
+
+.footer {
+    background-color: #0d4026; /* Màu nền footer */
+    color: white; /* Màu chữ */
+    padding: 20px 0; /* Padding cho footer */
+    font-family: Arial, sans-serif; /* Font chữ */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around; /* Căn giữa các phần tử */
+    max-width: 1200px; /* Độ rộng tối đa */
+    margin: 0 auto; /* Căn giữa container */
+}
+
+.footer-section {
+    width: 30%; /* Độ rộng của mỗi phần */
+}
+
+    .footer-section h3 {
+        margin-bottom: 15px; /* Khoảng cách dưới tiêu đề */
+    }
+
+    .footer-section p, .footer-section ul {
+        margin: 0; /* Xóa margin mặc định */
+        padding: 0; /* Xóa padding mặc định */
+        color: white;
+    }
+
+
+    .footer-section ul {
+        list-style: none; /* Xóa dấu đầu dòng */
+    }
+
+        .footer-section ul li {
+            margin-bottom: 10px; /* Khoảng cách giữa các liên kết */
+        }
+
+            .footer-section ul li a {
+                color: white; /* Màu chữ liên kết */
+                text-decoration: none; /* Bỏ gạch chân */
+            }
+
+                .footer-section ul li a:hover {
+                    text-decoration: underline; /* Gạch chân khi hover */
+                }
+
+.social-icons {
+    display: flex; /* Sắp xếp icon theo hàng ngang */
+}
+
+    .social-icons a {
+        margin-right: 15px; /* Khoảng cách giữa các icon */
+        color: white;
+    }
+
+    .social-icons img {
+        width: 30px; /* Kích thước icon */
+        height: 30px; /* Kích thước icon */
+    }
+
+.footer-registration {
+    text-align: center; /* Căn giữa nội dung đăng ký */
+    margin-top: 10px; /* Khoảng cách trên */
+}
+
+    .footer-registration h3 {
+        margin-bottom: 15px; /* Khoảng cách dưới tiêu đề */
+    }
+
+    .footer-registration input {
+        padding: 10px; /* Padding cho ô nhập email */
+        width: 250px; /* Độ rộng ô nhập */
+        border: none; /* Bỏ đường viền */
+        border-radius: 5px; /* Bo tròn góc */
+    }
+
+    .footer-registration button {
+        padding: 5px 10px; /* Padding cho nút đăng ký */
+        background-color: #007bff; /* Màu nền nút */
+        color: white; /* Màu chữ nút */
+        border: none; /* Bỏ đường viền */
+        border-radius: 5px; /* Bo tròn góc */
+        cursor: pointer; /* Hiển thị con trỏ khi hover */
+        transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền */
+    }
+
+        .footer-registration button:hover {
+            background-color: #0056b3; /* Màu nền khi hover */
+        }
+
+.footer-bottom {
+    margin-top: 20px; /* Khoảng cách trên cho footer-bottom nếu cần */
+    padding: 10px; /* Thêm khoảng đệm nếu muốn */
+}
+
+    .footer-bottom p {
+        color: white;
+        margin: 0; /* Loại bỏ khoảng cách mặc định của đoạn văn */
+        font-size: 16px; /* Kích thước chữ có thể điều chỉnh */
+    }
+
+body {
+}
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

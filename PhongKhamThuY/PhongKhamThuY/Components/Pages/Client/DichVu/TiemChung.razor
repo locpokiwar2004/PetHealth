@@ -1,0 +1,93 @@
+﻿@page "/tiemChung"
+<PageTitle>Trang Tiêm Chủng</PageTitle>
+@* <h3>TiemChung</h3> *@
+<nav class="navbar navbar-expand-sm bg-success navbar-dark ">
+    <div class="col-lg-6 col-md-6" bis_skin_checked="1">
+        <a href="mailto:petjoy.vn@gmail.com" class="text-white text-decoration-none fz13">
+            <span>pet.vn@gmail.com</span>
+        </a>
+    </div>
+    <div class="col-lg-6 col-md-6 text-end text-white fz13" bis_skin_checked="1">
+        <span>Giờ phục vụ: 08:00AM - 19:00PM (cấp cứu 24/24h)</span>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0" aria-label="Main-navigation">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/" title="Trang Chủ">Trang Chủ</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dịch Vụ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="/khamSucKhoeThu">Khám Sức Khỏe Thú Cưng</a></li>
+                        <li><a class="dropdown-item" href="#">Tiêm Chủng</a></li>
+                        <li><a class="dropdown-item" href="#">Xét Nghiệm</a></li>
+                        <li><a class="dropdown-item" href="#">Chăm Sóc Sau Phẫu Thuật</a></li>
+                        <li><a class="dropdown-item" href="#">Tư Vấn Dinh Dưỡng</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/addTintuc" title="Tin Tức">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ListGioiThiêu" title="Giới Thiệu">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listLienHe" title="Liên Hệ">Liên Hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/listDatLich" title="Đặt Lịch">Đặt Lịch</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header-search">
+            <form id="search-form" action="/search" method="GET">
+                <input type="text" name="query" placeholder="Tìm Kiếm" />
+            </form>
+        </div>
+
+        @* <div class="header-book">
+        <i class="fa-solid fa-kit-medical"></i>
+        <p>Đặt Lịch Khám</p>
+        </div> *@
+    </div>
+</nav>
+<div class="news-container">
+    <!-- Bài viết 1 -->
+    <div class="news-item">
+        <img src="/bootstrap/tiemchung1.jpg" alt="Hình ảnh bài viết 1">
+        <h3>Tại sao tiêm chủng cho thú cưng là cần thiết?</h3>
+        <p>Tiêm chủng là một phần quan trọng trong việc chăm sóc sức khỏe thú cưng. Việc tiêm phòng giúp bảo vệ thú cưng khỏi nhiều bệnh truyền nhiễm nguy hiểm và đảm bảo sức khỏe cho chúng trong suốt cuộc đời.</p>
+        <a href="#">Đọc thêm</a>
+    </div>
+
+    <!-- Bài viết 2 -->
+    <div class="news-item">
+        <img src="/bootstrap/tiemchung2.jpg" alt="Hình ảnh bài viết 2">
+        <h3>Những loại vắc xin cần thiết cho thú cưng</h3>
+        <p>Có nhiều loại vắc xin cần thiết cho thú cưng, bao gồm vắc xin phòng bệnh dại, bệnh parvo, và bệnh viêm gan. Việc tiêm chủng định kỳ giúp bảo vệ thú cưng khỏi những bệnh lý nghiêm trọng và kéo dài tuổi thọ của chúng.</p>
+        <a href="#">Đọc thêm</a>
+    </div>
+
+    <!-- Bài viết 3 -->
+    <div class="news-item">
+        <img src="/bootstrap/tiemchung3.jpg" alt="Hình ảnh bài viết 3">
+        <h3>Hướng dẫn tiêm chủng cho thú cưng</h3>
+        <p>Chủ nuôi nên hiểu rõ lịch tiêm chủng cho thú cưng của mình, bao gồm thời điểm và loại vắc xin cần tiêm. Việc tuân thủ đúng lịch tiêm chủng giúp thú cưng luôn khỏe mạnh và phòng tránh bệnh tật hiệu quả.</p>
+        <a href="#">Đọc thêm</a>
+    </div>
+</div>
+
+
+@code {
+
+}

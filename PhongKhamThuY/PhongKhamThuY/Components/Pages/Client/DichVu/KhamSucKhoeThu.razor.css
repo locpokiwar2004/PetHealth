@@ -1,0 +1,116 @@
+﻿.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+    .navbar-nav .nav-link:hover {
+        color: yellow;
+    }
+
+.container-fluid {
+    background-color: #003300;
+    max-width: auto;
+}
+
+.navbar-nav {
+    -ms-scrollbar-base-color: forestgreen;
+    margin-left: 8%;
+    color: aqua;
+}
+
+    .navbar-nav .nav-item {
+        margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+    }
+
+    .navbar-nav .nav-link {
+        text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+        padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    .navbar-nav .nav-item {
+        margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+    }
+
+        /* Loại bỏ margin cho nav item cuối cùng */
+        .navbar-nav .nav-item:last-child {
+            margin-right: 0%;
+        }
+
+
+
+.nav-item {
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: #fff !important; /* Màu nền của dropdown */
+}
+
+    .dropdown-menu .dropdown-item {
+        color: #000000 !important; /* Màu chữ của các mục */
+        padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+    }
+
+
+.dropdown-menu {
+    background-color: red; /* Màu nền của dropdown */
+    border: none; /* Xóa viền */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+    margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+    border-radius: 0.5rem; /* Bo góc cho dropdown */
+}
+
+    .dropdown-menu .dropdown-item {
+        color: #ffffff; /* Màu chữ của các mục */
+        padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+    }
+
+        .dropdown-menu .dropdown-item:hover,
+        .dropdown-menu .dropdown-item:focus {
+            background-color: #009933; /* Màu nền khi hover */
+            color: #ffffff; /* Màu chữ khi hover */
+            text-decoration: none; /* Xóa gạch chân khi hover */
+        }
+
+.dropdown-toggle::after {
+    margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+    color: #ffffff; /* Màu của mũi tên */
+}
+
+.dropdown-item.active {
+    background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+    color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+}
+
+/* Tùy chọn thêm cho độ rộng dropdown */
+.dropdown-menu {
+    min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+}
+
+    /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+    .dropdown-menu .dropdown-item {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+    }
+
+        .dropdown-menu .dropdown-item:last-child {
+            border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+        }
+.btn-dat-lich {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #28a745;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .btn-dat-lich:hover {
+        background-color: #218838;
+    }
+
+body {
+}

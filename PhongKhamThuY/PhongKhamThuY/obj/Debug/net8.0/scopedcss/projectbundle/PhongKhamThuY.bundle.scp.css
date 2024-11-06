@@ -311,6 +311,626 @@
         flex-direction: row;
     }
 }
+/* _content/PhongKhamThuY/Components/Layout/ClientLayout.razor.rz.scp.css */
+.navbar-nav .nav-link[b-gzd3q0s5w1] {
+    color: white;
+    font-weight: bold;
+}
+
+    .navbar-nav .nav-link:hover[b-gzd3q0s5w1] {
+        color: yellow;
+    }
+
+.container-fluid[b-gzd3q0s5w1] {
+    background-color: #003300;
+    max-width: auto;
+}
+
+.navbar-nav[b-gzd3q0s5w1] {
+    -ms-scrollbar-base-color: forestgreen;
+    margin-left: 8%;
+    color: aqua;
+}
+
+    .navbar-nav .nav-item[b-gzd3q0s5w1] {
+        margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+    }
+
+    .navbar-nav .nav-link[b-gzd3q0s5w1] {
+        text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+        padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    .navbar-nav .nav-item[b-gzd3q0s5w1] {
+        margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+    }
+
+        /* Loại bỏ margin cho nav item cuối cùng */
+        .navbar-nav .nav-item:last-child[b-gzd3q0s5w1] {
+            margin-right: 0%;
+        }
+
+
+
+.nav-item[b-gzd3q0s5w1] {
+    color: black;
+}
+
+.dropdown-menu[b-gzd3q0s5w1] {
+    background-color: #fff !important; /* Màu nền của dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-gzd3q0s5w1] {
+        color: #000000 !important; /* Màu chữ của các mục */
+        padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+    }
+
+
+.dropdown-menu[b-gzd3q0s5w1] {
+    background-color: red; /* Màu nền của dropdown */
+    border: none; /* Xóa viền */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+    margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+    border-radius: 0.5rem; /* Bo góc cho dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-gzd3q0s5w1] {
+        color: #ffffff; /* Màu chữ của các mục */
+        padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+    }
+
+        .dropdown-menu .dropdown-item:hover[b-gzd3q0s5w1],
+        .dropdown-menu .dropdown-item:focus[b-gzd3q0s5w1] {
+            background-color: #009933; /* Màu nền khi hover */
+            color: #ffffff; /* Màu chữ khi hover */
+            text-decoration: none; /* Xóa gạch chân khi hover */
+        }
+
+.dropdown-toggle[b-gzd3q0s5w1]::after {
+    margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+    color: #ffffff; /* Màu của mũi tên */
+}
+
+.dropdown-item.active[b-gzd3q0s5w1] {
+    background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+    color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+}
+
+/* Tùy chọn thêm cho độ rộng dropdown */
+.dropdown-menu[b-gzd3q0s5w1] {
+    min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+}
+
+    /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+    .dropdown-menu .dropdown-item[b-gzd3q0s5w1] {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+    }
+
+        .dropdown-menu .dropdown-item:last-child[b-gzd3q0s5w1] {
+            border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+        }
+
+
+.header-book[b-gzd3q0s5w1] {
+    display: flex; /* Hiển thị theo hàng ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    background-color: #CC0000; /* Màu nền có thể tùy chỉnh */
+    padding: 10px; /* Khoảng đệm cho phần tử */
+    border-radius: 5px; /* Bo góc nếu cần */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+}
+
+    .header-book i[b-gzd3q0s5w1] {
+        font-size: 24px; /* Kích thước biểu tượng */
+        margin-right: 8px; /* Khoảng cách bên phải cho biểu tượng */
+        color: #FFFFFF; /* Màu của biểu tượng (có thể tùy chỉnh) */
+    }
+
+    .header-book p[b-gzd3q0s5w1] {
+        font-size: 18px; /* Kích thước chữ */
+        color: #FFFFFF; /* Màu chữ (có thể tùy chỉnh) */
+        margin: 0; /* Loại bỏ khoảng cách mặc định */
+    }
+
+
+    .header-book:hover[b-gzd3q0s5w1] {
+        background-color: #e0e0e0; /* Màu nền khi hover */
+        transform: scale(1.05); /* Phóng to nhẹ khi hover */
+    }
+
+        .header-book:hover i[b-gzd3q0s5w1] {
+            color: #CC3366; /* Màu biểu tượng khi hover */
+        }
+
+        .header-book:hover p[b-gzd3q0s5w1] {
+            color: #000; /* Màu chữ khi hover */
+        }
+
+.col-lg-5[b-gzd3q0s5w1] {
+    flex: auto;
+    width: 41%;
+    margin-left: 43%;
+    margin-top: -27rem;
+}
+
+
+.button-container[b-gzd3q0s5w1] {
+    text-align: center; /* Canh giữa nút */
+    margin-top: 20px; /* Khoảng cách phía trên nút */
+}
+
+.btn-xem-tat-ca[b-gzd3q0s5w1] {
+    padding: 10px 20px; /* Khoảng cách bên trong nút */
+    background-color: #d50b08; /* Màu nền xanh */
+    color: #fff; /* Màu chữ trắng */
+    border: none; /* Không có đường viền */
+    border-radius: 5px; /* Bo tròn góc */
+    font-size: 16px; /* Kích thước chữ */
+    cursor: pointer; /* Hiệu ứng con trỏ */
+    transition: background-color 0.4s; /* Hiệu ứng chuyển màu */
+}
+
+    .btn-xem-tat-ca:hover[b-gzd3q0s5w1] {
+        background-color: #EEEEEE; /* Màu nền khi hover */
+    }
+
+
+.title-all-site[b-gzd3q0s5w1] {
+    margin-bottom: 30px; /* Khoảng cách dưới tiêu đề */
+    position: relative; /* Vị trí tương đối */
+    text-align: center; /* Canh giữa văn bản */
+}
+
+    .title-all-site h2[b-gzd3q0s5w1] {
+        font-size: 25px; /* Kích thước chữ */
+        font-weight: bold; /* Đậm chữ */
+        text-transform: uppercase; /* Chuyển tất cả chữ thành in hoa */
+        color: #006633; /* Màu xanh (Blue) */
+        position: relative; /* Vị trí tương đối */
+        display: inline-block; /* Đảm bảo không chiếm toàn bộ chiều ngang */
+        padding-bottom: 10px; /* Khoảng cách dưới chữ */
+    }
+
+        .title-all-site h2[b-gzd3q0s5w1]::after {
+            content: ""; /* Nội dung sau tiêu đề */
+            width: 50px; /* Chiều dài của đường kẻ */
+            height: 3px; /* Chiều cao của đường kẻ */
+            background-color: #003333; /* Màu xanh của đường kẻ */
+            position: absolute; /* Vị trí tuyệt đối */
+            left: 50%; /* Canh giữa theo chiều ngang */
+            bottom: 0; /* Đặt dưới cùng của tiêu đề */
+            transform: translateX(-50%); /* Dịch chuyển để canh giữa */
+        }
+
+
+
+
+.service-carousel[b-gzd3q0s5w1] {
+    margin: 50px auto;
+    max-width: 1200px;
+
+}
+
+.service-item[b-gzd3q0s5w1] {
+    padding: 15px;
+}
+
+.card[b-gzd3q0s5w1] {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    color: #4CAF50;
+}
+
+    .card:hover[b-gzd3q0s5w1] {
+        transform: translateY(-10px);
+
+    }
+
+    .card img[b-gzd3q0s5w1] {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+.card-body[b-gzd3q0s5w1] {
+    padding: 15px;
+}
+
+.card h5[b-gzd3q0s5w1] {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p[b-gzd3q0s5w1] {
+    font-size: 14px;
+    color: #555;
+    
+}
+.card a[b-gzd3q0s5w1] {
+    color: #339900;
+}
+
+
+
+
+
+
+
+
+
+
+
+h1[b-gzd3q0s5w1] {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.doctor-card[b-gzd3q0s5w1] {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+    .doctor-card img[b-gzd3q0s5w1] {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+h2[b-gzd3q0s5w1] {
+    color: #333;
+    margin: 10px 0;
+}
+
+p[b-gzd3q0s5w1] {
+    color: #666;
+    line-height: 1.5;
+}
+
+a[b-gzd3q0s5w1] {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #FF0000;
+}
+
+    a:hover[b-gzd3q0s5w1] {
+        text-decoration: underline;
+    }
+
+
+
+
+.accordion-container[b-gzd3q0s5w1] {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Khoảng cách giữa ảnh và accordion */
+}
+
+.image-side[b-gzd3q0s5w1] {
+    flex: 1; /* Chiếm 50% diện tích */
+}
+
+    .image-side img[b-gzd3q0s5w1] {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+.accordion[b-gzd3q0s5w1] {
+    flex: 1; /* Chiếm 50% diện tích còn lại */
+}
+
+.accordion-item[b-gzd3q0s5w1] {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.accordion-title[b-gzd3q0s5w1] {
+    background-color: #f0f8f2;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.accordion-content[b-gzd3q0s5w1] {
+    display: none;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.accordion-item:hover .accordion-title[b-gzd3q0s5w1] {
+    background-color: #d3e9d3;
+}
+
+.accordion-title.active + .accordion-content[b-gzd3q0s5w1] {
+    display: block;
+}
+
+/* Optional: Style for overall look */
+.accordion-container[b-gzd3q0s5w1] {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form-container[b-gzd3q0s5w1] {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .booking-form-container h2[b-gzd3q0s5w1] {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+    }
+
+.form-group[b-gzd3q0s5w1] {
+    margin-bottom: 15px;
+}
+
+    .form-group label[b-gzd3q0s5w1] {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .form-group input[b-gzd3q0s5w1],
+    .form-group select[b-gzd3q0s5w1],
+    .form-group textarea[b-gzd3q0s5w1] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .form-group textarea[b-gzd3q0s5w1] {
+        height: 100px;
+    }
+
+button[type="submit"][b-gzd3q0s5w1] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button[type="submit"]:hover[b-gzd3q0s5w1] {
+        background-color: #45a049;
+    }
+
+.news-section[b-gzd3q0s5w1] {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+    .news-section h2[b-gzd3q0s5w1] {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+.news-container[b-gzd3q0s5w1] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-item[b-gzd3q0s5w1] {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+    .news-item img[b-gzd3q0s5w1] {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .news-item h3[b-gzd3q0s5w1] {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .news-item p[b-gzd3q0s5w1] {
+        font-size: 0.9em;
+        margin-bottom: 15px;
+        color: #555;
+    }
+
+    .news-item a[b-gzd3q0s5w1] {
+        text-decoration: none;
+        color: #4CAF50;
+        font-weight: bold;
+    }
+
+    .news-item:hover[b-gzd3q0s5w1] {
+        transform: translateY(-5px);
+    }
+
+
+
+.button-container[b-gzd3q0s5w1] {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.button-container[b-gzd3q0s5w1] {
+    display: flex; /* Sắp xếp các nút theo hàng ngang */
+    justify-content: space-around; /* Căn giữa các nút */
+    padding: 20px; /* Padding cho button-container */
+}
+
+.square-button[b-gzd3q0s5w1] {
+    display: flex; /* Sử dụng flex để căn giữa nội dung */
+    flex-direction: column; /* Đặt icon và văn bản theo cột */
+    align-items: center; /* Căn giữa nội dung theo chiều ngang */
+    text-align: center; /* Căn giữa văn bản */
+    width: 150px; /* Độ rộng mỗi nút */
+    padding: 20px; /* Padding cho nút */
+    border: 2px solid #006600; /* Đường viền nút */
+    border-radius: 10px; /* Bo tròn góc */
+    transition: transform 0.3s; /* Hiệu ứng chuyển động */
+}
+
+    .square-button i[b-gzd3q0s5w1] {
+        font-size: 40px; /* Kích thước biểu tượng lớn hơn */
+        margin-bottom: 10px; /* Khoảng cách dưới biểu tượng */
+        color: #006600; /* Màu của biểu tượng */
+    }
+
+    .square-button p[b-gzd3q0s5w1] {
+        margin: 0; /* Xóa margin mặc định */
+        font-size: 16px; /* Kích thước chữ cho văn bản */
+    }
+
+    .square-button:hover[b-gzd3q0s5w1] {
+        transform: scale(1.05); /* Tăng kích thước nút khi hover */
+        background-color: #f0f0f0; /* Màu nền khi hover */
+    }
+
+
+.footer[b-gzd3q0s5w1] {
+    background-color: #0d4026; /* Màu nền footer */
+    color: white; /* Màu chữ */
+    padding: 20px 0; /* Padding cho footer */
+    font-family: Arial, sans-serif; /* Font chữ */
+}
+
+.footer-container[b-gzd3q0s5w1] {
+    display: flex;
+    justify-content: space-around; /* Căn giữa các phần tử */
+    max-width: 1200px; /* Độ rộng tối đa */
+    margin: 0 auto; /* Căn giữa container */
+}
+
+.footer-section[b-gzd3q0s5w1] {
+    width: 30%; /* Độ rộng của mỗi phần */
+}
+
+    .footer-section h3[b-gzd3q0s5w1] {
+        margin-bottom: 15px; /* Khoảng cách dưới tiêu đề */
+    }
+
+    .footer-section p[b-gzd3q0s5w1], .footer-section ul[b-gzd3q0s5w1] {
+        margin: 0; /* Xóa margin mặc định */
+        padding: 0; /* Xóa padding mặc định */
+        color: white;
+    }
+
+
+    .footer-section ul[b-gzd3q0s5w1] {
+        list-style: none; /* Xóa dấu đầu dòng */
+    }
+
+        .footer-section ul li[b-gzd3q0s5w1] {
+            margin-bottom: 10px; /* Khoảng cách giữa các liên kết */
+        }
+
+            .footer-section ul li a[b-gzd3q0s5w1] {
+                color: white; /* Màu chữ liên kết */
+                text-decoration: none; /* Bỏ gạch chân */
+            }
+
+                .footer-section ul li a:hover[b-gzd3q0s5w1] {
+                    text-decoration: underline; /* Gạch chân khi hover */
+                }
+
+.social-icons[b-gzd3q0s5w1] {
+    display: flex; /* Sắp xếp icon theo hàng ngang */
+}
+
+    .social-icons a[b-gzd3q0s5w1] {
+        margin-right: 15px; /* Khoảng cách giữa các icon */
+        color: white;
+    }
+
+    .social-icons img[b-gzd3q0s5w1] {
+        width: 30px; /* Kích thước icon */
+        height: 30px; /* Kích thước icon */
+    }
+
+.footer-registration[b-gzd3q0s5w1] {
+    text-align: center; /* Căn giữa nội dung đăng ký */
+    margin-top: 10px; /* Khoảng cách trên */
+}
+
+    .footer-registration h3[b-gzd3q0s5w1] {
+        margin-bottom: 15px; /* Khoảng cách dưới tiêu đề */
+    }
+
+    .footer-registration input[b-gzd3q0s5w1] {
+        padding: 10px; /* Padding cho ô nhập email */
+        width: 250px; /* Độ rộng ô nhập */
+        border: none; /* Bỏ đường viền */
+        border-radius: 5px; /* Bo tròn góc */
+    }
+
+    .footer-registration button[b-gzd3q0s5w1] {
+        padding: 5px 10px; /* Padding cho nút đăng ký */
+        background-color: #007bff; /* Màu nền nút */
+        color: white; /* Màu chữ nút */
+        border: none; /* Bỏ đường viền */
+        border-radius: 5px; /* Bo tròn góc */
+        cursor: pointer; /* Hiển thị con trỏ khi hover */
+        transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền */
+    }
+
+        .footer-registration button:hover[b-gzd3q0s5w1] {
+            background-color: #0056b3; /* Màu nền khi hover */
+        }
+
+.footer-bottom[b-gzd3q0s5w1] {
+    margin-top: 20px; /* Khoảng cách trên cho footer-bottom nếu cần */
+    padding: 10px; /* Thêm khoảng đệm nếu muốn */
+}
+
+    .footer-bottom p[b-gzd3q0s5w1] {
+        color: white;
+        margin: 0; /* Loại bỏ khoảng cách mặc định của đoạn văn */
+        font-size: 16px; /* Kích thước chữ có thể điều chỉnh */
+    }
+
+body[b-gzd3q0s5w1] {
+}
+html[b-gzd3q0s5w1], body[b-gzd3q0s5w1] {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 /* _content/PhongKhamThuY/Components/Layout/MainLayout.razor.rz.scp.css */
 
 .page[b-wivubu8tw9] {
@@ -2887,4 +3507,1467 @@ button[b-pg0nfmgptg] {
     .input-box[b-pxlomm2vtu] {
         width: 100%;
     }
+}
+/* _content/PhongKhamThuY/Components/Pages/Client/DichVu/ChamSocSauPhauThuat.razor.rz.scp.css */
+.navbar-nav .nav-link[b-ct4cuqik0c] {
+    color: white;
+    font-weight: bold;
+}
+
+    .navbar-nav .nav-link:hover[b-ct4cuqik0c] {
+        color: yellow;
+    }
+
+.container-fluid[b-ct4cuqik0c] {
+    background-color: #003300;
+    max-width: auto;
+}
+
+.navbar-nav[b-ct4cuqik0c] {
+    -ms-scrollbar-base-color: forestgreen;
+    margin-left: 8%;
+    color: aqua;
+}
+
+    .navbar-nav .nav-item[b-ct4cuqik0c] {
+        margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+    }
+
+    .navbar-nav .nav-link[b-ct4cuqik0c] {
+        text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+        padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    .navbar-nav .nav-item[b-ct4cuqik0c] {
+        margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+    }
+
+        /* Loại bỏ margin cho nav item cuối cùng */
+        .navbar-nav .nav-item:last-child[b-ct4cuqik0c] {
+            margin-right: 0%;
+        }
+
+
+
+.nav-item[b-ct4cuqik0c] {
+    color: black;
+}
+
+.dropdown-menu[b-ct4cuqik0c] {
+    background-color: #fff !important; /* Màu nền của dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-ct4cuqik0c] {
+        color: #000000 !important; /* Màu chữ của các mục */
+        padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+    }
+
+
+.dropdown-menu[b-ct4cuqik0c] {
+    background-color: red; /* Màu nền của dropdown */
+    border: none; /* Xóa viền */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+    margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+    border-radius: 0.5rem; /* Bo góc cho dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-ct4cuqik0c] {
+        color: #ffffff; /* Màu chữ của các mục */
+        padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+    }
+
+        .dropdown-menu .dropdown-item:hover[b-ct4cuqik0c],
+        .dropdown-menu .dropdown-item:focus[b-ct4cuqik0c] {
+            background-color: #009933; /* Màu nền khi hover */
+            color: #ffffff; /* Màu chữ khi hover */
+            text-decoration: none; /* Xóa gạch chân khi hover */
+        }
+
+.dropdown-toggle[b-ct4cuqik0c]::after {
+    margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+    color: #ffffff; /* Màu của mũi tên */
+}
+
+.dropdown-item.active[b-ct4cuqik0c] {
+    background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+    color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+}
+
+/* Tùy chọn thêm cho độ rộng dropdown */
+.dropdown-menu[b-ct4cuqik0c] {
+    min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+}
+
+    /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+    .dropdown-menu .dropdown-item[b-ct4cuqik0c] {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+    }
+
+        .dropdown-menu .dropdown-item:last-child[b-ct4cuqik0c] {
+            border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+        }
+.card[b-ct4cuqik0c] {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+    .card:hover[b-ct4cuqik0c] {
+        transform: translateY(-10px);
+    }
+
+    .card img[b-ct4cuqik0c] {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+.card-body[b-ct4cuqik0c] {
+    padding: 15px;
+}
+
+.card h5[b-ct4cuqik0c] {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p[b-ct4cuqik0c] {
+    font-size: 14px;
+    color: #555;
+}
+
+h1[b-ct4cuqik0c] {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.news-container[b-ct4cuqik0c] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-item[b-ct4cuqik0c] {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    flex: 0 1 calc(30% - 40px); /* 3 items per row with space */
+    box-sizing: border-box;
+}
+
+    .news-item img[b-ct4cuqik0c] {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+h2[b-ct4cuqik0c] {
+    color: #333;
+    margin: 10px 0;
+}
+
+p[b-ct4cuqik0c] {
+    color: #666;
+    line-height: 1.5;
+}
+
+a[b-ct4cuqik0c] {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #FF0000;
+}
+
+    a:hover[b-ct4cuqik0c] {
+        text-decoration: underline;
+    }
+
+body[b-ct4cuqik0c] {
+}
+/* _content/PhongKhamThuY/Components/Pages/Client/DichVu/KhamSucKhoeThu.razor.rz.scp.css */
+.navbar-nav .nav-link[b-h147adm1zo] {
+    color: white;
+    font-weight: bold;
+}
+
+    .navbar-nav .nav-link:hover[b-h147adm1zo] {
+        color: yellow;
+    }
+
+.container-fluid[b-h147adm1zo] {
+    background-color: #003300;
+    max-width: auto;
+}
+
+.navbar-nav[b-h147adm1zo] {
+    -ms-scrollbar-base-color: forestgreen;
+    margin-left: 8%;
+    color: aqua;
+}
+
+    .navbar-nav .nav-item[b-h147adm1zo] {
+        margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+    }
+
+    .navbar-nav .nav-link[b-h147adm1zo] {
+        text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+        padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    .navbar-nav .nav-item[b-h147adm1zo] {
+        margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+    }
+
+        /* Loại bỏ margin cho nav item cuối cùng */
+        .navbar-nav .nav-item:last-child[b-h147adm1zo] {
+            margin-right: 0%;
+        }
+
+
+
+.nav-item[b-h147adm1zo] {
+    color: black;
+}
+
+.dropdown-menu[b-h147adm1zo] {
+    background-color: #fff !important; /* Màu nền của dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-h147adm1zo] {
+        color: #000000 !important; /* Màu chữ của các mục */
+        padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+    }
+
+
+.dropdown-menu[b-h147adm1zo] {
+    background-color: red; /* Màu nền của dropdown */
+    border: none; /* Xóa viền */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+    margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+    border-radius: 0.5rem; /* Bo góc cho dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-h147adm1zo] {
+        color: #ffffff; /* Màu chữ của các mục */
+        padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+    }
+
+        .dropdown-menu .dropdown-item:hover[b-h147adm1zo],
+        .dropdown-menu .dropdown-item:focus[b-h147adm1zo] {
+            background-color: #009933; /* Màu nền khi hover */
+            color: #ffffff; /* Màu chữ khi hover */
+            text-decoration: none; /* Xóa gạch chân khi hover */
+        }
+
+.dropdown-toggle[b-h147adm1zo]::after {
+    margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+    color: #ffffff; /* Màu của mũi tên */
+}
+
+.dropdown-item.active[b-h147adm1zo] {
+    background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+    color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+}
+
+/* Tùy chọn thêm cho độ rộng dropdown */
+.dropdown-menu[b-h147adm1zo] {
+    min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+}
+
+    /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+    .dropdown-menu .dropdown-item[b-h147adm1zo] {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+    }
+
+        .dropdown-menu .dropdown-item:last-child[b-h147adm1zo] {
+            border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+        }
+.btn-dat-lich[b-h147adm1zo] {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #28a745;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .btn-dat-lich:hover[b-h147adm1zo] {
+        background-color: #218838;
+    }
+
+body[b-h147adm1zo] {
+}
+/* _content/PhongKhamThuY/Components/Pages/Client/DichVu/TiemChung.razor.rz.scp.css */
+.navbar-nav .nav-link[b-yft6dqg8fa] {
+    color: white;
+    font-weight: bold;
+}
+
+    .navbar-nav .nav-link:hover[b-yft6dqg8fa] {
+        color: yellow;
+    }
+
+.container-fluid[b-yft6dqg8fa] {
+    background-color: #003300;
+    max-width: auto;
+}
+
+.navbar-nav[b-yft6dqg8fa] {
+    -ms-scrollbar-base-color: forestgreen;
+    margin-left: 8%;
+    color: aqua;
+}
+
+    .navbar-nav .nav-item[b-yft6dqg8fa] {
+        margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+    }
+
+    .navbar-nav .nav-link[b-yft6dqg8fa] {
+        text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+        padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    .navbar-nav .nav-item[b-yft6dqg8fa] {
+        margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+    }
+
+        /* Loại bỏ margin cho nav item cuối cùng */
+        .navbar-nav .nav-item:last-child[b-yft6dqg8fa] {
+            margin-right: 0%;
+        }
+
+
+
+.nav-item[b-yft6dqg8fa] {
+    color: black;
+}
+
+.dropdown-menu[b-yft6dqg8fa] {
+    background-color: #fff !important; /* Màu nền của dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-yft6dqg8fa] {
+        color: #000000 !important; /* Màu chữ của các mục */
+        padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+    }
+
+
+.dropdown-menu[b-yft6dqg8fa] {
+    background-color: red; /* Màu nền của dropdown */
+    border: none; /* Xóa viền */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+    margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+    border-radius: 0.5rem; /* Bo góc cho dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-yft6dqg8fa] {
+        color: #ffffff; /* Màu chữ của các mục */
+        padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+    }
+
+        .dropdown-menu .dropdown-item:hover[b-yft6dqg8fa],
+        .dropdown-menu .dropdown-item:focus[b-yft6dqg8fa] {
+            background-color: #009933; /* Màu nền khi hover */
+            color: #ffffff; /* Màu chữ khi hover */
+            text-decoration: none; /* Xóa gạch chân khi hover */
+        }
+
+.dropdown-toggle[b-yft6dqg8fa]::after {
+    margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+    color: #ffffff; /* Màu của mũi tên */
+}
+
+.dropdown-item.active[b-yft6dqg8fa] {
+    background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+    color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+}
+
+/* Tùy chọn thêm cho độ rộng dropdown */
+.dropdown-menu[b-yft6dqg8fa] {
+    min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+}
+
+    /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+    .dropdown-menu .dropdown-item[b-yft6dqg8fa] {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+    }
+
+        .dropdown-menu .dropdown-item:last-child[b-yft6dqg8fa] {
+            border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+        }
+
+.card[b-yft6dqg8fa] {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+    .card:hover[b-yft6dqg8fa] {
+        transform: translateY(-10px);
+    }
+
+    .card img[b-yft6dqg8fa] {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+.card-body[b-yft6dqg8fa] {
+    padding: 15px;
+}
+
+.card h5[b-yft6dqg8fa] {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p[b-yft6dqg8fa] {
+    font-size: 14px;
+    color: #555;
+}
+
+h1[b-yft6dqg8fa] {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.news-container[b-yft6dqg8fa] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-item[b-yft6dqg8fa] {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    flex: 0 1 calc(30% - 40px); /* 3 items per row with space */
+    box-sizing: border-box;
+}
+
+    .news-item img[b-yft6dqg8fa] {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+h2[b-yft6dqg8fa] {
+    color: #333;
+    margin: 10px 0;
+}
+
+p[b-yft6dqg8fa] {
+    color: #666;
+    line-height: 1.5;
+}
+
+a[b-yft6dqg8fa] {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #FF0000;
+}
+
+    a:hover[b-yft6dqg8fa] {
+        text-decoration: underline;
+    }
+
+
+body[b-yft6dqg8fa] {
+}
+/* _content/PhongKhamThuY/Components/Pages/Client/DichVu/TuVanDinhDuong.razor.rz.scp.css */
+.navbar-nav .nav-link[b-8o6wk7xmtv] {
+    color: white;
+    font-weight: bold;
+}
+
+    .navbar-nav .nav-link:hover[b-8o6wk7xmtv] {
+        color: yellow;
+    }
+
+.container-fluid[b-8o6wk7xmtv] {
+    background-color: #003300;
+    max-width: auto;
+}
+
+.navbar-nav[b-8o6wk7xmtv] {
+    -ms-scrollbar-base-color: forestgreen;
+    margin-left: 8%;
+    color: aqua;
+}
+
+    .navbar-nav .nav-item[b-8o6wk7xmtv] {
+        margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+    }
+
+    .navbar-nav .nav-link[b-8o6wk7xmtv] {
+        text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+        padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    .navbar-nav .nav-item[b-8o6wk7xmtv] {
+        margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+    }
+
+        /* Loại bỏ margin cho nav item cuối cùng */
+        .navbar-nav .nav-item:last-child[b-8o6wk7xmtv] {
+            margin-right: 0%;
+        }
+
+
+
+.nav-item[b-8o6wk7xmtv] {
+    color: black;
+}
+
+.dropdown-menu[b-8o6wk7xmtv] {
+    background-color: #fff !important; /* Màu nền của dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-8o6wk7xmtv] {
+        color: #000000 !important; /* Màu chữ của các mục */
+        padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+    }
+
+
+.dropdown-menu[b-8o6wk7xmtv] {
+    background-color: red; /* Màu nền của dropdown */
+    border: none; /* Xóa viền */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+    margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+    border-radius: 0.5rem; /* Bo góc cho dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-8o6wk7xmtv] {
+        color: #ffffff; /* Màu chữ của các mục */
+        padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+    }
+
+        .dropdown-menu .dropdown-item:hover[b-8o6wk7xmtv],
+        .dropdown-menu .dropdown-item:focus[b-8o6wk7xmtv] {
+            background-color: #009933; /* Màu nền khi hover */
+            color: #ffffff; /* Màu chữ khi hover */
+            text-decoration: none; /* Xóa gạch chân khi hover */
+        }
+
+.dropdown-toggle[b-8o6wk7xmtv]::after {
+    margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+    color: #ffffff; /* Màu của mũi tên */
+}
+
+.dropdown-item.active[b-8o6wk7xmtv] {
+    background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+    color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+}
+
+/* Tùy chọn thêm cho độ rộng dropdown */
+.dropdown-menu[b-8o6wk7xmtv] {
+    min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+}
+
+    /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+    .dropdown-menu .dropdown-item[b-8o6wk7xmtv] {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+    }
+
+        .dropdown-menu .dropdown-item:last-child[b-8o6wk7xmtv] {
+            border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+        }
+.card[b-8o6wk7xmtv] {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+    .card:hover[b-8o6wk7xmtv] {
+        transform: translateY(-10px);
+    }
+
+    .card img[b-8o6wk7xmtv] {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+.card-body[b-8o6wk7xmtv] {
+    padding: 15px;
+}
+
+.card h5[b-8o6wk7xmtv] {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p[b-8o6wk7xmtv] {
+    font-size: 14px;
+    color: #555;
+}
+
+h1[b-8o6wk7xmtv] {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.news-container[b-8o6wk7xmtv] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-item[b-8o6wk7xmtv] {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    flex: 0 1 calc(30% - 40px); /* 3 items per row with space */
+    box-sizing: border-box;
+}
+
+    .news-item img[b-8o6wk7xmtv] {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+h2[b-8o6wk7xmtv] {
+    color: #333;
+    margin: 10px 0;
+}
+
+p[b-8o6wk7xmtv] {
+    color: #666;
+    line-height: 1.5;
+}
+
+a[b-8o6wk7xmtv] {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #FF0000;
+}
+
+    a:hover[b-8o6wk7xmtv] {
+        text-decoration: underline;
+    }
+
+body[b-8o6wk7xmtv] {
+}
+/* _content/PhongKhamThuY/Components/Pages/Client/DichVu/XetNghiem.razor.rz.scp.css */
+.navbar-nav .nav-link[b-d2k7snamvb] {
+    color: white;
+    font-weight: bold;
+}
+
+    .navbar-nav .nav-link:hover[b-d2k7snamvb] {
+        color: yellow;
+    }
+
+.container-fluid[b-d2k7snamvb] {
+    background-color: #003300;
+    max-width: auto;
+}
+
+.navbar-nav[b-d2k7snamvb] {
+    -ms-scrollbar-base-color: forestgreen;
+    margin-left: 8%;
+    color: aqua;
+}
+
+    .navbar-nav .nav-item[b-d2k7snamvb] {
+        margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+    }
+
+    .navbar-nav .nav-link[b-d2k7snamvb] {
+        text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+        padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    .navbar-nav .nav-item[b-d2k7snamvb] {
+        margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+    }
+
+        /* Loại bỏ margin cho nav item cuối cùng */
+        .navbar-nav .nav-item:last-child[b-d2k7snamvb] {
+            margin-right: 0%;
+        }
+
+
+
+.nav-item[b-d2k7snamvb] {
+    color: black;
+}
+
+.dropdown-menu[b-d2k7snamvb] {
+    background-color: #fff !important; /* Màu nền của dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-d2k7snamvb] {
+        color: #000000 !important; /* Màu chữ của các mục */
+        padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+    }
+
+
+.dropdown-menu[b-d2k7snamvb] {
+    background-color: red; /* Màu nền của dropdown */
+    border: none; /* Xóa viền */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+    margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+    border-radius: 0.5rem; /* Bo góc cho dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-d2k7snamvb] {
+        color: #ffffff; /* Màu chữ của các mục */
+        padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+    }
+
+        .dropdown-menu .dropdown-item:hover[b-d2k7snamvb],
+        .dropdown-menu .dropdown-item:focus[b-d2k7snamvb] {
+            background-color: #009933; /* Màu nền khi hover */
+            color: #ffffff; /* Màu chữ khi hover */
+            text-decoration: none; /* Xóa gạch chân khi hover */
+        }
+
+.dropdown-toggle[b-d2k7snamvb]::after {
+    margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+    color: #ffffff; /* Màu của mũi tên */
+}
+
+.dropdown-item.active[b-d2k7snamvb] {
+    background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+    color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+}
+
+/* Tùy chọn thêm cho độ rộng dropdown */
+.dropdown-menu[b-d2k7snamvb] {
+    min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+}
+
+    /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+    .dropdown-menu .dropdown-item[b-d2k7snamvb] {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+    }
+
+        .dropdown-menu .dropdown-item:last-child[b-d2k7snamvb] {
+            border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+        }
+.card[b-d2k7snamvb] {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+    .card:hover[b-d2k7snamvb] {
+        transform: translateY(-10px);
+    }
+
+    .card img[b-d2k7snamvb] {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+.card-body[b-d2k7snamvb] {
+    padding: 15px;
+}
+
+.card h5[b-d2k7snamvb] {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p[b-d2k7snamvb] {
+    font-size: 14px;
+    color: #555;
+}
+
+h1[b-d2k7snamvb] {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.news-container[b-d2k7snamvb] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-item[b-d2k7snamvb] {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    flex: 0 1 calc(30% - 40px); /* 3 items per row with space */
+    box-sizing: border-box;
+}
+
+    .news-item img[b-d2k7snamvb] {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+h2[b-d2k7snamvb] {
+    color: #333;
+    margin: 10px 0;
+}
+
+p[b-d2k7snamvb] {
+    color: #666;
+    line-height: 1.5;
+}
+
+a[b-d2k7snamvb] {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #FF0000;
+}
+
+    a:hover[b-d2k7snamvb] {
+        text-decoration: underline;
+    }
+
+body[b-d2k7snamvb] {
+}
+/* _content/PhongKhamThuY/Components/Pages/Client/Gioithieu/ListGioiThiêu.razor.rz.scp.css */
+body[b-xm4tdkuzug] {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container[b-xm4tdkuzug] {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header[b-xm4tdkuzug] {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+    .header h1[b-xm4tdkuzug] {
+        margin: 0;
+    }
+
+    .header p[b-xm4tdkuzug] {
+        font-size: 1.2em;
+    }
+
+.content[b-xm4tdkuzug] {
+    padding: 20px;
+}
+
+h2[b-xm4tdkuzug] {
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+ul[b-xm4tdkuzug] {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.navbar-nav .nav-link[b-xm4tdkuzug] {
+    color: white;
+    font-weight: bold;
+}
+
+    .navbar-nav .nav-link:hover[b-xm4tdkuzug] {
+        color: yellow;
+    }
+
+.container-fluid[b-xm4tdkuzug] {
+    background-color: #003300;
+    max-width: auto;
+}
+
+.navbar-nav[b-xm4tdkuzug] {
+    -ms-scrollbar-base-color: forestgreen;
+    margin-left: 8%;
+    color: aqua;
+}
+
+    .navbar-nav .nav-item[b-xm4tdkuzug] {
+        margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+    }
+
+    .navbar-nav .nav-link[b-xm4tdkuzug] {
+        text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+        padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    .navbar-nav .nav-item[b-xm4tdkuzug] {
+        margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+    }
+
+        /* Loại bỏ margin cho nav item cuối cùng */
+        .navbar-nav .nav-item:last-child[b-xm4tdkuzug] {
+            margin-right: 0%;
+        }
+
+
+
+.nav-item[b-xm4tdkuzug] {
+    color: black;
+    list-style: none;
+}
+
+.dropdown-menu[b-xm4tdkuzug] {
+    background-color: #fff !important; /* Màu nền của dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-xm4tdkuzug] {
+        color: #000000 !important; /* Màu chữ của các mục */
+        padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+    }
+
+
+.dropdown-menu[b-xm4tdkuzug] {
+    background-color: red; /* Màu nền của dropdown */
+    border: none; /* Xóa viền */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+    margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+    border-radius: 0.5rem; /* Bo góc cho dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-xm4tdkuzug] {
+        color: #ffffff; /* Màu chữ của các mục */
+        padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+    }
+
+        .dropdown-menu .dropdown-item:hover[b-xm4tdkuzug],
+        .dropdown-menu .dropdown-item:focus[b-xm4tdkuzug] {
+            background-color: #009933; /* Màu nền khi hover */
+            color: #ffffff; /* Màu chữ khi hover */
+            text-decoration: none; /* Xóa gạch chân khi hover */
+        }
+
+.dropdown-toggle[b-xm4tdkuzug]::after {
+    margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+    color: #ffffff; /* Màu của mũi tên */
+}
+
+.dropdown-item.active[b-xm4tdkuzug] {
+    background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+    color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+}
+
+/* Tùy chọn thêm cho độ rộng dropdown */
+.dropdown-menu[b-xm4tdkuzug] {
+    min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+}
+
+    /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+    .dropdown-menu .dropdown-item[b-xm4tdkuzug] {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+    }
+
+        .dropdown-menu .dropdown-item:last-child[b-xm4tdkuzug] {
+            border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+        }
+
+body[b-xm4tdkuzug] {
+}
+/* _content/PhongKhamThuY/Components/Pages/Client/LienHe/ListLienHe.razor.rz.scp.css */
+
+body[b-cx869ej3bd] {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.main-container[b-cx869ej3bd] {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header[b-cx869ej3bd] {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1[b-cx869ej3bd] {
+    color: #4CAF50;
+}
+
+.content[b-cx869ej3bd] {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.contact-form[b-cx869ej3bd] {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .contact-form h2[b-cx869ej3bd] {
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+.form-group[b-cx869ej3bd] {
+    margin-bottom: 15px;
+}
+
+label[b-cx869ej3bd] {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"][b-cx869ej3bd],
+input[type="email"][b-cx869ej3bd],
+textarea[b-cx869ej3bd] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[b-cx869ej3bd] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    button:hover[b-cx869ej3bd] {
+        background-color: #45a049;
+    }
+
+.map-container[b-cx869ej3bd] {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .map-container h2[b-cx869ej3bd] {
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+
+.navbar-nav .nav-link[b-cx869ej3bd] {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover[b-cx869ej3bd] {
+    color: yellow;
+}
+
+.container-fluid[b-cx869ej3bd] {
+    background-color: #003300;
+    max-width: auto;
+}
+
+.navbar-nav[b-cx869ej3bd] {
+    -ms-scrollbar-base-color: forestgreen;
+    margin-left: 8%;
+    color: aqua;
+}
+
+    .navbar-nav .nav-item[b-cx869ej3bd] {
+        margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+    }
+
+    .navbar-nav .nav-link[b-cx869ej3bd] {
+        text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+        padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    .navbar-nav .nav-item[b-cx869ej3bd] {
+        margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+    }
+
+        /* Loại bỏ margin cho nav item cuối cùng */
+        .navbar-nav .nav-item:last-child[b-cx869ej3bd] {
+            margin-right: 0%;
+        }
+
+
+
+.nav-item[b-cx869ej3bd] {
+    color: black;
+}
+
+.dropdown-menu[b-cx869ej3bd] {
+    background-color: #fff !important; /* Màu nền của dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-cx869ej3bd] {
+        color: #000000 !important; /* Màu chữ của các mục */
+        padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+    }
+
+
+.dropdown-menu[b-cx869ej3bd] {
+    background-color: red; /* Màu nền của dropdown */
+    border: none; /* Xóa viền */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+    margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+    border-radius: 0.5rem; /* Bo góc cho dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-cx869ej3bd] {
+        color: #ffffff; /* Màu chữ của các mục */
+        padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+    }
+
+        .dropdown-menu .dropdown-item:hover[b-cx869ej3bd],
+        .dropdown-menu .dropdown-item:focus[b-cx869ej3bd] {
+            background-color: #009933; /* Màu nền khi hover */
+            color: #ffffff; /* Màu chữ khi hover */
+            text-decoration: none; /* Xóa gạch chân khi hover */
+        }
+
+.dropdown-toggle[b-cx869ej3bd]::after {
+    margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+    color: #ffffff; /* Màu của mũi tên */
+}
+
+.dropdown-item.active[b-cx869ej3bd] {
+    background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+    color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+}
+
+/* Tùy chọn thêm cho độ rộng dropdown */
+.dropdown-menu[b-cx869ej3bd] {
+    min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+}
+
+    /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+    .dropdown-menu .dropdown-item[b-cx869ej3bd] {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+    }
+
+        .dropdown-menu .dropdown-item:last-child[b-cx869ej3bd] {
+            border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+        }
+
+
+body[b-cx869ej3bd] {
+}
+/* _content/PhongKhamThuY/Components/Pages/Client/Tintuc/AddTintuc.razor.rz.scp.css */
+.news-section[b-jynmndy831] {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+    .news-section h2[b-jynmndy831] {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+.news-container[b-jynmndy831] {
+    display: flex;
+    flex-wrap: wrap; /* Đảm bảo phần tử có thể xuống dòng nếu không đủ chỗ */
+    justify-content: space-between;
+}
+
+.news-item[b-jynmndy831] {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 20px; /* Khoảng cách giữa các bài viết */
+}
+
+    .news-item img[b-jynmndy831] {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .news-item h3[b-jynmndy831] {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .news-item p[b-jynmndy831] {
+        font-size: 0.9em;
+        margin-bottom: 15px;
+        color: #555;
+    }
+
+    .news-item a[b-jynmndy831] {
+        text-decoration: none;
+        color: #4CAF50;
+        font-weight: bold;
+    }
+
+    .news-item:hover[b-jynmndy831] {
+        transform: translateY(-5px);
+    }
+
+
+.pagination[b-jynmndy831] {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .pagination .page-item[b-jynmndy831] {
+        margin: 0 5px; /* Khoảng cách giữa các mục phân trang */
+    }
+
+    .pagination .page-link[b-jynmndy831] {
+        display: block;
+        padding: 10px 15px;
+        color: #339900; /* Màu chữ cho liên kết */
+        text-decoration: none;
+        border: 1px solid #339900; /* Viền cho liên kết */
+        border-radius: 4px; /* Bo tròn góc */
+        transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển màu */
+    }
+
+        .pagination .page-link:hover[b-jynmndy831] {
+            background-color: #339900; /* Màu nền khi hover */
+            color: white; /* Màu chữ khi hover */
+        }
+
+    .pagination .active .page-link[b-jynmndy831] {
+        background-color: #339900; /* Màu nền cho mục đang hoạt động */
+        color: white; /* Màu chữ cho mục đang hoạt động */
+        border: 1px solid #339900; /* Viền cho mục đang hoạt động */
+    }
+
+    .pagination .page-item:last-child .page-link[b-jynmndy831] {
+        margin-right: 0; /* Xóa khoảng cách bên phải cho phần tử cuối cùng */
+    }
+
+
+body[b-jynmndy831] {
+}
+/* _content/PhongKhamThuY/Components/Pages/Client/Đatlich/ListDatLich.razor.rz.scp.css */
+.booking-form-container[b-szy2vpdy9l] {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .booking-form-container h2[b-szy2vpdy9l] {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+    }
+
+.form-group[b-szy2vpdy9l] {
+    margin-bottom: 15px;
+}
+
+    .form-group label[b-szy2vpdy9l] {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .form-group input[b-szy2vpdy9l],
+    .form-group select[b-szy2vpdy9l],
+    .form-group textarea[b-szy2vpdy9l] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .form-group textarea[b-szy2vpdy9l] {
+        height: 100px;
+    }
+
+button[type="submit"][b-szy2vpdy9l] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button[type="submit"]:hover[b-szy2vpdy9l] {
+        background-color: #45a049;
+    }
+.navbar-nav .nav-link[b-szy2vpdy9l] {
+    color: white;
+    font-weight: bold;
+}
+
+    .navbar-nav .nav-link:hover[b-szy2vpdy9l] {
+        color: yellow;
+    }
+
+.container-fluid[b-szy2vpdy9l] {
+    background-color: #003300;
+    max-width: auto;
+}
+
+.navbar-nav[b-szy2vpdy9l] {
+    -ms-scrollbar-base-color: forestgreen;
+    margin-left: 8%;
+    color: aqua;
+}
+
+    .navbar-nav .nav-item[b-szy2vpdy9l] {
+        margin-right: 65px; /* Tùy chỉnh khoảng cách theo ý muốn */
+    }
+
+    .navbar-nav .nav-link[b-szy2vpdy9l] {
+        text-align: center; /* Canh giữa văn bản của mỗi nav-link */
+        padding: 12px 15px; /* Điều chỉnh padding cho liên kết nếu cần */
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    .navbar-nav .nav-item[b-szy2vpdy9l] {
+        margin-right: 54px; /* Thay đổi giá trị này để điều chỉnh khoảng cách */
+    }
+
+        /* Loại bỏ margin cho nav item cuối cùng */
+        .navbar-nav .nav-item:last-child[b-szy2vpdy9l] {
+            margin-right: 0%;
+        }
+
+
+
+.nav-item[b-szy2vpdy9l] {
+    color: black;
+}
+
+.dropdown-menu[b-szy2vpdy9l] {
+    background-color: #fff !important; /* Màu nền của dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-szy2vpdy9l] {
+        color: #000000 !important; /* Màu chữ của các mục */
+        padding: 10px 20px !important; /* Khoảng cách bên trong từng mục */
+    }
+
+
+.dropdown-menu[b-szy2vpdy9l] {
+    background-color: red; /* Màu nền của dropdown */
+    border: none; /* Xóa viền */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tạo đổ bóng */
+    margin-top: 0; /* Xóa khoảng cách phía trên dropdown */
+    border-radius: 0.5rem; /* Bo góc cho dropdown */
+}
+
+    .dropdown-menu .dropdown-item[b-szy2vpdy9l] {
+        color: #ffffff; /* Màu chữ của các mục */
+        padding: 10px 20px; /* Khoảng cách bên trong từng mục */
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Thêm chuyển động cho màu chữ */
+    }
+
+        .dropdown-menu .dropdown-item:hover[b-szy2vpdy9l],
+        .dropdown-menu .dropdown-item:focus[b-szy2vpdy9l] {
+            background-color: #009933; /* Màu nền khi hover */
+            color: #ffffff; /* Màu chữ khi hover */
+            text-decoration: none; /* Xóa gạch chân khi hover */
+        }
+
+.dropdown-toggle[b-szy2vpdy9l]::after {
+    margin-left: 0.5em; /* Khoảng cách giữa chữ và mũi tên */
+    color: #ffffff; /* Màu của mũi tên */
+}
+
+.dropdown-item.active[b-szy2vpdy9l] {
+    background-color: #0056b3; /* Màu nền cho mục đang hoạt động */
+    color: #ffffff; /* Màu chữ cho mục đang hoạt động */
+}
+
+/* Tùy chọn thêm cho độ rộng dropdown */
+.dropdown-menu[b-szy2vpdy9l] {
+    min-width: 200px; /* Đặt độ rộng tối thiểu cho dropdown */
+}
+
+    /* Tùy chọn điều chỉnh khoảng cách cho dropdown */
+    .dropdown-menu .dropdown-item[b-szy2vpdy9l] {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Thêm đường viền giữa các mục */
+    }
+
+        .dropdown-menu .dropdown-item:last-child[b-szy2vpdy9l] {
+            border-bottom: none; /* Không hiển thị đường viền cho mục cuối cùng */
+        }
+
+body[b-szy2vpdy9l] {
 }
