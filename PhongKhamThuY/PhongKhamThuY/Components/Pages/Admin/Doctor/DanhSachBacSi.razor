@@ -1,116 +1,54 @@
-﻿@page "/DanhSachBacSi"
+﻿@page "/admin/DanhSachBacSi"
 @inject PetHealthRepository Repository
 @rendermode InteractiveServer
 @inject NavigationManager Navigation
+@layout AdminLayout
 <PageTitle>Danh Sách Bác Sĩ</PageTitle>
 
+<h3 style="text-align:center">DANH SÁCH BÁC SĨ</h3>
 <div>
-    <h3 style="text-align:center">DANH SÁCH BÁC SĨ</h3>
-    <div>
-        <a href="/ThemBacSi" class="btn-add-medicine">
-            <span class="button__text">Thêm bác sĩ</span>
+    <button>
+        <NavLink href="/admin/ThemBacSi">
+            <span class="button__text">Thêm Bác Sĩ</span>
             <span class="button__icon">
-                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-plus" style="color: #63E6BE;"></i>
             </span>
-        </a>
-    </div>
+        </NavLink>
+    </button>
+</div>
 
+<div>
+    <div class="col-8">
 
-    <div>
-        <table class="content-table">
-            <thead>
-                <tr>
-                    <th>Mã bác sĩ</th>
-                    <th>Họ và tên bác sĩ</th>
-                    <th>Số điện thoại</th>
-                    <th>Email</th>
-                    <th>Địa chỉ</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                @if (BacSis is null)
-                {
-                    <tr><td colspan="7">Đang tải dữ liệu. Vui lòng đợi...</td></tr>
-                }
-                @if (BacSis != null && BacSis.Any())
-                {
-                    @foreach (var bacsi in BacSis)
-                    {
-                        <tr>
-                            <td>@bacsi.MaBacSi</td>
-                            <td>@bacsi.TenBacSi</td>
-                            <td>@bacsi.SoDienThoai</td>
-                            <td>@bacsi.Email</td>
-                            <td>@bacsi.DiaChi</td>
-                            <td>
-                                <a href="@($"/DanhSachBacSi/{bacsi.MaBacSi}")" class="btn-edit return">
-                                    <i class="fa-solid fa-pen-to-square"></i>
-                                </a>
-                                <button @onclick="() => OpenConfirmDialog(bacsi.MaBacSi)" class="delete-button submit">
-                                    <i class="fa-solid fa-trash"></i>
-                                </button>
-                            </td>
-                        </tr>
-                    }
-                }
-                else
-                {
-                    <p>Không có bác sĩ nào để hiển thị.</p>
-                }
-            </tbody>
-        </table>
+        @if (BacSis is null)
+        {
+            <div class="thuoc-item">
+                Đang tải dữ liệu. Vui lòng đợi...
+            </div>
+        }
+
+        @if (BacSis != null && BacSis.Any())
+        {
+            @foreach (var bacSi in BacSis)
+            {
+                <div class="thuoc-item">
+                    <BacSiCard bacSi="bacSi"></BacSiCard>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Không có khách hàng nào để hiển thị.</p>
+        }
     </div>
 </div>
-<DeleteConfirmDialog Show="showConfirmDialog"
-                     OnCancel="CancelDelete"
-                     OnOK="DeleteBacSi">
-    <h3>
-        Bạn có muốn xóa bác sĩ @selectedBacSi?.TenBacSi không?
-    </h3>
-</DeleteConfirmDialog>
+
 @code {
 
 
-    private bool showConfirmDialog;
-    private int? selectedMaBacSi;
-    private BacSi? selectedBacSi;
+
 
     private List<BacSi> BacSis = new List<BacSi>();
-    [Parameter]
-    public required PetHealthCatalog.Domain.Entities.BacSi bacSi { get; set; }
-
-    private void OpenConfirmDialog(int maBacSi)
-    {
-        selectedMaBacSi = maBacSi;
-        selectedBacSi = BacSis.FirstOrDefault(k => k.MaBacSi == maBacSi);
-        showConfirmDialog = true;
-    }
-
-    private void CancelDelete()
-    {
-        showConfirmDialog = false;
-        selectedMaBacSi = null;
-        selectedBacSi = null;
-    }
-
-    private async Task DeleteBacSi()
-    {
-        if (selectedMaBacSi != null)
-        {
-            await Repository.DeleteByIdAsync(selectedMaBacSi.Value);
-            BacSis.RemoveAll(k => k.MaBacSi == selectedMaBacSi);
-            showConfirmDialog = false;
-            selectedMaBacSi = null;
-            selectedBacSi = null;
-            Navigation.NavigateTo("/DanhSachBacSi");
-        }
-    }
-
-
-
-
-
     protected override async Task OnInitializedAsync()
     {
         try

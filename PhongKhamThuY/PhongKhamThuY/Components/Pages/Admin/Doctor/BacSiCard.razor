@@ -21,7 +21,7 @@
                 <td>@bacSi.Email</td>
                 <td>@bacSi.DiaChi</td>
                 <td>
-                    <a href="@($"/DanhSachBacSi/{bacSi.MaBacSi}")" class="btn-edit return">
+                    <a href="@($"/admin/ChinhSuaBacSi/{bacSi.MaBacSi}")" class="btn-edit return">
                         Chỉnh Sửa
                     </a>
                     <button @onclick="OpenConfirmDialog" class="delete-button submit">
@@ -60,6 +60,6 @@
     {
         await Repository.DeleteByIdAsync(bacSi.MaBacSi);
         showConfirmDialog = false;
-        Navigation.NavigateTo("/DanhSachBacSi");
+        Navigation.NavigateTo("/admin/DanhSachBacSi");
     }
 }

@@ -1,70 +1,82 @@
-﻿@page "/ChinhSuaHoso/{id:int}"
+﻿@page "/admin/ChinhSuaHoso/{id:int}"
 @inject PetHealthRepository Repository
 @inject NavigationManager Navigation
-
+@layout AdminLayout
 <PageTitle>
-   Cập Nhật Hồ Sơ
+    Cập Nhật Hồ Sơ
 </PageTitle>
 
 @if (HoSo is not null)
 {
     <div class="row justify-content-center">
         <div class="col-7">
-            <EditForm Enhance="true" method="post" FormName="ThemThuoc" OnValidSubmit="CapNhatHoSo" Model="HoSo" autocomplete="off" class="form">
-                <h3 style="text-align:center">
-                    Cập Nhật Hồ Sơ
-                </h3>
-                <input type="hidden" name="HoSo.MaVatNuoi" value="@HoSo.MaVatNuoi" />
-        <!-- Chỗ Nhập Tên Chủ -->
-        <div class="input-box">
-            <label>Tên Chủ</label>
-            <InputText id="TenChu" @bind-Value="HoSo.TenChu" type="text" required />
-        </div>
+            <EditForm Enhance="true" method="post" FormName="CapNhatHoSo" OnValidSubmit="CapNhatHoSo" Model="HoSo" autocomplete="off" class="form">
 
-        <div class="column">
-            <!-- Chỗ Nhập Tuổi -->
-            <div class="input-box">
-                <label>Tuổi</label>
-                <InputNumber id="Tuoi" @bind-Value="HoSo.Tuoi" type="text" required />
-            </div>
 
-            <!-- Chỗ Nhập Loại Thuốc -->
-            <div class="input-box">
-                <label>Cân Nặng Thú Cưng</label>
-                <InputNumber id="Cannang" @bind-Value="HoSo.CanNang" type="text" required />
-            </div>
-        </div>
+                <div class="form-group">
+                    <label>Tên Chủ</label>
+                    <InputText id="TenChu" @bind-Value="HoSo.TenChu" type="text" class="form-control" required />
+                </div>
 
-        <div class="column">
-            <!-- Chỗ Nhập Ngày Sản Xuất -->
-            <div class="input-box">
-                <label>Tình Trạng Thú Cưng</label>
-                <InputDate id="NgaySanXuat" @bind-Value="HoSo.TinhTrang" required />
-            </div>
 
-            <!-- Chỗ Nhập Hạn Sử Dụng -->
-            <div class="input-box">
-                <label>Chuẩn Đoán</label>
-                <InputDate id="HanSuDung" @bind-Value="HoSo.ChuanDoan" required />
-            </div>
-        </div>
 
-        <div class="column">
-            <!-- Chỗ Nhập Số Lượng Thuốc -->
-            <div class="input-box">
-                <label>Loại Vật Nuôi</label>
-                <InputNumber id="SoLuongThuoc" @bind-Value="HoSo.LoaiVatNuoi" type="number" required />
-            </div>
-        </div>
+                <div class="form-group">
+                    <label>Tên Thú Cưng</label>
+                    <InputText id="TenThuCung" @bind-Value="HoSo.TenThuCung" type="text" class="form-control" required />
+                </div>
 
-                <!-- Chỗ Nhấn Nút Đồng Ý Sau Khi Thêm Thuốc -->
-                <div class="mb-3">
-                    <button type="submit" class="btn btn-primary shadow-none submit">
-                        Hoàn Thành
+
+
+                <div class="form-group">
+                    <label>Tuổi</label>
+                    <InputNumber id="Tuoi" @bind-Value="HoSo.Tuoi" type="number" class="form-control" required />
+                </div>
+
+
+
+                <div class="form-group">
+                    <label>Cân Nặng Thú Cưng</label>
+                    <InputNumber id="Cannang" @bind-Value="HoSo.CanNang" type="number" class="form-control" required />
+                </div>
+
+
+
+
+                <div class="form-group">
+                    <label>Tình Trạng Thú Cưng</label>
+                    <InputText id="TinhTrangThuCung" @bind-Value="HoSo.TinhTrang" type="text" class="form-control" required />
+                </div>
+
+
+
+                <div class="form-group">
+                    <label>Chuẩn Đoán</label>
+                    <InputText id="ChuanDoan" @bind-Value="HoSo.ChuanDoan" type="text" class="form-control" required />
+                </div>
+
+
+
+
+                <div class="form-group">
+                    <label>Loại Vật Nuôi</label>
+                    <InputText id="LoaiVatNuoi" @bind-Value="HoSo.LoaiVatNuoi" type="text" class="form-control" required />
+                </div>
+
+
+
+
+                <div class="form-group">
+                    <label>Giống Loài</label>
+                    <InputText id="LoaiVatNuoi" @bind-Value="HoSo.Giong" type="text" class="form-control" required />
+                </div>
+
+
+
+                <div class="button-group">
+                    <button type="button" class="return">
+                        <NavLink href="/admin/DanhSachHoSo" style="text-decoration:none;color:white">Quay lại</NavLink>
                     </button>
-                    <a href="/DanhSachThuoc" class="btn btn-secondary shadow-none return ms-3">
-                        Quay Lại Danh Sách
-                    </a>
+                    <button type="submit" class="submit">Hoàn Thành</button>
                 </div>
 
                 <DataAnnotationsValidator />
@@ -94,7 +106,7 @@
         if (HoSo is not null)
         {
             await Repository.UpdateAsyncHoSo(HoSo);
-            Navigation.NavigateTo("/DanhSachHoSo");
+            Navigation.NavigateTo("/admin/DanhSachHoSo");
         }
     }
 }

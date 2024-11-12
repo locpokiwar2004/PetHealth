@@ -1,4 +1,8 @@
 ﻿@page "/listLienHe"
+@inject PetHealthRepository Repository
+@inject NavigationManager Navigation
+@inject IAntiforgery Antiforgery
+
 <PageTitle>Trang Liên Hệ</PageTitle>
 <h3></h3>
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script> <!-- Chèn API key của Google Maps -->
@@ -83,21 +87,54 @@
     <div class="content">
         <div class="contact-form">
             <h2>Thông Tin Liên Hệ</h2>
-            <form>
+            <EditForm Enhance="true" method="post" FormName="ThemKhachHang" OnValidSubmit="AddKhachHang" Model="khachHang" autocomplete="off" class="form">
                 <div class="form-group">
-                    <label for="name">Họ và Tên:</label>
-                    <input type="text" id="name" name="name" required>
+                    <label for="TenKhachHang">Tên Khách Hàng</label>
+                    <InputText id="TenKhachHang" @bind-Value="khachHang.TenKhachHang" class="form-control" required />
                 </div>
+
+
+
                 <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="SoDienThoai">Số Điện Thoại</label>
+                    <InputText id="SoDienThoai" @bind-Value="khachHang.SoDienThoai" class="form-control" required />
                 </div>
+
+
+
                 <div class="form-group">
-                    <label for="message">Tin Nhắn:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <label for="Email">Email</label>
+                    <InputText id="Email" @bind-Value="khachHang.Email" class="form-control" required />
                 </div>
+
+
+
+
+
+                <div class="form-group">
+                    <label for="DiaChi">Địa Chỉ</label>
+                    <InputText id="DiaChi" @bind-Value="khachHang.DiaChi" class="form-control" required />
+                </div>
+
+
+
+                <div class="form-group">
+                    <label for="TenThuCung">Tên Thú Cưng</label>
+                    <InputText id="TenThuCung" @bind-Value="khachHang.TenThuCung" class="form-control" required />
+                </div>
+
+
+
+
+                <div class="form-group">
+                    <label for="TinNhan">Tin Nhắn</label>
+                    <InputText id="TinNhan" @bind-Value="khachHang.LoiNhan" class="form-control" />
+                </div>
+
                 <button type="submit">Gửi</button>
-            </form>
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+            </EditForm>
         </div>
 
         <div class="map-container">
@@ -115,7 +152,14 @@
 </div>
 
 @code {
+    [SupplyParameterFromForm]
+    public KhachHang khachHang { get; set; } = new();
 
+    private async Task AddKhachHang()
+    {
+        await Repository.AddAsyncKhachHang(khachHang);
+        Navigation.NavigateTo("/client");
+    }
 }
 
 

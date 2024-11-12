@@ -1,0 +1,62 @@
+﻿@page "/admin/DanhSachHoaDon"
+@inject PetHealthRepository Repository
+@rendermode InteractiveServer
+@inject NavigationManager Navigation
+@layout AdminLayout
+<PageTitle>Danh Sách Hóa Đơn</PageTitle>
+
+<h3 style="text-align:center">DANH SÁCH HÓA ĐƠN</h3>
+<div>
+    <button>
+        <NavLink href="/admin/ThemHoaDon">
+            <span class="button__text">Thêm Hóa Đơn</span>
+            <span class="button__icon">
+                <i class="fa-solid fa-plus" style="color: #63E6BE;"></i>
+            </span>
+        </NavLink>
+    </button>
+</div>
+
+<div>
+    <div class="col-8">
+
+        @if (hoadons is null)
+        {
+            <div class="hoadon-item">
+                Đang tải dữ liệu. Vui lòng đợi...
+            </div>
+        }
+
+        @if (hoadons != null && hoadons.Any())
+        {
+            @foreach (var hoadon in hoadons)
+            {
+                <div class="hoadon-item">
+                    <HoaDonCard HoaDon="hoadon"></HoaDonCard>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Không có hóa đơn nào để hiển thị.</p>
+        }
+    </div>
+</div>
+
+
+@code {
+    private List<HoaDon> hoadons = new List<HoaDon>();
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Fetch the list of customers from the repository
+            hoadons = await Repository.GetAllAsyncHoaDon() ?? new List<HoaDon>();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+            hoadons = new List<HoaDon>(); // Assign an empty list in case of an error
+        }
+    }
+}

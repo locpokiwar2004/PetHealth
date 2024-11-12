@@ -11,24 +11,28 @@ namespace PetHealthCatalog.Application.interfaces
         Task AddAsyncKhachHang(KhachHang KhachHang);
         Task AddAsyncHoSo(HoSoThuNuoi HoSoThuNuoi);
         Task AddAsyncDatLich(DatLich DatLich);
+        Task AddAsyncHoaDon(HoaDon HoaDon);
 
         Task<List<Thuoc>> GetAllAsyncThuoc();
         Task<List<KhachHang>> GetAllAsyncKhachHang();
         Task<List<HoSoThuNuoi>> GetAllAsyncHoSo();
         Task<List<BacSi>> GetAllAsyncBacSi();
         Task<List<DatLich>> GetAllAsyncDatLich();
+        Task<List<HoaDon>> GetAllAsyncHoaDon();
 
         Task<Thuoc> GetByIdAsyncThuoc(int id);
         Task<KhachHang> GetByIdAsyncKhachHang(int id);
         Task<HoSoThuNuoi> GetByIdAsyncHoSo(int id);
         Task<BacSi> GetByIdAsyncBacSi(int id);
         Task<DatLich> GetByIdAsyncDatLich(int id);
+        Task<HoaDon> GetByIdAsyncHoaDon(int id);
 
         Task UpdateAsyncThuoc(Thuoc thuoc);
         Task UpdateAsyncBacSi(BacSi bacSi);
         Task UpdateAsyncHoSo(HoSoThuNuoi HoSo);
         Task UpdateAsyncKhachHang(KhachHang KhangHang);
         Task UpdateAsyncDatLich(DatLich DatLich);
+        Task UpdateAsyncHoaDon(HoaDon thuoc);
 
         Task DeleteByIdAsync(int id);
     }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 using PetHealthCatalog.Application.interfaces;
 using PetHealthCatalog.Domain.Entities;
 using PetHealthCatalog.Infrastucture.Context;
@@ -8,10 +9,12 @@ namespace PetHealthCatalog.Infrastucture.Repositories
     public class ModelRepositories:PetHealthRepository
     {
         private readonly PetHealthDBContext context;
+
         public ModelRepositories(IDbContextFactory<PetHealthDBContext> factory)
         {
             context = factory.CreateDbContext();
         }
+
         async Task PetHealthRepository.DeleteByIdAsync(int id)
         {
             var thuoc = await ((PetHealthRepository)this).GetByIdAsyncThuoc(id);
@@ -19,6 +22,7 @@ namespace PetHealthCatalog.Infrastucture.Repositories
             var khachHang = await ((PetHealthRepository)this).GetByIdAsyncKhachHang(id);
             var hoSoThuNuoi = await ((PetHealthRepository)this).GetByIdAsyncHoSo(id);
             var datlich = await ((PetHealthRepository)this).GetByIdAsyncDatLich(id);
+            var hoadon = await ((PetHealthRepository)this).GetByIdAsyncHoaDon(id);
 
             if (hoSoThuNuoi is not null)
             {
@@ -43,6 +47,11 @@ namespace PetHealthCatalog.Infrastucture.Repositories
             if (datlich is not null)
             {
                 context.DatLichs.Remove(datlich); ;
+                await context.SaveChangesAsync();
+            }
+            if (hoadon is not null)
+            {
+                context.HoaDons.Remove(hoadon); ;
                 await context.SaveChangesAsync();
             }
 
@@ -94,54 +103,29 @@ namespace PetHealthCatalog.Infrastucture.Repositories
             return hoSo;
         }
 
-        Task PetHealthRepository.AddAsyncThuoc(Thuoc thuoc)
+        public Task AddAsyncThuoc(Thuoc thuoc)
         {
             context.Thuocs.Add(thuoc);
             return context.SaveChangesAsync();
         }
 
-        Task PetHealthRepository.AddAsyncBacSi(BacSi BacSi)
+        public Task AddAsyncBacSi(BacSi BacSi)
         {
             context.BacSis.Add(BacSi);
             return context.SaveChangesAsync();
         }
 
-        Task PetHealthRepository.AddAsyncKhachHang(KhachHang KhachHang)
+        public Task AddAsyncKhachHang(KhachHang KhachHang)
         {
             context.KhachHangs.Add(KhachHang);
             return context.SaveChangesAsync();
         }
 
-        Task PetHealthRepository.AddAsyncHoSo(HoSoThuNuoi HoSoThuNuoi)
+        public Task AddAsyncHoSo(HoSoThuNuoi HoSoThuNuoi)
         {
             context.HoSoThuNuois.Add(HoSoThuNuoi);
             return context.SaveChangesAsync();
         }
-
-        Task PetHealthRepository.UpdateAsyncThuoc(Thuoc thuoc)
-        {
-            context.Entry(thuoc).State = EntityState.Modified;
-            return context.SaveChangesAsync(); throw new NotImplementedException();
-        }
-
-        Task PetHealthRepository.UpdateAsyncBacSi(BacSi bacSi)
-        {
-            context.Entry(bacSi).State = EntityState.Modified;
-            return context.SaveChangesAsync();
-        }
-
-        Task PetHealthRepository.UpdateAsyncHoSo(HoSoThuNuoi HoSo)
-        {
-            context.Entry(HoSo).State = EntityState.Modified;
-            return context.SaveChangesAsync();
-        }
-
-        Task PetHealthRepository.UpdateAsyncKhachHang(KhachHang KhangHang)
-        {
-            context.Entry(KhangHang).State = EntityState.Modified;
-            return context.SaveChangesAsync();
-        }
-
         public Task AddAsyncDatLich(DatLich DatLich)
         {
             context.DatLichs.Add(DatLich);
@@ -160,10 +144,60 @@ namespace PetHealthCatalog.Infrastucture.Repositories
             return datlich;
         }
 
-        public Task UpdateAsyncDatLich(DatLich DatLich)
+       
+
+        public Task AddAsyncHoaDon(HoaDon HoaDon)
+        {
+            context.HoaDons.Add(HoaDon);
+            return context.SaveChangesAsync();
+        }
+
+        public async Task<List<HoaDon>> GetAllAsyncHoaDon()
+        {
+            var hoadon = await context.HoaDons.ToListAsync();
+            return hoadon;
+        }
+
+        public async Task<HoaDon> GetByIdAsyncHoaDon(int id)
+        {
+            var hoadon = await context.HoaDons.FirstOrDefaultAsync(e => e.MaHoaDon == id);
+            return hoadon;
+        }
+
+        public async Task UpdateAsyncHoaDon(HoaDon hoaDon)
+        {
+            context.Entry(hoaDon).State = EntityState.Modified;
+            await context.SaveChangesAsync(); 
+        }
+
+        public async Task UpdateAsyncThuoc(Thuoc thuoc)
+        {
+            context.Entry(thuoc).State = EntityState.Modified;
+            await context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsyncBacSi(BacSi bacSi)
+        {
+            context.Entry(bacSi).State = EntityState.Modified;
+            await context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsyncHoSo(HoSoThuNuoi HoSo)
+        {
+            context.Entry(HoSo).State = EntityState.Modified;
+            await context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsyncKhachHang(KhachHang KhangHang)
+        {
+            context.Entry(KhangHang).State = EntityState.Modified;
+            await context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsyncDatLich(DatLich DatLich)
         {
             context.Entry(DatLich).State = EntityState.Modified;
-            return context.SaveChangesAsync(); throw new NotImplementedException();
+            await context.SaveChangesAsync();
         }
     }
 }

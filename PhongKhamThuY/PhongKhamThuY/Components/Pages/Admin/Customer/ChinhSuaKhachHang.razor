@@ -1,63 +1,76 @@
-﻿@page "/ChinhSuaKhachHang/{id:int}"
+﻿@page "/admin/ChinhSuaKhachHang/{id:int}"
 @inject PetHealthRepository Repository
 @inject NavigationManager Navigation
+@layout AdminLayout
 <PageTitle>
     Cập Nhật Khách Hàng
 </PageTitle>
 
-<div class="row justify-content-center">
-    <div class="col-7">
-        <EditForm Enhance="true" method="post" FormName="ThemKhachHang" OnValidSubmit="CapNhatKhachHang" Model="khachHang" autocomplete="off" class="form">
-            <h3 style="text-align:center">
-                Cập Nhật Khách Hàng
-            </h3>
-            <input type="hidden" name="khachHang.MaKhachhang" value="@khachHang.MaKhachHang" />
-        <!-- Chỗ Nhập Tên Thuốc -->
-        <div class="input-box">
-            <label>Tên Khách Hàng</label>
-                <InputText id="TenKhachHang" @bind-Value="khachHang.TenKhachHang" type="text" required />
+@if (KhachHang is not null)
+{
+    <div class="row justify-content-center">
+        <div class="col-7">
+            <EditForm Enhance="true" method="post" FormName="CapNhatKhachHang" OnValidSubmit="CapNhatKhachHang" Model="KhachHang" autocomplete="off" class="form">
+
+
+                <div class="form-group">
+                    <label for="TenKhachHang">Tên Khách Hàng</label>
+                    <InputText id="TenKhachHang" @bind-Value="KhachHang.TenKhachHang" class="form-control" required />
+                </div>
+
+
+
+                <div class="form-group">
+                    <label for="SoDienThoai">Số Điện Thoại</label>
+                    <InputText id="SoDienThoai" @bind-Value="KhachHang.SoDienThoai" class="form-control" required />
+                </div>
+
+
+
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <InputText id="Email" @bind-Value="KhachHang.Email" class="form-control" required />
+                </div>
+
+
+
+
+
+                <div class="form-group">
+                    <label for="DiaChi">Địa Chỉ</label>
+                    <InputText id="DiaChi" @bind-Value="KhachHang.DiaChi" class="form-control" required />
+                </div>
+
+
+
+                <div class="form-group">
+                    <label for="TenThuCung">Tên Thú Cưng</label>
+                    <InputText id="TenThuCung" @bind-Value="KhachHang.TenThuCung" class="form-control" required />
+                </div>
+
+
+
+
+                <div class="form-group">
+                    <label for="TinNhan">Tin Nhắn</label>
+                    <InputText id="TinNhan" @bind-Value="KhachHang.LoiNhan" class="form-control" />
+                </div>
+
+
+                <div class="button-group">
+                    <button type="button" class="return">
+                        <NavLink href="/admin/DanhSachKhachHang" style="text-decoration:none;color:white">Quay lại</NavLink>
+                    </button>
+                    <button type="submit" class="submit">Hoàn Thành</button>
+                </div>
+
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+            </EditForm>
         </div>
+    </div>
+}
 
-        <div class="column">
-            <!-- Chỗ Nhập Tên Nhà Sản Xuất -->
-            <div class="input-box">
-                <label>Số Điện Thoại</label>
-                <InputText id="SoDienThoai" @bind-Value="khachHang.SoDienThoai" type="text" required />
-            </div>
-
-            <!-- Chỗ Nhập Loại Thuốc -->
-            <div class="input-box">
-                <label>Email</label>
-                <InputText id="Email" @bind-Value="khachHang.Email" type="text" required />
-            </div>
-        </div>
-
-        <div class="column">
-            <!-- Chỗ Nhập Ngày Sản Xuất -->
-            <div class="input-box">
-                <label>Địa Chỉ</label>
-                <InputDate id="DiaChi" @bind-Value="khachHang.DiaChi" required />
-            </div>
-
-            <!-- Chỗ Nhập Hạn Sử Dụng -->
-            <div class="input-box">
-                <label>Tên Thú Cưng</label>
-                <InputDate id="HanSuDung" @bind-Value="khachHang.TenThuCung" required />
-            </div>
-        </div>
-
-        <!-- Chỗ Nhấn Nút Đồng Ý Sau Khi Thêm Thuốc -->
-        <button class="submit" style="float:right">Hoàn Thành</button>
-
-        <button class="return" style="float:left">
-            <NavLink href="/DanhSachKhachHang" style="text-decoration:none;color:white">Quay lại</NavLink>
-        </button>
-
-        <DataAnnotationsValidator />
-        <ValidationSummary />
-    </EditForm>
-</div>
-</div>
 
 
 @code {
@@ -65,19 +78,20 @@
     public int Id { get; set; }
 
     [SupplyParameterFromForm]
-    public KhachHang? khachHang { get; set; }
+    public KhachHang? KhachHang { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        khachHang ??= await Repository.GetByIdAsyncKhachHang(Id);
+        KhachHang ??= await Repository.GetByIdAsyncKhachHang(Id);
     }
 
     private async Task CapNhatKhachHang()
     {
-        if (khachHang is not null)
+        if (KhachHang is not null)
         {
-            await Repository.UpdateAsyncKhachHang(khachHang);
-            Navigation.NavigateTo("/DanhSachKhachHang");
+            await Repository.UpdateAsyncKhachHang(KhachHang);
+            Navigation.NavigateTo("/admin/DanhSachKhachHang");
         }
     }
+
 }

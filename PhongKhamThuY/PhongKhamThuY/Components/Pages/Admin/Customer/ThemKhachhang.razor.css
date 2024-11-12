@@ -1,19 +1,75 @@
-﻿.btn-return {
-    font-size: 15px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 5px;
-    background-color: #0D92F4;
-    color: white;
-    text-decoration:none
+﻿/* Container for the input fields */
+.form .input-box {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
 }
-.btn-submit {
-    font-size: 15px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 5px;
-    background-color: #399918;
+
+/* Labels for form inputs */
+.input-box label {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Styling for inputs and selects */
+.form input, .form select, .form .input-box input, .form .input-box select {
+    height: 45px;
+    width: 100%;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 0 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+/* Focused state for inputs */
+.input-box input:focus, .input-box select:focus {
+    border-color: #3FA2F6;
+    box-shadow: 0 0 8px rgba(63, 162, 246, 0.2);
+    background-color: white;
+}
+
+/* Form column layout */
+.form .column {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+    .form .column .input-box {
+        flex: 1;
+    }
+
+.form .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
+}
+
+    .form .button-group button {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.return {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
     color: white;
 }
+
+.submit {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
+    color: white;
+}
+

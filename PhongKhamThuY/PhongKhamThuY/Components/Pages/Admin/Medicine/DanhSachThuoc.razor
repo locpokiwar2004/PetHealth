@@ -1,111 +1,51 @@
-﻿@page "/DanhSachThuoc"
+﻿@page "/admin/DanhSachThuoc"
 @inject PetHealthRepository Repository
 @rendermode InteractiveServer
 @inject NavigationManager Navigation
+@layout AdminLayout
 <PageTitle>Danh Sách Thuốc</PageTitle>
 
+<h3 style="text-align:center">DANH SÁCH THUỐC</h3>
 <div>
-    <h3 style="text-align:center">DANH SÁCH THUỐC</h3>
-    <div>
-        <a href="/ThemThuoc" class="btn-add-medicine">
+    <button>
+        <NavLink href="/admin/ThemThuoc">
             <span class="button__text">Thêm thuốc</span>
             <span class="button__icon">
-                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-plus" style="color: #63E6BE;"></i>
             </span>
-        </a>
-    </div>
+        </NavLink>
+    </button>
+</div>
 
-    <div>
-        <table class="content-table">
-            <thead>
-                <tr>
-                    <th>Mã Thuốc</th>
-                    <th>Tên thuốc</th>
-                    <th>Loại thuốc</th>
-                    <th>Số lượng</th>
-                    <th>Giá bán</th>
-                    <th>Hành động</th>
-                </tr>
-            </thead>
-            <tbody>
-                @if (thuocs is null)
-                {
-                    <tr><td colspan="7">Đang tải dữ liệu. Vui lòng đợi...</td></tr>
-                }
-                @if (thuocs != null && thuocs.Any())
-                {
-                    @foreach (var thuoc in thuocs)
-                    {
-                        <tr>
-                            <td>@thuoc.MaSoThuoc</td>
-                            <td>@thuoc.TenThuoc</td>
-                            <td>@thuoc.LoaiThuoc</td>
-                            <td>@thuoc.SoLuongThuoc</td>
-                            <td>@thuoc.GiaBan</td>
-                            <td>
-                                <a href="@($"/ChinhSuaThuoc/{thuoc.MaSoThuoc}")" class="btn-edit return">
-                                    <i class="fa-solid fa-pen-to-square"></i>
-                                </a>
-                                <button @onclick="() => OpenConfirmDialog(thuoc.MaSoThuoc)" class="delete-button submit">
-                                    <i class="fa-solid fa-trash"></i>
-                                </button>
-                            </td>
-                        </tr>
-                    }
-                }
-                else
-                {
-                    <p>Không có thuốc nào để hiển thị.</p>
-                }
-            </tbody>
-        </table>
+<div>
+    <div class="col-8">
+
+        @if (thuocs is null)
+        {
+            <div class="thuoc-item">
+                Đang tải dữ liệu. Vui lòng đợi...
+            </div>
+        }
+
+        @if (thuocs != null && thuocs.Any())
+        {
+            @foreach (var bacSi in thuocs)
+            {
+                <div class="thuoc-item">
+                    <ThuocCard thuoc="bacSi"></ThuocCard>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Không có khách hàng nào để hiển thị.</p>
+        }
     </div>
 </div>
 
 
-<DeleteConfirmDialog Show="showConfirmDialog"
-                     OnCancel="CancelDelete"
-                     OnOK="DeleteThuoc">
-    <h3>
-        Bạn có muốn xóa thuốc @selectedThuoc?.TenThuoc không?
-    </h3>
-</DeleteConfirmDialog>
 
 @code {
-
-    private bool showConfirmDialog;
-    private int? selectedMaThuoc;
-    private Thuoc? selectedThuoc;
-    // [Parameter]
-    // public required PetHealthCatalog.Domain.Entities.Thuoc thuoc { get; set; }
-
-    private void OpenConfirmDialog(int maThuoc)
-    {
-        selectedMaThuoc = maThuoc;
-        selectedThuoc = thuocs.FirstOrDefault(k => k.MaSoThuoc == maThuoc);
-        showConfirmDialog = true;
-    }
-
-    private void CancelDelete()
-    {
-        showConfirmDialog = false;
-        selectedMaThuoc = null;
-        selectedThuoc = null;
-    }
-
-    private async Task DeleteThuoc()
-    {
-        if (selectedMaThuoc != null)
-        {
-            await Repository.DeleteByIdAsync(selectedMaThuoc.Value);
-            thuocs.RemoveAll(k => k.MaSoThuoc == selectedMaThuoc);
-            showConfirmDialog = false;
-            selectedMaThuoc = null;
-            selectedThuoc = null;
-            Navigation.NavigateTo("/DanhSachBacSi");
-        }
-    }
-
 
     private List<Thuoc> thuocs = new List<Thuoc>();
 

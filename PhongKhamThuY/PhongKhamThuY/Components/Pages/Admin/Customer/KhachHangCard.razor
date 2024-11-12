@@ -1,7 +1,7 @@
 ﻿@inject PetHealthRepository Repository
 @inject NavigationManager Navigation
+@layout AdminLayout
 
-<div class="thuoc-card">
     <table class="content-table">
         <thead>
             <tr>
@@ -23,7 +23,7 @@
                 <td>@khachHang.DiaChi</td>
                 <td>@khachHang.TenThuCung</td>
                 <td>
-                    <a href="@($"/DanhSachKhachHang/{khachHang.MaKhachHang}")" class="btn-edit return">
+                    <a href="@($"/admin/ChinhSuaKhachHang/{khachHang.MaKhachHang}")" class="btn-edit return">
                         Chỉnh Sửa
                     </a>
                     <button @onclick="OpenConfirmDialog" class="delete-button submit">
@@ -33,7 +33,7 @@
             </tr>
         </tbody>
     </table>
-</div>
+
 
 <DeleteConfirmDialog Show="showConfirmDialog"
                      OnCancel="CancelDelete"
@@ -62,6 +62,6 @@
     {
         await Repository.DeleteByIdAsync(khachHang.MaKhachHang);
         showConfirmDialog = false;
-        Navigation.NavigateTo("/DanhSachKhachHang");
+        Navigation.NavigateTo("/admin/DanhSachKhachHang");
     }
 }

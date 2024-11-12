@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GeqyYtN4JMO/K6/qW0PBhlQQBpjUxfdULME3dYk1RDU=",
+  "Hash": "bWs/0P2P4cm1S2PZtaNK4rj11jTVd6JK/tUVKGpf94k=",
   "Source": "PhongKhamThuY",
   "BasePath": "_content/PhongKhamThuY",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PhongKhamThuY\\wwwroot",
       "Source": "PhongKhamThuY",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\koran\\.nuget\\packages\\blazored.toast\\4.2.1\\staticwebassets\\Blazored.Toast.bundle.scp.css",
+      "Identity": "C:\\Users\\Admin\\.nuget\\packages\\blazored.toast\\4.2.1\\staticwebassets\\Blazored.Toast.bundle.scp.css",
       "SourceId": "Blazored.Toast",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\koran\\.nuget\\packages\\blazored.toast\\4.2.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Admin\\.nuget\\packages\\blazored.toast\\4.2.1\\staticwebassets\\",
       "BasePath": "_content/Blazored.Toast",
       "RelativePath": "Blazored.Toast.bundle.scp.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\koran\\.nuget\\packages\\blazored.toast\\4.2.1\\staticwebassets\\Blazored.Toast.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\blazored.toast\\4.2.1\\staticwebassets\\Blazored.Toast.bundle.scp.css"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "PhongKhamThuY.styles.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhongKhamThuY.styles.css"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "PhongKhamThuY.bundle.scp.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\2.1.2.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\2.1.2.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/2.1.2.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\2.1.2.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bacsiphan-khanh-thao.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bacsiphan-khanh-thao.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/bacsiphan-khanh-thao.jpg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bacsiphan-khanh-thao.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\cach-cham-soc-cho-meo-sau-khi-phau-thuat.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\cach-cham-soc-cho-meo-sau-khi-phau-thuat.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/cach-cham-soc-cho-meo-sau-khi-phau-thuat.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\cach-cham-soc-cho-meo-sau-khi-phau-thuat.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsoc-dinhduong.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsoc-dinhduong.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/chamsoc-dinhduong.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\chamsoc-dinhduong.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat1.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat1.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/chamsocsauphauthuat1.jpg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\chamsocsauphauthuat1.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat2.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat2.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/chamsocsauphauthuat2.jpg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\chamsocsauphauthuat2.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat3.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat3.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/chamsocsauphauthuat3.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\chamsocsauphauthuat3.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat4.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat4.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/chamsocsauphauthuat4.jpg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\chamsocsauphauthuat4.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat5.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat5.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/chamsocsauphauthuat5.jpg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\chamsocsauphauthuat5.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\hoang-anh-duc.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\hoang-anh-duc.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/hoang-anh-duc.jpg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\hoang-anh-duc.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\logo.png",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\logo.png",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/logo.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\logo.png"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\mai-thuy-duong.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\mai-thuy-duong.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/mai-thuy-duong.jpg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\mai-thuy-duong.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\slide.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\slide.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/slide.jpg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\slide.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\slide1.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\slide1.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/slide1.jpg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\slide1.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/tiemchung.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\tiemchung.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung1.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung1.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/tiemchung1.jpg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\tiemchung1.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung2.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung2.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/tiemchung2.jpg",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\tiemchung2.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung3.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung3.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/tiemchung3.jpg",
       "AssetKind": "All",
@@ -473,48 +473,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\tiemchung3.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tức 1.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tuc 3.1.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
-      "BasePath": "_content/PhongKhamThuY",
-      "RelativePath": "bootstrap/tin tức 1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\tin tức 1.jpg"
-    },
-    {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tức 2.jpg",
-      "SourceId": "PhongKhamThuY",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
-      "BasePath": "_content/PhongKhamThuY",
-      "RelativePath": "bootstrap/tin tức 2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\tin tức 2.jpg"
-    },
-    {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tuc 3.1.jpg",
-      "SourceId": "PhongKhamThuY",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/tin tuc 3.1.jpg",
       "AssetKind": "All",
@@ -530,29 +492,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\tin tuc 3.1.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tức 3.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tuc 4.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
-      "BasePath": "_content/PhongKhamThuY",
-      "RelativePath": "bootstrap/tin tức 3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\tin tức 3.jpg"
-    },
-    {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tuc 4.jpg",
-      "SourceId": "PhongKhamThuY",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/tin tuc 4.jpg",
       "AssetKind": "All",
@@ -568,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\tin tuc 4.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tuc 5.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tuc 5.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/tin tuc 5.jpg",
       "AssetKind": "All",
@@ -587,12 +530,12 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\tin tuc 5.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\trang thiết bị.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tức 1.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
-      "RelativePath": "bootstrap/trang thiết bị.jpg",
+      "RelativePath": "bootstrap/tin tức 1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -603,13 +546,51 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\trang thiết bị.jpg"
+      "OriginalItemSpec": "wwwroot\\bootstrap\\tin tức 1.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong1.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tức 2.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "BasePath": "_content/PhongKhamThuY",
+      "RelativePath": "bootstrap/tin tức 2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\tin tức 2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tức 3.jpg",
+      "SourceId": "PhongKhamThuY",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "BasePath": "_content/PhongKhamThuY",
+      "RelativePath": "bootstrap/tin tức 3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\tin tức 3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong1.jpg",
+      "SourceId": "PhongKhamThuY",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/tuvandinhduong1.jpg",
       "AssetKind": "All",
@@ -625,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\tuvandinhduong1.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong2.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong2.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/tuvandinhduong2.jpg",
       "AssetKind": "All",
@@ -644,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\tuvandinhduong2.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong3.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong3.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/tuvandinhduong3.jpg",
       "AssetKind": "All",
@@ -663,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\tuvandinhduong3.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong4.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong4.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/tuvandinhduong4.jpg",
       "AssetKind": "All",
@@ -682,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\tuvandinhduong4.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong5.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong5.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/tuvandinhduong5.jpg",
       "AssetKind": "All",
@@ -701,10 +682,29 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\tuvandinhduong5.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\unnamed.png",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\trang thiết bị.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "BasePath": "_content/PhongKhamThuY",
+      "RelativePath": "bootstrap/trang thiết bị.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\trang thiết bị.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\unnamed.png",
+      "SourceId": "PhongKhamThuY",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/unnamed.png",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\unnamed.png"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\Untitled-9-34.png",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\Untitled-9-34.png",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/Untitled-9-34.png",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\Untitled-9-34.png"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xemnghiem.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xemnghiem.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/xemnghiem.jpg",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\xemnghiem.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem1.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem1.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/xetnghiem1.jpg",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\xetnghiem1.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem2.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem2.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/xetnghiem2.jpg",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\xetnghiem2.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem3.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem3.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/xetnghiem3.jpg",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\xetnghiem3.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem4.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem4.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/xetnghiem4.jpg",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\xetnghiem4.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem5.jpg",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem5.jpg",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "bootstrap/xetnghiem5.jpg",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\xetnghiem5.jpg"
     },
     {
-      "Identity": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
       "SourceId": "PhongKhamThuY",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Admin\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\",
       "BasePath": "_content/PhongKhamThuY",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

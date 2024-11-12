@@ -1,6 +1,7 @@
-﻿@page "/ChinhSuaThuoc/{id:int}"
+﻿@page "/admin/ChinhSuaThuoc/{id:int}"
 @inject PetHealthRepository Repository
 @inject NavigationManager Navigation
+@layout AdminLayout
 <PageTitle>
     Cập Nhật Thuốc
 </PageTitle>
@@ -10,66 +11,65 @@
     <div class="row justify-content-center">
         <div class="col-7">
             <EditForm Enhance="true" method="post" FormName="CapNhatThuoc" OnValidSubmit="CapNhatThuoc" Model="Thuoc" autocomplete="off" class="form">
-                <h3 style="text-align:center">
-                    Cập Nhật Thuốc
-                </h3>
-                <input type="hidden" name="thuoc.MaSoThuoc" value="@Thuoc.MaSoThuoc" />
 
-                <div class="input-box">
+                <div class="form-group">
                     <label>Tên thuốc</label>
-                    <InputText id="TenThuoc" @bind-Value="Thuoc.TenThuoc" type="text" required />
+                    <InputText id="TenThuoc" @bind-Value="Thuoc.TenThuoc" type="text" class="form-control" required />
                 </div>
 
-                <div class="column">
-                    <!-- Chỗ Nhập Tên Nhà Sản Xuất -->
-                    <div class="input-box">
-                        <label>Tên sản xuất</label>
-                        <InputText id="TenNSX" @bind-Value="Thuoc.TenNSX" type="text" required />
-                    </div>
 
-                    <!-- Chỗ Nhập Loại Thuốc -->
-                    <div class="input-box">
-                        <label>Loại thuốc</label>
-                        <InputText id="LoaiThuoc" @bind-Value="Thuoc.LoaiThuoc" type="text" required />
-                    </div>
+
+                <div class="form-group">
+                    <label>Tên sản xuất</label>
+                    <InputText id="TenNSX" @bind-Value="Thuoc.TenNSX" type="text" class="form-control" required />
                 </div>
 
-                <div class="column">
-                    <!-- Chỗ Nhập Ngày Sản Xuất -->
-                    <div class="input-box">
-                        <label>Ngày sản xuất</label>
-                        <InputDate id="NgaySanXuat" @bind-Value="Thuoc.NgaySanXuat" required />
-                    </div>
 
-                    <!-- Chỗ Nhập Hạn Sử Dụng -->
-                    <div class="input-box">
-                        <label>Hạn sử dụng</label>
-                        <InputDate id="HanSuDung" @bind-Value="Thuoc.HanSuDung" required />
-                    </div>
+
+                <div class="form-group">
+                    <label>Loại thuốc</label>
+                    <InputText id="LoaiThuoc" @bind-Value="Thuoc.LoaiThuoc" type="text" class="form-control" required />
                 </div>
 
-                <div class="column">
-                    <!-- Chỗ Nhập Số Lượng Thuốc -->
-                    <div class="input-box">
-                        <label>Số lượng</label>
-                        <InputNumber id="SoLuongThuoc" @bind-Value="Thuoc.SoLuongThuoc" type="number" required />
-                    </div>
 
-                    <!-- Chỗ Nhập Giá Bán -->
-                    <div class="input-box">
-                        <label>Giá bán</label>
-                        <InputNumber id="GiaBan" @bind-Value="Thuoc.GiaBan" type="number" required />
-                    </div>
+
+
+
+                <div class="form-group">
+                    <label>Ngày sản xuất</label>
+                    <InputDate id="NgaySanXuat" @bind-Value="Thuoc.NgaySanXuat" class="form-control" required />
                 </div>
 
-                <!-- Chỗ Nhấn Nút Đồng Ý Sau Khi Thêm Thuốc -->
-                <div class="mb-3">
-                    <button type="submit" class="btn btn-primary shadow-none submit">
-                        Hoàn Thành
+
+
+                <div class="form-group">
+                    <label>Hạn sử dụng</label>
+                    <InputDate id="HanSuDung" @bind-Value="Thuoc.HanSuDung" class="form-control" required />
+                </div>
+
+
+
+
+
+                <div class="form-group">
+                    <label>Số lượng</label>
+                    <InputNumber id="SoLuongThuoc" @bind-Value="Thuoc.SoLuongThuoc" type="number" class="form-control" required />
+                </div>
+
+
+
+                <div class="form-group">
+                    <label>Giá bán</label>
+                    <InputNumber id="GiaBan" @bind-Value="Thuoc.GiaBan" type="number" class="form-control" required />
+                </div>
+
+
+
+                <div class="button-group">
+                    <button type="button" class="return">
+                        <NavLink href="/admin/DanhSachThuoc" style="text-decoration:none;color:white">Quay lại</NavLink>
                     </button>
-                    <a href="/DanhSachThuoc" class="btn btn-secondary shadow-none return ms-3">
-                        Quay Lại Danh Sách
-                    </a>
+                    <button type="submit" class="submit">Hoàn Thành</button>
                 </div>
 
                 <DataAnnotationsValidator />
@@ -96,7 +96,7 @@
         if (Thuoc is not null)
         {
             await Repository.UpdateAsyncThuoc(Thuoc);
-            Navigation.NavigateTo("/DanhSachThuoc");
+            Navigation.NavigateTo("/admin/DanhSachThuoc");
         }
     }
 }

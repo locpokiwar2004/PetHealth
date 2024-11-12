@@ -1,0 +1,105 @@
+﻿@inject PetHealthRepository Repository
+@inject NavigationManager Navigation
+@inject IJSRuntime JS
+@layout AdminLayout
+
+    <table class="content-table">
+        <thead>
+            <tr>
+                <th>Mã Hóa Đơn</th>
+                <th>Tên Nhân Viên</th>
+                <th>Tên Khách Hàng</th>
+                <th>Ngày Lập Hóa Đơn</th>
+                <th>Giá Khám</th>
+                <th>Giá Thuốc</th>
+                <th>Tổng Tiền</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@HoaDon.MaHoaDon</td>
+                <td>@HoaDon.TenNhanVien</td>
+                <td>@HoaDon.TenKhachHang</td>
+                <td>@HoaDon.NgayLapHoaDon</td>
+                <td>@HoaDon.GiaKham</td>
+                <td>@HoaDon.GiaThuoc</td>
+                <td>@HoaDon.TongTien</td>
+                <td>
+                    <a href="@($"/admin/ChinhSuaHoaDon/{HoaDon.MaHoaDon}")" class="btn-edit return">
+                        Chỉnh Sửa
+                    </a>
+                    <button @onclick="OpenConfirmDialog" class="delete-button submit">
+                        Xóa
+                    </button>
+                    <button @onclick="ExportToExcel" class="export-button submit">
+                        Xuất Excel
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+<DeleteConfirmDialog Show="showConfirmDialog"
+                     OnCancel="CancelDelete"
+                     OnOK="DeleteHoDon">
+    <h3>
+        Bạn có muốn xóa Hóa Đơn @HoaDon.MaHoaDon không?
+    </h3>
+</DeleteConfirmDialog>
+
+
+
+@code {
+    private bool showConfirmDialog;
+    [Parameter]
+    public required PetHealthCatalog.Domain.Entities.HoaDon HoaDon { get; set; }
+
+    private void OpenConfirmDialog()
+    {
+        showConfirmDialog = true;
+    }
+
+    private void CancelDelete()
+    {
+        showConfirmDialog = false;
+    }
+
+    private async Task DeleteHoDon()
+    {
+        await Repository.DeleteByIdAsync(HoaDon.MaHoaDon);
+        showConfirmDialog = false;
+        Navigation.NavigateTo("/admin/DanhSachHoaDon");
+    }
+
+    private async Task ExportToExcel()
+    {
+        using (var package = new ExcelPackage())
+        {
+            var worksheet = package.Workbook.Worksheets.Add("Hóa Đơn");
+
+            worksheet.Cells[1, 1].Value = "Mã Hóa Đơn";
+            worksheet.Cells[1, 2].Value = HoaDon.MaHoaDon;
+            worksheet.Cells[2, 1].Value = "Tên Nhân Viên";
+            worksheet.Cells[2, 2].Value = HoaDon.TenNhanVien;
+            worksheet.Cells[3, 1].Value = "Tên Khách Hàng";
+            worksheet.Cells[3, 2].Value = HoaDon.TenKhachHang;
+            worksheet.Cells[4, 1].Value = "Ngày Lập Hóa Đơn";
+            worksheet.Cells[4, 2].Value = HoaDon.NgayLapHoaDon;
+            worksheet.Cells[5, 1].Value = "Giá Khám";
+            worksheet.Cells[5, 2].Value = HoaDon.GiaKham;
+            worksheet.Cells[6, 1].Value = "Giá Thuốc";
+            worksheet.Cells[6, 2].Value = HoaDon.GiaThuoc;
+            worksheet.Cells[7, 1].Value = "Tổng Tiền";
+            worksheet.Cells[7, 2].Value = HoaDon.TongTien;
+
+            var stream = new MemoryStream();
+            package.SaveAs(stream);
+            stream.Position = 0;
+
+            await JS.InvokeVoidAsync("saveAsFile", "HoaDon.xlsx", Convert.ToBase64String(stream.ToArray()));
+        }
+    }
+}
+<script src="FileSaver.js"></script>

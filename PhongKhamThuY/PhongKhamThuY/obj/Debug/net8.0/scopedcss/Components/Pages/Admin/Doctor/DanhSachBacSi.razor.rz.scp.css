@@ -1,92 +1,38 @@
-
-.content-table[b-8gl1su33bp] {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    width: 100%;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    width: 100%;
-}
-
-    .content-table thead tr[b-8gl1su33bp] {
-        background-color: #74C0FC;
-        color: #ffffff;
-        text-align: left;
-        font-weight: bold;
-    }
-
-    .content-table th[b-8gl1su33bp],
-    .content-table td[b-8gl1su33bp] {
-        padding: 12px 15px;
-    }
-
-    .content-table tbody tr[b-8gl1su33bp] {
-        border-bottom: 1px solid #dddddd;
-    }
-
-        .content-table tbody tr:nth-of-type(even)[b-8gl1su33bp] {
-            background-color: #f3f3f3;
-        }
-
-        .content-table tbody tr:last-of-type[b-8gl1su33bp] {
-            border-bottom: 2px solid #74C0FC;
-        }
-
-        .content-table tbody tr.active-row[b-8gl1su33bp] {
-            font-weight: bold;
-            color: #74C0FC;
-        }
-
-
-
-.delete-button[b-8gl1su33bp] {
-    font-size: 12px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 10px;
-    background-color: red;
-    color: white;
-}
-
-.btn-edit[b-8gl1su33bp] {
-    font-size: 12px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 10px;
-    background-color: #F09319;
-    color: white
-}
-
-
-
-
-.btn-add-medicine[b-8gl1su33bp] {
+button[b-8gl1su33bp] {
     float: right;
+    display: flex;
+    height: 35px;
+    padding: 5px;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+    button:hover[b-8gl1su33bp] {
+        background: #008168;
+    }
+
+    button:active[b-8gl1su33bp] {
+        background: #006e58;
+    }
+
+.button__text[b-8gl1su33bp],
+.button__icon[b-8gl1su33bp] {
     display: inline-flex;
     align-items: center;
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    justify-content: center;
+    color: #fff;
+    height: 100%;
 }
 
-    .btn-add-medicine:hover[b-8gl1su33bp] {
-        background-color: #218838;
-        color: white;
-    }
-
-    .btn-add-medicine .button__icon[b-8gl1su33bp] {
-        margin-left: 8px;
-    }
-
-        .btn-add-medicine .button__icon i[b-8gl1su33bp] {
-            font-size: 18px;
-        }
+.button__icon[b-8gl1su33bp] {
+    font-size: 1.5em;
+}
