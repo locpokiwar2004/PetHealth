@@ -1558,3 +1558,11 @@ C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\
 C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\DanhSachHoaDon.razor.rz.scp.css
 C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\HoaDonCard.razor.rz.scp.css
 C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\ThemHoaDon.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Branch\AddBranch.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Branch\ListBranch.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\ListCus.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\AddDoctor.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\ListDoctor.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\AddMedicine.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ListMedicine.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ThemMedicine.razor.rz.scp.css
