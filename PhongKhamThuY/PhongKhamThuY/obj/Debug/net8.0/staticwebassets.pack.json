@@ -1,175 +1,175 @@
 {
   "Files": [
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhongKhamThuY.bundle.scp.css",
       "PackagePath": "staticwebassets\\PhongKhamThuY.bundle.scp.css"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\2.1.2.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\2.1.2.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\2.1.2.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\Untitled-9-34.png",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\Untitled-9-34.png",
       "PackagePath": "staticwebassets\\bootstrap\\Untitled-9-34.png"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bacsiphan-khanh-thao.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bacsiphan-khanh-thao.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\bacsiphan-khanh-thao.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\cach-cham-soc-cho-meo-sau-khi-phau-thuat.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\cach-cham-soc-cho-meo-sau-khi-phau-thuat.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\cach-cham-soc-cho-meo-sau-khi-phau-thuat.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsoc-dinhduong.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsoc-dinhduong.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\chamsoc-dinhduong.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat1.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat1.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\chamsocsauphauthuat1.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat2.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat2.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\chamsocsauphauthuat2.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat3.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat3.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\chamsocsauphauthuat3.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat4.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat4.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\chamsocsauphauthuat4.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat5.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\chamsocsauphauthuat5.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\chamsocsauphauthuat5.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\hoang-anh-duc.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\hoang-anh-duc.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\hoang-anh-duc.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\logo.png",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\logo.png",
       "PackagePath": "staticwebassets\\bootstrap\\logo.png"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\mai-thuy-duong.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\mai-thuy-duong.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\mai-thuy-duong.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\slide.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\slide.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\slide.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\slide1.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\slide1.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\slide1.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tiemchung.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung1.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung1.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tiemchung1.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung2.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung2.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tiemchung2.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung3.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tiemchung3.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tiemchung3.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tuc 3.1.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tuc 3.1.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tin tuc 3.1.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tuc 4.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tuc 4.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tin tuc 4.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tuc 5.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tuc 5.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tin tuc 5.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tức 1.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tức 1.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tin tức 1.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tức 2.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tức 2.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tin tức 2.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tức 3.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tin tức 3.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tin tức 3.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\trang thiết bị.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\trang thiết bị.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\trang thiết bị.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong1.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong1.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tuvandinhduong1.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong2.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong2.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tuvandinhduong2.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong3.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong3.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tuvandinhduong3.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong4.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong4.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tuvandinhduong4.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong5.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\tuvandinhduong5.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\tuvandinhduong5.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\unnamed.png",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\unnamed.png",
       "PackagePath": "staticwebassets\\bootstrap\\unnamed.png"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xemnghiem.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xemnghiem.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\xemnghiem.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem1.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem1.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\xetnghiem1.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem2.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem2.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\xetnghiem2.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem3.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem3.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\xetnghiem3.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem4.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem4.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\xetnghiem4.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem5.jpg",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\bootstrap\\xetnghiem5.jpg",
       "PackagePath": "staticwebassets\\bootstrap\\xetnghiem5.jpg"
     },
     {
-      "Id": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
+      "Id": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj": {}
+    "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj": {}
   },
   "projects": {
-    "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj": {
+    "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
+        "projectUniqueName": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
         "projectName": "PhongKhamThuY",
-        "projectPath": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
-        "packagesPath": "C:\\Users\\koran\\.nuget\\packages\\",
-        "outputPath": "D:\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\",
+        "projectPath": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\PhongKhamThuY.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Công Nghệ Phần Mềm\\PetHealth\\PhongKhamThuY\\PhongKhamThuY\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\koran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +49,10 @@
             "Blazored.Toast": {
               "target": "Package",
               "version": "[4.2.1, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.4.2, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

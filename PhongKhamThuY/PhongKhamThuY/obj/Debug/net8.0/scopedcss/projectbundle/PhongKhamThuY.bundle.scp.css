@@ -1353,162 +1353,6 @@ main[b-wivubu8tw9] {
         font-weight: bold;
         color: #FFD43B;
     }
-/* _content/PhongKhamThuY/Components/Pages/Admin/Branch/AddBranch.razor.rz.scp.css */
-.form .input-box[b-c18mv9w28t] {
-    width: 100%;
-    margin-top: 20px;
-}
-
-.input-box label[b-c18mv9w28t] {
-    color: #333;
-}
-
-.form :where(.input-box input, .select-box)[b-c18mv9w28t] {
-    position: relative;
-    height: 50px;
-    width: 100%;
-    outline: none;
-    font-size: 1rem;
-    color: #707070;
-    margin-top: 8px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    padding: 0 15px;
-}
-
-.input-box input:focus[b-c18mv9w28t] {
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-}
-
-.form .column[b-c18mv9w28t] {
-    display: flex;
-    column-gap: 15px;
-}
-
-.form .gender-box[b-c18mv9w28t] {
-    margin-top: 20px;
-}
-
-.gender-box h3[b-c18mv9w28t] {
-    color: #333;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-bottom: 8px;
-}
-
-.form :where(.gender-option, .gender)[b-c18mv9w28t] {
-    display: flex;
-    align-items: center;
-    column-gap: 50px;
-    flex-wrap: wrap;
-}
-
-.form .gender[b-c18mv9w28t] {
-    column-gap: 5px;
-}
-
-.gender input[b-c18mv9w28t] {
-    accent-color: rgb(130, 106, 251);
-}
-
-.form :where(.gender input, .gender label)[b-c18mv9w28t] {
-    cursor: pointer;
-}
-
-.gender label[b-c18mv9w28t] {
-    color: #707070;
-}
-
-.address :where(input, .select-box)[b-c18mv9w28t] {
-    margin-top: 15px;
-}
-
-.select-box select[b-c18mv9w28t] {
-    height: 100%;
-    width: 100%;
-    outline: none;
-    border: none;
-    color: #707070;
-    font-size: 1rem;
-}
-
-.form button[b-c18mv9w28t] {
-    padding: 10px;
-    width: 100px;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 500;
-    margin-top: 30px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    /*background: #FFD43B*/ /*rgb(130, 106, 251)*/ /*;*/
-}
-
-.form .return[b-c18mv9w28t] {
-    background: #3FA2F6;
-}
-
-    .form .return:hover[b-c18mv9w28t] {
-        background: #0F67B1 /*rgb(88, 56, 250)*/;
-    }
-
-.form .submit[b-c18mv9w28t] {
-    background: #FFDE4D;
-}
-
-    .form .submit:hover[b-c18mv9w28t] {
-        background: #FFB22C;
-    }
-/*Responsive*/
-@media screen and (max-width: 500px) {
-    .form .column[b-c18mv9w28t] {
-        flex-wrap: wrap;
-    }
-
-    .form :where(.gender-option, .gender)[b-c18mv9w28t] {
-        row-gap: 15px;
-    }
-}
-/* _content/PhongKhamThuY/Components/Pages/Admin/Branch/ListBranch.razor.rz.scp.css */
-button[b-2itc8l0gwq] {
-    float: right;
-    display: flex;
-    height: 35px;
-    padding: 5px;
-    background: #009578;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    overflow: hidden;
-    font-family: "Quicksand", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-}
-
-    button:hover[b-2itc8l0gwq] {
-        background: #008168;
-    }
-
-    button:active[b-2itc8l0gwq] {
-        background: #006e58;
-    }
-
-.button__text[b-2itc8l0gwq],
-.button__icon[b-2itc8l0gwq] {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    height: 100%;
-}
-
-.button__icon[b-2itc8l0gwq] {
-    font-size: 1.5em;
-}
 /* _content/PhongKhamThuY/Components/Pages/Admin/Customer/ChinhSuaKhachHang.razor.rz.scp.css */
 /* Container for the input fields */
 .form .input-box[b-8lt5qf0oiv] {
@@ -1558,267 +1402,34 @@ button[b-2itc8l0gwq] {
         flex: 1;
     }
 
-/* Submit and return button styles */
-.form button[b-8lt5qf0oiv] {
-    padding: 12px 25px;
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    border-radius: 6px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+.form .button-group[b-8lt5qf0oiv] {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
 }
 
-/* Return button styles */
-.form .return[b-8lt5qf0oiv] {
-    background-color: #3FA2F6;
+    .form .button-group button[b-8lt5qf0oiv] {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.return[b-8lt5qf0oiv] {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-    .form .return:hover[b-8lt5qf0oiv] {
-        background-color: #0F67B1;
-        box-shadow: 0 4px 12px rgba(0, 102, 177, 0.4);
-    }
-
-/* Submit button styles */
-.form .submit[b-8lt5qf0oiv] {
-    background-color: #FFDE4D;
+.submit[b-8lt5qf0oiv] {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-    .form .submit:hover[b-8lt5qf0oiv] {
-        background-color: #FFB22C;
-        box-shadow: 0 4px 12px rgba(255, 178, 44, 0.4);
-    }
-
-/* Responsive design for medium screens */
-@media screen and (max-width: 768px) {
-    .form .column[b-8lt5qf0oiv] {
-        flex-wrap: wrap;
-    }
-
-    .form button[b-8lt5qf0oiv] {
-        width: 100%;
-        margin-top: 10px;
-    }
-}
-
-/* Responsive design for small screens */
-@media screen and (max-width: 500px) {
-    .form .column[b-8lt5qf0oiv] {
-        flex-direction: column;
-    }
-
-    .input-box[b-8lt5qf0oiv] {
-        width: 100%;
-    }
 }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Customer/DanhSachKhachHang.razor.rz.scp.css */
-
-.content-table[b-afntvcbwp0] {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    width: 100%;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    width: 100%;
-}
-
-    .content-table thead tr[b-afntvcbwp0] {
-        background-color: #dd2cce;
-        color: #ffffff;
-        text-align: left;
-        font-weight: bold;
-    }
-
-    .content-table th[b-afntvcbwp0],
-    .content-table td[b-afntvcbwp0] {
-        padding: 12px 15px;
-    }
-
-    .content-table tbody tr[b-afntvcbwp0] {
-        border-bottom: 1px solid #dddddd;
-    }
-
-        .content-table tbody tr:nth-of-type(even)[b-afntvcbwp0] {
-            background-color: #f3f3f3;
-        }
-
-        .content-table tbody tr:last-of-type[b-afntvcbwp0] {
-            border-bottom: 2px solid #dd2cce;
-        }
-
-        .content-table tbody tr.active-row[b-afntvcbwp0] {
-            font-weight: bold;
-            color: #dd2cce;
-        }
-
-
-
-
-.delete-button[b-afntvcbwp0] {
-    font-size: 12px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 10px;
-    background-color: red;
-    color: white;
-}
-.btn-edit[b-afntvcbwp0] {
-    font-size: 12px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 10px;
-    background-color: #F09319;
-    color: white
-}
-
-
-
-.btn-add-medicine[b-afntvcbwp0] {
-    float: right;
-    display: inline-flex;
-    align-items: center;
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-    .btn-add-medicine:hover[b-afntvcbwp0] {
-        background-color: #218838;
-        color: white;
-    }
-
-    .btn-add-medicine .button__icon[b-afntvcbwp0] {
-        margin-left: 8px;
-    }
-
-        .btn-add-medicine .button__icon i[b-afntvcbwp0] {
-            font-size: 18px;
-        }
-/* _content/PhongKhamThuY/Components/Pages/Admin/Customer/KhachHangCard.razor.rz.scp.css */
-/* Container for the input fields */
-.form .input-box[b-4puce3iw77] {
-    width: 100%;
-    margin-top: 25px; /* Increased margin for better spacing */
-    position: relative;
-}
-
-/* Labels for form inputs */
-.input-box label[b-4puce3iw77] {
-    color: #444; /* Slightly darker color for better readability */
-    font-size: 1rem;
-    font-weight: 600; /* Made font weight slightly bolder */
-    margin-bottom: 8px; /* Increased bottom margin for more space */
-    display: block;
-}
-
-/* Styling for inputs and selects */
-.form input[b-4puce3iw77],
-.form select[b-4puce3iw77],
-.form .input-box input[b-4puce3iw77],
-.form .input-box select[b-4puce3iw77] {
-    height: 50px; /* Increased height for better usability */
-    width: 100%;
-    font-size: 1rem;
-    color: #555; /* Darker color for input text */
-    margin-top: 5px;
-    border: 2px solid #ddd;
-    border-radius: 10px; /* Rounded corners for a softer look */
-    padding: 0 15px;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-    background-color: #f9f9f9;
-}
-
-/* Focused state for inputs */
-.input-box input:focus[b-4puce3iw77],
-.input-box select:focus[b-4puce3iw77] {
-    border-color: #3FA2F6;
-    box-shadow: 0 0 8px rgba(63, 162, 246, 0.3); /* Slightly more pronounced shadow */
-    background-color: #ffffff; /* White background for focused inputs */
-}
-
-/* Form column layout */
-.form .column[b-4puce3iw77] {
-    display: flex;
-    gap: 30px; /* Increased gap between columns */
-    justify-content: space-between;
-}
-
-    .form .column .input-box[b-4puce3iw77] {
-        flex: 1;
-    }
-
-/* Submit and return button styles */
-.form button[b-4puce3iw77] {
-    padding: 15px 30px; /* Increased padding for buttons */
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    border-radius: 8px; /* Softer corners */
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Return button styles */
-.form .return[b-4puce3iw77] {
-    background-color: #3FA2F6;
-    color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-    .form .return:hover[b-4puce3iw77] {
-        background-color: #0F67B1;
-        box-shadow: 0 4px 15px rgba(0, 102, 177, 0.5); /* Enhanced shadow on hover */
-    }
-
-/* Submit button styles */
-.form .submit[b-4puce3iw77] {
-    background-color: #FFDE4D;
-    color: #333; /* Darker text color for contrast */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-    .form .submit:hover[b-4puce3iw77] {
-        background-color: #FFB22C;
-        box-shadow: 0 4px 15px rgba(255, 178, 44, 0.5); /* Enhanced shadow on hover */
-    }
-
-/* Responsive design for medium screens */
-@media screen and (max-width: 768px) {
-    .form .column[b-4puce3iw77] {
-        flex-wrap: wrap;
-    }
-
-    .form button[b-4puce3iw77] {
-        width: 100%;
-        margin-top: 15px; /* Increased margin for better spacing */
-    }
-}
-
-/* Responsive design for small screens */
-@media screen and (max-width: 500px) {
-    .form .column[b-4puce3iw77] {
-        flex-direction: column;
-    }
-
-    .input-box[b-4puce3iw77] {
-        width: 100%;
-    }
-}
-/* _content/PhongKhamThuY/Components/Pages/Admin/Customer/ListCus.razor.rz.scp.css */
-button[b-zc6efw6lub] {
+button[b-afntvcbwp0] {
     float: right;
     display: flex;
     height: 35px;
@@ -1836,16 +1447,16 @@ button[b-zc6efw6lub] {
     justify-content: center;
 }
 
-    button:hover[b-zc6efw6lub] {
+    button:hover[b-afntvcbwp0] {
         background: #008168;
     }
 
-    button:active[b-zc6efw6lub] {
+    button:active[b-afntvcbwp0] {
         background: #006e58;
     }
 
-.button__text[b-zc6efw6lub],
-.button__icon[b-zc6efw6lub] {
+.button__text[b-afntvcbwp0],
+.button__icon[b-afntvcbwp0] {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1853,151 +1464,214 @@ button[b-zc6efw6lub] {
     height: 100%;
 }
 
-.button__icon[b-zc6efw6lub] {
+.button__icon[b-afntvcbwp0] {
     font-size: 1.5em;
 }
-/* _content/PhongKhamThuY/Components/Pages/Admin/Customer/ThemKhachhang.razor.rz.scp.css */
-.btn-return[b-9937df7pwl] {
-    font-size: 15px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 5px;
-    background-color: #0D92F4;
-    color: white;
-    text-decoration:none
-}
-.btn-submit[b-9937df7pwl] {
-    font-size: 15px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 5px;
-    background-color: #399918;
-    color: white;
-}
-/* _content/PhongKhamThuY/Components/Pages/Admin/Doctor/AddDoctor.razor.rz.scp.css */
-.form .input-box[b-bpxfy7alf1] {
+/* _content/PhongKhamThuY/Components/Pages/Admin/Customer/KhachHangCard.razor.rz.scp.css */
+/* Table styles */
+.content-table[b-4puce3iw77] {
     width: 100%;
-    margin-top: 20px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
 }
 
-.input-box label[b-bpxfy7alf1] {
-    color: #333;
-}
+    .content-table th[b-4puce3iw77],
+    .content-table td[b-4puce3iw77] {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
 
-.form :where(.input-box input, .select-box)[b-bpxfy7alf1] {
-    position: relative;
-    height: 50px;
-    width: 100%;
-    outline: none;
-    font-size: 1rem;
-    color: #707070;
-    margin-top: 8px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    padding: 0 15px;
-}
+    .content-table th[b-4puce3iw77] {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        color: #333;
+    }
 
-.input-box input:focus[b-bpxfy7alf1] {
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-}
+    .content-table tr:hover[b-4puce3iw77] {
+        background-color: #f9f9f9;
+        transition: background-color 0.3s ease;
+    }
 
-.form .column[b-bpxfy7alf1] {
-    display: flex;
-    column-gap: 15px;
-}
-
-.form .gender-box[b-bpxfy7alf1] {
-    margin-top: 20px;
-}
-
-.gender-box h3[b-bpxfy7alf1] {
-    color: #333;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-bottom: 8px;
-}
-
-.form :where(.gender-option, .gender)[b-bpxfy7alf1] {
-    display: flex;
-    align-items: center;
-    column-gap: 50px;
-    flex-wrap: wrap;
-}
-
-.form .gender[b-bpxfy7alf1] {
-    column-gap: 5px;
-}
-
-.gender input[b-bpxfy7alf1] {
-    accent-color: rgb(130, 106, 251);
-}
-
-.form :where(.gender input, .gender label)[b-bpxfy7alf1] {
+/* Buttons */
+.btn-edit[b-4puce3iw77],
+.delete-button[b-4puce3iw77],
+.export-button[b-4puce3iw77] {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.gender label[b-bpxfy7alf1] {
-    color: #707070;
+.btn-edit[b-4puce3iw77] {
+    background-color: #3FA2F6;
+    color: white;
 }
 
-.address :where(input, .select-box)[b-bpxfy7alf1] {
-    margin-top: 15px;
+.delete-button[b-4puce3iw77] {
+    background-color: #FF4C4C;
+    color: white;
 }
 
-.select-box select[b-bpxfy7alf1] {
-    height: 100%;
+.export-button[b-4puce3iw77] {
+    background-color: #FFDE4D;
+    color: #333;
+}
+
+.btn-edit:hover[b-4puce3iw77] {
+    background-color: #0F67B1;
+}
+
+.delete-button:hover[b-4puce3iw77] {
+    background-color: #FF2A2A;
+}
+
+.export-button:hover[b-4puce3iw77] {
+    background-color: #FFB22C;
+}
+/* _content/PhongKhamThuY/Components/Pages/Admin/Customer/ThemKhachhang.razor.rz.scp.css */
+/* Container for the input fields */
+.form .input-box[b-9937df7pwl] {
     width: 100%;
-    outline: none;
-    border: none;
-    color: #707070;
-    font-size: 1rem;
+    margin-top: 20px;
+    position: relative;
 }
 
-.form button[b-bpxfy7alf1] {
-    padding: 10px;
-    width: 100px;
-    color: #fff;
+/* Labels for form inputs */
+.input-box label[b-9937df7pwl] {
+    color: #333;
     font-size: 1rem;
     font-weight: 500;
-    margin-top: 30px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    /*background: #FFD43B*/ /*rgb(130, 106, 251)*/ /*;*/
+    margin-bottom: 5px;
+    display: block;
 }
 
-.form .return[b-bpxfy7alf1] {
-    background: #3FA2F6;
+/* Styling for inputs and selects */
+.form input[b-9937df7pwl], .form select[b-9937df7pwl], .form .input-box input[b-9937df7pwl], .form .input-box select[b-9937df7pwl] {
+    height: 45px;
+    width: 100%;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 0 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
 }
 
-    .form .return:hover[b-bpxfy7alf1] {
-        background: #0F67B1 /*rgb(88, 56, 250)*/;
-    }
-
-.form .submit[b-bpxfy7alf1] {
-    background: #FFDE4D;
+/* Focused state for inputs */
+.input-box input:focus[b-9937df7pwl], .input-box select:focus[b-9937df7pwl] {
+    border-color: #3FA2F6;
+    box-shadow: 0 0 8px rgba(63, 162, 246, 0.2);
+    background-color: white;
 }
 
-    .form .submit:hover[b-bpxfy7alf1] {
-        background: #FFB22C;
-    }
-/*Responsive*/
-@media screen and (max-width: 500px) {
-    .form .column[b-bpxfy7alf1] {
-        flex-wrap: wrap;
-    }
-
-    .form :where(.gender-option, .gender)[b-bpxfy7alf1] {
-        row-gap: 15px;
-    }
-}
-/* _content/PhongKhamThuY/Components/Pages/Admin/Doctor/BacSiCard.razor.rz.scp.css */
-.doctor-card[b-54r4qho8p0]{
+/* Form column layout */
+.form .column[b-9937df7pwl] {
     display: flex;
-    flex-direction: row;
+    gap: 20px;
     justify-content: space-between;
+}
+
+    .form .column .input-box[b-9937df7pwl] {
+        flex: 1;
+    }
+
+.form .button-group[b-9937df7pwl] {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
+}
+
+    .form .button-group button[b-9937df7pwl] {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.return[b-9937df7pwl] {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
+    color: white;
+}
+
+.submit[b-9937df7pwl] {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
+    color: white;
+}
+
+/* _content/PhongKhamThuY/Components/Pages/Admin/Doctor/BacSiCard.razor.rz.scp.css */
+/* Table styles */
+.content-table[b-54r4qho8p0] {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+    .content-table th[b-54r4qho8p0],
+    .content-table td[b-54r4qho8p0] {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .content-table th[b-54r4qho8p0] {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .content-table tr:hover[b-54r4qho8p0] {
+        background-color: #f9f9f9;
+        transition: background-color 0.3s ease;
+    }
+
+/* Buttons */
+.btn-edit[b-54r4qho8p0],
+.delete-button[b-54r4qho8p0],
+.export-button[b-54r4qho8p0] {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-edit[b-54r4qho8p0] {
+    background-color: #3FA2F6;
+    color: white;
+}
+
+.delete-button[b-54r4qho8p0] {
+    background-color: #FF4C4C;
+    color: white;
+}
+
+.export-button[b-54r4qho8p0] {
+    background-color: #FFDE4D;
+    color: #333;
+}
+
+.btn-edit:hover[b-54r4qho8p0] {
+    background-color: #0F67B1;
+}
+
+.delete-button:hover[b-54r4qho8p0] {
+    background-color: #FF2A2A;
+}
+
+.export-button:hover[b-54r4qho8p0] {
+    background-color: #FFB22C;
 }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Doctor/ChinhSuaBacSi.razor.rz.scp.css */
 /* Container for the input fields */
@@ -2048,158 +1722,34 @@ button[b-zc6efw6lub] {
         flex: 1;
     }
 
-/* Submit and return button styles */
-.form button[b-uy6pxkynv8] {
-    padding: 12px 25px;
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    border-radius: 6px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+.form .button-group[b-uy6pxkynv8] {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
 }
 
-/* Return button styles */
-.form .return[b-uy6pxkynv8] {
-    background-color: #3FA2F6;
+    .form .button-group button[b-uy6pxkynv8] {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.return[b-uy6pxkynv8] {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-    .form .return:hover[b-uy6pxkynv8] {
-        background-color: #0F67B1;
-        box-shadow: 0 4px 12px rgba(0, 102, 177, 0.4);
-    }
-
-/* Submit button styles */
-.form .submit[b-uy6pxkynv8] {
-    background-color: #FFDE4D;
+.submit[b-uy6pxkynv8] {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-    .form .submit:hover[b-uy6pxkynv8] {
-        background-color: #FFB22C;
-        box-shadow: 0 4px 12px rgba(255, 178, 44, 0.4);
-    }
-
-/* Responsive design for medium screens */
-@media screen and (max-width: 768px) {
-    .form .column[b-uy6pxkynv8] {
-        flex-wrap: wrap;
-    }
-
-    .form button[b-uy6pxkynv8] {
-        width: 100%;
-        margin-top: 10px;
-    }
-}
-
-/* Responsive design for small screens */
-@media screen and (max-width: 500px) {
-    .form .column[b-uy6pxkynv8] {
-        flex-direction: column;
-    }
-
-    .input-box[b-uy6pxkynv8] {
-        width: 100%;
-    }
 }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Doctor/DanhSachBacSi.razor.rz.scp.css */
-
-.content-table[b-8gl1su33bp] {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    width: 100%;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    width: 100%;
-}
-
-    .content-table thead tr[b-8gl1su33bp] {
-        background-color: #74C0FC;
-        color: #ffffff;
-        text-align: left;
-        font-weight: bold;
-    }
-
-    .content-table th[b-8gl1su33bp],
-    .content-table td[b-8gl1su33bp] {
-        padding: 12px 15px;
-    }
-
-    .content-table tbody tr[b-8gl1su33bp] {
-        border-bottom: 1px solid #dddddd;
-    }
-
-        .content-table tbody tr:nth-of-type(even)[b-8gl1su33bp] {
-            background-color: #f3f3f3;
-        }
-
-        .content-table tbody tr:last-of-type[b-8gl1su33bp] {
-            border-bottom: 2px solid #74C0FC;
-        }
-
-        .content-table tbody tr.active-row[b-8gl1su33bp] {
-            font-weight: bold;
-            color: #74C0FC;
-        }
-
-
-
-.delete-button[b-8gl1su33bp] {
-    font-size: 12px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 10px;
-    background-color: red;
-    color: white;
-}
-
-.btn-edit[b-8gl1su33bp] {
-    font-size: 12px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 10px;
-    background-color: #F09319;
-    color: white
-}
-
-
-
-
-.btn-add-medicine[b-8gl1su33bp] {
-    float: right;
-    display: inline-flex;
-    align-items: center;
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-    .btn-add-medicine:hover[b-8gl1su33bp] {
-        background-color: #218838;
-        color: white;
-    }
-
-    .btn-add-medicine .button__icon[b-8gl1su33bp] {
-        margin-left: 8px;
-    }
-
-        .btn-add-medicine .button__icon i[b-8gl1su33bp] {
-            font-size: 18px;
-        }
-/* _content/PhongKhamThuY/Components/Pages/Admin/Doctor/ListDoctor.razor.rz.scp.css */
-button[b-223548x76k] {
+button[b-8gl1su33bp] {
     float: right;
     display: flex;
     height: 35px;
@@ -2217,16 +1767,16 @@ button[b-223548x76k] {
     justify-content: center;
 }
 
-    button:hover[b-223548x76k] {
+    button:hover[b-8gl1su33bp] {
         background: #008168;
     }
 
-    button:active[b-223548x76k] {
+    button:active[b-8gl1su33bp] {
         background: #006e58;
     }
 
-.button__text[b-223548x76k],
-.button__icon[b-223548x76k] {
+.button__text[b-8gl1su33bp],
+.button__icon[b-8gl1su33bp] {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -2234,143 +1784,83 @@ button[b-223548x76k] {
     height: 100%;
 }
 
-.button__icon[b-223548x76k] {
+.button__icon[b-8gl1su33bp] {
     font-size: 1.5em;
 }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Doctor/ThemBacSi.razor.rz.scp.css */
-.btn-return[b-3dku91w7sk] {
-    font-size: 15px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 5px;
-    background-color: #0D92F4;
-    color: white;
-    text-decoration: none
-}
-
-.btn-submit[b-3dku91w7sk] {
-    font-size: 15px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 5px;
-    background-color: #399918;
-    color: white;
-}
-/* _content/PhongKhamThuY/Components/Pages/Admin/Medicine/AddMedicine.razor.rz.scp.css */
-.form .input-box[b-oqv4u1bow3] {
+/* Container for the input fields */
+.form .input-box[b-3dku91w7sk] {
     width: 100%;
     margin-top: 20px;
-}
-
-.input-box label[b-oqv4u1bow3] {
-    color: #333;
-}
-
-.form :where(.input-box input, .select-box)[b-oqv4u1bow3] {
     position: relative;
-    height: 50px;
-    width: 100%;
-    outline: none;
-    font-size: 1rem;
-    color: #707070;
-    margin-top: 8px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    padding: 0 15px;
 }
 
-.input-box input:focus[b-oqv4u1bow3] {
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-}
-
-.form .column[b-oqv4u1bow3] {
-    display: flex;
-    column-gap: 15px;
-}
-
-.form .gender-box[b-oqv4u1bow3] {
-    margin-top: 20px;
-}
-
-.gender-box h3[b-oqv4u1bow3] {
+/* Labels for form inputs */
+.input-box label[b-3dku91w7sk] {
     color: #333;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-bottom: 8px;
-}
-
-.form :where(.gender-option, .gender)[b-oqv4u1bow3] {
-    display: flex;
-    align-items: center;
-    column-gap: 50px;
-    flex-wrap: wrap;
-}
-
-.form .gender[b-oqv4u1bow3] {
-    column-gap: 5px;
-}
-
-.gender input[b-oqv4u1bow3] {
-    accent-color: rgb(130, 106, 251);
-}
-
-.form :where(.gender input, .gender label)[b-oqv4u1bow3] {
-    cursor: pointer;
-}
-
-.gender label[b-oqv4u1bow3] {
-    color: #707070;
-}
-
-.address :where(input, .select-box)[b-oqv4u1bow3] {
-    margin-top: 15px;
-}
-
-.select-box select[b-oqv4u1bow3] {
-    height: 100%;
-    width: 100%;
-    outline: none;
-    border: none;
-    color: #707070;
-    font-size: 1rem;
-}
-
-.form button[b-oqv4u1bow3] {
-    padding: 10px;
-    width: 100px;
-    color: #fff;
     font-size: 1rem;
     font-weight: 500;
-    margin-top: 30px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    /*background: #FFD43B*/ /*rgb(130, 106, 251)*//*;*/
-}
-.form .return[b-oqv4u1bow3] {
-    background: #3FA2F6;
-}
-    .form .return:hover[b-oqv4u1bow3] {
-        background: #0F67B1 /*rgb(88, 56, 250)*/;
-    }
-.form .submit[b-oqv4u1bow3] {
-    background: #FFDE4D;
+    margin-bottom: 5px;
+    display: block;
 }
 
-    .form .submit:hover[b-oqv4u1bow3] {
-        background: #FFB22C;
-    }
-/*Responsive*/
-@media screen and (max-width: 500px) {
-    .form .column[b-oqv4u1bow3] {
-        flex-wrap: wrap;
+/* Styling for inputs and selects */
+.form input[b-3dku91w7sk], .form select[b-3dku91w7sk], .form .input-box input[b-3dku91w7sk], .form .input-box select[b-3dku91w7sk] {
+    height: 45px;
+    width: 100%;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 0 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+/* Focused state for inputs */
+.input-box input:focus[b-3dku91w7sk], .input-box select:focus[b-3dku91w7sk] {
+    border-color: #3FA2F6;
+    box-shadow: 0 0 8px rgba(63, 162, 246, 0.2);
+    background-color: white;
+}
+
+/* Form column layout */
+.form .column[b-3dku91w7sk] {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+    .form .column .input-box[b-3dku91w7sk] {
+        flex: 1;
     }
 
-    .form :where(.gender-option, .gender)[b-oqv4u1bow3] {
-        row-gap: 15px;
+.form .button-group[b-3dku91w7sk] {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
+}
+
+    .form .button-group button[b-3dku91w7sk] {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
     }
+
+.return[b-3dku91w7sk] {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
+    color: white;
+}
+
+.submit[b-3dku91w7sk] {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
+    color: white;
 }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Medicine/ChinhSuaThuoc.razor.rz.scp.css */
 /* Container for the input fields */
@@ -2479,103 +1969,11 @@ button[b-223548x76k] {
     }
 }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Medicine/DanhSachThuoc.Razor.rz.scp.css */
-.content-table[b-gz24xk59fo] {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    width: 100%;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    width: 100%;
-}
-
-    .content-table thead tr[b-gz24xk59fo] {
-        background-color: #FFD43B;
-        color: #ffffff;
-        text-align: left;
-        font-weight: bold;
-    }
-
-    .content-table th[b-gz24xk59fo],
-    .content-table td[b-gz24xk59fo] {
-        padding: 12px 15px;
-    }
-
-    .content-table tbody tr[b-gz24xk59fo] {
-        border-bottom: 1px solid #dddddd;
-    }
-
-        .content-table tbody tr:nth-of-type(even)[b-gz24xk59fo] {
-            background-color: #f3f3f3;
-        }
-
-        .content-table tbody tr:last-of-type[b-gz24xk59fo] {
-            border-bottom: 2px solid #FFD43B;
-        }
-
-        .content-table tbody tr.active-row[b-gz24xk59fo] {
-            font-weight: bold;
-            color: #FFD43B;
-        }
-
-
-
-
-.delete-button[b-gz24xk59fo] {
-    font-size: 12px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 10px;
-    background-color: red;
-    color: white;
-}
-
-.btn-edit[b-gz24xk59fo] {
-    font-size: 12px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 10px;
-    background-color: #F09319;
-    color: white
-}
-
-
-
-.btn-add-medicine[b-gz24xk59fo] {
+button[b-gz24xk59fo] {
     float: right;
-    display: inline-flex;
-    align-items: center;
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-    .btn-add-medicine:hover[b-gz24xk59fo] {
-        background-color: #218838;
-        color: white;
-    }
-
-    .btn-add-medicine .button__icon[b-gz24xk59fo] {
-        margin-left: 8px;
-    }
-
-        .btn-add-medicine .button__icon i[b-gz24xk59fo] {
-            font-size: 18px;
-        }
-/* _content/PhongKhamThuY/Components/Pages/Admin/Medicine/ListMedicine.razor.rz.scp.css */
-button[b-pg0nfmgptg] {
-    float:right;
     display: flex;
     height: 35px;
-    padding:5px;
+    padding: 5px;
     background: #009578;
     border: none;
     outline: none;
@@ -2585,20 +1983,20 @@ button[b-pg0nfmgptg] {
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
 }
 
-    button:hover[b-pg0nfmgptg] {
+    button:hover[b-gz24xk59fo] {
         background: #008168;
     }
 
-    button:active[b-pg0nfmgptg] {
+    button:active[b-gz24xk59fo] {
         background: #006e58;
     }
 
-.button__text[b-pg0nfmgptg],
-.button__icon[b-pg0nfmgptg] {
+.button__text[b-gz24xk59fo],
+.button__icon[b-gz24xk59fo] {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -2606,254 +2004,148 @@ button[b-pg0nfmgptg] {
     height: 100%;
 }
 
-.button__icon[b-pg0nfmgptg] {
+.button__icon[b-gz24xk59fo] {
     font-size: 1.5em;
-   
-}
-/* _content/PhongKhamThuY/Components/Pages/Admin/Medicine/ThemMedicine.razor.rz.scp.css */
-.form .input-box[b-m6itx6oxqk] {
-    width: 100%;
-    margin-top: 20px;
-}
-
-.input-box label[b-m6itx6oxqk] {
-    color: #333;
-}
-
-.form :where(.input-box input, .select-box)[b-m6itx6oxqk] {
-    position: relative;
-    height: 50px;
-    width: 100%;
-    outline: none;
-    font-size: 1rem;
-    color: #707070;
-    margin-top: 8px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    padding: 0 15px;
-}
-
-.input-box input:focus[b-m6itx6oxqk] {
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-}
-
-.form .column[b-m6itx6oxqk] {
-    display: flex;
-    column-gap: 15px;
-}
-
-.form .gender-box[b-m6itx6oxqk] {
-    margin-top: 20px;
-}
-
-.gender-box h3[b-m6itx6oxqk] {
-    color: #333;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-bottom: 8px;
-}
-
-.form :where(.gender-option, .gender)[b-m6itx6oxqk] {
-    display: flex;
-    align-items: center;
-    column-gap: 50px;
-    flex-wrap: wrap;
-}
-
-.form .gender[b-m6itx6oxqk] {
-    column-gap: 5px;
-}
-
-.gender input[b-m6itx6oxqk] {
-    accent-color: rgb(130, 106, 251);
-}
-
-.form :where(.gender input, .gender label)[b-m6itx6oxqk] {
-    cursor: pointer;
-}
-
-.gender label[b-m6itx6oxqk] {
-    color: #707070;
-}
-
-.address :where(input, .select-box)[b-m6itx6oxqk] {
-    margin-top: 15px;
-}
-
-.select-box select[b-m6itx6oxqk] {
-    height: 100%;
-    width: 100%;
-    outline: none;
-    border: none;
-    color: #707070;
-    font-size: 1rem;
-}
-
-.form button[b-m6itx6oxqk] {
-    padding: 10px;
-    width: 100px;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 500;
-    margin-top: 30px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    /*background: #FFD43B*/ /*rgb(130, 106, 251)*//*;*/
-}
-.form .return[b-m6itx6oxqk] {
-    background: #3FA2F6;
-}
-    .form .return:hover[b-m6itx6oxqk] {
-        background: #0F67B1 /*rgb(88, 56, 250)*/;
-    }
-.form .submit[b-m6itx6oxqk] {
-    background: #FFDE4D;
-}
-
-    .form .submit:hover[b-m6itx6oxqk] {
-        background: #FFB22C;
-    }
-/*Responsive*/
-@media screen and (max-width: 500px) {
-    .form .column[b-m6itx6oxqk] {
-        flex-wrap: wrap;
-    }
-
-    .form :where(.gender-option, .gender)[b-m6itx6oxqk] {
-        row-gap: 15px;
-    }
 }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Medicine/ThemThuoc.Razor.rz.scp.css */
-.btn-return[b-r9cruct48h] {
-    font-size: 15px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 5px;
-    background-color: #0D92F4;
-    color: white;
-    text-decoration: none
-}
-
-.btn-submit[b-r9cruct48h] {
-    font-size: 15px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 5px;
-    background-color: #399918;
-    color: white;
-}
-/* _content/PhongKhamThuY/Components/Pages/Admin/Medicine/ThuocCard.Razor.rz.scp.css */
 /* Container for the input fields */
-.form .input-box[b-84imff88of] {
+.form .input-box[b-r9cruct48h] {
     width: 100%;
-    margin-top: 25px; /* Increased margin for better spacing */
+    margin-top: 20px;
     position: relative;
 }
 
 /* Labels for form inputs */
-.input-box label[b-84imff88of] {
-    color: #444; /* Slightly darker color for better readability */
+.input-box label[b-r9cruct48h] {
+    color: #333;
     font-size: 1rem;
-    font-weight: 600; /* Made font weight slightly bolder */
-    margin-bottom: 8px; /* Increased bottom margin for more space */
+    font-weight: 500;
+    margin-bottom: 5px;
     display: block;
 }
 
 /* Styling for inputs and selects */
-.form input[b-84imff88of],
-.form select[b-84imff88of],
-.form .input-box input[b-84imff88of],
-.form .input-box select[b-84imff88of] {
-    height: 50px; /* Increased height for better usability */
+.form input[b-r9cruct48h], .form select[b-r9cruct48h], .form .input-box input[b-r9cruct48h], .form .input-box select[b-r9cruct48h] {
+    height: 45px;
     width: 100%;
     font-size: 1rem;
-    color: #555; /* Darker color for input text */
+    color: #707070;
     margin-top: 5px;
     border: 2px solid #ddd;
-    border-radius: 10px; /* Rounded corners for a softer look */
+    border-radius: 8px;
     padding: 0 15px;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     background-color: #f9f9f9;
 }
 
 /* Focused state for inputs */
-.input-box input:focus[b-84imff88of],
-.input-box select:focus[b-84imff88of] {
+.input-box input:focus[b-r9cruct48h], .input-box select:focus[b-r9cruct48h] {
     border-color: #3FA2F6;
-    box-shadow: 0 0 8px rgba(63, 162, 246, 0.3); /* Slightly more pronounced shadow */
-    background-color: #ffffff; /* White background for focused inputs */
+    box-shadow: 0 0 8px rgba(63, 162, 246, 0.2);
+    background-color: white;
 }
 
 /* Form column layout */
-.form .column[b-84imff88of] {
+.form .column[b-r9cruct48h] {
     display: flex;
-    gap: 30px; /* Increased gap between columns */
+    gap: 20px;
     justify-content: space-between;
 }
 
-    .form .column .input-box[b-84imff88of] {
+    .form .column .input-box[b-r9cruct48h] {
         flex: 1;
     }
 
-/* Submit and return button styles */
-.form button[b-84imff88of] {
-    padding: 15px 30px; /* Increased padding for buttons */
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
+.form .button-group[b-r9cruct48h] {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
+}
+
+    .form .button-group button[b-r9cruct48h] {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.return[b-r9cruct48h] {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
+    color: white;
+}
+
+.submit[b-r9cruct48h] {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
+    color: white;
+}
+/* _content/PhongKhamThuY/Components/Pages/Admin/Medicine/ThuocCard.Razor.rz.scp.css */
+/* Table styles */
+.content-table[b-84imff88of] {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+    .content-table th[b-84imff88of],
+    .content-table td[b-84imff88of] {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .content-table th[b-84imff88of] {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .content-table tr:hover[b-84imff88of] {
+        background-color: #f9f9f9;
+        transition: background-color 0.3s ease;
+    }
+
+/* Buttons */
+.btn-edit[b-84imff88of],
+.delete-button[b-84imff88of],
+.export-button[b-84imff88of] {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 5px;
     cursor: pointer;
-    border-radius: 8px; /* Softer corners */
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Return button styles */
-.form .return[b-84imff88of] {
+.btn-edit[b-84imff88of] {
     background-color: #3FA2F6;
     color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-    .form .return:hover[b-84imff88of] {
-        background-color: #0F67B1;
-        box-shadow: 0 4px 15px rgba(0, 102, 177, 0.5); /* Enhanced shadow on hover */
-    }
+.delete-button[b-84imff88of] {
+    background-color: #FF4C4C;
+    color: white;
+}
 
-/* Submit button styles */
-.form .submit[b-84imff88of] {
+.export-button[b-84imff88of] {
     background-color: #FFDE4D;
-    color: #333; /* Darker text color for contrast */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #333;
 }
 
-    .form .submit:hover[b-84imff88of] {
-        background-color: #FFB22C;
-        box-shadow: 0 4px 15px rgba(255, 178, 44, 0.5); /* Enhanced shadow on hover */
-    }
-
-/* Responsive design for medium screens */
-@media screen and (max-width: 768px) {
-    .form .column[b-84imff88of] {
-        flex-wrap: wrap;
-    }
-
-    .form button[b-84imff88of] {
-        width: 100%;
-        margin-top: 15px; /* Increased margin for better spacing */
-    }
+.btn-edit:hover[b-84imff88of] {
+    background-color: #0F67B1;
 }
 
-/* Responsive design for small screens */
-@media screen and (max-width: 500px) {
-    .form .column[b-84imff88of] {
-        flex-direction: column;
-    }
+.delete-button:hover[b-84imff88of] {
+    background-color: #FF2A2A;
+}
 
-    .input-box[b-84imff88of] {
-        width: 100%;
-    }
+.export-button:hover[b-84imff88of] {
+    background-color: #FFB22C;
 }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Pet Profile/ChinhSuaHoSo.razor.rz.scp.css */
 /* Container for the input fields */
@@ -2904,258 +2196,135 @@ button[b-pg0nfmgptg] {
         flex: 1;
     }
 
-/* Submit and return button styles */
-.form button[b-8mk7n81lcx] {
-    padding: 12px 25px;
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    border-radius: 6px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+.form .button-group[b-8mk7n81lcx] {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
 }
 
-/* Return button styles */
-.form .return[b-8mk7n81lcx] {
-    background-color: #3FA2F6;
+    .form .button-group button[b-8mk7n81lcx] {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.return[b-8mk7n81lcx] {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-    .form .return:hover[b-8mk7n81lcx] {
-        background-color: #0F67B1;
-        box-shadow: 0 4px 12px rgba(0, 102, 177, 0.4);
-    }
-
-/* Submit button styles */
-.form .submit[b-8mk7n81lcx] {
-    background-color: #FFDE4D;
+.submit[b-8mk7n81lcx] {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-    .form .submit:hover[b-8mk7n81lcx] {
-        background-color: #FFB22C;
-        box-shadow: 0 4px 12px rgba(255, 178, 44, 0.4);
-    }
-
-/* Responsive design for medium screens */
-@media screen and (max-width: 768px) {
-    .form .column[b-8mk7n81lcx] {
-        flex-wrap: wrap;
-    }
-
-    .form button[b-8mk7n81lcx] {
-        width: 100%;
-        margin-top: 10px;
-    }
-}
-
-/* Responsive design for small screens */
-@media screen and (max-width: 500px) {
-    .form .column[b-8mk7n81lcx] {
-        flex-direction: column;
-    }
-
-    .input-box[b-8mk7n81lcx] {
-        width: 100%;
-    }
 }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Pet Profile/DanhSachHoSo.razor.rz.scp.css */
-/* Style for the add medicine button */
-.btn-add-medicine[b-5ry1blbjau] {
+button[b-5ry1blbjau] {
+    float: right;
+    display: flex;
+    height: 35px;
+    padding: 5px;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+    button:hover[b-5ry1blbjau] {
+        background: #008168;
+    }
+
+    button:active[b-5ry1blbjau] {
+        background: #006e58;
+    }
+
+.button__text[b-5ry1blbjau],
+.button__icon[b-5ry1blbjau] {
     display: inline-flex;
     align-items: center;
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    justify-content: center;
+    color: #fff;
+    height: 100%;
 }
 
-    .btn-add-medicine:hover[b-5ry1blbjau] {
-        background-color: #218838;
-        color: white;
-    }
-
-    .btn-add-medicine .button__icon[b-5ry1blbjau] {
-        margin-left: 8px;
-    }
-
-        .btn-add-medicine .button__icon i[b-5ry1blbjau] {
-            font-size: 18px;
-        }
-
-/* General styling for the medicine item */
-.thuoc-item[b-5ry1blbjau] {
-    margin-bottom: 20px;
+.button__icon[b-5ry1blbjau] {
+    font-size: 1.5em;
 }
-
-/* Style for table inside the ThuocCard component */
-.content-table[b-5ry1blbjau] {
+/* _content/PhongKhamThuY/Components/Pages/Admin/Pet Profile/HoSoCard.razor.rz.scp.css */
+/* Table styles */
+.content-table[b-h0oj8usa2n] {
     width: 100%;
     border-collapse: collapse;
-    font-size: 16px;
-    text-align: left;
-    margin-bottom: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
 }
 
-    .content-table th[b-5ry1blbjau], .content-table td[b-5ry1blbjau] {
-        padding: 12px;
+    .content-table th[b-h0oj8usa2n],
+    .content-table td[b-h0oj8usa2n] {
+        padding: 12px 15px;
+        text-align: left;
         border-bottom: 1px solid #ddd;
     }
 
-    .content-table th[b-5ry1blbjau] {
-        background-color: #f9f9f9;
+    .content-table th[b-h0oj8usa2n] {
+        background-color: #f2f2f2;
         font-weight: bold;
+        color: #333;
     }
 
-    .content-table tr:hover[b-5ry1blbjau] {
-        background-color: #f1f1f1;
+    .content-table tr:hover[b-h0oj8usa2n] {
+        background-color: #f9f9f9;
+        transition: background-color 0.3s ease;
     }
 
-.actions[b-5ry1blbjau] {
-    text-align: right;
-    margin-top: 10px;
-}
-
-.btn-edit[b-5ry1blbjau] {
-    background-color: #ffcc00;
-    color: white;
-    padding: 8px 16px;
-    border: none;
+/* Buttons */
+.btn-edit[b-h0oj8usa2n],
+.delete-button[b-h0oj8usa2n],
+.export-button[b-h0oj8usa2n] {
+    padding: 10px 20px;
+    font-size: 0.9rem;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
-    text-decoration: none;
-}
-
-    .btn-edit:hover[b-5ry1blbjau] {
-        background-color: #ffa500;
-    }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .content-table th[b-5ry1blbjau], .content-table td[b-5ry1blbjau] {
-        font-size: 14px;
-    }
-
-    .btn-add-medicine[b-5ry1blbjau] {
-        font-size: 14px;
-        padding: 8px 16px;
-    }
-}
-/* _content/PhongKhamThuY/Components/Pages/Admin/Pet Profile/HoSoCard.razor.rz.scp.css */
-/* Container for the input fields */
-.form .input-box[b-h0oj8usa2n] {
-    width: 100%;
-    margin-top: 25px; /* Increased margin for better spacing */
-    position: relative;
-}
-
-/* Labels for form inputs */
-.input-box label[b-h0oj8usa2n] {
-    color: #444; /* Slightly darker color for better readability */
-    font-size: 1rem;
-    font-weight: 600; /* Made font weight slightly bolder */
-    margin-bottom: 8px; /* Increased bottom margin for more space */
-    display: block;
-}
-
-/* Styling for inputs and selects */
-.form input[b-h0oj8usa2n],
-.form select[b-h0oj8usa2n],
-.form .input-box input[b-h0oj8usa2n],
-.form .input-box select[b-h0oj8usa2n] {
-    height: 50px; /* Increased height for better usability */
-    width: 100%;
-    font-size: 1rem;
-    color: #555; /* Darker color for input text */
-    margin-top: 5px;
-    border: 2px solid #ddd;
-    border-radius: 10px; /* Rounded corners for a softer look */
-    padding: 0 15px;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-    background-color: #f9f9f9;
-}
-
-/* Focused state for inputs */
-.input-box input:focus[b-h0oj8usa2n],
-.input-box select:focus[b-h0oj8usa2n] {
-    border-color: #3FA2F6;
-    box-shadow: 0 0 8px rgba(63, 162, 246, 0.3); /* Slightly more pronounced shadow */
-    background-color: #ffffff; /* White background for focused inputs */
-}
-
-/* Form column layout */
-.form .column[b-h0oj8usa2n] {
-    display: flex;
-    gap: 30px; /* Increased gap between columns */
-    justify-content: space-between;
-}
-
-    .form .column .input-box[b-h0oj8usa2n] {
-        flex: 1;
-    }
-
-/* Submit and return button styles */
-.form button[b-h0oj8usa2n] {
-    padding: 15px 30px; /* Increased padding for buttons */
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
     cursor: pointer;
-    border-radius: 8px; /* Softer corners */
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Return button styles */
-.form .return[b-h0oj8usa2n] {
+.btn-edit[b-h0oj8usa2n] {
     background-color: #3FA2F6;
     color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-    .form .return:hover[b-h0oj8usa2n] {
-        background-color: #0F67B1;
-        box-shadow: 0 4px 15px rgba(0, 102, 177, 0.5); /* Enhanced shadow on hover */
-    }
+.delete-button[b-h0oj8usa2n] {
+    background-color: #FF4C4C;
+    color: white;
+}
 
-/* Submit button styles */
-.form .submit[b-h0oj8usa2n] {
+.export-button[b-h0oj8usa2n] {
     background-color: #FFDE4D;
-    color: #333; /* Darker text color for contrast */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #333;
 }
 
-    .form .submit:hover[b-h0oj8usa2n] {
-        background-color: #FFB22C;
-        box-shadow: 0 4px 15px rgba(255, 178, 44, 0.5); /* Enhanced shadow on hover */
-    }
-
-/* Responsive design for medium screens */
-@media screen and (max-width: 768px) {
-    .form .column[b-h0oj8usa2n] {
-        flex-wrap: wrap;
-    }
-
-    .form button[b-h0oj8usa2n] {
-        width: 100%;
-        margin-top: 15px; /* Increased margin for better spacing */
-    }
+.btn-edit:hover[b-h0oj8usa2n] {
+    background-color: #0F67B1;
 }
 
-/* Responsive design for small screens */
-@media screen and (max-width: 500px) {
-    .form .column[b-h0oj8usa2n] {
-        flex-direction: column;
-    }
+.delete-button:hover[b-h0oj8usa2n] {
+    background-color: #FF2A2A;
+}
 
-    .input-box[b-h0oj8usa2n] {
-        width: 100%;
-    }
+.export-button:hover[b-h0oj8usa2n] {
+    background-color: #FFB22C;
 }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Pet Profile/ThemHoSo.razor.rz.scp.css */
 /* Container for the input fields */
@@ -3206,62 +2375,285 @@ button[b-pg0nfmgptg] {
         flex: 1;
     }
 
-/* Submit and return button styles */
-.form button[b-7atz54vxva] {
-    padding: 12px 25px;
+.form .button-group[b-7atz54vxva] {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
+}
+
+    .form .button-group button[b-7atz54vxva] {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.return[b-7atz54vxva] {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
+    color: white;
+}
+
+.submit[b-7atz54vxva] {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
+    color: white;
+}
+/* _content/PhongKhamThuY/Components/Pages/Admin/Revenue/ChinhSuaHoaDon.razor.rz.scp.css */
+/* Container for the input fields */
+.form .input-box[b-jd4seec5zi] {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* Labels for form inputs */
+.input-box label[b-jd4seec5zi] {
+    color: #333;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Styling for inputs and selects */
+.form input[b-jd4seec5zi], .form select[b-jd4seec5zi], .form .input-box input[b-jd4seec5zi], .form .input-box select[b-jd4seec5zi] {
+    height: 45px;
+    width: 100%;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 0 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+/* Focused state for inputs */
+.input-box input:focus[b-jd4seec5zi], .input-box select:focus[b-jd4seec5zi] {
+    border-color: #3FA2F6;
+    box-shadow: 0 0 8px rgba(63, 162, 246, 0.2);
+    background-color: white;
+}
+
+/* Form column layout */
+.form .column[b-jd4seec5zi] {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+    .form .column .input-box[b-jd4seec5zi] {
+        flex: 1;
+    }
+
+.form .button-group[b-jd4seec5zi] {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
+}
+
+    .form .button-group button[b-jd4seec5zi] {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.return[b-jd4seec5zi] {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
+    color: white;
+}
+
+.submit[b-jd4seec5zi] {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
+    color: white;
+}
+/* _content/PhongKhamThuY/Components/Pages/Admin/Revenue/DanhSachHoaDon.razor.rz.scp.css */
+button[b-3h6235tddq] {
+    float: right;
+    display: flex;
+    height: 35px;
+    padding: 5px;
+    background: #009578;
     border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
     cursor: pointer;
-    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+    button:hover[b-3h6235tddq] {
+        background: #008168;
+    }
+
+    button:active[b-3h6235tddq] {
+        background: #006e58;
+    }
+
+.button__text[b-3h6235tddq],
+.button__icon[b-3h6235tddq] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100%;
+}
+
+.button__icon[b-3h6235tddq] {
+    font-size: 1.5em;
+}
+/* _content/PhongKhamThuY/Components/Pages/Admin/Revenue/HoaDonCard.razor.rz.scp.css */
+/* Table styles */
+.content-table[b-pzeqydlssy] {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+    .content-table th[b-pzeqydlssy],
+    .content-table td[b-pzeqydlssy] {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .content-table th[b-pzeqydlssy] {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .content-table tr:hover[b-pzeqydlssy] {
+        background-color: #f9f9f9;
+        transition: background-color 0.3s ease;
+    }
+
+/* Buttons */
+.btn-edit[b-pzeqydlssy],
+.delete-button[b-pzeqydlssy],
+.export-button[b-pzeqydlssy] {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Return button styles */
-.form .return[b-7atz54vxva] {
+.btn-edit[b-pzeqydlssy] {
     background-color: #3FA2F6;
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-    .form .return:hover[b-7atz54vxva] {
-        background-color: #0F67B1;
-        box-shadow: 0 4px 12px rgba(0, 102, 177, 0.4);
-    }
-
-/* Submit button styles */
-.form .submit[b-7atz54vxva] {
-    background-color: #FFDE4D;
+.delete-button[b-pzeqydlssy] {
+    background-color: #FF4C4C;
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-    .form .submit:hover[b-7atz54vxva] {
-        background-color: #FFB22C;
-        box-shadow: 0 4px 12px rgba(255, 178, 44, 0.4);
-    }
-
-/* Responsive design for medium screens */
-@media screen and (max-width: 768px) {
-    .form .column[b-7atz54vxva] {
-        flex-wrap: wrap;
-    }
-
-    .form button[b-7atz54vxva] {
-        width: 100%;
-        margin-top: 10px;
-    }
+.export-button[b-pzeqydlssy] {
+    background-color: #FFDE4D;
+    color: #333;
 }
 
-/* Responsive design for small screens */
-@media screen and (max-width: 500px) {
-    .form .column[b-7atz54vxva] {
-        flex-direction: column;
+.btn-edit:hover[b-pzeqydlssy] {
+    background-color: #0F67B1;
+}
+
+.delete-button:hover[b-pzeqydlssy] {
+    background-color: #FF2A2A;
+}
+
+.export-button:hover[b-pzeqydlssy] {
+    background-color: #FFB22C;
+}
+/* _content/PhongKhamThuY/Components/Pages/Admin/Revenue/ThemHoaDon.razor.rz.scp.css */
+/* Container for the input fields */
+.form .input-box[b-qvulh05kq3] {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* Labels for form inputs */
+.input-box label[b-qvulh05kq3] {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Styling for inputs and selects */
+.form input[b-qvulh05kq3], .form select[b-qvulh05kq3], .form .input-box input[b-qvulh05kq3], .form .input-box select[b-qvulh05kq3] {
+    height: 45px;
+    width: 100%;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 0 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+/* Focused state for inputs */
+.input-box input:focus[b-qvulh05kq3], .input-box select:focus[b-qvulh05kq3] {
+    border-color: #3FA2F6;
+    box-shadow: 0 0 8px rgba(63, 162, 246, 0.2);
+    background-color: white;
+}
+
+/* Form column layout */
+.form .column[b-qvulh05kq3] {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+    .form .column .input-box[b-qvulh05kq3] {
+        flex: 1;
     }
 
-    .input-box[b-7atz54vxva] {
-        width: 100%;
+.form .button-group[b-qvulh05kq3] {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
+}
+
+    .form .button-group button[b-qvulh05kq3] {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
     }
+
+.return[b-qvulh05kq3] {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
+    color: white;
+}
+
+.submit[b-qvulh05kq3] {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
+    color: white;
 }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Schedule/ChinhSuaDatLich.razor.rz.scp.css */
 /* Container for the input fields */
@@ -3312,75 +2704,135 @@ button[b-pg0nfmgptg] {
         flex: 1;
     }
 
-/* Submit and return button styles */
-.form button[b-dpp6muqbun] {
-    padding: 12px 25px;
-    font-size: 1rem;
-    font-weight: 600;
+.form .button-group[b-dpp6muqbun] {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
+}
+
+    .form .button-group button[b-dpp6muqbun] {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.return[b-dpp6muqbun] {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
+    color: white;
+}
+
+.submit[b-dpp6muqbun] {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
+    color: white;
+}
+/* _content/PhongKhamThuY/Components/Pages/Admin/Schedule/DanhSachDatLich.razor.rz.scp.css */
+button[b-vs5rnaf3f4] {
+    float: right;
+    display: flex;
+    height: 35px;
+    padding: 5px;
+    background: #009578;
     border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
     cursor: pointer;
-    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+    button:hover[b-vs5rnaf3f4] {
+        background: #008168;
+    }
+
+    button:active[b-vs5rnaf3f4] {
+        background: #006e58;
+    }
+
+.button__text[b-vs5rnaf3f4],
+.button__icon[b-vs5rnaf3f4] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100%;
+}
+
+.button__icon[b-vs5rnaf3f4] {
+    font-size: 1.5em;
+}
+/* _content/PhongKhamThuY/Components/Pages/Admin/Schedule/DatLichCard.razor.rz.scp.css */
+/* Table styles */
+.content-table[b-iydhx79yah] {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+    .content-table th[b-iydhx79yah],
+    .content-table td[b-iydhx79yah] {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .content-table th[b-iydhx79yah] {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .content-table tr:hover[b-iydhx79yah] {
+        background-color: #f9f9f9;
+        transition: background-color 0.3s ease;
+    }
+
+/* Buttons */
+.btn-edit[b-iydhx79yah],
+.delete-button[b-iydhx79yah],
+.export-button[b-iydhx79yah] {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Return button styles */
-.form .return[b-dpp6muqbun] {
+.btn-edit[b-iydhx79yah] {
     background-color: #3FA2F6;
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-    .form .return:hover[b-dpp6muqbun] {
-        background-color: #0F67B1;
-        box-shadow: 0 4px 12px rgba(0, 102, 177, 0.4);
-    }
-
-/* Submit button styles */
-.form .submit[b-dpp6muqbun] {
-    background-color: #FFDE4D;
+.delete-button[b-iydhx79yah] {
+    background-color: #FF4C4C;
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-    .form .submit:hover[b-dpp6muqbun] {
-        background-color: #FFB22C;
-        box-shadow: 0 4px 12px rgba(255, 178, 44, 0.4);
-    }
-
-/* Responsive design for medium screens */
-@media screen and (max-width: 768px) {
-    .form .column[b-dpp6muqbun] {
-        flex-wrap: wrap;
-    }
-
-    .form button[b-dpp6muqbun] {
-        width: 100%;
-        margin-top: 10px;
-    }
+.export-button[b-iydhx79yah] {
+    background-color: #FFDE4D;
+    color: #333;
 }
 
-/* Responsive design for small screens */
-@media screen and (max-width: 500px) {
-    .form .column[b-dpp6muqbun] {
-        flex-direction: column;
-    }
+.btn-edit:hover[b-iydhx79yah] {
+    background-color: #0F67B1;
+}
 
-    .input-box[b-dpp6muqbun] {
-        width: 100%;
-    }
+.delete-button:hover[b-iydhx79yah] {
+    background-color: #FF2A2A;
 }
-/* _content/PhongKhamThuY/Components/Pages/Admin/Schedule/DanhSachDatLich.razor.rz.scp.css */
-.bacsi-item[b-vs5rnaf3f4]{
-    padding:1.5rem;
-    margin-bottom:1rem;
-    box-shadow: 0 0 0.5rem rgba(0,0,0,0.3);
-    border-radius:0.5rem;
-}
-/* _content/PhongKhamThuY/Components/Pages/Admin/Schedule/DatLichCard.razor.rz.scp.css */
-.doctor-card[b-iydhx79yah]{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+.export-button:hover[b-iydhx79yah] {
+    background-color: #FFB22C;
 }
 /* _content/PhongKhamThuY/Components/Pages/Admin/Schedule/Notification.razor.rz.scp.css */
 .notification[b-j78y758c7f] {
@@ -3451,63 +2903,33 @@ button[b-pg0nfmgptg] {
         flex: 1;
     }
 
-/* Submit and return button styles */
-.form button[b-pxlomm2vtu] {
-    padding: 12px 25px;
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    border-radius: 6px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+.form .button-group[b-pxlomm2vtu] {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
 }
 
-/* Return button styles */
-.form .return[b-pxlomm2vtu] {
-    background-color: #3FA2F6;
+    .form .button-group button[b-pxlomm2vtu] {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.return[b-pxlomm2vtu] {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-    .form .return:hover[b-pxlomm2vtu] {
-        background-color: #0F67B1;
-        box-shadow: 0 4px 12px rgba(0, 102, 177, 0.4);
-    }
-
-/* Submit button styles */
-.form .submit[b-pxlomm2vtu] {
-    background-color: #FFDE4D;
+.submit[b-pxlomm2vtu] {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-    .form .submit:hover[b-pxlomm2vtu] {
-        background-color: #FFB22C;
-        box-shadow: 0 4px 12px rgba(255, 178, 44, 0.4);
-    }
-
-/* Responsive design for medium screens */
-@media screen and (max-width: 768px) {
-    .form .column[b-pxlomm2vtu] {
-        flex-wrap: wrap;
-    }
-
-    .form button[b-pxlomm2vtu] {
-        width: 100%;
-        margin-top: 10px;
-    }
-}
-
-/* Responsive design for small screens */
-@media screen and (max-width: 500px) {
-    .form .column[b-pxlomm2vtu] {
-        flex-direction: column;
-    }
-
-    .input-box[b-pxlomm2vtu] {
-        width: 100%;
-    }
-}
 /* _content/PhongKhamThuY/Components/Pages/Client/DichVu/ChamSocSauPhauThuat.razor.rz.scp.css */
 .navbar-nav .nav-link[b-ct4cuqik0c] {
     color: white;

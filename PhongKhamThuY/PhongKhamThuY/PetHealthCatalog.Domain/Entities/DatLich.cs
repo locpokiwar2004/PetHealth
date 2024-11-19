@@ -12,16 +12,29 @@ namespace PetHealthCatalog.Domain.Entities
         [Key]
         public int MaHen { get; set; }
 
-        [Required(ErrorMessage = "Vui lòng nhập Giá Khám!")]
-        public double GiaKham { get; set; } // Không cần [StringLength] vì đây là kiểu int
+        [Required(ErrorMessage = "Vui lòng nhập Số điện thoại!")]
+        [StringLength(10, ErrorMessage = "Số điện thoại phải chứa đúng 10 ký tự")]
+       
+        public string? SoDienThoai { get; set; }
 
-        [Required(ErrorMessage = "Vui lòng nhập Trạng Thái Thanh Toán!")]
-        public bool TrangThaiTT { get; set; } // Không cần [StringLength] vì đây là kiểu bool
+        [Required(ErrorMessage = "Vui lòng chọn Trạng Thái Thanh Toán!")]
+        public string? TrangThaiTT { get; set; } 
 
-        [Required(ErrorMessage = "Vui lòng nhập Trạng Thái Hẹn!")]
-        public bool TrangThaiHen { get; set; } // Không cần [StringLength] vì đây là kiểu bool
+        [Required(ErrorMessage = "Vui lòng chọn Trạng Thái Hẹn!")]
+        public string? TrangThaiHen { get; set; } 
 
-        [Required(ErrorMessage = "Vui lòng nhập Ngày Giờ Hẹn!")]
-        public DateTime? NgayGioHen { get; set; } // Không cần [StringLength] vì đây là kiểu DateTime
+        [Required(ErrorMessage = "Vui lòng nhập Ngày Hẹn!")]
+        public DateTime NgayHen { get; set; } 
+
+        [Required(ErrorMessage = "Vui lòng nhập Tên Thú Cưng!")]
+        public string? TenThuCung { get; set; }
+
+        [Required(ErrorMessage = "Vui lòng nhập Họ và Tên Chủ Nuôi!")]
+        public string? HovaTen { get; set; }
+
+        [Required(ErrorMessage = "Vui lòng chọn loại Dịch Vụ!")]
+        public string? DichVu { get; set; }
+
+        public string? GhiChu { get; set; }
     }
 }

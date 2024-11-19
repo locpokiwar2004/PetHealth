@@ -1,0 +1,119 @@
+﻿@page "/admin/ChinhSuaHoaDon/{id:int}"
+@inject PetHealthRepository Repository
+@inject NavigationManager Navigation
+@layout AdminLayout
+<PageTitle>
+    Cập Nhật Hóa Đơn
+</PageTitle>
+
+@if (HoaDon is not null)
+{
+    <div class="row justify-content-center">
+        <div class="col-7">
+            <EditForm Enhance="true" method="post" FormName="CapNhatHoaDon" OnValidSubmit="CapNhatHoaDon" Model="HoaDon" autocomplete="off" class="form">
+
+
+                <input type="hidden" name="HoaDon.MaHoaDon" value="@HoaDon.MaHoaDon" />
+
+
+                <div class="form-group">
+                    <label>Ngày lập Hóa Đơn</label>
+                    <InputDate id="NgayLapHoaDon" @bind-Value="HoaDon.NgayLapHoaDon" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Tên Nhân Viên</label>
+                    <InputText id="TenNhanVien" @bind-Value="HoaDon.TenNhanVien" type="text" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Dịch vụ:</label>
+                    <InputRadioGroup TValue="string" id="DichVu" @bind-Value="HoaDon.DichVu" class="form-control" required>
+                        <InputRadio TValue="string" value="Khám tổng quát" /> <label>Khám tổng quát</label>
+                        <InputRadio TValue="string" value="Phẫu thuật" /> <label>Phẫu thuật</label>
+                        <InputRadio TValue="string" value="Tiêm phòng" /> <label>Tiêm phòng</label>
+                        <InputRadio TValue="string" value="Chăm sóc răng miệng" /> <label>Chăm sóc răng miệng</label>
+                    </InputRadioGroup>
+                </div>
+
+
+
+                <div class="form-group">
+                    <label>Tên Khách Hàng</label>
+                    <InputText id="TenKhachHang" @bind-Value="HoaDon.TenKhachHang" type="text" class="form-control" required />
+                </div>
+
+
+                <div class="form-group">
+                    <label>Số Điện Thoại</label>
+                    <InputText id="SDT" @bind-Value="HoaDon.SoDienThoai" type="text" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Địa Chỉ</label>
+                    <InputText id="DiaChi" @bind-Value="HoaDon.DiaChi" type="text" class="form-control" required />
+                </div>
+
+
+
+                <div class="form-group">
+                    <label>Giá Khám</label>
+                    <InputNumber id="GiaKham" @bind-Value="HoaDon.GiaKham" type="text" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Giá Thuốc</label>
+                    <InputNumber id="GiaThuoc" @bind-Value="HoaDon.GiaThuoc" type="text" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Tổng Tiền</label>
+                    <InputNumber id="TongTien" @bind-Value="HoaDon.TongTien" type="text" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Phương Thức Thanh Toán:</label>
+                    <InputRadioGroup TValue="string" id="PhuongThucThanhToan" @bind-Value="HoaDon.PhuongThucThanhToan" class="form-control" required>
+                        <InputRadio TValue="string" value="Tiền Mặt" /> <label>Tiền Mặt</label>
+                        <InputRadio TValue="string" value="Chuyển Khoản" /> <label>Chuyển Khoản</label>
+                    </InputRadioGroup>
+                </div>
+
+
+                <div class="button-group">
+                    <button type="button" class="return">
+                        <NavLink href="/admin/DanhSachHoaDon" style="text-decoration:none;color:white">Quay lại</NavLink>
+                    </button>
+                    <button type="submit" class="submit">Hoàn Thành</button>
+                </div>
+
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+            </EditForm>
+        </div>
+    </div>
+}
+
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    public HoaDon? HoaDon { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        HoaDon ??= await Repository.GetByIdAsyncHoaDon(Id);
+    }
+
+    private async Task CapNhatHoaDon()
+    {
+        if (HoaDon is not null)
+        {
+            await Repository.UpdateAsyncHoaDon(HoaDon);
+            Navigation.NavigateTo("/admin/DanhSachHoaDon");
+        }
+    }
+}

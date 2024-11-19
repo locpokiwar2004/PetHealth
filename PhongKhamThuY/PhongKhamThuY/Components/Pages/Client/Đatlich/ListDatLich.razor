@@ -1,4 +1,9 @@
 ﻿@page "/listDatLich"
+@inject PetHealthRepository Repository
+@inject NavigationManager Navigation
+@inject IToastService ToastService
+@inject IAntiforgery Antiforgery
+
 <PageTitle>Trang Đặt Lịch</PageTitle>
 <nav class="navbar navbar-expand-sm bg-success navbar-dark ">
     <div class="col-lg-6 col-md-6" bis_skin_checked="1">
@@ -67,58 +72,79 @@
 </div>
 <div class="booking-form-container">
     <h2>Đặt lịch khám thú y</h2>
-    <form id="booking-form">
+    <EditForm Model="datlich" OnValidSubmit="AddDatLich" autocomplete="off" class="form" method="post" FormName="ThemDatLich">
         <div class="form-group">
             <label for="pet-name">Tên thú cưng</label>
-            <input type="text" id="pet-name" name="pet-name" placeholder="Nhập tên thú cưng của bạn" required>
+            <InputText id="pet-name" @bind-Value="datlich.TenThuCung" class="form-control" required />
         </div>
 
         <div class="form-group">
-            <label for="owner-name">Tên chủ nuôi</label>
-            <input type="text" id="owner-name" name="owner-name" placeholder="Nhập tên chủ nuôi" required>
+            <label for="TenChuNuoi">Tên Chủ Nuôi</label>
+            <InputText id="TenChuNuoi" @bind-Value="datlich.HovaTen" class="form-control" required />
         </div>
 
         <div class="form-group">
             <label for="phone">Số điện thoại</label>
-            <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại liên hệ" required>
+            <InputText type="tel" id="phone" @bind-Value="datlich.SoDienThoai" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label for="TTTT">Trạng Thái Thanh Toán:</label>
+            <InputRadioGroup TValue="string" id="paymentStatus" @bind-Value="datlich.TrangThaiTT" required>
+                <InputRadio TValue="string" value="Đã Thanh Toán" /> <label>Đã Thanh Toán</label>
+                <InputRadio TValue="string" value="Chưa Thanh Toán" /> <label>Chưa Thanh Toán</label>
+                <InputRadio TValue="string" value="Chờ Thanh Toán" /> <label>Chờ Thanh Toán</label>
+            </InputRadioGroup>
+        </div>
+
+        <div class="form-group">
+            <label for="TTHen">Trạng Thái Hẹn:</label>
+            <InputRadioGroup TValue="string" id="appointmentStatus" @bind-Value="datlich.TrangThaiHen" class="form-control" required>
+                <InputRadio TValue="string" value="Đã Hẹn" /> <label>Đã Hẹn</label>
+                <InputRadio TValue="string" value="Chưa Hẹn" /> <label>Chưa Hẹn</label>
+            </InputRadioGroup>
         </div>
 
         <div class="form-group">
             <label for="date">Ngày hẹn khám</label>
-            <input type="date" id="date" name="date" required>
+            <InputDate TValue="DateTime" id="date" @bind-Value="datlich.NgayHen" class="form-control" required />
         </div>
 
         <div class="form-group">
-            <label for="time">Giờ hẹn khám</label>
-            <input type="time" id="time" name="time" required>
-        </div>
-
-        <div class="form-group">
-            <label for="service">Dịch vụ</label>
-            <select id="service" name="service" required>
-                <option value="general">Khám tổng quát</option>
-                <option value="surgery">Phẫu thuật</option>
-                <option value="vaccination">Tiêm phòng</option>
-                <option value="dental">Chăm sóc răng miệng</option>
-            </select>
+            <label for="service">Dịch vụ:</label>
+            <InputRadioGroup TValue="string" id="service" @bind-Value="datlich.DichVu" class="form-control" required>
+                <InputRadio TValue="string" value="Khám tổng quát" /> <label>Khám tổng quát</label>
+                <InputRadio TValue="string" value="Phẫu thuật" /> <label>Phẫu thuật</label>
+                <InputRadio TValue="string" value="Tiêm phòng" /> <label>Tiêm phòng</label>
+                <InputRadio TValue="string" value="Chăm sóc răng miệng" /> <label>Chăm sóc răng miệng</label>
+            </InputRadioGroup>
         </div>
 
         <div class="form-group">
             <label for="notes">Ghi chú</label>
-            <textarea id="notes" name="notes" placeholder="Ghi chú thêm về tình trạng của thú cưng (nếu có)"></textarea>
+            <InputText id="notes" @bind-Value="datlich.GhiChu" class="form-control"></InputText>
         </div>
 
         <button type="submit">Đặt lịch</button>
-    </form>
+
+    </EditForm>
 </div>
 
 
 @code {
-
+    [SupplyParameterFromForm]
+    public DatLich datlich { get; set; } = new();
+    private async Task AddDatLich()
+        {
+            await Repository.AddAsyncDatLich(datlich);
+            ToastService.ShowSuccess("Có lịch đặt khám mới");
+            Navigation.NavigateTo("/client"); // Điều hướng về trang phù hợp
+        }
 }
 
 
 <style>
+
     .booking-form-container {
         max-width: 500px;
         margin: 0 auto;

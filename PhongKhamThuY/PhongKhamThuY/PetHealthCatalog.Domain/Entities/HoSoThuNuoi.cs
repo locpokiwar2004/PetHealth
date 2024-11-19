@@ -32,5 +32,9 @@ namespace PetHealthCatalog.Domain.Entities
 
         [Required(ErrorMessage = "Vui lòng chọn loại vật nuôi!")]
         public string? LoaiVatNuoi { get; set; }
+
+        [Required(ErrorMessage = "Vui lòng chọn loại Giống!")]
+        public string? Giong { get; set; }
+
     }
 }

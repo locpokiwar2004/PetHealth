@@ -1,78 +1,85 @@
-﻿@page "/ThemThuoc"
+﻿@page "/admin/ThemThuoc"
 @inject PetHealthRepository Repository
 @inject NavigationManager Navigation
-
+@layout AdminLayout
+@inject IAntiforgery Antiforgery
 <PageTitle> Thêm Thuốc</PageTitle>
 <h3 style="text-align:center">THÊM THUỐC</h3>
-<EditForm Enhance="true" method="post" FormName="ThemThuoc" OnValidSubmit="AddMedicine" Model="Thuoc" autocomplete="off" class="form">
-    <div class="form-group">
-        <label>Tên thuốc</label>
-        <InputText id="TenThuoc" @bind-Value="Thuoc.TenThuoc" type="text" class="form-control" required />
-    </div>
+<div class="row justify-content-center">
+    <div class="col-7">
+        <EditForm Enhance="true" method="post" FormName="ThemThuoc" OnValidSubmit="AddMedicine" Model="Thuoc" autocomplete="off" class="form">
 
-    <div class="row">
-        <div class="col-md-6">
+            <div class="form-group">
+                <label>Tên thuốc</label>
+                <InputText id="TenThuoc" @bind-Value="Thuoc.TenThuoc" type="text" class="form-control" required />
+            </div>
+
+
+
             <div class="form-group">
                 <label>Tên sản xuất</label>
                 <InputText id="TenNSX" @bind-Value="Thuoc.TenNSX" type="text" class="form-control" required />
             </div>
-        </div>
 
-        <div class="col-md-6">
+
+
             <div class="form-group">
                 <label>Loại thuốc</label>
                 <InputText id="LoaiThuoc" @bind-Value="Thuoc.LoaiThuoc" type="text" class="form-control" required />
             </div>
-        </div>
-    </div>
 
-    <div class="row">
-        <div class="col-md-6">
+
+
+
+
             <div class="form-group">
                 <label>Ngày sản xuất</label>
                 <InputDate id="NgaySanXuat" @bind-Value="Thuoc.NgaySanXuat" class="form-control" required />
             </div>
-        </div>
 
-        <div class="col-md-6">
+
+
             <div class="form-group">
                 <label>Hạn sử dụng</label>
                 <InputDate id="HanSuDung" @bind-Value="Thuoc.HanSuDung" class="form-control" required />
             </div>
-        </div>
-    </div>
 
-    <div class="row mb-2">
-        <div class="col-md-6">
+
+
+
+
             <div class="form-group">
                 <label>Số lượng</label>
                 <InputNumber id="SoLuongThuoc" @bind-Value="Thuoc.SoLuongThuoc" type="number" class="form-control" required />
             </div>
-        </div>
 
-        <div class="col-md-6">
+
+
             <div class="form-group">
                 <label>Giá bán</label>
                 <InputNumber id="GiaBan" @bind-Value="Thuoc.GiaBan" type="number" class="form-control" required />
             </div>
-        </div>
+
+
+
+            <div class="button-group">
+                <button type="button" class="return">
+                    <NavLink href="/admin/DanhSachThuoc" style="text-decoration:none;color:white">Quay lại</NavLink>
+                </button>
+                <button type="submit" class="submit">Hoàn Thành</button>
+            </div>
+
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+        </EditForm>
     </div>
-
-    <div class="d-flex justify-content-between mt-3">
-        <a href="/DanhSachThuoc" class="btn-return">Quay lại</a>
-        <button type="submit" class="btn-submit">Hoàn Thành</button>
-    </div>
-
-    <DataAnnotationsValidator />
-    <ValidationSummary />
-</EditForm>
-
+</div>
 @code {
     [SupplyParameterFromForm]
     public Thuoc Thuoc { get; set; } = new();
     private async Task AddMedicine()
     {
         await Repository.AddAsyncThuoc(Thuoc);
-        Navigation.NavigateTo("DanhSachThuoc");
+        Navigation.NavigateTo("/admin/DanhSachThuoc");
     }
-}
+        }

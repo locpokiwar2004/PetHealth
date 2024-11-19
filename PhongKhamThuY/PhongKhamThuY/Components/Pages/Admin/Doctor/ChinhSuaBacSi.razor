@@ -1,59 +1,62 @@
-﻿@page "/ChinhSuaBacSi/{id:int}"
+﻿@page "/admin/ChinhSuaBacSi/{id:int}"
 @inject PetHealthRepository Repository
 @inject NavigationManager Navigation
+@layout AdminLayout
 <PageTitle>
     Cập Nhật Bác Sĩ
 </PageTitle>
 
-<div class="row justify-content-center">
-    <div class="col-7">
-        <EditForm Enhance="true" method="post" FormName="ThemBacSi" OnValidSubmit="CapNhatBacSi" Model="bacSi" autocomplete="off" class="form">
-            <h3 style="text-align:center">
-                Cập Nhật Bác Sĩ 
-            </h3>
-            <input type="hidden" name="bacSi.MaBacSi" value="@bacSi.MaBacSi" />
-           
-            <div class="input-box">
-                <label>Tên Bác Sĩ</label>
-                <InputText id="TenBacSi" @bind-Value="bacSi.TenBacSi" type="text" required />
-            </div>
+@if (bacSi is not null)
+{
+    <div class="row justify-content-center">
+        <div class="col-7">
+            <EditForm Enhance="true" method="post" FormName="CapNhatBacSi" OnValidSubmit="CapNhatBacSi" Model="bacSi" autocomplete="off" class="form">
 
-            <div class="column">
-               
-                <div class="input-box">
+
+                <div class="form-group">
+                    <label>Tên Bác sĩ </label>
+                    <InputText id="TenBacSi" @bind-Value="bacSi.TenBacSi" class="form-control" required />
+                </div>
+
+
+
+                <div class="form-group">
                     <label>Số Điện Thoại</label>
-                    <InputText id="SoDienThoai" @bind-Value="bacSi.SoDienThoai" type="text" required />
+                    <InputText id="SoDienThoai" @bind-Value="bacSi.SoDienThoai" class="form-control" type="number" required />
                 </div>
 
-               
-                <div class="input-box">
+
+
+
+                <div class="form-group">
                     <label>Email</label>
-                    <InputText id="Email" @bind-Value="bacSi.Email" type="text" required />
+                    <InputText id="Email" @bind-Value="bacSi.Email" type="email" class="form-control" required />
                 </div>
-            </div>
 
-            <div class="column">
 
-                <div class="input-box">
+
+
+
+                <div class="form-group">
                     <label>Địa Chỉ</label>
-                    <InputDate id="DiaChi" @bind-Value="bacSi.DiaChi" required />
+                    <InputText id="DiaChi" @bind-Value="bacSi.DiaChi" class="form-control" required />
                 </div>
 
-                
-            </div>
 
-         
-            <button class="submit" style="float:right">Hoàn Thành</button>
+                <div class="button-group">
+                    <button type="button" class="return">
+                        <NavLink href="/admin/DanhSachBacSi" style="text-decoration:none;color:white">Quay lại</NavLink>
+                    </button>
+                    <button type="submit" class="submit">Hoàn Thành</button>
+                </div>
 
-            <button class="return" style="float:left">
-                <NavLink href="/DanhSachBacSi" style="text-decoration:none;color:white">Quay lại</NavLink>
-            </button>
-
-            <DataAnnotationsValidator />
-            <ValidationSummary />
-        </EditForm>
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+            </EditForm>
+        </div>
     </div>
-</div>
+}
+
 
 
 @code {
@@ -73,7 +76,7 @@
         if (bacSi is not null)
         {
             await Repository.UpdateAsyncBacSi(bacSi);
-            Navigation.NavigateTo("/DanhSachBacSi");
+            Navigation.NavigateTo("/admin/DanhSachBacSi");
         }
     }
 }

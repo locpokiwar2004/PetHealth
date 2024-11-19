@@ -1,39 +1,39 @@
 ﻿@inject PetHealthRepository Repository
 @inject NavigationManager Navigation
+@layout AdminLayout
 
-<div class="thuoc-card">
-    <table class="content-table">
-        <thead>
-            <tr>
-                <th>Mã Khách Hàng</th>
-                <th>Tên Khách Hàng</th>
-                <th>Số Điện Thoại</th>
-                <th>Email</th>
-                <th>Địa Chỉ</th>
-                <th>Tên Thú Cưng</th>
-                <th>Hành động</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>@khachHang.MaKhachHang</td>
-                <td>@khachHang.TenKhachHang</td>
-                <td>@khachHang.SoDienThoai</td>
-                <td>@khachHang.Email</td>
-                <td>@khachHang.DiaChi</td>
-                <td>@khachHang.TenThuCung</td>
-                <td>
-                    <a href="@($"/DanhSachKhachHang/{khachHang.MaKhachHang}")" class="btn-edit return">
-                        Chỉnh Sửa
-                    </a>
-                    <button @onclick="OpenConfirmDialog" class="delete-button submit">
-                        Xóa
-                    </button>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Mã Khách Hàng</th>
+            <th>Tên Khách Hàng</th>
+            <th>Số Điện Thoại</th>
+            <th>Email</th>
+            <th>Địa Chỉ</th>
+            <th>Tên Thú Cưng</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@khachHang.MaKhachHang</td>
+            <td>@khachHang.TenKhachHang</td>
+            <td>@khachHang.SoDienThoai</td>
+            <td>@khachHang.Email</td>
+            <td>@khachHang.DiaChi</td>
+            <td>@khachHang.TenThuCung</td>
+            <td>
+                <a href="@($"/admin/ChinhSuaKhachHang/{khachHang.MaKhachHang}")" class="btn-edit return">
+                    Chỉnh Sửa
+                </a>
+                <button @onclick="OpenConfirmDialog" class="delete-button submit">
+                    Xóa
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 <DeleteConfirmDialog Show="showConfirmDialog"
                      OnCancel="CancelDelete"
@@ -62,6 +62,6 @@
     {
         await Repository.DeleteByIdAsync(khachHang.MaKhachHang);
         showConfirmDialog = false;
-        Navigation.NavigateTo("/DanhSachKhachHang");
+        Navigation.NavigateTo("/admin/DanhSachKhachHang");
     }
 }

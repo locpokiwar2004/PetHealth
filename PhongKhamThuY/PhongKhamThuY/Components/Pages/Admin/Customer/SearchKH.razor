@@ -1,0 +1,45 @@
+﻿@typeparam TEntity
+
+<div class="d-flex gap-2">
+    <input class="form-control"
+           style="max-width: 500px"
+           placeholder="Tìm kiếm..."
+           @bind="searchItems"
+           @bind:event="oninput"
+           @onkeyup="HandleKeyPress" />
+
+    <button class="btn btn-primary"
+            style="max-width: 250px"
+            @onclick="OnSearchClicked">
+        Tìm kiếm
+    </button>
+</div>
+
+@code {
+    [Parameter]
+    public List<TEntity> Items { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnSearch { get; set; }
+
+    private string searchItems;
+
+    private async Task OnSearchClicked()
+    {
+        await OnSearch.InvokeAsync(searchItems?.Trim());
+    }
+
+    private async Task HandleKeyPress(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            await OnSearchClicked();
+        }
+    }
+
+    public void ClearSearch()
+    {
+        searchItems = string.Empty;
+        OnSearchClicked();
+    }
+}

@@ -1235,3 +1235,1295 @@ D:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\P
 D:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\ChamSocSauPhauThuat.razor.rz.scp.css
 D:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\TuVanDinhDuong.razor.rz.scp.css
 D:\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\XetNghiem.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.csproj.AssemblyReference.cache
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.AssemblyInfoInputs.cache
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.AssemblyInfo.cs
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.csproj.CoreCompileInputs.cache
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.sourcelink.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\refint\PhongKhamThuY.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.pdb
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Application\bin\Debug\net8.0\PetHealthCatalog.Application.deps.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Application\obj\PetHealthCatalog.Application.csproj.nuget.dgspec.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Application\obj\project.assets.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Domain\bin\Debug\net8.0\PetHealthCatalog.Domain.deps.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Domain\obj\PetHealthCatalog.Domain.csproj.nuget.dgspec.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Domain\obj\project.assets.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.deps.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.runtimeconfig.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\obj\PetHealthCatalog.Infrastucture.csproj.nuget.dgspec.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\obj\project.assets.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\appsettings.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\package-lock.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\package.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.staticwebassets.runtime.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.exe
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.deps.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.runtimeconfig.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.pdb
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Blazored.Toast.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Build.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Common.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Configuration.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Frameworks.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.LibraryModel.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Packaging.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.ProjectModel.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Protocol.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\af\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ar\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\az\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\bg\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\da\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\el\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fa\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\he\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\hr\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\hu\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\hy\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\id\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\is\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ku\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\lv\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\mt\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\nb\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\nl\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ro\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sk\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sl\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sr\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sv\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\uk\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\vi\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.PhongKhamThuY.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.build.PhongKhamThuY.props
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PhongKhamThuY.props
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PhongKhamThuY.props
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\DeleteConfirmDialog.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\ClientLayout.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\TbMedicine.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\ChinhSuaKhachHang.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\DanhSachKhachHang.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\KhachHangCard.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\ThemKhachhang.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\BacSiCard.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\ChinhSuaBacSi.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\DanhSachBacSi.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\ThemBacSi.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ChinhSuaThuoc.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\DanhSachThuoc.Razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ThemThuoc.Razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ThuocCard.Razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\ChinhSuaHoSo.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\DanhSachHoSo.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\HoSoCard.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\ThemHoSo.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\ChinhSuaDatLich.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\DanhSachDatLich.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\DatLichCard.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\Notification.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\ThemDatLich.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\ChamSocSauPhauThuat.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\KhamSucKhoeThu.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\TiemChung.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\TuVanDinhDuong.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\XetNghiem.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\Gioithieu\ListGioiThiêu.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\LienHe\ListLienHe.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\Tintuc\AddTintuc.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\Đatlich\ListDatLich.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\AdminLayout.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\bundle\PhongKhamThuY.styles.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\projectbundle\PhongKhamThuY.bundle.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKha.CDF9E99B.Up2Date
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.genruntimeconfig.cache
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\ref\PhongKhamThuY.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\EPPlus.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\EPPlus.Interfaces.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\ChinhSuaHoaDon.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\DanhSachHoaDon.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\HoaDonCard.razor.rz.scp.css
+C:\Users\Admin\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\ThemHoaDon.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\appsettings.Development.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\appsettings.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\package-lock.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\package.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Application\bin\Debug\net8.0\PetHealthCatalog.Application.deps.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Application\obj\PetHealthCatalog.Application.csproj.nuget.dgspec.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Application\obj\project.assets.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Domain\bin\Debug\net8.0\PetHealthCatalog.Domain.deps.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Domain\obj\PetHealthCatalog.Domain.csproj.nuget.dgspec.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Domain\obj\project.assets.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.deps.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.runtimeconfig.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\obj\PetHealthCatalog.Infrastucture.csproj.nuget.dgspec.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\obj\project.assets.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.staticwebassets.runtime.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.exe
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.deps.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.runtimeconfig.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.pdb
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Azure.Core.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Azure.Identity.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Blazored.Toast.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\EPPlus.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\EPPlus.Interfaces.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Humanizer.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Build.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.JSInterop.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Common.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.CodeDom.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.csproj.AssemblyReference.cache
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.AssemblyInfoInputs.cache
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.AssemblyInfo.cs
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.csproj.CoreCompileInputs.cache
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.MvcApplicationPartsAssemblyInfo.cache
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.sourcelink.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets.build.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets.development.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.PhongKhamThuY.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.build.PhongKhamThuY.props
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PhongKhamThuY.props
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PhongKhamThuY.props
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\DeleteConfirmDialog.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\ClientLayout.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\TbMedicine.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\ChinhSuaKhachHang.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\DanhSachKhachHang.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\KhachHangCard.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\ThemKhachhang.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\BacSiCard.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\ChinhSuaBacSi.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\DanhSachBacSi.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\ThemBacSi.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ChinhSuaThuoc.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\DanhSachThuoc.Razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ThemThuoc.Razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ThuocCard.Razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\ChinhSuaHoSo.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\DanhSachHoSo.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\HoSoCard.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\ThemHoSo.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\ChinhSuaHoaDon.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\DanhSachHoaDon.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\HoaDonCard.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\ThemHoaDon.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\ChinhSuaDatLich.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\DanhSachDatLich.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\DatLichCard.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\Notification.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\ThemDatLich.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\ChamSocSauPhauThuat.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\KhamSucKhoeThu.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\TiemChung.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\TuVanDinhDuong.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\XetNghiem.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\Gioithieu\ListGioiThiêu.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\LienHe\ListLienHe.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\Tintuc\AddTintuc.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\Đatlich\ListDatLich.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\AdminLayout.razor.rz.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\bundle\PhongKhamThuY.styles.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\projectbundle\PhongKhamThuY.bundle.scp.css
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKha.CDF9E99B.Up2Date
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\refint\PhongKhamThuY.dll
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.pdb
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.genruntimeconfig.cache
+D:\Lập Trình Web\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\ref\PhongKhamThuY.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\appsettings.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\package-lock.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\package.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Application\bin\Debug\net8.0\PetHealthCatalog.Application.deps.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Application\obj\PetHealthCatalog.Application.csproj.nuget.dgspec.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Application\obj\project.assets.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Domain\bin\Debug\net8.0\PetHealthCatalog.Domain.deps.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Domain\obj\PetHealthCatalog.Domain.csproj.nuget.dgspec.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Domain\obj\project.assets.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.deps.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.runtimeconfig.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\obj\PetHealthCatalog.Infrastucture.csproj.nuget.dgspec.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\obj\project.assets.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.staticwebassets.runtime.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.exe
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.deps.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.runtimeconfig.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.pdb
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Blazored.Toast.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\EPPlus.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\EPPlus.Interfaces.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Build.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Common.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Configuration.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Frameworks.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.LibraryModel.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Packaging.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.ProjectModel.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Protocol.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\af\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ar\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\az\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\bg\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\da\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\el\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fa\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\he\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\hr\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\hu\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\hy\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\id\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\is\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ku\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\lv\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\mt\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\nb\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\nl\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ro\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sk\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sl\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sr\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sv\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\uk\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\vi\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.AssemblyInfo.cs
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.sourcelink.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.PhongKhamThuY.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.build.PhongKhamThuY.props
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PhongKhamThuY.props
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PhongKhamThuY.props
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\DeleteConfirmDialog.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\ClientLayout.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\TbMedicine.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\ChinhSuaKhachHang.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\DanhSachKhachHang.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\KhachHangCard.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\ThemKhachhang.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\BacSiCard.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\ChinhSuaBacSi.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\DanhSachBacSi.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\ThemBacSi.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ChinhSuaThuoc.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\DanhSachThuoc.Razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ThemThuoc.Razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ThuocCard.Razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\ChinhSuaHoSo.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\DanhSachHoSo.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\HoSoCard.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\ThemHoSo.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\ChinhSuaHoaDon.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\DanhSachHoaDon.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\HoaDonCard.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\ThemHoaDon.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\ChinhSuaDatLich.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\DanhSachDatLich.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\DatLichCard.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\Notification.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\ThemDatLich.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\ChamSocSauPhauThuat.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\KhamSucKhoeThu.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\TiemChung.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\TuVanDinhDuong.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\XetNghiem.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\Gioithieu\ListGioiThiêu.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\LienHe\ListLienHe.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\Tintuc\AddTintuc.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\Đatlich\ListDatLich.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\AdminLayout.razor.rz.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\bundle\PhongKhamThuY.styles.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\projectbundle\PhongKhamThuY.bundle.scp.css
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKha.CDF9E99B.Up2Date
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\refint\PhongKhamThuY.dll
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.pdb
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.genruntimeconfig.cache
+C:\Users\Admin\Desktop\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\ref\PhongKhamThuY.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\appsettings.Development.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\appsettings.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\package-lock.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\package.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Application\bin\Debug\net8.0\PetHealthCatalog.Application.deps.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Application\obj\PetHealthCatalog.Application.csproj.nuget.dgspec.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Application\obj\project.assets.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Domain\bin\Debug\net8.0\PetHealthCatalog.Domain.deps.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Domain\obj\PetHealthCatalog.Domain.csproj.nuget.dgspec.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Domain\obj\project.assets.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.deps.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\bin\Debug\net8.0\PetHealthCatalog.Infrastucture.runtimeconfig.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\obj\PetHealthCatalog.Infrastucture.csproj.nuget.dgspec.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PetHealthCatalog.Infrastucture\obj\project.assets.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.staticwebassets.runtime.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.exe
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.deps.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.runtimeconfig.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\PhongKhamThuY.pdb
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Azure.Core.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Azure.Identity.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Blazored.Toast.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\EPPlus.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\EPPlus.Interfaces.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Humanizer.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Build.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.JSInterop.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Common.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.CodeDom.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.csproj.AssemblyReference.cache
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.GeneratedMSBuildEditorConfig.editorconfig
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.AssemblyInfoInputs.cache
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.AssemblyInfo.cs
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.csproj.CoreCompileInputs.cache
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.MvcApplicationPartsAssemblyInfo.cache
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.sourcelink.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets.build.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets.development.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.PhongKhamThuY.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.build.PhongKhamThuY.props
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PhongKhamThuY.props
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PhongKhamThuY.props
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\DeleteConfirmDialog.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\ClientLayout.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\TbMedicine.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\ChinhSuaKhachHang.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\DanhSachKhachHang.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\KhachHangCard.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Customer\ThemKhachhang.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\BacSiCard.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\ChinhSuaBacSi.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\DanhSachBacSi.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Doctor\ThemBacSi.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ChinhSuaThuoc.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\DanhSachThuoc.Razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ThemThuoc.Razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Medicine\ThuocCard.Razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\ChinhSuaHoSo.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\DanhSachHoSo.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\HoSoCard.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Pet Profile\ThemHoSo.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\ChinhSuaHoaDon.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\DanhSachHoaDon.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\HoaDonCard.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Revenue\ThemHoaDon.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\ChinhSuaDatLich.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\DanhSachDatLich.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\DatLichCard.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\Notification.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Admin\Schedule\ThemDatLich.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\ChamSocSauPhauThuat.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\KhamSucKhoeThu.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\TiemChung.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\TuVanDinhDuong.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\DichVu\XetNghiem.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\Gioithieu\ListGioiThiêu.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\LienHe\ListLienHe.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\Tintuc\AddTintuc.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Pages\Client\Đatlich\ListDatLich.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\Components\Layout\AdminLayout.razor.rz.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\bundle\PhongKhamThuY.styles.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\scopedcss\projectbundle\PhongKhamThuY.bundle.scp.css
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKha.CDF9E99B.Up2Date
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\refint\PhongKhamThuY.dll
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.pdb
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\PhongKhamThuY.genruntimeconfig.cache
+D:\Công Nghệ Phần Mềm\PetHealth\PhongKhamThuY\PhongKhamThuY\obj\Debug\net8.0\ref\PhongKhamThuY.dll

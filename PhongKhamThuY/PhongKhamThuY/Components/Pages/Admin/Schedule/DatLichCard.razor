@@ -5,28 +5,26 @@
     <table class="content-table">
         <thead>
             <tr>
-                <th>Giá Khám</th>
-                <th>Trạng Thái Thanh Toán</th>
-                <th>Trạng Thái Hẹn</th>
-                <th>Ngày Giờ Hẹn</th>
+                <th>Tên Chủ Nuôi</th>
+                <th>Số Điện Thoại</th>
+                <th>Ngày Hẹn</th>
+                <th>Dịch Vụ</th>
                 <th>Hành động</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>@datlich.GiaKham</td>
-                <td>@datlich.TrangThaiTT</td>
-                <td>@datlich.TrangThaiHen</td>
-                <td>@datlich.NgayGioHen</td>
+
+                <td>@datlich.HovaTen</td>
+                <td>@datlich.SoDienThoai</td>
+                <td>@datlich.NgayHen</td>
+                <td>@datlich.DichVu</td>
                 <td>
-                    <a href="@($"/DanhSachBacSi/{datlich.MaHen}")" class="btn-edit return">
+                    <a href="@($"/admin/ChinhSuaDatLich/{datlich.MaHen}")" class="btn-edit return">
                         Chỉnh Sửa
                     </a>
                     <button @onclick="OpenConfirmDialog" class="delete-button submit">
                         Xóa
-                    </button>
-                    <button @onclick="DatLichButtonClicked" class="delete-button submit">
-                        Đặt Lịch
                     </button>
                 </td>
             </tr>
@@ -69,6 +67,6 @@
     {
         await Repository.DeleteByIdAsync(datlich.MaHen);
         showConfirmDialog = false;
-        Navigation.NavigateTo("/DanhSachDatLich");
+        Navigation.NavigateTo("/admin/DanhSachDatLich");
     }
 }

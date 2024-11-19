@@ -1,18 +1,28 @@
-﻿@page "/DanhSachDatLich"
+﻿@page "/admin/DanhSachDatLich"
 @inject PetHealthRepository Repository
-@rendermode InteractiveServer
+@inject IToastService ToastService
+@inject NavigationManager Navigation
+@layout AdminLayout
+
 <PageTitle>Danh Sách Đặt Lịch</PageTitle>
 
-<div class="row justify-content-center">
-    <!-- Button to Add New Appointment -->
-    <div class="col-8 text-right mb-4">
-        <a href="/ThemDatLich" class="btn-add-medicine">
-            <span class="button__text">Thêm Đặt Lịch</span>
+<h3 style="text-align:center">DANH SÁCH LỊCH HẸN</h3>
+<div>
+    <button>
+        <NavLink href="/admin/ThemDatLich">
+            <span class="button__text">Thêm Lịch Hẹn</span>
             <span class="button__icon">
-                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-plus" style="color: #63E6BE;"></i>
             </span>
-        </a>
-    </div>
+        </NavLink>
+    </button>
+</div>
+
+<SearchDL TEntity="DatLich"
+          Items="@DatLichs"
+          OnSearch="HandleSearch" />
+
+<div>
 
     <div class="col-8">
         @if (DatLichs is null)
@@ -41,22 +51,11 @@
 
 @code {
     private List<DatLich> DatLichs = new List<DatLich>();
+    private List<DatLich> AllDatLichs = new List<DatLich>();
     private bool showNotification = false;
     private string notificationMessage;
-
-    protected override async Task OnInitializedAsync()
-    {
-        try
-        {
-            DatLichs = await Repository.GetAllAsyncDatLich() ?? new List<DatLich>();
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error: {ex.Message}");
-            DatLichs = new List<DatLich>();
-        }
-    }
-
+    private string searchItems;
+   
     private void ShowNotification(DatLich datlich)
     {
         notificationMessage = $"Đã đặt lịch cho mã hẹn: {datlich.MaHen}";
@@ -66,5 +65,58 @@
     private void HideNotification()
     {
         showNotification = false;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var uri = Navigation.ToAbsoluteUri(Navigation.Uri);
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("success", out var success) && success == "true")
+        {
+            ToastService.ShowSuccess("Lịch hẹn đã được tạo thành công!");
+        }
+
+        try
+        {
+            DatLichs = await Repository.GetAllAsyncDatLich() ?? new List<DatLich>();
+            AllDatLichs = DatLichs.ToList();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+            DatLichs = new List<DatLich>();
+            AllDatLichs = new List<DatLich>();
+        }
+    }
+
+    private async Task HandleSearch(string searchTerm)
+    {
+        if (string.IsNullOrWhiteSpace(searchTerm))
+        {
+            DatLichs = AllDatLichs; // Show full list if no search term
+        }
+        else
+        {
+            DatLichs = await Repository.SearchDatLichAsync(searchTerm); // Call repository search
+        }
+        StateHasChanged(); // Re-render the component after updating KhachHangs
+    }
+
+    private async Task OnSearchClicked()
+    {
+        await HandleSearch(searchItems?.Trim()); // Trigger search when button is clicked
+    }
+
+    private async Task HandleKeyPress(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            await OnSearchClicked(); // Trigger search when Enter key is pressed
+        }
+    }
+
+    public void ClearSearch()
+    {
+        searchItems = string.Empty;
+        OnSearchClicked(); // Clear search and show the full list
     }
 }

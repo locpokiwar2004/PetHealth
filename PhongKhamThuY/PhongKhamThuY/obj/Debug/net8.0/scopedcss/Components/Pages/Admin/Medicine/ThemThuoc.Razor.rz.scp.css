@@ -1,20 +1,74 @@
-.btn-return[b-r9cruct48h] {
-    font-size: 15px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 5px;
-    background-color: #0D92F4;
-    color: white;
-    text-decoration: none
+/* Container for the input fields */
+.form .input-box[b-r9cruct48h] {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
 }
 
-.btn-submit[b-r9cruct48h] {
-    font-size: 15px;
-    border: none;
-    outline: none;
-    padding: 6px 16px;
-    border-radius: 5px;
-    background-color: #399918;
+/* Labels for form inputs */
+.input-box label[b-r9cruct48h] {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Styling for inputs and selects */
+.form input[b-r9cruct48h], .form select[b-r9cruct48h], .form .input-box input[b-r9cruct48h], .form .input-box select[b-r9cruct48h] {
+    height: 45px;
+    width: 100%;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 0 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+/* Focused state for inputs */
+.input-box input:focus[b-r9cruct48h], .input-box select:focus[b-r9cruct48h] {
+    border-color: #3FA2F6;
+    box-shadow: 0 0 8px rgba(63, 162, 246, 0.2);
+    background-color: white;
+}
+
+/* Form column layout */
+.form .column[b-r9cruct48h] {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+    .form .column .input-box[b-r9cruct48h] {
+        flex: 1;
+    }
+
+.form .button-group[b-r9cruct48h] {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
+}
+
+    .form .button-group button[b-r9cruct48h] {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.return[b-r9cruct48h] {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
+    color: white;
+}
+
+.submit[b-r9cruct48h] {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
     color: white;
 }
