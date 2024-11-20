@@ -1,0 +1,74 @@
+/* Container for the input fields */
+.form .input-box[b-jd4seec5zi] {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* Labels for form inputs */
+.input-box label[b-jd4seec5zi] {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Styling for inputs and selects */
+.form input[b-jd4seec5zi], .form select[b-jd4seec5zi], .form .input-box input[b-jd4seec5zi], .form .input-box select[b-jd4seec5zi] {
+    height: 45px;
+    width: 100%;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 0 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+/* Focused state for inputs */
+.input-box input:focus[b-jd4seec5zi], .input-box select:focus[b-jd4seec5zi] {
+    border-color: #3FA2F6;
+    box-shadow: 0 0 8px rgba(63, 162, 246, 0.2);
+    background-color: white;
+}
+
+/* Form column layout */
+.form .column[b-jd4seec5zi] {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+    .form .column .input-box[b-jd4seec5zi] {
+        flex: 1;
+    }
+
+.form .button-group[b-jd4seec5zi] {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Khoảng cách giữa các nút */
+    margin-top: 20px; /* Khoảng cách phía trên nếu cần */
+}
+
+    .form .button-group button[b-jd4seec5zi] {
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.return[b-jd4seec5zi] {
+    background-color: #4CAF50; /* Màu của nút "Quay lại" */
+    color: white;
+}
+
+.submit[b-jd4seec5zi] {
+    background-color: #FFC107; /* Màu của nút "Hoàn Thành" */
+    color: white;
+}

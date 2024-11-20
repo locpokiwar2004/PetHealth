@@ -1,37 +1,37 @@
 ﻿@inject PetHealthRepository Repository
 @inject NavigationManager Navigation
 
-<div class="thuoc-card">
-    <table class="content-table">
-        <thead>
-            <tr>
-                <th>Mã Thuốc</th>
-                <th>Tên thuốc</th>
-                <th>Loại thuốc</th>
-                <th>Số lượng</th>
-                <th>Giá bán</th>
-                <th>Hành động</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>@thuoc.MaSoThuoc</td>
-                <td>@thuoc.TenThuoc</td>
-                <td>@thuoc.LoaiThuoc</td>
-                <td>@thuoc.SoLuongThuoc</td>
-                <td>@thuoc.GiaBan</td>
-                <td>
-                    <a href="@($"/ChinhSuaThuoc/{thuoc.MaSoThuoc}")" class="btn-edit return">
-                        Chỉnh Sửa
-                    </a>
-                    <button @onclick="OpenConfirmDialog" class="delete-button submit">
-                        Xóa
-                    </button>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Mã Thuốc</th>
+            <th>Tên thuốc</th>
+            <th>Loại thuốc</th>
+            <th>Số lượng</th>
+            <th>Giá bán</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@thuoc.MaSoThuoc</td>
+            <td>@thuoc.TenThuoc</td>
+            <td>@thuoc.LoaiThuoc</td>
+            <td>@thuoc.SoLuongThuoc</td>
+            <td>@thuoc.GiaBan</td>
+            <td>
+                <a href="@($"/admin/ChinhSuaThuoc/{thuoc.MaSoThuoc}")" class="btn-edit return">
+                    Chỉnh Sửa
+                </a>
+                <button @onclick="OpenConfirmDialog" class="delete-button submit">
+                    Xóa
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 <DeleteConfirmDialog Show="showConfirmDialog"
                      OnCancel="CancelDelete"
@@ -60,6 +60,6 @@
     {
         await Repository.DeleteByIdAsync(thuoc.MaSoThuoc);
         showConfirmDialog = false;
-        Navigation.NavigateTo("/DanhSachThuoc");
+        Navigation.NavigateTo("/admin/DanhSachThuoc");
     }
 }

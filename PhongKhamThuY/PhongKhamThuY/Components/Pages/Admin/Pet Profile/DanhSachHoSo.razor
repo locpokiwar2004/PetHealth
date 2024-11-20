@@ -1,19 +1,26 @@
-﻿@page "/DanhSachHoSo"
+﻿@page "/admin/DanhSachHoSo"
 @inject PetHealthRepository Repository
 @rendermode InteractiveServer
+@layout AdminLayout
 <PageTitle>Danh Sách Hồ Sơ</PageTitle>
 
-<div class="row justify-content-center">
-    <!-- Button to Add New Medicine -->
-    <div class="col-8 text-right mb-4">
-        <a href="/ThemHoSo" class="btn-add-medicine">
+<h3 style="text-align:center">DANH SÁCH HỒ SƠ</h3>
+<div>
+    <button>
+        <NavLink href="/admin/ThemHoSo">
             <span class="button__text">Thêm Hồ Sơ</span>
             <span class="button__icon">
-                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-plus" style="color: #63E6BE;"></i>
             </span>
-        </a>
-    </div>
+        </NavLink>
+    </button>
+</div>
 
+<SearchHoSo TEntity="HoSoThuNuoi"
+          Items="@hosos"
+          OnSearch="HandleSearch" />
+
+<div>
     <div class="col-8">
         <!-- If no medicine data is available -->
         @if (hosos is null)
@@ -41,6 +48,9 @@
 
 @code {
     private List<HoSoThuNuoi> hosos = new List<HoSoThuNuoi>();
+    private List<HoSoThuNuoi> AllHoSoThuNuois = new List<HoSoThuNuoi>();
+
+    private string searchItems;
 
     protected override async Task OnInitializedAsync()
     {
@@ -48,12 +58,46 @@
         {
             // Fetch the list of medicines from the repository
             hosos = await Repository.GetAllAsyncHoSo() ?? new List<HoSoThuNuoi>();
+            AllHoSoThuNuois = hosos.ToList(); // Store the full list to restore when search is cleared
         }
         catch (Exception ex)
         {
             // Handle the exception and log if necessary
             Console.WriteLine($"Error: {ex.Message}");
             hosos = new List<HoSoThuNuoi>(); // Assign an empty list in case of an error
+            AllHoSoThuNuois = new List<HoSoThuNuoi>();
         }
+    }
+
+    private async Task HandleSearch(string searchTerm)
+    {
+        if (string.IsNullOrWhiteSpace(searchTerm))
+        {
+            hosos = AllHoSoThuNuois; // Show full list if no search term
+        }
+        else
+        {
+            hosos = await Repository.SearchHoSoAsync(searchTerm); // Call repository search
+        }
+        StateHasChanged(); // Re-render the component after updating KhachHangs
+    }
+
+    private async Task OnSearchClicked()
+    {
+        await HandleSearch(searchItems?.Trim()); // Trigger search when button is clicked
+    }
+
+    private async Task HandleKeyPress(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            await OnSearchClicked(); // Trigger search when Enter key is pressed
+        }
+    }
+
+    public void ClearSearch()
+    {
+        searchItems = string.Empty;
+        OnSearchClicked(); // Clear search and show the full list
     }
 }

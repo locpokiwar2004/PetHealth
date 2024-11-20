@@ -15,5 +15,6 @@ namespace PetHealthCatalog.Infrastucture.Context
         public DbSet<HoSoThuNuoi> HoSoThuNuois { get; set; }
         public DbSet<BacSi> BacSis { get; set; }
         public DbSet<DatLich> DatLichs { get; set; }
+        public DbSet<HoaDon> HoaDons { get; set; }
     }
 }

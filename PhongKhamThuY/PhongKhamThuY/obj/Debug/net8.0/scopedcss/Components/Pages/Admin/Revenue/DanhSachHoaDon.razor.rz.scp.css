@@ -1,0 +1,38 @@
+button[b-3h6235tddq] {
+    float: right;
+    display: flex;
+    height: 35px;
+    padding: 5px;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+    button:hover[b-3h6235tddq] {
+        background: #008168;
+    }
+
+    button:active[b-3h6235tddq] {
+        background: #006e58;
+    }
+
+.button__text[b-3h6235tddq],
+.button__icon[b-3h6235tddq] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100%;
+}
+
+.button__icon[b-3h6235tddq] {
+    font-size: 1.5em;
+}

@@ -1,58 +1,82 @@
-﻿@page "/ChinhSuaDatLich/{id:int}"
+﻿@page "/admin/ChinhSuaDatLich/{id:int}"
 @inject PetHealthRepository Repository
 @inject NavigationManager Navigation
+@layout AdminLayout
 <PageTitle>
     Cập Nhật Đặt Lịch
 </PageTitle>
 
-<div class="row justify-content-center">
-    <div class="col-7">
-        <EditForm Enhance="true" method="post" FormName="ThemBacSi" OnValidSubmit="CapNhatDatLich" Model="datlich" autocomplete="off" class="form">
-            <h3 style="text-align:center">
-                Cập Nhật Đặt Lịch
-            </h3>
-            <input type="hidden" name="datlich.MaHen" value="@datlich.MaHen" />
-           
-            <div class="input-box">
-                <label>Giá Khám </label>
-                <InputNumber id="GiaKham" @bind-Value="datlich.GiaKham" type="number" required />
-            </div>
 
-            <div class="column">
-
-                <div class="input-box">
-                    <label>Trạng Thái Thanh Toán</label>
-                    <InputCheckbox id="TrangThaiTT" @bind-Value="datlich.TrangThaiTT" type="bool" required />
+@if (datlich is not null)
+{
+    <div class="row justify-content-center">
+        <div class="col-7">
+            <EditForm Model="datlich" OnValidSubmit="CapNhatDatLich" autocomplete="off" class="form" method="post" FormName="CapNhatDatLich">
+                <div class="form-group">
+                    <label for="pet-name">Tên thú cưng</label>
+                    <InputText id="pet-name" @bind-Value="datlich.TenThuCung" class="form-control" required />
                 </div>
 
-
-                <div class="input-box">
-                    <label>Trạng Thái Hẹn</label>
-                    <InputCheckbox id="TrangThaiHen" @bind-Value="datlich.TrangThaiHen" type="bool" required />
-                </div>
-            </div>
-
-            <div class="column">
-
-                <div class="input-box">
-                    <label>Ngày Giờ Hẹn</label>
-                    <InputDate id="NgayGioHen" @bind-Value="datlich.NgayGioHen" type="date" required />
+                <div class="form-group">
+                    <label for="TenChuNuoi">Tên Chủ Nuôi</label>
+                    <InputText id="TenChuNuoi" @bind-Value="datlich.HovaTen" class="form-control" required />
                 </div>
 
-            </div>
+                <div class="form-group">
+                    <label for="phone">Số điện thoại</label>
+                    <InputText type="tel" id="phone" @bind-Value="datlich.SoDienThoai" class="form-control" required />
+                </div>
 
+                <div class="form-group">
+                    <label for="TTTT">Trạng Thái Thanh Toán:</label>
+                    <InputRadioGroup TValue="string" id="paymentStatus" @bind-Value="datlich.TrangThaiTT" required>
+                        <InputRadio TValue="string" value="Đã Thanh Toán" /> <label>Đã Thanh Toán</label>
+                        <InputRadio TValue="string" value="Chưa Thanh Toán" /> <label>Chưa Thanh Toán</label>
+                        <InputRadio TValue="string" value="Chờ Thanh Toán" /> <label>Chờ Thanh Toán</label>
+                    </InputRadioGroup>
+                </div>
 
-            <button class="submit" style="float:right">Hoàn Thành</button>
+                <div class="form-group">
+                    <label for="TTHen">Trạng Thái Hẹn:</label>
+                    <InputRadioGroup TValue="string" id="appointmentStatus" @bind-Value="datlich.TrangThaiHen" class="form-control" required>
+                        <InputRadio TValue="string" value="Đã Hẹn" /> <label>Đã Hẹn</label>
+                        <InputRadio TValue="string" value="Chưa Hẹn" /> <label>Chưa Hẹn</label>
+                    </InputRadioGroup>
+                </div>
 
-            <button class="return" style="float:left">
-                <NavLink href="/DanhSachBacSi" style="text-decoration:none;color:white">Quay lại</NavLink>
-            </button>
+                <div class="form-group">
+                    <label for="date">Ngày hẹn khám</label>
+                    <InputDate TValue="DateTime" id="date" @bind-Value="datlich.NgayHen" class="form-control" required />
+                </div>
 
-            <DataAnnotationsValidator />
-            <ValidationSummary />
-        </EditForm>
+                <div class="form-group">
+                    <label for="service">Dịch vụ:</label>
+                    <InputRadioGroup TValue="string" id="service" @bind-Value="datlich.DichVu" class="form-control" required>
+                        <InputRadio TValue="string" value="Khám tổng quát" /> <label>Khám tổng quát</label>
+                        <InputRadio TValue="string" value="Phẫu thuật" /> <label>Phẫu thuật</label>
+                        <InputRadio TValue="string" value="Tiêm phòng" /> <label>Tiêm phòng</label>
+                        <InputRadio TValue="string" value="Chăm sóc răng miệng" /> <label>Chăm sóc răng miệng</label>
+                    </InputRadioGroup>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Ghi chú</label>
+                    <InputText id="notes" @bind-Value="datlich.GhiChu" class="form-control"></InputText>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="return">
+                        <NavLink href="/admin/DanhSachDatLich" style="text-decoration:none;color:white">Quay lại</NavLink>
+                    </button>
+                    <button type="submit" class="submit">Hoàn Thành</button>
+                </div>
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+            </EditForm>
+        </div>
     </div>
-</div>
+}
+
 
 
 @code {
@@ -72,7 +96,7 @@
         if (datlich is not null)
         {
             await Repository.UpdateAsyncDatLich(datlich);
-            Navigation.NavigateTo("/DanhSachDatLich");
+            Navigation.NavigateTo("/admin/DanhSachDatLich");
         }
     }
 }

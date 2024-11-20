@@ -1,6 +1,38 @@
-.bacsi-item[b-vs5rnaf3f4]{
-    padding:1.5rem;
-    margin-bottom:1rem;
-    box-shadow: 0 0 0.5rem rgba(0,0,0,0.3);
-    border-radius:0.5rem;
+button[b-vs5rnaf3f4] {
+    float: right;
+    display: flex;
+    height: 35px;
+    padding: 5px;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+    button:hover[b-vs5rnaf3f4] {
+        background: #008168;
+    }
+
+    button:active[b-vs5rnaf3f4] {
+        background: #006e58;
+    }
+
+.button__text[b-vs5rnaf3f4],
+.button__icon[b-vs5rnaf3f4] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100%;
+}
+
+.button__icon[b-vs5rnaf3f4] {
+    font-size: 1.5em;
 }

@@ -1,5 +1,6 @@
 ﻿@inherits LayoutComponentBase
 @using Blazored.Toast.Configuration
+@page "/admin"
 
 <BlazoredToasts Position="ToastPosition.BottomRight"
                 Timeout="10"
@@ -20,7 +21,7 @@
         </div>
         <ul class="nav-list">
             <li>
-                <a href="#">
+                <a href="/admin">
                     <i class='bx bx-grid-alt'></i>
                     <span class="links_name">Dashboard</span>
                 </a>
@@ -28,7 +29,7 @@
             </li>
 
             <li>
-                <NavLink href="/DanhSachKhachHang" style="text-decoration:none">
+                <NavLink href="/admin/DanhSachKhachHang" style="text-decoration:none">
                     <i class="fa-solid fa-user fa-xl" style="color: #dd2cce;"></i>
                     <span class="links_name">Khách hàng</span>
                 </NavLink>
@@ -36,7 +37,7 @@
             </li>
 
             <li>
-                <NavLink href="/DanhSachBacSi" style="text-decoration:none">
+                <NavLink href="/admin/DanhSachBacSi" style="text-decoration:none">
                     <i class="fa-solid fa-user-doctor fa-xl" style="color: #74C0FC;"></i>
                     <span class="links_name">Bác sĩ</span>
                 </NavLink>
@@ -44,15 +45,15 @@
             </li>
 
             <li>
-                <NavLink href="listBranch" style="text-decoration:none">
-                    <i class="fa-solid fa-code-branch fa-xl" style="color: #63E6BE;"></i>
-                    <span class="links_name">Chi nhánh</span>
+                <NavLink href="/admin/DanhSachHoSo" style="text-decoration:none">
+                    <i class="fa-solid fa-user fa-xl" style="color: #63E6BE;"></i>
+                    <span class="links_name">Hồ Sơ Thú Nuôi</span>
                 </NavLink>
-                <span class="tooltip">Chi nhánh</span>
+                <span class="tooltip">Hồ Sơ Thú Nuôi</span>
             </li>
 
             <li>
-                <NavLink href="/DanhSachDatLich" style="text-decoration:none">
+                <NavLink href="/admin/DanhSachDatLich" style="text-decoration:none">
                     <i class="fa-regular fa-calendar-days fa-xl" style="color: #B197FC;"></i>
                     <span class="links_name">Lịch hẹn</span>
                 </NavLink>
@@ -60,14 +61,14 @@
             </li>
 
             <li>
-                <NavLink href="/DanhSachThuoc" style="text-decoration:none">
+                <NavLink href="/admin/DanhSachThuoc" style="text-decoration:none">
                     <i class="fa-solid fa-capsules fa-xl" style="color: #FFD43B;"></i>
                     <span class="links_name">Thuốc</span>
                 </NavLink>
                 <span class="tooltip">Thuốc</span>
             </li>
             <li>
-                <NavLink href="listRev" style="text-decoration:none">
+                <NavLink href="/admin/DanhSachHoaDon" style="text-decoration:none">
                     <i class="fa-solid fa-chart-line fa-xl" style="color: #ff0000;"></i>
                     <span class="links_name">Thống kê doanh thu</span>
                 </NavLink>

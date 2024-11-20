@@ -13,11 +13,13 @@ namespace PetHealthCatalog.Domain.Entities
         public string? TenKhachHang { get; set; }
 
         [Required(ErrorMessage = "Vui lòng nhập Số điện thoại!")]
-        [StringLength(10)]
+        [StringLength(10, ErrorMessage = "Số điện thoại phải chứa đúng 10 ký tự")]
+       
         public string? SoDienThoai { get; set; }
 
         [Required(ErrorMessage = "Vui lòng nhập Email!")]
         [StringLength(200)]
+        
         public string? Email { get; set; }
 
         [Required(ErrorMessage = "Vui lòng nhập Địa chỉ!")]
@@ -27,5 +29,11 @@ namespace PetHealthCatalog.Domain.Entities
         [Required(ErrorMessage = "Vui lòng nhập Tên thú cưng!")]
         [StringLength(100)]
         public string? TenThuCung { get; set; }
+
+        [StringLength(100)]
+        public string? LoiNhan { get; set; }
+
+        [Timestamp]
+        public byte[] RowVersion { get; set; }
     }
 }
